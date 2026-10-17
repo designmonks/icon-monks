@@ -35,7 +35,7 @@
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://designmonks.github.io/icon-monks/#website","name":"Icon Monks","url":"https://designmonks.github.io/icon-monks/","description":"4,732 free, open source SVG icons in 6 weights, MIT licensed. Download SVG, PNG or PDF, or install for React, Vue, Flutter, SwiftUI and Jetpack Compose.","inLanguage":"en","publisher":{"@id":"https://designmonks.github.io/icon-monks/#org"},"potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://designmonks.github.io/icon-monks/?q={search_term_string}"},"query-input":"required name=search_term_string"}},{"@type":"Organization","@id":"https://designmonks.github.io/icon-monks/#org","name":"Design Monks","url":"https://github.com/designmonks","logo":"https://designmonks.github.io/icon-monks/icon-512.png","sameAs":["https://github.com/designmonks/icon-monks"]},{"@type":"FAQPage","@id":"https://designmonks.github.io/icon-monks/#faq","mainEntity":[{"@type":"Question","name":"Is Icon Monks free for commercial projects?","acceptedAnswer":{"@type":"Answer","text":"Yes. Every icon is released under the MIT license, so you can use it in personal, client and commercial work, modify it and ship it in paid products. No credit is needed in your interface; keep the license file if you redistribute the source."}},{"@type":"Question","name":"How many icons are in Icon Monks?","acceptedAnswer":{"@type":"Answer","text":"There are 4,732 icons in 30 categories, and each one comes in six weights, which makes 28,392 ready-to-use SVG files."}},{"@type":"Question","name":"Which frameworks and platforms does it support?","acceptedAnswer":{"@type":"Answer","text":"There are packages for React, Vue 3, Web Components (plain HTML, Angular, Svelte, Astro, WordPress), an icon font, Flutter, Android (Jetpack Compose and VectorDrawable) and Apple platforms through a Swift package for SwiftUI and UIKit. Raw SVG files work everywhere else."}},{"@type":"Question","name":"What are the six weights?","acceptedAnswer":{"@type":"Answer","text":"Thin, light, regular and bold are outlines with 8, 12, 16 and 24 unit strokes on a 256 unit grid. Fill is a solid version and duotone layers the outline over a soft tint. Every weight shares the same shapes, so you can mix them in one product."}},{"@type":"Question","name":"Can I change the size and color of the icons?","acceptedAnswer":{"@type":"Answer","text":"Yes. Icons draw in currentColor and scale as vectors, so they take the text color and size of their surroundings. The React, Vue and web component packages also accept size, color and weight props."}},{"@type":"Question","name":"Can I use the icons in Figma, Sketch or Illustrator?","acceptedAnswer":{"@type":"Answer","text":"Yes. Pick an icon on this page and download it as SVG or PDF, or copy the SVG markup and paste it straight onto your canvas. PNG and WebP exports go up to 1024 px."}},{"@type":"Question","name":"Will the packages make my app bigger?","acceptedAnswer":{"@type":"Answer","text":"Only by the icons you use. The React and Vue packages export each icon as its own module, so bundlers drop the rest, and the native packages ship vector assets rather than images."}},{"@type":"Question","name":"How do I request or contribute an icon?","acceptedAnswer":{"@type":"Answer","text":"Open an issue on GitHub to request one. To contribute, draw a source SVG on the 256 unit grid; the build generates every weight and package from it."}}]},{"@type":"SoftwareSourceCode","@id":"https://designmonks.github.io/icon-monks/#code","name":"Icon Monks","description":"4,732 free, open source SVG icons in 6 weights, MIT licensed. Download SVG, PNG or PDF, or install for React, Vue, Flutter, SwiftUI and Jetpack Compose.","url":"https://designmonks.github.io/icon-monks/","codeRepository":"https://github.com/designmonks/icon-monks","license":"https://opensource.org/licenses/MIT","programmingLanguage":["TypeScript","Dart","Kotlin","Swift"],"version":"0.3.0","author":{"@id":"https://designmonks.github.io/icon-monks/#org"},"keywords":"icons, free icons, open source icons, icon library, svg icons, react icons, vue icons, flutter icons, swiftui icons, jetpack compose icons, charts icons, development icons, education icons, devices icons, interface icons, people icons, nature icons, sports icons, health icons, business icons, communication icons, objects icons, home icons, weather icons, maps icons, transport icons, time icons, media icons, design icons, editor icons, letters & numbers icons, symbols icons, food icons, files icons, arrows icons, commerce icons, science icons, animals icons, security icons, emoji icons","image":"https://designmonks.github.io/icon-monks/og-image.png"}]}</script>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Figtree:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@400;500&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
 /* Layout: specimen sheet. Sticky tool rail over a dense icon grid; a detail drawer shows the 256-unit keyline grid. */
 :root {
@@ -47,8 +47,8 @@
   --saffron: #c96a00;
   --saffron-soft: #fbe9d2;
   --grid: #e9ebf3;
-  --display: 'Bricolage Grotesque', 'Segoe UI', system-ui, sans-serif;
-  --body: 'Figtree', 'Segoe UI', system-ui, sans-serif;
+  --display: 'Funnel Display', 'Space Grotesk', 'Helvetica Neue', Arial, sans-serif;
+  --body: 'DM Sans', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
   --mono: 'IBM Plex Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace;
 }
 @media (prefers-color-scheme: dark) {
@@ -71,10 +71,10 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
 .wrap { max-width: 1240px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
 header.top { padding-block: 40px 24px; display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 24px; align-items: end; }
 .eyebrow { font: 500 12px/1 var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--saffron); }
-h1 { font: 700 clamp(40px, 7vw, 76px)/.95 var(--display); letter-spacing: -.03em; margin: 10px 0 14px; text-wrap: balance; }
+h1 { font: 400 clamp(40px, 7vw, 76px)/1 var(--display); letter-spacing: -.01em; margin: 10px 0 14px; text-wrap: balance; }
 .lede { max-width: 60ch; color: var(--muted); margin: 0; font-size: 17px; }
 .specs { display: grid; grid-template-columns: repeat(3, auto); gap: 4px 28px; font-family: var(--mono); font-size: 12px; color: var(--muted); }
-.specs b { display: block; font: 700 30px/1.1 var(--display); color: var(--ink); letter-spacing: -.02em; }
+.specs b { display: block; font: 400 30px/1.1 var(--display); color: var(--ink); letter-spacing: 0; }
 .rail { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--paper); border-block: 1px solid var(--rule); }
 .rail .wrap { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; padding-block: 12px; }
 .search { flex: 1 1 220px; min-width: 0; position: relative; }
@@ -101,7 +101,7 @@ main.wrap { padding-block: 20px 56px; display: grid; grid-template-columns: minm
 .empty { padding: 40px 0; color: var(--muted); }
 aside.detail { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 84px); background: var(--sheet); border: 1px solid var(--rule); border-radius: 16px; padding: 18px; display: grid; grid-template-columns: minmax(0, 1fr); gap: 14px; min-width: 0; }
 .detail > * { min-width: 0; }
-.detail h2 { font: 700 26px/1.1 var(--display); margin: 0; letter-spacing: -.02em; overflow-wrap: anywhere; }
+.detail h2 { font: 400 26px/1.1 var(--display); margin: 0; letter-spacing: 0; overflow-wrap: anywhere; }
 .detail .meta { font: 12px var(--mono); color: var(--muted); }
 .stage { position: relative; aspect-ratio: 1; max-width: 100%; border-radius: 12px; background: var(--paper); overflow: hidden; }
 .stage svg { position: absolute; inset: 0; width: 100%; height: 100%; }
@@ -127,7 +127,7 @@ aside.detail { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 84px)
 .code pre { margin: 0; background: var(--paper); border-radius: 10px; padding: 12px; font: 12px/1.55 var(--mono); overflow: auto; white-space: pre-wrap; overflow-wrap: anywhere; max-height: 220px; max-width: 100%; padding-right: 64px; }
 .copy { position: absolute; top: 6px; right: 6px; font: 500 12px var(--body); border: 1px solid var(--rule); background: var(--sheet); color: var(--ink); border-radius: 8px; padding: 4px 10px; cursor: pointer; }
 section.install { padding-block: 8px 72px; }
-section.install h2 { font: 700 32px/1.1 var(--display); letter-spacing: -.02em; margin: 0 0 6px; }
+section.install h2 { font: 400 32px/1.1 var(--display); letter-spacing: 0; margin: 0 0 6px; }
 section.install > p { color: var(--muted); margin: 0 0 20px; max-width: 64ch; }
 .platforms { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1px; background: var(--rule); border: 1px solid var(--rule); border-radius: 14px; overflow: hidden; }
 .platform { background: var(--sheet); padding: 16px; display: grid; gap: 6px; align-content: start; min-width: 0; }
@@ -146,7 +146,7 @@ h1 .h1-sub { display: block; font: 600 clamp(18px, 2.4vw, 24px)/1.25 var(--body)
 .btn:hover { filter: brightness(1.06); }
 .btn:focus-visible, .cats a:focus-visible, summary:focus-visible, footer a:focus-visible { outline: 2px solid var(--saffron); outline-offset: 2px; }
 section.band { padding-block: 8px 72px; }
-section.band h2 { font: 700 32px/1.1 var(--display); letter-spacing: -.02em; margin: 0 0 6px; text-wrap: balance; }
+section.band h2 { font: 400 32px/1.1 var(--display); letter-spacing: 0; margin: 0 0 6px; text-wrap: balance; }
 section.band > p { color: var(--muted); margin: 0 0 20px; max-width: 64ch; }
 .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px; }
 .card { background: var(--sheet); border: 1px solid var(--rule); border-radius: 14px; padding: 18px; display: grid; gap: 8px; align-content: start; min-width: 0; }
