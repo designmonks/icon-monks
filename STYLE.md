@@ -27,8 +27,10 @@ Icon Monks uses the same construction as Phosphor, so the two sets sit together 
    control points can be anything.
 3. **At most 8 stroked elements** (`line` + `detail`) **[lint `detail`]**. Leave a gap of at least 24 units
    between parallel strokes. Anything finer disappears at 16 px. Leave out texture, feathers, fur and small text.
-4. **Fill the grid**: the larger side spans at least 144 units **[lint `small`]**. Most icons span 160–192.
-   Only carets, dots and similar small symbols stay below that.
+4. **Same visual size: keylines** **[lint `keyline`, `small`]**. A container shape that spans the whole icon
+   keeps to its keyline (centreline sizes): circle 192, square 176, wider or taller rectangle 192 on the long side.
+   Open shapes use the full live area. The larger side spans at least 144 units; only carets, dots and similar
+   small symbols stay below that. `scripts/batches/196_keylines.py` scales an icon onto its keyline.
 5. **Slash icons are the base icon plus a slash** **[lint `slash`]**. `<name>-slash` repeats `<name>` unchanged and
    adds one `slash` group with `M48 48 L208 208`. Use the mirrored `M208 48 L48 208` only when the base already runs
    along that diagonal, like a magnifier handle. The build cuts a 16-unit gap around the slash in every weight, so

@@ -8,4 +8,4 @@ import com.designmonks.icons.iconMonksVector
 private var cache: ImageVector? = null
 
 val IconMonks.Fill.CornerRadiusBottomRight: ImageVector
-    get() = cache ?: iconMonksVector("CornerRadiusBottomRightFill", "M24 48V208Q24 217.94 31.03 224.97Q38.06 232 48 232H128Q149.15 232 168.48 223.82Q187.15 215.93 201.54 201.54Q215.93 187.15 223.82 168.48Q232 149.15 232 128V48Q232 38.06 224.97 31.03Q217.94 24 208 24H48Q38.06 24 31.03 31.03Q24 38.06 24 48Z").also { cache = it }
+    get() = cache ?: iconMonksVector("CornerRadiusBottomRightFill", "M32 200.92Q31.82 210.54 38.64 217.36Q45.46 224.18 55.08 224H128Q147.53 224 165.37 216.45Q182.6 209.17 195.88 195.88Q209.17 182.6 216.45 165.37Q224 147.53 224 128V55.08Q224.18 45.46 217.36 38.64Q210.54 31.82 200.92 32H55.08Q45.46 31.82 38.64 38.64Q31.82 45.46 32 55.08V200.92Z").also { cache = it }

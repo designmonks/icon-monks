@@ -31,6 +31,7 @@ LIVE = (32, 224)        # geometry must stay inside; 16-unit strokes then reach 
 MIN_SIZE = 144          # an icon's larger side should span at least this much of the grid
 MAX_STROKED = 8         # line + detail elements; more than this turns to mush at 16px
 MAX_SEGMENTS = 40       # straight segments in one curve-free path; more means a curve saved as points
+KEYLINES = {'circle': 192, 'square': 176, 'rect': 192}  # max centreline size of a container shape
 SLASHES = ('M48 48 L208 208', 'M208 48 L48 208')
 NO_BASE_SLASH = {'cell-signal-slash', 'file-eye-slash'}  # partial slash drawn as part of the glyph
 
@@ -45,6 +46,7 @@ RULES = {
     'off-grid': 'straight-segment endpoints, circle centres or rect corners are not whole numbers',
     'detail': f'more than {MAX_STROKED} stroked elements',
     'tessellated': f'a path is more than {MAX_SEGMENTS} straight segments; draw curves with arcs and cubics',
+    'keyline': 'a container is bigger than its keyline: circle 192, square 176, other rectangle 192 on the long side',
     'slash': 'a -slash icon is its base icon unchanged plus one slash group with M48 48 L208 208 '
              '(or the mirrored M208 48 L48 208); no other icon has a slash group',
 }
@@ -147,6 +149,16 @@ def walk(d):
     return points, anchors, closed
 
 
+def role_shape(role, el):
+    """shape(), with dots shrunk to the radius they render at in the regular weight (0.75 r) less half a stroke,
+    so their extent compares with stroke centrelines."""
+    if role in ('dot', 'dotcut'):
+        cx, cy, r = (float(el.get(k)) for k in ('cx', 'cy', 'r'))
+        r = max(0.0, 0.75 * r - 8)
+        return [(cx - r, cy), (cx + r, cy), (cx, cy - r), (cx, cy + r)], [(cx, cy)], True
+    return shape(el)
+
+
 def shape(el):
     """Same contract as walk() for <path>, <circle>, <ellipse> and <rect>."""
     tag = el.tag.replace(NS, '')
@@ -162,6 +174,45 @@ def shape(el):
         x, y, w, h = f('x'), f('y'), f('width'), f('height')
         return [(x, y), (x + w, y + h)], [(x, y), (x + w, y + h)], True
     raise ValueError(f'unsupported element <{tag}>')
+
+
+def container(root):
+    """(kind, w, h) of the closed line/area shape that spans the whole icon ('circle' or 'rect'), or None."""
+    pts, closed = [], []
+    for g in root:
+        if g.get('data-role') == 'slash':
+            continue
+        for el in g:
+            p, _, shut = role_shape(g.get('data-role'), el)
+            pts += p
+            if g.get('data-role') in ('line', 'area') and shut:
+                closed.append((el, p))
+    if not pts:
+        return None
+    xs, ys = [p[0] for p in pts], [p[1] for p in pts]
+    W, H = max(xs) - min(xs), max(ys) - min(ys)
+    for el, p in closed:
+        ex, ey = [q[0] for q in p], [q[1] for q in p]
+        w, h = max(ex) - min(ex), max(ey) - min(ey)
+        if w >= 0.9 * W and h >= 0.9 * H:
+            tag = el.tag.replace(NS, '')
+            d = el.get('d') or ''
+            if abs(w - h) < 2 and (tag in ('circle', 'ellipse') or (d and not re.search(r'[LHVCQST]', d))):
+                return 'circle', w, h
+            if tag == 'rect' or (d and not re.search(r'[LCQST]', d)):
+                return 'rect', w, h
+            return None
+    return None
+
+
+def over_keyline(root):
+    c = container(root)
+    if not c:
+        return False
+    kind, w, h = c
+    limit = KEYLINES['circle'] if kind == 'circle' else \
+        KEYLINES['square'] if 0.9 <= w / h <= 1 / 0.9 else KEYLINES['rect']
+    return max(w, h) > limit + 1.5
 
 
 def bad_slash(path, name, roles):
@@ -197,7 +248,7 @@ def check(path):
     points, closed = [], False
     for role, els in roles.items():
         for el in els:
-            p, anchors, shut = shape(el)
+            p, anchors, shut = role_shape(role, el)
             d = el.get('d') or ''
             if not re.search(r'[ACQST]', d) and len(re.findall(r'[LHV]', d)) > MAX_SEGMENTS:
                 found.add('tessellated')
@@ -218,6 +269,8 @@ def check(path):
             found.add('small')
     if len(roles['line']) + len(roles['detail']) > MAX_STROKED:
         found.add('detail')
+    if over_keyline(root):
+        found.add('keyline')
     if bad_slash(path, name, roles):
         found.add('slash')
     return name, sorted(found)
