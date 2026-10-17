@@ -19,7 +19,9 @@ Icon Monks uses the same construction as Phosphor, so the two sets sit together 
 
 1. **Every closed silhouette gets an `area`** **[lint `no-fill`]**. If you draw a closed shape (a path that ends
    in `Z`, a circle, a rect) and the icon has no `area`, `detail`, `hole` or `dotcut`, the fill weight is just the
-   regular outline. That's wrong. Slash variants follow this rule too: copy the base icon's `area`.
+   regular outline. That's wrong. Letters, numbers and typographic symbols, where filling would close up the
+   counters, stay outlined in every weight: mark them `data-fill="outline"` on the `<svg>` so it's a decision,
+   not an oversight. `scripts/batches/195_fill.py` auto-fills or marks icons.
 2. **Whole-number coordinates** for straight-segment endpoints, circle centres and rect corners **[lint `off-grid`]**.
    Prefer multiples of 4. Round rotated or computed points instead of keeping decimals. Arc radii and curve
    control points can be anything.

@@ -38,7 +38,8 @@ RULES = {
     'stroke': 'line/detail groups must use stroke-width 16 with round caps and joins',
     'role': 'every shape sits in a <g data-role> group with a known role',
     'meta': 'data-category from the category list and at least 3 data-tags',
-    'no-fill': 'has a closed shape but no area/detail/hole/dotcut, so the fill weight is just the outline',
+    'no-fill': 'has a closed shape but no area/detail/hole/dotcut, so the fill weight is just the outline '
+               '(letters, numbers and symbols that should stay outlined say so with data-fill="outline")',
     'live-area': f'geometry leaves the {LIVE[0]}..{LIVE[1]} live area',
     'small': f'larger side spans less than {MIN_SIZE} units, so it looks smaller than its neighbours',
     'off-grid': 'straight-segment endpoints, circle centres or rect corners are not whole numbers',
@@ -206,7 +207,8 @@ def check(path):
             if any(v != round(v) for xy in anchors for v in xy):
                 found.add('off-grid')
 
-    if closed and not (roles['area'] or roles['detail'] or roles['hole'] or roles['dotcut']):
+    if closed and root.get('data-fill') != 'outline' and \
+            not (roles['area'] or roles['detail'] or roles['hole'] or roles['dotcut']):
         found.add('no-fill')
     if points:
         xs, ys = [p[0] for p in points], [p[1] for p in points]

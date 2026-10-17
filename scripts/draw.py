@@ -106,9 +106,11 @@ def regular_polygon(c, r, n, start=-90):
 ICONS = []
 
 
-def icon(name, category, tags, line=(), detail=(), area=(), hole=(), dot=(), dotcut=(), slash=()):
+def icon(name, category, tags, line=(), detail=(), area=(), hole=(), dot=(), dotcut=(), slash=(), outline=False):
+    """outline=True marks a glyph that stays outlined in the fill weight (letters, numbers, symbols)."""
     ICONS.append(dict(name=name, category=category, tags=list(tags), line=list(line), detail=list(detail),
-                      area=list(area), hole=list(hole), dot=list(dot), dotcut=list(dotcut), slash=list(slash)))
+                      area=list(area), hole=list(hole), dot=list(dot), dotcut=list(dotcut), slash=list(slash),
+                      outline=outline))
 
 
 def _group(role, items, attrs):
@@ -152,7 +154,8 @@ def save(overwrite=False):
             raise SystemExit(f'{ic["name"]} is an existing icon; pick another name')
         if os.path.exists(path) and not overwrite:
             raise SystemExit(f'{ic["name"]} already exists; pick another name or pass overwrite=True')
-        svg = (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" '
+        svg = (f'<svg {"data-fill=\"outline\" " if ic["outline"] else ""}'
+               f'xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" '
                f'data-category="{_attr(ic["category"])}" data-tags="{_attr(",".join(ic["tags"]))}">\n'
                + _group('area', ic['area'], 'fill="currentColor" opacity="0.2"')
                + _group('hole', ic['hole'], 'fill="none"')

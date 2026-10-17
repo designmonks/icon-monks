@@ -21,6 +21,9 @@ def rebuild(name):
     src = open(os.path.join(icons, name + '.svg')).read()
     base = open(os.path.join(icons, name[:-6] + '.svg')).read()
     head = re.match(r'<svg[^>]*>\n', src).group(0)          # keeps the slash icon's own category and tags
+    head = head.replace('data-fill="outline" ', '')
+    if 'data-fill="outline"' in base[:base.index('>')]:
+        head = head.replace('<svg ', '<svg data-fill="outline" ', 1)
     body = base[re.match(r'<svg[^>]*>\n', base).end():base.rindex('</svg>')]
     slash = MIRRORED if name in MIRROR else SLASH
     new = head + body + GROUP.format(slash) + '</svg>\n'
