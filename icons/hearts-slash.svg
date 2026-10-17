@@ -1,7 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" data-category="Symbols" data-tags="hearts,off,disabled,hidden">
+  <g data-role="area" fill="currentColor" opacity="0.2">
+    <path d="M98 158.96 C98 158.96 32.72 123.6 32.72 81.44 A34 34 0 0 1 98 67.84 A34 34 0 0 1 163.28 81.44 C163.28 123.6 98 158.96 98 158.96 Z"/>
+    <path d="M158 198.96 C158 198.96 92.72 163.6 92.72 121.44 A34 34 0 0 1 158 107.84 A34 34 0 0 1 223.28 121.44 C223.28 163.6 158 198.96 158 198.96 Z"/>
+  </g>
   <g data-role="line" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
     <path d="M77 145.26 C57.48 130.42 32.72 107.99 32.72 81.44 A34 34 0 0 1 67.37 47 A34 34 0 0 1 98 68 A34 34 0 0 1 128.63 47 A34 34 0 0 1 162.49 74"/>
-    <path d="M158 198.96 C158 198.96 92.72 163.6 92.72 121.44 A34 34 0 0 1 158 107.84 A34 34 0 0 1 223.28 121.44 C223.28 163.6 158 198.96 158 198.96 Z"/>
+    <path d="M157 106 L158 108 A34 34 0 0 1 188.63 87 A34 34 0 0 1 223.28 121.44 C223.28 153.64 184.06 184.65 158 199 A182.32 182.32 0 0 1 106.26 156"/>
+  </g>
+  <g data-role="detail" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M105 154 A56.72 56.72 0 0 1 92.72 121.44 A34 34 0 0 1 127.37 87 A34 34 0 0 1 156.3 104.39"/>
+  </g>
+  <g data-role="slash" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
     <path d="M48 48 L208 208"/>
   </g>
 </svg>

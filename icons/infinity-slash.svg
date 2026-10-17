@@ -1,6 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" data-category="Symbols" data-tags="infinity,off,disabled,hidden">
   <g data-role="line" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
     <path d="M220 128 C220 149.87 208.01 174.65 183.32 174.65 C159.75 174.65 140.01 145.18 128 128 C115.99 110.82 96.25 81.35 72.68 81.35 C47.99 81.35 36 106.13 36 128 C36 149.87 47.99 174.65 72.68 174.65 C96.25 174.65 115.99 145.18 128 128 C140.01 110.82 159.75 81.35 183.32 81.35 C208.01 81.35 220 106.13 220 128 Z"/>
+  </g>
+  <g data-role="slash" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
     <path d="M48 48 L208 208"/>
   </g>
 </svg>

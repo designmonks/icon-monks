@@ -6,6 +6,8 @@
     <path d="M167.57 173.79 L146.36 195 L167.57 216.21"/>
     <path d="M105.97 195 L65.58 195 Q36.2 195 50.89 169.56 L72.92 131.4"/>
     <path d="M80.69 160.38 L72.92 131.4 L43.94 139.16"/>
+  </g>
+  <g data-role="slash" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
     <path d="M48 48 L208 208"/>
   </g>
 </svg>

@@ -1,10 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" data-category="People" data-tags="hand,off,disabled,hidden">
+  <g data-role="area" fill="currentColor" opacity="0.2">
+    <path d="M76 134 V82 A18 18 0 0 1 112 82 V58 A18 18 0 0 1 148 58 V70 A18 18 0 0 1 184 70 V98 A18 18 0 0 1 220 98 V152 C220 196 192 224 152 224 H132 C108 224 92 214 78 196 L40 146 A18 18 0 0 1 68 124 L76 134 Z"/>
+  </g>
   <g data-role="line" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M184 217 C168.13 223.95 156.85 224 140 224 C122.75 224 109.45 223.17 95 213 C82.11 203.62 72.73 189.08 63.29 176.65 L48.58 157.29 C43.56 150.67 37.64 145.34 37.64 136.51 A18 18 0 0 1 55.49 119 C66.16 119.08 70.1 126.62 76 134 L76 110"/>
-    <path d="M97.86 64.42 L99.69 64.92 L101.43 65.6 L103.08 66.46 L104.63 67.47 L106.06 68.64 L107.36 69.94 L108.53 71.37 L109.54 72.92 L110.4 74.57 L111.08 76.31 L111.58 78.14"/>
-    <path d="M112 78 L112 64 A33 33 0 0 1 113 52.31 A18 18 0 0 1 130 40 A18 18 0 0 1 146.4 50.57 C148.87 56.05 148 64.01 148 70 A18 18 0 0 1 166 52 A18 18 0 0 1 184 70 L184 98 A18 18 0 0 1 202 80 A18 18 0 0 1 220 98 L220 126 L220 154 A85.48 85.48 0 0 1 215 181.38"/>
-    <path d="M148 70 L148 72 L148 74 L148 76 L148 78 L148 80 L148 82 L148 84 L148 86 L148 88 L148 90 L148 92 L148 94 L148 96 L148 98 L148 100 L148 102 L148 104 L148 106 L148 108 L148 110 L148 112 L148 114"/>
-    <path d="M184 98 L184 100 L184 102 L184 104 L184 106 L184 108 L184 110 L184 112 L184 114 L184 116 L184 118 L184 120 L184 122 L184 124 L184 126 L184 128 L184 130 L184 132"/>
+    <path d="M76 134 V82 A18 18 0 0 1 112 82 V58 A18 18 0 0 1 148 58 V70 A18 18 0 0 1 184 70 V98 A18 18 0 0 1 220 98 V152 C220 196 192 224 152 224 H132 C108 224 92 214 78 196 L40 146 A18 18 0 0 1 68 124 L76 134 Z"/>
+  </g>
+  <g data-role="detail" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M112 82 L112 132"/>
+    <path d="M148 70 L148 132"/>
+    <path d="M184 98 L184 132"/>
+  </g>
+  <g data-role="slash" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
     <path d="M48 48 L208 208"/>
   </g>
 </svg>

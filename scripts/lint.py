@@ -21,7 +21,7 @@ SRC = os.path.join(ROOT, 'icons')
 BASELINE = os.path.join(ROOT, 'scripts', 'lint-baseline.json')
 NS = '{http://www.w3.org/2000/svg}'
 
-ROLES = ('line', 'detail', 'area', 'hole', 'dot', 'dotcut')
+ROLES = ('line', 'detail', 'area', 'hole', 'dot', 'dotcut', 'slash')
 CATEGORIES = {
     'Animals', 'Arrows', 'Business', 'Charts', 'Commerce', 'Communication', 'Design', 'Development', 'Devices',
     'Editor', 'Education', 'Emoji', 'Files', 'Food', 'Health', 'Home', 'Interface', 'Letters & Numbers', 'Maps',
@@ -31,7 +31,8 @@ LIVE = (32, 224)        # geometry must stay inside; 16-unit strokes then reach 
 MIN_SIZE = 144          # an icon's larger side should span at least this much of the grid
 MAX_STROKED = 8         # line + detail elements; more than this turns to mush at 16px
 MAX_SEGMENTS = 40       # straight segments in one curve-free path; more means a curve saved as points
-SLASH = 'M48 48 L208 208'
+SLASHES = ('M48 48 L208 208', 'M208 48 L48 208')
+NO_BASE_SLASH = {'cell-signal-slash', 'file-eye-slash'}  # partial slash drawn as part of the glyph
 
 RULES = {
     'stroke': 'line/detail groups must use stroke-width 16 with round caps and joins',
@@ -43,7 +44,8 @@ RULES = {
     'off-grid': 'straight-segment endpoints, circle centres or rect corners are not whole numbers',
     'detail': f'more than {MAX_STROKED} stroked elements',
     'tessellated': f'a path is more than {MAX_SEGMENTS} straight segments; draw curves with arcs and cubics',
-    'slash': f'-slash icons draw the slash as the standard line "{SLASH}"',
+    'slash': 'a -slash icon is its base icon unchanged plus one slash group with M48 48 L208 208 '
+             '(or the mirrored M208 48 L48 208); no other icon has a slash group',
 }
 
 ARGS = {'M': 2, 'L': 2, 'H': 1, 'V': 1, 'C': 6, 'S': 4, 'Q': 4, 'T': 2, 'A': 7, 'Z': 0}
@@ -161,6 +163,17 @@ def shape(el):
     raise ValueError(f'unsupported element <{tag}>')
 
 
+def bad_slash(path, name, roles):
+    if not name.endswith('-slash') or name in NO_BASE_SLASH:
+        return bool(roles['slash'])
+    base = os.path.join(os.path.dirname(path), name[:-6] + '.svg')
+    if not os.path.exists(base) or [el.get('d') for el in roles['slash']] not in ([d] for d in SLASHES):
+        return True
+    body = lambda s: s[s.index('>') + 1:s.rindex('</svg>')]
+    src, ref = body(open(path).read()), body(open(base).read())
+    return src[:src.index('  <g data-role="slash"')] != ref
+
+
 def check(path):
     name = os.path.basename(path)[:-4]
     root = ET.parse(path).getroot()
@@ -171,7 +184,7 @@ def check(path):
             found.add('role')
             continue
         role = el.get('data-role')
-        if role in ('line', 'detail') and (el.get('stroke-width') != '16' or el.get('stroke-linecap') != 'round'
+        if role in ('line', 'detail', 'slash') and (el.get('stroke-width') != '16' or el.get('stroke-linecap') != 'round'
                                            or el.get('stroke-linejoin') != 'round'):
             found.add('stroke')
         roles[role] += list(el)
@@ -203,7 +216,7 @@ def check(path):
             found.add('small')
     if len(roles['line']) + len(roles['detail']) > MAX_STROKED:
         found.add('detail')
-    if name.endswith('-slash') and not any(el.get('d') == SLASH for el in roles['line']):
+    if bad_slash(path, name, roles):
         found.add('slash')
     return name, sorted(found)
 

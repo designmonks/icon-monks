@@ -9,6 +9,7 @@ Each call becomes icons/<name>.svg. Roles decide how every weight is generated:
   hole    cut out of the fill weight only (e.g. the inside of a door)
   dot     solid dot whose radius scales with weight, merged into fill (source r=16 renders r=12 at regular)
   dotcut  solid dot in outline weights, knocked out of the fill weight
+  slash   one line M48 48 L208 208 on <name>-slash icons; the build cuts a gap around it in every weight
 
 Rules: live area 32..224 (strokes reach 24..232 at regular), 16-unit strokes, round caps and joins.
 """
@@ -105,9 +106,9 @@ def regular_polygon(c, r, n, start=-90):
 ICONS = []
 
 
-def icon(name, category, tags, line=(), detail=(), area=(), hole=(), dot=(), dotcut=()):
+def icon(name, category, tags, line=(), detail=(), area=(), hole=(), dot=(), dotcut=(), slash=()):
     ICONS.append(dict(name=name, category=category, tags=list(tags), line=list(line), detail=list(detail),
-                      area=list(area), hole=list(hole), dot=list(dot), dotcut=list(dotcut)))
+                      area=list(area), hole=list(hole), dot=list(dot), dotcut=list(dotcut), slash=list(slash)))
 
 
 def _group(role, items, attrs):
@@ -123,7 +124,7 @@ def load(name):
     """Return the source elements of an existing icon by role, e.g. load('bell')['line'], to build variants on it."""
     import re
     src = open(os.path.join(ROOT, 'icons', name + '.svg')).read()
-    out = {r: [] for r in ('line', 'detail', 'area', 'hole', 'dot', 'dotcut')}
+    out = {r: [] for r in ('line', 'detail', 'area', 'hole', 'dot', 'dotcut', 'slash')}
     for role, body in re.findall(r'<g data-role="(\w+)"[^>]*>(.*?)</g>', src, re.S):
         out[role] = [e.strip() for e in re.findall(r'<(?:path|circle|rect|ellipse)\b[^>]*/>', body)]
     return out
@@ -159,6 +160,7 @@ def save(overwrite=False):
                + _group('detail', ic['detail'], STROKE)
                + _group('dot', ic['dot'], 'fill="currentColor"')
                + _group('dotcut', ic['dotcut'], 'fill="currentColor"')
+               + _group('slash', ic['slash'], STROKE)
                + '</svg>\n')
         with open(path, 'w') as fh:
             fh.write(svg)

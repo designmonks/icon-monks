@@ -27,8 +27,10 @@ Icon Monks uses the same construction as Phosphor, so the two sets sit together 
    between parallel strokes. Anything finer disappears at 16 px. Leave out texture, feathers, fur and small text.
 4. **Fill the grid**: the larger side spans at least 144 units **[lint `small`]**. Most icons span 160–192.
    Only carets, dots and similar small symbols stay below that.
-5. **Slashes are one line**: `M48 48 L208 208`, drawn in the `line` group, on top of the unchanged base icon
-   **[lint `slash`]**.
+5. **Slash icons are the base icon plus a slash** **[lint `slash`]**. `<name>-slash` repeats `<name>` unchanged and
+   adds one `slash` group with `M48 48 L208 208`. Use the mirrored `M208 48 L48 208` only when the base already runs
+   along that diagonal, like a magnifier handle. The build cuts a 16-unit gap around the slash in every weight, so
+   never trim the icon by hand. Run `scripts/batches/194_slash.py` after changing a base icon.
 6. **Dots**: `dot` uses r=16 (renders r=12 at regular). Eyes and other `dotcut`s use r=14.
 7. **People**:
    - Full figures copy `person`: an open head circle r=24 and limbs as single strokes.

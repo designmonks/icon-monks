@@ -13,6 +13,7 @@ import re
 import xml.etree.ElementTree as ET
 
 import pathops
+from fontTools.pens.recordingPen import RecordingPen
 from fontTools.pens.svgPathPen import SVGPathPen
 from fontTools.svgLib.path import parse_path
 
@@ -24,6 +25,7 @@ BUILD = os.path.join(ROOT, 'build')
 STROKES = {'thin': 8, 'light': 12, 'regular': 16, 'bold': 24}
 WEIGHTS = ['thin', 'light', 'regular', 'bold', 'fill', 'duotone']
 DUOTONE_OPACITY = 0.2
+SLASH_GAP = 16  # clear space between a slash and the icon it crosses, in every weight
 NS = '{http://www.w3.org/2000/svg}'
 
 
@@ -193,7 +195,7 @@ def to_d(p):
 
 def load(path):
     root = ET.parse(path).getroot()
-    roles = {k: [] for k in ('line', 'detail', 'area', 'hole', 'dot', 'dotcut')}
+    roles = {k: [] for k in ('line', 'detail', 'area', 'hole', 'dot', 'dotcut', 'slash')}
     for g in root.iter(NS + 'g'):
         role = g.get('data-role')
         for el in g:
@@ -205,19 +207,148 @@ def load(path):
     return roles, root.get('data-category', 'Other'), tags
 
 
+def _seg_point(seg, t):
+    pts = seg
+    while len(pts) > 1:
+        pts = [(a[0] + (b[0] - a[0]) * t, a[1] + (b[1] - a[1]) * t) for a, b in zip(pts, pts[1:])]
+    return pts[0]
+
+
+def _seg_split(seg, t0, t1):
+    """The part of a line/quadratic/cubic (as its control points) between parameters t0 and t1."""
+    def left(pts, t):  # de Casteljau: control points of [0, t]
+        out, cur = [pts[0]], pts
+        while len(cur) > 1:
+            cur = [(a[0] + (b[0] - a[0]) * t, a[1] + (b[1] - a[1]) * t) for a, b in zip(cur, cur[1:])]
+            out.append(cur[0])
+        return out
+    head = left(seg, t1)
+    if t1 <= 0:
+        return [seg[0]] * len(seg)
+    return left(head[::-1], 1 - t0 / t1)[::-1]
+
+
+def _segments(d):
+    """Subpaths of d as (list of control-point tuples, closed)."""
+    pen = RecordingPen()
+    parse_path(d, pen)
+    subs, cur, start = [], None, None
+    for op, args in pen.value:
+        if op == 'moveTo':
+            start = args[0]
+            cur = [[], False, start]
+            subs.append(cur)
+        elif op in ('lineTo', 'curveTo', 'qCurveTo'):
+            prev = cur[0][-1][-1] if cur[0] else start
+            cur[0].append((prev,) + tuple(args))
+        elif op == 'closePath':
+            last = cur[0][-1][-1] if cur[0] else start
+            if abs(last[0] - start[0]) > 1e-6 or abs(last[1] - start[1]) > 1e-6:
+                cur[0].append((last, start))
+            cur[1] = True
+    return [(segs, closed) for segs, closed, _ in subs]
+
+
+def _seg_d(seg):
+    p = ' '.join(f'{fmt(x)} {fmt(y)}' for x, y in seg[1:])
+    return {2: 'L', 3: 'Q', 4: 'C'}[len(seg)] + p
+
+
+def clip_near(d, a, b, dist):
+    """Pieces of path d farther than dist from segment a-b, as open path strings (stroked later with round caps)."""
+    ax, ay, bx, by = a[0], a[1], b[0], b[1]
+    vx, vy = bx - ax, by - ay
+    ll = vx * vx + vy * vy
+
+    def far(p):
+        t = max(0.0, min(1.0, ((p[0] - ax) * vx + (p[1] - ay) * vy) / ll))
+        return ((p[0] - ax - vx * t) ** 2 + (p[1] - ay - vy * t) ** 2) ** 0.5 - dist
+
+    out = []
+    for segs, closed in _segments(d):
+        pieces = []  # (segment index, t0, t1) kept, in order
+        for i, seg in enumerate(segs):
+            n = 48
+            ts = [0.0]
+            prev = far(seg[0])
+            for k in range(1, n + 1):
+                t = k / n
+                cur = far(_seg_point(seg, t))
+                if (prev > 0) != (cur > 0):
+                    lo, hi = (k - 1) / n, t
+                    for _ in range(40):
+                        mid = (lo + hi) / 2
+                        if (far(_seg_point(seg, mid)) > 0) == (prev > 0):
+                            lo = mid
+                        else:
+                            hi = mid
+                    ts.append((lo + hi) / 2)
+                prev = cur
+            ts.append(1.0)
+            for t0, t1 in zip(ts, ts[1:]):
+                if t1 - t0 > 1e-6 and far(_seg_point(seg, (t0 + t1) / 2)) > 0:
+                    pieces.append((i, t0, t1))
+        whole = len(pieces) == len(segs) and all(t0 == 0 and t1 == 1 for _, t0, t1 in pieces)
+        if whole:
+            out.append('M' + ' '.join(f'{fmt(x)} {fmt(y)}' for x, y in [segs[0][0]]) + ' '
+                       + ' '.join(_seg_d(s) for s in segs) + (' Z' if closed else ''))
+            continue
+        runs = []
+        for i, t0, t1 in pieces:
+            joined = runs and runs[-1][-1][0] == i - 1 and runs[-1][-1][2] == 1 and t0 == 0
+            if joined:
+                runs[-1].append((i, t0, t1))
+            else:
+                runs.append([(i, t0, t1)])
+        # A cut closed path may wrap around its start point: join the last run onto the first.
+        if closed and len(runs) > 1 and runs[0][0][:2] == (0, 0) and runs[-1][-1][0] == len(segs) - 1 \
+                and runs[-1][-1][2] == 1:
+            runs[0] = runs.pop() + runs[0]
+        for run in runs:
+            parts = [_seg_split(segs[i], t0, t1) for i, t0, t1 in run]
+            length = sum(((p[-1][0] - p[0][0]) ** 2 + (p[-1][1] - p[0][1]) ** 2) ** 0.5 for p in parts)
+            if length < 0.5:
+                continue
+            out.append(f'M{fmt(parts[0][0][0])} {fmt(parts[0][0][1])} ' + ' '.join(_seg_d(p) for p in parts))
+    return out
+
+
+def _slash_line(roles):
+    nums = [float(v) for v in re.findall(r'-?[\d.]+', roles['slash'][0])]
+    return (nums[0], nums[1]), (nums[2], nums[3])
+
+
 def outline(roles):
+    """All six weights. A slash (role 'slash', one straight line) is drawn on top of the icon, and everything
+    else keeps SLASH_GAP of clear space from it: strokes are trimmed with round ends, filled shapes are cut."""
     out = {}
+    slash = roles['slash']
+    sa, sb = _slash_line(roles) if slash else (None, None)
+
+    def cut(ds, w):  # stroke centrelines, trimmed so their ink stays clear of the slash at width w
+        if not slash:
+            return ds
+        return [p for d in ds for p in clip_near(d, sa, sb, w + SLASH_GAP)]
+
+    def clear(shape, w):  # filled shapes (areas, dots): cut a band around the slash, then draw the slash
+        if not slash:
+            return shape
+        return union(difference(shape, stroke(slash, w + 2 * SLASH_GAP)), stroke(slash, w))
+
     for weight, w in STROKES.items():
-        out[weight] = to_d(union(stroke(roles['line'] + roles['detail'], w),
-                                 dots(roles['dot'], w), dots(roles['dotcut'], w)))
+        out[weight] = to_d(clear(union(stroke(cut(roles['line'] + roles['detail'], w), w),
+                                       dots(roles['dot'], w), dots(roles['dotcut'], w)), w))
     if roles['area'] or roles['detail'] or roles['hole'] or roles['dotcut']:
-        base = union(filled(roles['area']), stroke(roles['line'], 16), dots(roles['dot'], 16))
-        cuts = [stroke(roles['detail'], 16) if roles['detail'] else None, filled(roles['hole']),
+        base = union(filled(roles['area']), stroke(cut(roles['line'], 16), 16), dots(roles['dot'], 16))
+        cuts = [stroke(cut(roles['detail'], 16), 16) if roles['detail'] else None, filled(roles['hole']),
                 dots(roles['dotcut'], 16)]
-        out['fill'] = to_d(difference(base, *cuts))
+        out['fill'] = to_d(clear(difference(base, *cuts), 16))
     else:
         out['fill'] = out['regular']
-    out['duotone'] = [to_d(filled(roles['area'])) if roles['area'] else '', out['regular']]
+    area = filled(roles['area'])
+    if area is not None and slash:
+        area = difference(area, stroke(slash, 16 + 2 * SLASH_GAP))
+    out['duotone'] = [to_d(area) if area is not None else '', out['regular']]
     return out
 
 

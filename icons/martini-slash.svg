@@ -1,11 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" data-category="Food" data-tags="no alcohol,cocktail,drink,prohibited">
+  <g data-role="area" fill="currentColor" opacity="0.2">
+    <path d="M32 64 L224 64 L128 160 Z"/>
+  </g>
   <g data-role="line" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M128 160 L32 64 L34 64"/>
-    <path d="M94 64 L224 64 L159.5 128.5"/>
-    <path d="M128 160.0 L128 162.0 L128 164.0 L128 166.0 L128 168.0 L128 170.0 L128 172.0 L128 174.0 L128 176.0 L128 178.0 L128 180.0 L128 182.0 L128 184.0 L128 186.0 L128 188.0 L128 190.0 L128 192.0 L128 194.0 L128 196.0 L128 198.0 L128 200.0 L128 202.0 L128 204.0 L128 206.0 L128 208.0 L128 210.0 L128 212.0 L128 214.0 L128 216.0"/>
+    <path d="M32 64 L224 64 L128 160 Z"/>
+    <path d="M128 160 L128 216"/>
     <path d="M88 216 L168 216"/>
-    <path d="M124 92.0 L125.3 90.5 L126.7 88.9 L128 87.4 L129.3 85.9 L130.7 84.4 L132 82.8 L133.3 81.3 L134.7 79.8 L136 78.2 L137.3 76.7 L138.7 75.2 L140 73.7 L141.3 72.1 L142.7 70.6 L144 69.1 L145.3 67.6 L146.7 66.0 L148 64.5 L149.3 63.0 L150.7 61.4 L152 59.9 L153.3 58.4 L154.7 56.9 L156 55.3 L157.3 53.8 L158.7 52.3 L160 50.8 L161.3 49.2 L162.7 47.7 L164 46.2 L165.3 44.6 L166.7 43.1 L168 41.6 L169.3 40.1 L170.7 38.5 L172 37.0"/>
-    <path d="M118 88.0 L119.9 88.2 L121.8 88.6 L123.5 89.3 L125.1 90.3 L126.5 91.5 L127.7 92.9 L128.7 94.5 L129.4 96.2 L129.8 98.1 L130 100.0"/>
+    <path d="M151 64 L172 37"/>
+  </g>
+  <g data-role="detail" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="118" cy="100" r="12"/>
+    <path d="M124 92 L151 64"/>
+  </g>
+  <g data-role="slash" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
     <path d="M48 48 L208 208"/>
   </g>
 </svg>
