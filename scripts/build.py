@@ -98,11 +98,25 @@ def union(*paths):
     except pathops.PathOpsError:
         return _union_pairwise(paths)
     out = fix_winding(acc)
-    # simplify can also "succeed" on near-coincident edges and drop most of the shape; a union is
-    # never smaller than its largest input, so treat that as a failure too.
-    if _area(out) < 0.98 * max(_area(p) for p in oriented):
+    # simplify can also "succeed" on near-coincident edges and drop part of the shape; a union contains
+    # every input, so an input that is not inside the result is a failure too.
+    if not _covers(out, oriented):
         return _union_pairwise(paths)
     return out
+
+
+def _covers(out, parts):
+    for p in parts:
+        a = _area(p)
+        if a < 1:
+            continue
+        try:
+            lost = pathops.op(p, out, pathops.PathOp.DIFFERENCE, fix_winding=False, keep_starting_points=False)
+        except pathops.PathOpsError:
+            return False
+        if _area(lost) > 0.02 * a:
+            return False
+    return True
 
 
 def _area(p):
@@ -120,7 +134,7 @@ def _union_pairwise(paths):
         q = _oriented(p)
         try:
             nxt = pathops.op(acc, q, pathops.PathOp.UNION, fix_winding=False, keep_starting_points=False)
-            if _area(nxt) < 0.98 * max(_area(acc), _area(q)):
+            if not _covers(nxt, [acc, q]):
                 raise pathops.PathOpsError('union lost area')
             acc = nxt
         except pathops.PathOpsError:
@@ -374,6 +388,14 @@ def main():
             suffix = '' if weight == 'regular' else f'-{weight}'
             with open(os.path.join(SVG_OUT, weight, f'{ic["name"]}{suffix}.svg'), 'w') as fh:
                 fh.write(svg_markup(ic['paths'][weight], weight))
+    # Each outline weight carries more ink than the one before it; anything else is a broken boolean.
+    broken = []
+    for ic in icons:
+        areas = [_area(to_path([ic['paths'][w]])) if ic['paths'][w] else 0 for w in STROKES]
+        if any(a >= b for a, b in zip(areas, areas[1:])):
+            broken.append(ic['name'])
+    if broken:
+        raise SystemExit(f'weights out of order (thin < light < regular < bold): {", ".join(broken)}')
     os.makedirs(BUILD, exist_ok=True)
     with open(os.path.join(BUILD, 'icons.json'), 'w') as fh:
         json.dump({'weights': WEIGHTS, 'icons': icons}, fh, separators=(',', ':'))
