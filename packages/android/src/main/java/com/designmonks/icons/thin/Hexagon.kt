@@ -8,4 +8,4 @@ import com.designmonks.icons.iconMonksVector
 private var cache: ImageVector? = null
 
 val IconMonks.Thin.Hexagon: ImageVector
-    get() = cache ?: iconMonksVector("HexagonThin", "M43 76.54Q41 77.69 41 80V176Q41 178.31 43 179.46L126 227.46Q128 228.62 130 227.46L213 179.46Q215 178.31 215 176V80Q215 77.69 213 76.54L130 28.54Q128 27.38 126 28.54L43 76.54ZM128 219.38 49 173.69V82.31L128 36.62L207 82.31V173.69L128 219.38Z").also { cache = it }
+    get() = cache ?: iconMonksVector("HexagonThin", "M43 76.54A4 4 0 0 0 41 80V176A4 4 0 0 0 43 179.46L126 227.46A4 4 0 0 0 130 227.46L213 179.46A4 4 0 0 0 215 176V80A4 4 0 0 0 213 76.54L130 28.54A4 4 0 0 0 126 28.54L43 76.54ZM128 219.38L49 173.69V82.31L128 36.62L207 82.31V173.69L128 219.38Z").also { cache = it }

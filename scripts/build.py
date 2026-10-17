@@ -8,13 +8,14 @@ Writes:
 Requires: pip install skia-pathops fonttools
 """
 import json
+import math
 import os
 import re
 import xml.etree.ElementTree as ET
 
 import pathops
+from fontTools.pens.basePen import decomposeQuadraticSegment, decomposeSuperBezierSegment
 from fontTools.pens.recordingPen import RecordingPen
-from fontTools.pens.svgPathPen import SVGPathPen
 from fontTools.svgLib.path import parse_path
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -201,10 +202,120 @@ def fmt(v):
     return '0' if s in ('-0', '') else s
 
 
+ARC_TOL = 0.2  # how far (in grid units) a run of quadratic pieces may stray from the circle that replaces it; the
+# stroker approximates offset arcs to about 0.15, so the true circle is the closer match to what the source draws
+
+
+def _qpt(p0, c, p1, t):
+    u = 1 - t
+    return (u * u * p0[0] + 2 * u * t * c[0] + t * t * p1[0], u * u * p0[1] + 2 * u * t * c[1] + t * t * p1[1])
+
+
+def _centre(p0, c0, p1, c1):
+    """Where the normals at p0 (tangent towards c0) and p1 (tangent from c1) meet: the centre of an arc through both."""
+    t0, t1 = (c0[0] - p0[0], c0[1] - p0[1]), (p1[0] - c1[0], p1[1] - c1[1])
+    det = t0[0] * t1[1] - t0[1] * t1[0]
+    if abs(det) < 1e-9:
+        return None
+    # p0 + s*n0 = p1 + u*n1 with n = (-ty, tx)
+    dx, dy = p1[0] - p0[0], p1[1] - p0[1]
+    k = (dx * t1[0] + dy * t1[1]) / det
+    return p0[0] - t0[1] * k, p0[1] + t0[0] * k
+
+
+def _arc(run):
+    """An SVG arc for a run of quadratics [(start, control, end)] that all lie on one circle, or None."""
+    start, end = run[0][0], run[-1][2]
+    centre = _centre(start, run[0][1], end, run[-1][1])
+    if not centre:
+        return None
+    ux, uy = centre
+    r = math.hypot(start[0] - ux, start[1] - uy)
+    if r > 256 or r < 0.5:
+        return None
+    sweep = 0.0
+    for q in run:
+        for t in (0.25, 0.5, 0.75, 1):
+            x, y = _qpt(*q, t)
+            if abs(math.hypot(x - ux, y - uy) - r) > ARC_TOL:
+                return None
+        a0 = math.atan2(q[0][1] - uy, q[0][0] - ux)
+        a1 = math.atan2(q[2][1] - uy, q[2][0] - ux)
+        da = (a1 - a0 + math.pi) % (2 * math.pi) - math.pi
+        if sweep and da * sweep < 0:  # turns back on itself: not one arc
+            return None
+        sweep += da
+    if abs(sweep) > 1.9 * math.pi:
+        return None
+    large, positive = abs(sweep) > math.pi, sweep > 0
+    # Check the arc a renderer will draw: it rebuilds the centre from the rounded radius and end points, which for
+    # arcs near a half circle moves the centre a lot for a small change in radius.
+    rr, sx, sy, ex, ey = (float(fmt(v)) for v in (r, start[0], start[1], end[0], end[1]))
+    mx, my, hx, hy = (sx + ex) / 2, (sy + ey) / 2, (ex - sx) / 2, (ey - sy) / 2
+    h = math.hypot(hx, hy)
+    if h < 1e-6 or h > rr:
+        return None
+    k = math.sqrt(rr * rr - h * h) / h
+    ux, uy = (mx - hy * k, my + hx * k) if large != positive else (mx + hy * k, my - hx * k)
+    for q in run:
+        for t in (0.25, 0.5, 0.75):
+            x, y = _qpt(*q, t)
+            if abs(math.hypot(x - ux, y - uy) - rr) > ARC_TOL:
+                return None
+    return f'A{fmt(r)} {fmt(r)} 0 {int(large)} {int(positive)} {fmt(end[0])} {fmt(end[1])}'
+
+
+def _arcs(run):
+    """Commands for a run of quadratics: the longest circular stretches become single arcs."""
+    out, k = [], 0
+    while k < len(run):
+        for e in range(len(run), k, -1):
+            arc = _arc(run[k:e])
+            if arc:
+                out.append(arc)
+                k = e
+                break
+        else:
+            _, c, p = run[k]
+            out.append(f'Q{fmt(c[0])} {fmt(c[1])} {fmt(p[0])} {fmt(p[1])}')
+            k += 1
+    return out
+
+
 def to_d(p):
-    pen = SVGPathPen(None, fmt)
-    p.draw(pen)
-    return pen.getCommands()
+    """Path data for p. The stroker draws round caps and joins as chains of short quadratics; chains that lie on a
+    circle are written as one arc, which is how a designer would draw them and roughly halves the file size."""
+    rec = RecordingPen()
+    p.draw(rec)
+    out, run, cur = [], [], (0, 0)
+    for op, pts in rec.value + [('endPath', ())]:
+        if op == 'qCurveTo':
+            if pts[-1] is None:  # closed contour of off-curve points only (a circle): starts between the last and first
+                pts = pts[:-1]
+                cur = ((pts[-1][0] + pts[0][0]) / 2, (pts[-1][1] + pts[0][1]) / 2)
+                out.append(f'M{fmt(cur[0])} {fmt(cur[1])}')
+                pts = pts + (cur,)
+            for c, e in decomposeQuadraticSegment(pts):
+                run.append((cur, c, e))
+                cur = e
+            continue
+        if run:
+            out += _arcs(run)
+            run = []
+        if op == 'moveTo':
+            out.append(f'M{fmt(pts[0][0])} {fmt(pts[0][1])}')
+        elif op == 'lineTo':
+            x, y = pts[0]
+            out.append(f'V{fmt(y)}' if fmt(x) == fmt(cur[0]) else f'H{fmt(x)}' if fmt(y) == fmt(cur[1]) else
+                       f'L{fmt(x)} {fmt(y)}')
+        elif op == 'curveTo':
+            for seg in decomposeSuperBezierSegment(pts):
+                out.append('C' + ' '.join(f'{fmt(x)} {fmt(y)}' for x, y in seg))
+        elif op == 'closePath':
+            out.append('Z')
+        if pts:
+            cur = pts[-1]
+    return ''.join(out)
 
 
 def load(path):
@@ -391,7 +502,8 @@ def main():
     # Each outline weight carries more ink than the one before it; anything else is a broken boolean.
     broken = []
     for ic in icons:
-        areas = [_area(to_path([ic['paths'][w]])) if ic['paths'][w] else 0 for w in STROKES]
+        # Inked area as drawn (non-zero fill); re-orienting arcs here would misjudge holes by their control points.
+        areas = [abs(to_path([ic['paths'][w]]).area) if ic['paths'][w] else 0 for w in STROKES]
         if any(a >= b for a, b in zip(areas, areas[1:])):
             broken.append(ic['name'])
     if broken:

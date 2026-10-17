@@ -8,4 +8,4 @@ import com.designmonks.icons.iconMonksVector
 private var cache: ImageVector? = null
 
 val IconMonks.Fill.Keyframe: ImageVector
-    get() = cache ?: iconMonksVector("KeyframeFill", "M112.34 40.34 40.4 112.29Q33.8 118.76 33.8 128Q33.8 137.24 40.34 143.66L112.29 215.6Q118.76 222.2 128 222.2Q137.24 222.2 143.66 215.66L215.6 143.71Q222.2 137.24 222.2 128Q222.2 118.76 215.66 112.34L143.68 40.37Q137.22 33.8 128 33.8Q118.76 33.8 112.34 40.34Z").also { cache = it }
+    get() = cache ?: iconMonksVector("KeyframeFill", "M112.34 40.34L40.4 112.29A21.92 21.92 0 0 0 40.34 143.66L112.29 215.6A21.92 21.92 0 0 0 143.66 215.66L215.6 143.71A21.92 21.92 0 0 0 215.66 112.34L143.68 40.37A21.92 21.92 0 0 0 112.34 40.34Z").also { cache = it }
