@@ -48,9 +48,12 @@ node tests/browser.mjs   # renders the web component, fonts and sprites in Chrom
 
 ## Contributing an icon
 
+Read [STYLE.md](STYLE.md) first. It has the drawing rules every new icon follows.
+
 1. Copy a similar file in `icons/` and draw inside the 32–224 live area on the 256 grid.
 2. Put strokes that should become knock-outs in the fill weight in the `detail` group, and the shape to fill in `area`.
-3. Add `data-category` and a few `data-tags` for search, run `npm run build`, and check the result in `index.html`.
+3. Add `data-category` and a few `data-tags` for search, then run `npm run lint`.
+4. Run `npm run build` and check the result in `index.html`.
 
 Font codepoints are append-only (`codepoints.json`), so existing glyphs never move.
 
