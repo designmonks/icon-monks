@@ -30,6 +30,7 @@ CATEGORIES = {
 LIVE = (32, 224)        # geometry must stay inside; 16-unit strokes then reach 24..232
 MIN_SIZE = 144          # an icon's larger side should span at least this much of the grid
 MAX_STROKED = 8         # line + detail elements; more than this turns to mush at 16px
+MAX_SEGMENTS = 40       # straight segments in one curve-free path; more means a curve saved as points
 SLASH = 'M48 48 L208 208'
 
 RULES = {
@@ -41,6 +42,7 @@ RULES = {
     'small': f'larger side spans less than {MIN_SIZE} units, so it looks smaller than its neighbours',
     'off-grid': 'straight-segment endpoints, circle centres or rect corners are not whole numbers',
     'detail': f'more than {MAX_STROKED} stroked elements',
+    'tessellated': f'a path is more than {MAX_SEGMENTS} straight segments; draw curves with arcs and cubics',
     'slash': f'-slash icons draw the slash as the standard line "{SLASH}"',
 }
 
@@ -182,6 +184,9 @@ def check(path):
     for role, els in roles.items():
         for el in els:
             p, anchors, shut = shape(el)
+            d = el.get('d') or ''
+            if not re.search(r'[ACQST]', d) and len(re.findall(r'[LHV]', d)) > MAX_SEGMENTS:
+                found.add('tessellated')
             points += p
             if role in ('line', 'detail'):
                 closed = closed or shut

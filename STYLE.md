@@ -36,7 +36,10 @@ Icon Monks uses the same construction as Phosphor, so the two sets sit together 
    - Don't mix a filled head with stick limbs, and don't use a different head size in the same family.
 8. **Corners**: rect `rx` is 16 on large containers (cards, windows, devices) and 8 on small parts inside them.
    *Proposal, not yet linted. The existing set uses 8–20 freely.*
-9. **No text glyphs** inside icons (like "CI" in a triangle) except in Letters & Numbers. Text doesn't scale
+9. **Draw curves as curves** **[lint `tessellated`]**. Use arcs and cubics with anchors on the curve's
+   horizontal and vertical extremes and smooth joins. Don't save a sampled formula or a flattened boolean result as
+   dozens of straight segments. `scripts/batches/193_refit.py` converts such paths back to curves.
+10. **No text glyphs** inside icons (like "CI" in a triangle) except in Letters & Numbers. Text doesn't scale
    across weights.
 
 ## Adding icons
