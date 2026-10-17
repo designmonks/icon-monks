@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" data-category="People" data-tags="reader,reading,book,study">
   <g data-role="area" fill="currentColor" opacity="0.2">
     <circle cx="128" cy="64" r="32"/>
-    <path d="M71.67 137.28C82.39 123.52 103.31 116 128 116C152.69 116 173.61 123.52 184.33 137.28Q153.81 137.25 128 149.86Q102.19 137.25 71.67 137.28Z"/>
+    <path d="M72 137 C82.72 123.24 103.31 116 128 116 C152.69 116 173.28 123.24 184 137 Q153.64 137.18 128 150 Q102.35 137.18 72 137 Z"/>
     <path d="M44 156 C76 150 104 154 128 168 C152 154 180 150 212 156 V212 C180 206 152 210 128 222 C104 210 76 206 44 212 Z"/>
   </g>
   <g data-role="line" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
     <circle cx="128" cy="64" r="32"/>
-    <path d="M76 132.64 C90.97 120.01 108.62 116 128 116 C147.38 116 165.03 120.01 180 132.64"/>
+    <path d="M76 133 C90.97 120.37 108.62 116 128 116 C147.38 116 165.03 120.37 180 133"/>
     <path d="M44 156 C76 150 104 154 128 168 C152 154 180 150 212 156 V212 C180 206 152 210 128 222 C104 210 76 206 44 212 Z"/>
   </g>
   <g data-role="detail" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">

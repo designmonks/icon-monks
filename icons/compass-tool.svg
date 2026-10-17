@@ -5,8 +5,8 @@
   <g data-role="line" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
     <circle cx="128" cy="64" r="20"/>
     <path d="M128 32 L128 44"/>
-    <path d="M119.44 82.07 L56 216"/>
-    <path d="M136.56 82.07 L200 216"/>
-    <path d="M85.19 154.37 A100 100 0 0 0 170.81 154.37"/>
+    <path d="M119 82 L56 216"/>
+    <path d="M137 82 L200 216"/>
+    <path d="M85 154 A100 100 0 0 0 171 154"/>
   </g>
 </svg>

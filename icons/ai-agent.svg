@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" data-category="Interface" data-tags="ai agent,assistant,bot,automation,ai">
   <g data-role="area" fill="currentColor" opacity="0.2">
-    <rect x="32" y="89" width="143" height="127" rx="27.71"/>
+    <rect x="32" y="89" width="143" height="127" rx="28"/>
     <path d="M196 32 C198.59 50.44 205.52 57.36 224 60 C205.52 61.98 198.59 68.9 196 87 C193.98 68.9 187.05 61.98 169 60 C187.05 57.36 193.98 50.44 196 32 Z"/>
   </g>
   <g data-role="line" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
-    <rect x="32" y="89" width="143" height="127" rx="27.71"/>
+    <rect x="32" y="89" width="143" height="127" rx="28"/>
     <path d="M103 89 L103 70"/>
     <path d="M196 32 C198.59 50.44 205.52 57.36 224 60 C205.52 61.98 198.59 68.9 196 87 C193.98 68.9 187.05 61.98 169 60 C187.05 57.36 193.98 50.44 196 32 Z"/>
   </g>

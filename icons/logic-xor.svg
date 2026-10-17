@@ -4,8 +4,8 @@
   </g>
   <g data-role="line" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
     <path d="M84 64 C143.4 64 168.24 84 192 128 C168.24 172 143.4 192 84 192 Q128 128 84 64 Z"/>
-    <path d="M32 96 L64.5 96"/>
-    <path d="M32 160 L64.5 160"/>
+    <path d="M32 96 L64 96"/>
+    <path d="M32 160 L64 160"/>
     <path d="M48 64 Q92 128 48 192"/>
     <path d="M192 128 L224 128"/>
   </g>

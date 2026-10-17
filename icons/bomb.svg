@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" data-category="Objects" data-tags="bomb,explosive,danger,fuse">
   <g data-role="area" fill="currentColor" opacity="0.2">
     <circle cx="112" cy="148" r="72"/>
-    <path d="M152.15 103.95 Q148.62 100.41 152.15 96.88 L164.88 84.15 Q168.41 80.62 171.95 84.15 L181.85 94.05 Q185.38 97.59 181.85 101.12 L169.12 113.85 Q165.59 117.38 162.05 113.85 Z"/>
+    <path d="M152 104 Q148.47 100.5 152 97 L165 84 Q168.5 80.47 172 84 L182 94 Q185.53 97.5 182 101 L169 114 Q165.5 117.53 162 114 Z"/>
   </g>
   <g data-role="line" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
     <circle cx="112" cy="148" r="72"/>
-    <path d="M152.15 103.95 Q148.62 100.41 152.15 96.88 L164.88 84.15 Q168.41 80.62 171.95 84.15 L181.85 94.05 Q185.38 97.59 181.85 101.12 L169.12 113.85 Q165.59 117.38 162.05 113.85 Z"/>
+    <path d="M152 104 Q148.47 100.5 152 97 L165 84 Q168.5 80.47 172 84 L182 94 Q185.53 97.5 182 101 L169 114 Q165.5 117.53 162 114 Z"/>
     <path d="M180 84 C184 64 196 60 200 52"/>
     <path d="M208 32 L208 36"/>
     <path d="M220 44 L224 44"/>

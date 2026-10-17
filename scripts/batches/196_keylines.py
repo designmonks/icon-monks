@@ -45,18 +45,16 @@ def plan(root):
     c = container(root)
     if c:
         kind, w, h = c
-        if kind == 'circle':
-            s = min(s, CIRCLE / max(w, h))
-        elif 0.9 <= w / h <= 1 / 0.9:
-            s = min(s, SQUARE / max(w, h))
-        else:
-            s = min(s, RECT / max(w, h))
-    s = min(s, (LIVE[1] - LIVE[0]) / max(x1 - x0, y1 - y0))
+        limit = CIRCLE if kind == 'circle' else SQUARE if 0.9 <= w / h <= 1 / 0.9 else RECT
+        if lint.over_keyline(root):
+            s = min(s, limit / max(w, h))
+    s = min(s, (LIVE[1] - LIVE[0] + 2 * lint.LIVE_TOL) / max(x1 - x0, y1 - y0))
     cx, cy = (x0 + x1) / 2, (y0 + y1) / 2
     nx0, nx1 = cx + (x0 - cx) * s, cx + (x1 - cx) * s
     ny0, ny1 = cy + (y0 - cy) * s, cy + (y1 - cy) * s
-    dx = max(0, LIVE[0] - nx0) - max(0, nx1 - LIVE[1])
-    dy = max(0, LIVE[0] - ny0) - max(0, ny1 - LIVE[1])
+    lo, hi = LIVE[0] - lint.LIVE_TOL, LIVE[1] + lint.LIVE_TOL
+    dx = max(0, lo - nx0) - max(0, nx1 - hi)
+    dy = max(0, lo - ny0) - max(0, ny1 - hi)
     if s > 0.999 and abs(dx) < 0.5 and abs(dy) < 0.5:
         return None
     return s, round(dx), round(dy), cx, cy

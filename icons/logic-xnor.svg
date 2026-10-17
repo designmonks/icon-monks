@@ -5,8 +5,8 @@
   </g>
   <g data-role="line" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
     <path d="M76 64 C131 64 154 84 176 128 C154 172 131 192 76 192 Q120 128 76 64 Z"/>
-    <path d="M32 96 L56.5 96"/>
-    <path d="M32 160 L56.5 160"/>
+    <path d="M32 96 L56 96"/>
+    <path d="M32 160 L56 160"/>
     <path d="M40 64 Q84 128 40 192"/>
     <circle cx="194" cy="128" r="18"/>
     <path d="M212 128 L224 128"/>

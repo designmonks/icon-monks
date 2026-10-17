@@ -8,6 +8,6 @@
     <path d="M186 143 C188.86 169.22 198.54 178.9 224 182 C198.54 185.36 188.86 195.04 186 221 C182.41 195.04 172.73 185.36 147 182 C172.73 178.9 182.41 169.22 186 143 Z"/>
   </g>
   <g data-role="detail" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
-    <circle cx="122" cy="115" r="30.73"/>
+    <circle cx="122" cy="115" r="31"/>
   </g>
 </svg>

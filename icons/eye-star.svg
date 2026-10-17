@@ -8,6 +8,6 @@
     <path d="M190 151 L200 174 L224 175 L205 191 L211 215 L190 202 L169 215 L175 191 L156 175 L181 174 Z"/>
   </g>
   <g data-role="detail" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
-    <circle cx="125" cy="114" r="31.7"/>
+    <circle cx="125" cy="114" r="32"/>
   </g>
 </svg>

@@ -28,6 +28,7 @@ CATEGORIES = {
     'Media', 'Nature', 'Objects', 'People', 'Science', 'Security', 'Sports', 'Symbols', 'Time', 'Transport', 'Weather',
 }
 LIVE = (32, 224)        # geometry must stay inside; 16-unit strokes then reach 24..232
+LIVE_TOL = 1            # curves bulge a little between whole-unit anchors
 MIN_SIZE = 144          # an icon's larger side should span at least this much of the grid
 MAX_STROKED = 8         # line + detail elements; more than this turns to mush at 16px
 MAX_SEGMENTS = 40       # straight segments in one curve-free path; more means a curve saved as points
@@ -263,7 +264,8 @@ def check(path):
         found.add('no-fill')
     if points:
         xs, ys = [p[0] for p in points], [p[1] for p in points]
-        if min(xs) < LIVE[0] - 0.5 or min(ys) < LIVE[0] - 0.5 or max(xs) > LIVE[1] + 0.5 or max(ys) > LIVE[1] + 0.5:
+        if min(xs) < LIVE[0] - LIVE_TOL or min(ys) < LIVE[0] - LIVE_TOL or max(xs) > LIVE[1] + LIVE_TOL or \
+                max(ys) > LIVE[1] + LIVE_TOL:
             found.add('live-area')
         if max(max(xs) - min(xs), max(ys) - min(ys)) < MIN_SIZE:
             found.add('small')

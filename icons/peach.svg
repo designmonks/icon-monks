@@ -1,14 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" data-category="Food" data-tags="peach,fruit,summer,sweet">
   <g data-role="area" fill="currentColor" opacity="0.2">
-    <path d="M128 80 C100.06 60.15 40.2 72.12 40 144 C40.2 195.85 80.11 223.79 128 224 C175.89 223.79 215.8 195.85 216 144 C215.8 72.12 155.94 60.15 128 80 Z"/>
+    <path d="M128 80 C100.24 60.57 40.74 72.48 40 144 C40.74 195.43 80.41 223.19 128 224 C175.59 223.19 215.26 195.43 216 144 C215.26 72.48 155.76 60.57 128 80 Z"/>
     <path d="M136 56 A29 29 0 0 1 180 36 A29 29 0 0 1 136 56 Z"/>
   </g>
   <g data-role="line" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M128 80 C100.06 60.15 40.2 72.12 40 144 C40.2 195.85 80.11 223.79 128 224 C175.89 223.79 215.8 195.85 216 144 C215.8 72.12 155.94 60.15 128 80 Z"/>
-    <path d="M128 80 C128 68.13 130 60.15 136 52"/>
+    <path d="M128 80 C100.24 60.57 40.74 72.48 40 144 C40.74 195.43 80.41 223.19 128 224 C175.59 223.19 215.26 195.43 216 144 C215.26 72.48 155.76 60.57 128 80 Z"/>
+    <path d="M128 80 C128 68.49 130 60.57 136 52"/>
     <path d="M136 56 A29 29 0 0 1 180 36 A29 29 0 0 1 136 56 Z"/>
   </g>
   <g data-role="detail" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M128 92 C108.04 124.01 108.04 171.9 124 204"/>
+    <path d="M128 92 C108.16 124.04 108.16 171.63 124 204"/>
   </g>
 </svg>
