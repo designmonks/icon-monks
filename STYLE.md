@@ -45,6 +45,9 @@ Icon Monks uses the same construction as Phosphor, so the two sets sit together 
 9. **Draw curves as curves** **[lint `tessellated`]**. Use arcs and cubics with anchors on the curve's
    horizontal and vertical extremes and smooth joins. Don't save a sampled formula or a flattened boolean result as
    dozens of straight segments. `scripts/batches/193_refit.py` converts such paths back to curves.
+   **[lint `extremes`]** A curve that bulges more than a unit past its ends needs an anchor at that extreme
+   (its leftmost, rightmost, top or bottom point). `scripts/batches/198_extremes.py` adds them without changing the
+   shape.
 10. **No text glyphs** inside icons (like "CI" in a triangle) except in Letters & Numbers. Text doesn't scale
    across weights.
 

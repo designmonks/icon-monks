@@ -5,6 +5,6 @@
   <g data-role="line" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
     <path d="M36 139 A73 73 0 0 1 174 94 A24.26 24.26 0 0 0 128 109 A24.26 24.26 0 0 0 82 124 A24.26 24.26 0 0 0 36 139 Z"/>
     <path d="M105 117 L130 195"/>
-    <path d="M50 200 C93.48 189.33 180.8 189.33 224 200"/>
+    <path d="M50 200 C71.74 194.67 104.33 192 137 192 C169.66 192 202.4 194.67 224 200"/>
   </g>
 </svg>

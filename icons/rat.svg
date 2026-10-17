@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" data-category="Animals" data-tags="rodent,mouse,pest,rat,animal">
   <g data-role="area" fill="currentColor" opacity="0.2">
-    <path d="M48 152 C48 116 80 96 116 96 C152 96 176 120 212 148 C220 154 216 164 206 164 H64 C54 164 48 160 48 152 Z"/>
+    <path d="M48 152 C48 116 80 96 116 96 C152 96 176 120 212 148 C214.94 150.2 216 153.41 216 156 C216 160.46 212.33 164 206 164 H64 C54 164 48 160 48 152 Z"/>
     <path d="M114 92 A22 22 0 1 1 158 92 A22 22 0 1 1 114 92 Z"/>
   </g>
   <g data-role="line" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
     <path d="M154 106 A207 207 0 0 1 186 127 L204 142 C207.66 145.08 216 149.68 216 155 C216 163.83 207.39 164 201 164 L179 164 L132 164 L85 164 L62 164 C54.66 163.48 48 160.54 48 152 A50.22 50.22 0 0 1 68 111 A77.56 77.56 0 0 1 113 96"/>
     <path d="M114 92 A22 22 0 1 1 158 92 A22 22 0 1 1 114 92 Z"/>
-    <path d="M48 156 C20 168 32 204 72 200 H128"/>
+    <path d="M48 156 C37.62 160.45 33 168.22 33 176 C33 189.22 46.82 202.52 72 200 H128"/>
   </g>
   <g data-role="detail" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
     <path d="M153 106 L152 107 L151 108 L150 109 L149 110 L148 111 L147 111 L146 112 L144 112 L143 113 L142 113 L140 114 L139 114 L137 114 L136 114 L135 114 L133 114 L132 114 L130 113 L129 113 L128 112 L126 112 L125 111 L124 111 L123 110 L122 109 L121 108 L120 107 L119 106 L118 105 L117 104 L117 103 L116 102 L116 100 L115 99 L115 98 L114 96"/>

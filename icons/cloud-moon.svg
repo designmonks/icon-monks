@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" data-category="Weather" data-tags="night,cloudy,weather,moon,forecast">
   <g data-role="area" fill="currentColor" opacity="0.2">
     <path d="M104 192 H181 A35.2 35.2 0 0 0 190 123 A48 48 0 0 0 94 129 A32 32 0 0 0 104 192 Z"/>
-    <path d="M52 139 Q53.6 134.41 56 130 Q62.47 120.02 72 114 Q75.34 99.87 84 88 C76.21 74.47 76 57.98 84 44 C55.51 46.1 34 69.43 34 98 C33.99 114.09 40.81 128.98 52 139 Z"/>
+    <path d="M52 139 Q53.6 134.41 56 130 Q62.47 120.02 72 114 Q75.34 99.87 84 88 C80.08 81.19 78 73.61 78 66 C78 58.49 80.03 50.94 84 44 C55.51 46.1 34 69.43 34 98 C33.99 114.09 40.81 128.98 52 139 Z"/>
   </g>
   <g data-role="line" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
     <path d="M104 192 H181 A35.2 35.2 0 0 0 190 123 A48 48 0 0 0 94 129 A32 32 0 0 0 104 192 Z"/>

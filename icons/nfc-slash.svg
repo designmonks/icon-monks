@@ -6,7 +6,7 @@
     <rect x="40" y="40" width="176" height="176" rx="37"/>
   </g>
   <g data-role="detail" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M88 168 V102 C87.67 82.17 109.67 78.5 119 97 L137 159 C146.33 177.5 168.33 173.83 168 154 V88"/>
+    <path d="M88 168 V102 C87.82 90.97 94.39 85 102 85 C108.07 85 114.86 88.79 119 97 L137 159 C141.14 167.21 147.93 171 154 171 C161.61 171 168.18 165.03 168 154 V88"/>
   </g>
   <g data-role="slash" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
     <path d="M48 48 L208 208"/>

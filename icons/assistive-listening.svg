@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" data-category="Health" data-tags="hearing,ear,accessibility,sound">
   <g data-role="area" fill="currentColor" opacity="0.2">
-    <path d="M67 107 A44.4 44.4 0 0 1 155 107 C155 136.6 134.92 143.24 129 161 C123.08 181.72 110.72 196 90 196 C78.16 196 69.92 189.88 64 181 C58.08 166.2 67 136.6 67 107 Z"/>
+    <path d="M67 107 A44.4 44.4 0 0 1 155 107 C155 136.6 134.92 143.24 129 161 C123.08 181.72 110.72 196 90 196 C78.16 196 69.92 189.88 64 181 C62.52 177.31 62 172.3 62 167 C62 151.04 67 129.22 67 107 Z"/>
   </g>
   <g data-role="line" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
     <path d="M67 107 A44.4 44.4 0 0 1 155 107 C155 136.6 134.92 143.24 129 161 C123.08 181.72 110.72 196 90 196 C78.16 196 69.92 189.88 64 181"/>

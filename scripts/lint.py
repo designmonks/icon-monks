@@ -46,6 +46,7 @@ RULES = {
     'small': f'larger side spans less than {MIN_SIZE} units, so it looks smaller than its neighbours',
     'off-grid': 'straight-segment endpoints, circle centres or rect corners are not whole numbers',
     'detail': f'more than {MAX_STROKED} stroked elements',
+    'extremes': 'a curve bulges past its ends with no anchor at its top, bottom, left or right extreme',
     'tessellated': f'a path is more than {MAX_SEGMENTS} straight segments; draw curves with arcs and cubics',
     'keyline': 'a container is bigger than its keyline: circle 192, square 176, other rectangle 192 on the long side',
     'slash': 'a -slash icon is its base icon unchanged plus one slash group with M48 48 L208 208 '
@@ -216,6 +217,40 @@ def over_keyline(root):
     return max(w, h) > limit + 1.5
 
 
+def misses_extremes(d):
+    """True when a cubic or quadratic bulges more than a unit past both of its ends without an anchor there."""
+    if re.search(r'[ST]', d):
+        return False
+    t = tokens(d)
+    i, cmd, x, y, sx, sy = 0, 'M', 0.0, 0.0, 0.0, 0.0
+    while i < len(t):
+        if t[i].isalpha():
+            cmd = t[i]
+            i += 1
+            if cmd == 'Z':
+                x, y = sx, sy
+                continue
+        a = [float(v) for v in t[i:i + ARGS[cmd]]]
+        i += ARGS[cmd]
+        if cmd in 'CQ':
+            ctl = [(x, y)] + [(a[j], a[j + 1]) for j in range(0, len(a), 2)]
+            for k in (0, 1):
+                ends = (ctl[0][k], ctl[-1][k])
+                vals = [p[k] for p in bezier(ctl, 32)]
+                if max(vals) > max(ends) + 1.0 or min(vals) < min(ends) - 1.0:
+                    return True
+        if cmd == 'H':
+            x = a[0]
+        elif cmd == 'V':
+            y = a[0]
+        elif cmd != 'Z':
+            x, y = a[-2], a[-1]
+        if cmd == 'M':
+            sx, sy = x, y
+            cmd = 'L'
+    return False
+
+
 def bad_slash(path, name, roles):
     if not name.endswith('-slash') or name in NO_BASE_SLASH:
         return bool(roles['slash'])
@@ -253,6 +288,8 @@ def check(path):
             d = el.get('d') or ''
             if not re.search(r'[ACQST]', d) and len(re.findall(r'[LHV]', d)) > MAX_SEGMENTS:
                 found.add('tessellated')
+            if d and misses_extremes(d):
+                found.add('extremes')
             points += p
             if role in ('line', 'detail'):
                 closed = closed or shut
