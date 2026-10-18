@@ -1723,12 +1723,14 @@
 .im-light.im-defrost::before { content: "\ef1d"; }
 .im-light.im-delta::before { content: "\ea07"; }
 .im-light.im-desert::before { content: "\ef1e"; }
+.im-light.im-design-monks-logo::before { content: "\f58f"; }
 .im-light.im-desk::before { content: "\ea08"; }
 .im-light.im-desk-lamp::before { content: "\ea09"; }
 .im-light.im-details::before { content: "\ea0a"; }
 .im-light.im-details-slash::before { content: "\ea0b"; }
 .im-light.im-detective::before { content: "\ef1f"; }
 .im-light.im-detergent-bottle::before { content: "\f38d"; }
+.im-light.im-dev-monks-logo::before { content: "\f590"; }
 .im-light.im-deviantart-logo::before { content: "\f515"; }
 .im-light.im-device-foldable::before { content: "\e6af"; }
 .im-light.im-device-mobile::before { content: "\e01e"; }

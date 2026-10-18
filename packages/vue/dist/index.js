@@ -1705,12 +1705,14 @@ export { DefibrillatorPads, DefibrillatorPadsIcon } from './icons/DefibrillatorP
 export { Defrost, DefrostIcon } from './icons/Defrost.js';
 export { Delta, DeltaIcon } from './icons/Delta.js';
 export { Desert, DesertIcon } from './icons/Desert.js';
+export { DesignMonksLogo, DesignMonksLogoIcon } from './icons/DesignMonksLogo.js';
 export { Desk, DeskIcon } from './icons/Desk.js';
 export { DeskLamp, DeskLampIcon } from './icons/DeskLamp.js';
 export { Details, DetailsIcon } from './icons/Details.js';
 export { DetailsSlash, DetailsSlashIcon } from './icons/DetailsSlash.js';
 export { Detective, DetectiveIcon } from './icons/Detective.js';
 export { DetergentBottle, DetergentBottleIcon } from './icons/DetergentBottle.js';
+export { DevMonksLogo, DevMonksLogoIcon } from './icons/DevMonksLogo.js';
 export { DeviantartLogo, DeviantartLogoIcon } from './icons/DeviantartLogo.js';
 export { DeviceFoldable, DeviceFoldableIcon } from './icons/DeviceFoldable.js';
 export { DeviceMobile, DeviceMobileIcon } from './icons/DeviceMobile.js';
