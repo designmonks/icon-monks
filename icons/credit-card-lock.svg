@@ -1,18 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" data-category="Commerce" data-tags="secure payment,locked card,card security">
   <g data-role="area" fill="currentColor" opacity="0.2">
-    <path d="M224 136 V75 A13 13 0 0 0 211 62 H45 A13 13 0 0 0 32 75 V182 A13 13 0 0 0 45 195 H120 A63 63 0 0 1 224 136 Z"/>
-    <rect x="150" y="170" width="63" height="48" rx="9"/>
+    <rect x="32" y="62" width="192" height="132" rx="13"/>
   </g>
   <g data-role="line" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M224 136 V75 A13 13 0 0 0 211 62 H45 A13 13 0 0 0 32 75 V182 A13 13 0 0 0 45 195 H120"/>
-    <rect x="150" y="170" width="63" height="48" rx="9"/>
-    <path d="M165 170 V158 A16.62 16.62 0 0 1 198 158 V170"/>
+    <rect x="32" y="62" width="192" height="132" rx="13"/>
   </g>
   <g data-role="detail" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M32 107 L224 107"/>
+    <path d="M32 106 L224 106"/>
     <path d="M62 158 L98 158"/>
   </g>
-  <g data-role="dotcut" fill="currentColor">
-    <circle cx="182" cy="194" r="10"/>
+  <g data-role="badge" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M166 188 H210 V214 H166 Z"/>
+    <path d="M176 188 V178 A12 12 0 0 1 200 178 V188"/>
   </g>
 </svg>

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" data-category="People" data-tags="privacy,private profile,lock,person,private">
+<svg data-badge="custom" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" data-category="People" data-tags="privacy,private profile,lock,person,private">
   <g data-role="area" fill="currentColor" opacity="0.2">
     <path d="M144 84 C144 61.91 126.09 44 104 44 C81.91 44 64 61.91 64 84 C64 106.09 81.91 124 104 124 C126.09 124 144 106.09 144 84 Z M148 216 C140.94 207.25 137 196.12 137 184 C137 174.43 139.41 165.65 144 158 C132.54 151.52 118.94 148 104 148 C64 148 32 172 32 216 H148 Z"/>
     <rect x="160" y="182" width="56" height="40" rx="10"/>

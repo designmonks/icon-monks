@@ -3,6 +3,7 @@
     <circle cx="128" cy="56" r="24"/>
     <circle cx="52" cy="200" r="20"/>
     <circle cx="128" cy="200" r="20"/>
+    <circle cx="204" cy="200" r="20"/>
   </g>
   <g data-role="line" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
     <circle cx="128" cy="56" r="24"/>
@@ -10,10 +11,13 @@
     <path d="M52 128 L204 128"/>
     <path d="M52 128 L52 180"/>
     <path d="M128 128 L128 180"/>
-    <path d="M204 128 L204 144"/>
-    <path d="M186 180 L222 216"/>
-    <path d="M222 180 L186 216"/>
+    <path d="M204 128 L204 180"/>
     <circle cx="52" cy="200" r="20"/>
     <circle cx="128" cy="200" r="20"/>
+    <circle cx="204" cy="200" r="20"/>
+  </g>
+  <g data-role="badge" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M168 168 L208 208"/>
+    <path d="M208 168 L168 208"/>
   </g>
 </svg>
