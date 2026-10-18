@@ -13,7 +13,7 @@ Icon Monks uses the same construction as Phosphor, so the two sets sit together 
   regular 16 and bold 24. Fill and duotone come from the roles.
 - **Roles**: every shape sits in a `<g data-role>` group: `line`, `detail`, `area`, `hole`, `dot`, `dotcut`
   **[lint `role`]**. The README explains what each role does in each weight.
-- **Metadata**: one `data-category` from the 30 categories and at least 3 `data-tags` **[lint `meta`]**.
+- **Metadata**: one `data-category` from the 31 categories (see `CATEGORIES` in `scripts/lint.py`; `Brands` holds logos) and at least 3 `data-tags` **[lint `meta`]**.
 
 ## Rules
 
