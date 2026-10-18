@@ -1,12 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" data-category="Files" data-tags="html,web,code,file type,web page">
+<svg data-detail="reviewed" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" data-category="Files" data-tags="html,web,code,file type,web page">
   <g data-role="area" fill="currentColor" opacity="0.2">
     <path d="M56 128 V32 H152 L200 80 V128 Z"/>
   </g>
   <g data-role="line" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
     <path d="M56 128 V32 H152 L200 80 V128"/>
-    <path d="M76 160 L44 192 L76 224"/>
-    <path d="M136 160 L120 224"/>
-    <path d="M180 160 L212 192 L180 224"/>
+    <path d="M32 160 L32 224"/>
+    <path d="M60 160 L60 224"/>
+    <path d="M32 192 L60 192"/>
+    <path d="M88 160 L116 160"/>
+    <path d="M102 160 L102 224"/>
+    <path d="M144 224 L144 160 L160 198 L176 160 L176 224"/>
+    <path d="M204 160 L204 224 L224 224"/>
   </g>
   <g data-role="detail" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
     <path d="M152 32 V80 H200"/>
