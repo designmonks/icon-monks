@@ -34,6 +34,12 @@
 .im-light.im-ad-circle-slash::before { content: "\e1f4"; }
 .im-light.im-address-book::before { content: "\e061"; }
 .im-light.im-address-book-slash::before { content: "\e1f5"; }
+.im-light.im-adobe-after-effects-logo::before { content: "\f4f2"; }
+.im-light.im-adobe-illustrator-logo::before { content: "\f4f3"; }
+.im-light.im-adobe-indesign-logo::before { content: "\f4f4"; }
+.im-light.im-adobe-photoshop-logo::before { content: "\f4f5"; }
+.im-light.im-adobe-premiere-pro-logo::before { content: "\f4f6"; }
+.im-light.im-adobe-xd-logo::before { content: "\f4f7"; }
 .im-light.im-affiliate::before { content: "\e1f6"; }
 .im-light.im-afro-pick::before { content: "\ede9"; }
 .im-light.im-agile::before { content: "\e1f7"; }
@@ -44,6 +50,8 @@
 .im-light.im-air-freshener::before { content: "\e929"; }
 .im-light.im-air-purifier::before { content: "\e92a"; }
 .im-light.im-air-quality::before { content: "\edea"; }
+.im-light.im-airbnb-logo::before { content: "\f4f8"; }
+.im-light.im-airdrop::before { content: "\f4f9"; }
 .im-light.im-airplane::before { content: "\e062"; }
 .im-light.im-airplane-circling::before { content: "\edeb"; }
 .im-light.im-airplane-in-flight::before { content: "\edec"; }
@@ -101,6 +109,7 @@
 .im-light.im-align-top::before { content: "\e41e"; }
 .im-light.im-align-top-simple::before { content: "\e41f"; }
 .im-light.im-align-vertical-spacing::before { content: "\e420"; }
+.im-light.im-allah-calligraphy::before { content: "\f4fa"; }
 .im-light.im-allergy::before { content: "\e92b"; }
 .im-light.im-alpha::before { content: "\e92c"; }
 .im-light.im-alphabet-arabic::before { content: "\e92d"; }
@@ -119,6 +128,7 @@
 .im-light.im-alphabet-runes::before { content: "\e93a"; }
 .im-light.im-alphabet-thai::before { content: "\e93b"; }
 .im-light.im-altitude::before { content: "\e93c"; }
+.im-light.im-amazon-logo::before { content: "\f4fb"; }
 .im-light.im-ambulance::before { content: "\e93d"; }
 .im-light.im-ammo::before { content: "\f317"; }
 .im-light.im-ampersand::before { content: "\e93e"; }
@@ -128,8 +138,10 @@
 .im-light.im-anchor::before { content: "\e065"; }
 .im-light.im-anchor-slash::before { content: "\e93f"; }
 .im-light.im-ancient-gate::before { content: "\e940"; }
+.im-light.im-android-logo::before { content: "\f4fc"; }
 .im-light.im-angle::before { content: "\e421"; }
 .im-light.im-angle-tool::before { content: "\e422"; }
+.im-light.im-angry-bird::before { content: "\f4fd"; }
 .im-light.im-animation::before { content: "\e423"; }
 .im-light.im-ankh::before { content: "\edfd"; }
 .im-light.im-antenna::before { content: "\e5e8"; }
@@ -142,6 +154,7 @@
 .im-light.im-api-gateway::before { content: "\f319"; }
 .im-light.im-api-slash::before { content: "\e5ec"; }
 .im-light.im-app-notification::before { content: "\e941"; }
+.im-light.im-app-store-logo::before { content: "\f4fe"; }
 .im-light.im-app-switcher::before { content: "\e942"; }
 .im-light.im-app-window::before { content: "\e066"; }
 .im-light.im-app-window-bottom::before { content: "\e943"; }
@@ -154,9 +167,16 @@
 .im-light.im-app-window-x::before { content: "\e949"; }
 .im-light.im-app-windows::before { content: "\e94a"; }
 .im-light.im-apple::before { content: "\e067"; }
+.im-light.im-apple-finder-logo::before { content: "\f4ff"; }
 .im-light.im-apple-half::before { content: "\e94b"; }
+.im-light.im-apple-music-logo::before { content: "\f500"; }
+.im-light.im-apple-news-logo::before { content: "\f501"; }
+.im-light.im-apple-reminders-logo::before { content: "\f502"; }
+.im-light.im-apple-stocks-logo::before { content: "\f503"; }
+.im-light.im-apple-vision-pro::before { content: "\f504"; }
 .im-light.im-approximate-equals::before { content: "\ee01"; }
 .im-light.im-apron::before { content: "\f27c"; }
+.im-light.im-arc-browser-logo::before { content: "\f505"; }
 .im-light.im-arc-de-triomphe::before { content: "\e94c"; }
 .im-light.im-arcade-spaceship::before { content: "\f31b"; }
 .im-light.im-arch::before { content: "\e94d"; }
@@ -405,6 +425,7 @@
 .im-light.im-average::before { content: "\ee07"; }
 .im-light.im-avocado::before { content: "\e955"; }
 .im-light.im-awareness-ribbon::before { content: "\e956"; }
+.im-light.im-aws-lambda-logo::before { content: "\f506"; }
 .im-light.im-axe::before { content: "\ee08"; }
 .im-light.im-axes::before { content: "\e2a6"; }
 .im-light.im-axis-3d::before { content: "\f323"; }
@@ -547,6 +568,7 @@
 .im-light.im-beans::before { content: "\e967"; }
 .im-light.im-beans-slash::before { content: "\f328"; }
 .im-light.im-bear::before { content: "\e2e4"; }
+.im-light.im-bebo-logo::before { content: "\f507"; }
 .im-light.im-bed::before { content: "\e092"; }
 .im-light.im-bed-double::before { content: "\e968"; }
 .im-light.im-bed-flat::before { content: "\e969"; }
@@ -556,6 +578,7 @@
 .im-light.im-beer::before { content: "\e96b"; }
 .im-light.im-beer-bottle::before { content: "\e96c"; }
 .im-light.im-beer-slash::before { content: "\e96d"; }
+.im-light.im-behance-logo::before { content: "\f508"; }
 .im-light.im-bell::before { content: "\e007"; }
 .im-light.im-bell-arrow-down::before { content: "\e2e6"; }
 .im-light.im-bell-arrow-up::before { content: "\e2e7"; }
@@ -593,6 +616,7 @@
 .im-light.im-binary-slash::before { content: "\e606"; }
 .im-light.im-binary-tree::before { content: "\e607"; }
 .im-light.im-binder-clip::before { content: "\f32a"; }
+.im-light.im-bing-logo::before { content: "\f509"; }
 .im-light.im-binoculars::before { content: "\e095"; }
 .im-light.im-biohazard::before { content: "\ee28"; }
 .im-light.im-biohazard-slash::before { content: "\ee29"; }
@@ -615,10 +639,12 @@
 .im-light.im-blockquote::before { content: "\e609"; }
 .im-light.im-blockquote-rtl::before { content: "\f32d"; }
 .im-light.im-blocks::before { content: "\e60a"; }
+.im-light.im-blogger-logo::before { content: "\f50a"; }
 .im-light.im-blood-bag::before { content: "\f27f"; }
 .im-light.im-blood-pressure::before { content: "\e978"; }
 .im-light.im-blood-type::before { content: "\f32e"; }
 .im-light.im-blueprint::before { content: "\e42e"; }
+.im-light.im-bluesky-logo::before { content: "\f50b"; }
 .im-light.im-bluetooth::before { content: "\e097"; }
 .im-light.im-bluetooth-connected::before { content: "\e60b"; }
 .im-light.im-bluetooth-magnifying-glass::before { content: "\f280"; }
@@ -677,6 +703,7 @@
 .im-light.im-bookshelf::before { content: "\e982"; }
 .im-light.im-boombox::before { content: "\ee30"; }
 .im-light.im-boot::before { content: "\ee31"; }
+.im-light.im-bootstrap-logo::before { content: "\f50c"; }
 .im-light.im-border-all::before { content: "\e61a"; }
 .im-light.im-border-bottom::before { content: "\e61b"; }
 .im-light.im-border-bottom-plus::before { content: "\e61c"; }
@@ -953,7 +980,6 @@
 .im-light.im-card-insert::before { content: "\e307"; }
 .im-light.im-card-reader::before { content: "\e308"; }
 .im-light.im-card-text::before { content: "\e9ae"; }
-.im-light.im-card-user::before { content: "\f353"; }
 .im-light.im-cards::before { content: "\e0b0"; }
 .im-light.im-caret-bar-contract::before { content: "\e309"; }
 .im-light.im-caret-bar-expand::before { content: "\e30a"; }
@@ -1149,6 +1175,7 @@
 .im-light.im-chat-warning::before { content: "\e45f"; }
 .im-light.im-chat-x::before { content: "\e460"; }
 .im-light.im-chatbot::before { content: "\e461"; }
+.im-light.im-chatgpt-logo::before { content: "\f50d"; }
 .im-light.im-chats::before { content: "\e0bf"; }
 .im-light.im-chats-slash::before { content: "\e462"; }
 .im-light.im-check::before { content: "\e013"; }
@@ -1223,6 +1250,7 @@
 .im-light.im-city::before { content: "\e9c7"; }
 .im-light.im-city-gate::before { content: "\e9c8"; }
 .im-light.im-classroom::before { content: "\e659"; }
+.im-light.im-claude-logo::before { content: "\f50e"; }
 .im-light.im-clear-all::before { content: "\e9c9"; }
 .im-light.im-clear-formatting::before { content: "\e65a"; }
 .im-light.im-cleats::before { content: "\eeb7"; }
@@ -1371,6 +1399,8 @@
 .im-light.im-code-variable-pencil::before { content: "\f370"; }
 .im-light.im-code-variable-plus::before { content: "\e67a"; }
 .im-light.im-code-variable-x::before { content: "\f371"; }
+.im-light.im-codepen-logo::before { content: "\f50f"; }
+.im-light.im-codesandbox-logo::before { content: "\f510"; }
 .im-light.im-coffee::before { content: "\e018"; }
 .im-light.im-coffee-bean::before { content: "\e9d9"; }
 .im-light.im-coffee-maker::before { content: "\e9da"; }
@@ -1388,6 +1418,7 @@
 .im-light.im-coin-taka::before { content: "\e36c"; }
 .im-light.im-coin-yen::before { content: "\e36d"; }
 .im-light.im-coin-yuan::before { content: "\e36e"; }
+.im-light.im-coinbase-logo::before { content: "\f511"; }
 .im-light.im-coins::before { content: "\e0d1"; }
 .im-light.im-coins-lock::before { content: "\f375"; }
 .im-light.im-coins-swap::before { content: "\e36f"; }
@@ -1491,6 +1522,7 @@
 .im-light.im-creative-commons-sa::before { content: "\ef0d"; }
 .im-light.im-creative-commons-slash::before { content: "\ef0e"; }
 .im-light.im-creative-commons-zero::before { content: "\ef0f"; }
+.im-light.im-creative-market-logo::before { content: "\f512"; }
 .im-light.im-credit-card::before { content: "\e01b"; }
 .im-light.im-credit-card-back::before { content: "\e37b"; }
 .im-light.im-credit-card-bitcoin::before { content: "\f37d"; }
@@ -1531,6 +1563,7 @@
 .im-light.im-crutches::before { content: "\e9eb"; }
 .im-light.im-crutches-slash::before { content: "\e9ec"; }
 .im-light.im-crystal-ball::before { content: "\ef13"; }
+.im-light.im-css3-logo::before { content: "\f513"; }
 .im-light.im-cube::before { content: "\e01c"; }
 .im-light.im-cube-3d-sphere::before { content: "\e487"; }
 .im-light.im-cube-3d-sphere-slash::before { content: "\e488"; }
@@ -1683,6 +1716,7 @@
 .im-light.im-decimal::before { content: "\e6ac"; }
 .im-light.im-decimal-decrease::before { content: "\e6ad"; }
 .im-light.im-decimal-increase::before { content: "\e6ae"; }
+.im-light.im-deepseek-logo::before { content: "\f514"; }
 .im-light.im-deer::before { content: "\e3b3"; }
 .im-light.im-defibrillator::before { content: "\ea05"; }
 .im-light.im-defibrillator-pads::before { content: "\ea06"; }
@@ -1695,6 +1729,7 @@
 .im-light.im-details-slash::before { content: "\ea0b"; }
 .im-light.im-detective::before { content: "\ef1f"; }
 .im-light.im-detergent-bottle::before { content: "\f38d"; }
+.im-light.im-deviantart-logo::before { content: "\f515"; }
 .im-light.im-device-foldable::before { content: "\e6af"; }
 .im-light.im-device-mobile::before { content: "\e01e"; }
 .im-light.im-device-mobile-arrow-down::before { content: "\e6b0"; }
@@ -1809,6 +1844,7 @@
 .im-light.im-disc-golf::before { content: "\ef2c"; }
 .im-light.im-disc-slash::before { content: "\ef2d"; }
 .im-light.im-disco-ball::before { content: "\ef2e"; }
+.im-light.im-discord-logo::before { content: "\f516"; }
 .im-light.im-dishwasher::before { content: "\ea10"; }
 .im-light.im-displayport::before { content: "\e6f5"; }
 .im-light.im-distribute-horizontal::before { content: "\e49d"; }
@@ -1865,6 +1901,7 @@
 .im-light.im-drawing-tablet::before { content: "\e6f6"; }
 .im-light.im-dress::before { content: "\ef37"; }
 .im-light.im-dresser::before { content: "\ea25"; }
+.im-light.im-dribbble-logo::before { content: "\f517"; }
 .im-light.im-drill::before { content: "\ef38"; }
 .im-light.im-drone::before { content: "\e6f7"; }
 .im-light.im-drone-landing::before { content: "\e6f8"; }
@@ -1894,6 +1931,7 @@
 .im-light.im-drop-star::before { content: "\ef4a"; }
 .im-light.im-drop-warning::before { content: "\ef4b"; }
 .im-light.im-drop-x::before { content: "\ef4c"; }
+.im-light.im-dropbox-logo::before { content: "\f518"; }
 .im-light.im-dropdown::before { content: "\ea26"; }
 .im-light.im-drops::before { content: "\ef4d"; }
 .im-light.im-drum::before { content: "\f39b"; }
@@ -1942,6 +1980,7 @@
 .im-light.im-empty-set::before { content: "\ef57"; }
 .im-light.im-engine::before { content: "\ef58"; }
 .im-light.im-engine-slash::before { content: "\ef59"; }
+.im-light.im-envato-logo::before { content: "\f519"; }
 .im-light.im-envelope::before { content: "\e022"; }
 .im-light.im-envelope-arrow-clockwise::before { content: "\e4af"; }
 .im-light.im-envelope-arrow-down::before { content: "\e4b0"; }
@@ -1999,6 +2038,7 @@
 .im-light.im-escalator-up::before { content: "\ea34"; }
 .im-light.im-escape::before { content: "\ea35"; }
 .im-light.im-estate::before { content: "\ea36"; }
+.im-light.im-ethereum-logo::before { content: "\f51a"; }
 .im-light.im-ethernet::before { content: "\e702"; }
 .im-light.im-ethernet-slash::before { content: "\e703"; }
 .im-light.im-ev-plug::before { content: "\ef5f"; }
@@ -2056,6 +2096,7 @@
 .im-light.im-face-mask::before { content: "\ea4f"; }
 .im-light.im-face-mask-heart::before { content: "\f3a0"; }
 .im-light.im-face-mask-slash::before { content: "\ea50"; }
+.im-light.im-facebook-logo::before { content: "\f51b"; }
 .im-light.im-factory::before { content: "\e0f6"; }
 .im-light.im-fahrenheit::before { content: "\ef6e"; }
 .im-light.im-fallout-shelter::before { content: "\ef6f"; }
@@ -2076,6 +2117,7 @@
 .im-light.im-ferris-wheel::before { content: "\ea56"; }
 .im-light.im-ferry::before { content: "\ef74"; }
 .im-light.im-fidget-spinner::before { content: "\ef75"; }
+.im-light.im-figma-logo::before { content: "\f51c"; }
 .im-light.im-file::before { content: "\e024"; }
 .im-light.im-file-3d::before { content: "\e709"; }
 .im-light.im-file-7z::before { content: "\f3a2"; }
@@ -2261,6 +2303,7 @@
 .im-light.im-fishing::before { content: "\ef89"; }
 .im-light.im-fishing-reel::before { content: "\ef8a"; }
 .im-light.im-fitness-tracker::before { content: "\e75c"; }
+.im-light.im-fiverr-logo::before { content: "\f51d"; }
 .im-light.im-flag::before { content: "\e026"; }
 .im-light.im-flag-arrow-down::before { content: "\ea87"; }
 .im-light.im-flag-arrow-up::before { content: "\ea88"; }
@@ -2294,6 +2337,8 @@
 .im-light.im-flask-round::before { content: "\ef8d"; }
 .im-light.im-flask-slash::before { content: "\ef8e"; }
 .im-light.im-flask-sparkle::before { content: "\f3a9"; }
+.im-light.im-flaticon-logo::before { content: "\f51e"; }
+.im-light.im-flickr-logo::before { content: "\f51f"; }
 .im-light.im-flip-flops::before { content: "\ef8f"; }
 .im-light.im-flip-horizontal::before { content: "\e4db"; }
 .im-light.im-flip-phone::before { content: "\f3aa"; }
@@ -2381,6 +2426,7 @@
 .im-light.im-fork-knife-slash::before { content: "\eacf"; }
 .im-light.im-forklift::before { content: "\ef98"; }
 .im-light.im-form::before { content: "\ead0"; }
+.im-light.im-forrst-logo::before { content: "\f520"; }
 .im-light.im-fortress::before { content: "\ead1"; }
 .im-light.im-forward-10::before { content: "\ead2"; }
 .im-light.im-forward-5::before { content: "\f3b4"; }
@@ -2389,6 +2435,7 @@
 .im-light.im-frame::before { content: "\e4dd"; }
 .im-light.im-frame-corners::before { content: "\e113"; }
 .im-light.im-frame-slash::before { content: "\e4de"; }
+.im-light.im-framer-logo::before { content: "\f521"; }
 .im-light.im-freeze-row::before { content: "\e761"; }
 .im-light.im-freeze-row-column::before { content: "\e762"; }
 .im-light.im-french-fries::before { content: "\ead3"; }
@@ -2505,6 +2552,9 @@
 .im-light.im-git-pull-request-draft::before { content: "\e76d"; }
 .im-light.im-git-rebase::before { content: "\e76e"; }
 .im-light.im-git-repository::before { content: "\e76f"; }
+.im-light.im-github-copilot-logo::before { content: "\f522"; }
+.im-light.im-github-logo::before { content: "\f523"; }
+.im-light.im-gitlab-logo::before { content: "\f524"; }
 .im-light.im-gizmo::before { content: "\e4e4"; }
 .im-light.im-glass::before { content: "\eb0a"; }
 .im-light.im-glass-broken::before { content: "\eb0b"; }
@@ -2554,6 +2604,16 @@
 .im-light.im-golf::before { content: "\efab"; }
 .im-light.im-golf-cart::before { content: "\f3c4"; }
 .im-light.im-golf-slash::before { content: "\efac"; }
+.im-light.im-google-chrome-logo::before { content: "\f525"; }
+.im-light.im-google-docs-logo::before { content: "\f526"; }
+.im-light.im-google-drive-logo::before { content: "\f527"; }
+.im-light.im-google-gemini-logo::before { content: "\f528"; }
+.im-light.im-google-hangouts-logo::before { content: "\f529"; }
+.im-light.im-google-lens-logo::before { content: "\f52a"; }
+.im-light.im-google-logo::before { content: "\f52b"; }
+.im-light.im-google-maps-logo::before { content: "\f52c"; }
+.im-light.im-google-photos-logo::before { content: "\f52d"; }
+.im-light.im-google-play-logo::before { content: "\f52e"; }
 .im-light.im-gps-fix::before { content: "\eb2a"; }
 .im-light.im-gps-fix-slash::before { content: "\eb2b"; }
 .im-light.im-gradient::before { content: "\e4e6"; }
@@ -2589,10 +2649,13 @@
 .im-light.im-grill::before { content: "\eb30"; }
 .im-light.im-grill-fork::before { content: "\eb31"; }
 .im-light.im-grill-slash::before { content: "\eb32"; }
+.im-light.im-grok-logo::before { content: "\f52f"; }
 .im-light.im-growth::before { content: "\e4ee"; }
+.im-light.im-groww-logo::before { content: "\f530"; }
 .im-light.im-guitar::before { content: "\eb33"; }
 .im-light.im-guitar-pick::before { content: "\eb34"; }
 .im-light.im-gymnastics::before { content: "\efb2"; }
+.im-light.im-hackerrank-logo::before { content: "\f531"; }
 .im-light.im-hair-clip::before { content: "\efb3"; }
 .im-light.im-hair-clippers::before { content: "\efb4"; }
 .im-light.im-hair-dryer::before { content: "\efb5"; }
@@ -2862,6 +2925,7 @@
 .im-light.im-inner-shadow-right::before { content: "\e508"; }
 .im-light.im-inner-shadow-top-left::before { content: "\e509"; }
 .im-light.im-inner-shadow-top-right::before { content: "\e50a"; }
+.im-light.im-instagram-logo::before { content: "\f532"; }
 .im-light.im-instant-photo::before { content: "\eb9a"; }
 .im-light.im-integral::before { content: "\e77b"; }
 .im-light.im-intersect::before { content: "\e50b"; }
@@ -2869,6 +2933,7 @@
 .im-light.im-intersect-three::before { content: "\e50d"; }
 .im-light.im-intestines::before { content: "\eb9b"; }
 .im-light.im-ip-address::before { content: "\e77c"; }
+.im-light.im-ipod::before { content: "\f533"; }
 .im-light.im-iron::before { content: "\eb9c"; }
 .im-light.im-iron-slash::before { content: "\eb9d"; }
 .im-light.im-iron-steam::before { content: "\eb9e"; }
@@ -2882,6 +2947,7 @@
 .im-light.im-jacket::before { content: "\f003"; }
 .im-light.im-jackhammer::before { content: "\f004"; }
 .im-light.im-jar::before { content: "\eba1"; }
+.im-light.im-java-logo::before { content: "\f534"; }
 .im-light.im-jellyfish::before { content: "\e3c5"; }
 .im-light.im-jersey::before { content: "\f005"; }
 .im-light.im-jet-ski::before { content: "\f006"; }
@@ -2915,14 +2981,18 @@
 .im-light.im-keyframe-plus::before { content: "\f2bb"; }
 .im-light.im-keyframes::before { content: "\e512"; }
 .im-light.im-keyhole::before { content: "\f00d"; }
+.im-light.im-kickstarter-logo::before { content: "\f535"; }
 .im-light.im-kidneys::before { content: "\eba6"; }
+.im-light.im-kimi-ai-logo::before { content: "\f536"; }
 .im-light.im-kimono::before { content: "\f00e"; }
 .im-light.im-kiosk::before { content: "\e513"; }
 .im-light.im-kite::before { content: "\f3e4"; }
 .im-light.im-kitesurfing::before { content: "\f00f"; }
+.im-light.im-klarna-logo::before { content: "\f537"; }
 .im-light.im-knife::before { content: "\f010"; }
 .im-light.im-knight-shield::before { content: "\f3e5"; }
 .im-light.im-knob::before { content: "\e784"; }
+.im-light.im-ko-fi-logo::before { content: "\f538"; }
 .im-light.im-koala::before { content: "\e3c6"; }
 .im-light.im-ladder::before { content: "\f011"; }
 .im-light.im-ladder-slash::before { content: "\f012"; }
@@ -2986,6 +3056,7 @@
 .im-light.im-lectern-slash::before { content: "\e78d"; }
 .im-light.im-led::before { content: "\f018"; }
 .im-light.im-led-strip::before { content: "\f019"; }
+.im-light.im-leetcode-logo::before { content: "\f539"; }
 .im-light.im-leg::before { content: "\f3ee"; }
 .im-light.im-lemon::before { content: "\ebc1"; }
 .im-light.im-lens-concave::before { content: "\f01a"; }
@@ -3113,6 +3184,7 @@
 .im-light.im-link-copy::before { content: "\ec17"; }
 .im-light.im-link-minus::before { content: "\ec18"; }
 .im-light.im-link-plus::before { content: "\ec19"; }
+.im-light.im-linkedin-logo::before { content: "\f53a"; }
 .im-light.im-lips::before { content: "\f022"; }
 .im-light.im-lipstick::before { content: "\f023"; }
 .im-light.im-list::before { content: "\e036"; }
@@ -3138,6 +3210,7 @@
 .im-light.im-list-star::before { content: "\e798"; }
 .im-light.im-list-triangles-rtl::before { content: "\f3f6"; }
 .im-light.im-list-x::before { content: "\e799"; }
+.im-light.im-litecoin-logo::before { content: "\f53b"; }
 .im-light.im-live-photo::before { content: "\ec1d"; }
 .im-light.im-live-photo-slash::before { content: "\ec1e"; }
 .im-light.im-live-view::before { content: "\ec1f"; }
@@ -3187,6 +3260,8 @@
 .im-light.im-logs::before { content: "\e79b"; }
 .im-light.im-lollipop::before { content: "\ec21"; }
 .im-light.im-lollipop-slash::before { content: "\ec22"; }
+.im-light.im-loom-logo::before { content: "\f53c"; }
+.im-light.im-lottiefiles-logo::before { content: "\f53d"; }
 .im-light.im-luggage-clock::before { content: "\f049"; }
 .im-light.im-lullaby::before { content: "\ec23"; }
 .im-light.im-lungs::before { content: "\ec24"; }
@@ -3293,6 +3368,8 @@
 .im-light.im-massage::before { content: "\ec66"; }
 .im-light.im-massage-chair::before { content: "\ec67"; }
 .im-light.im-massage-table::before { content: "\ec68"; }
+.im-light.im-mastercard-logo::before { content: "\f53e"; }
+.im-light.im-mastodon-logo::before { content: "\f53f"; }
 .im-light.im-matchstick::before { content: "\f056"; }
 .im-light.im-math-absolute::before { content: "\f3fd"; }
 .im-light.im-math-book::before { content: "\e79d"; }
@@ -3316,6 +3393,7 @@
 .im-light.im-medical-report::before { content: "\ec6e"; }
 .im-light.im-medicine-bottle::before { content: "\ec6f"; }
 .im-light.im-medicine-liquid::before { content: "\ec70"; }
+.im-light.im-medium-logo::before { content: "\f540"; }
 .im-light.im-meeple::before { content: "\f05d"; }
 .im-light.im-meeting-room::before { content: "\f401"; }
 .im-light.im-meeting-room-slash::before { content: "\f402"; }
@@ -3329,6 +3407,8 @@
 .im-light.im-menu-open::before { content: "\ec72"; }
 .im-light.im-merry-go-round::before { content: "\ec73"; }
 .im-light.im-mesh::before { content: "\e533"; }
+.im-light.im-messenger-logo::before { content: "\f541"; }
+.im-light.im-meta-logo::before { content: "\f542"; }
 .im-light.im-meteor::before { content: "\f060"; }
 .im-light.im-meteor-slash::before { content: "\f061"; }
 .im-light.im-metronome::before { content: "\f062"; }
@@ -3345,6 +3425,7 @@
 .im-light.im-microphone-warning::before { content: "\f068"; }
 .im-light.im-microscope::before { content: "\e14c"; }
 .im-light.im-microscope-slash::before { content: "\f069"; }
+.im-light.im-microsoft-logo::before { content: "\f543"; }
 .im-light.im-microwave::before { content: "\ec74"; }
 .im-light.im-microwave-slash::before { content: "\ec75"; }
 .im-light.im-middleware::before { content: "\e7a2"; }
@@ -3362,6 +3443,7 @@
 .im-light.im-mirror::before { content: "\ec7b"; }
 .im-light.im-mist::before { content: "\f06c"; }
 .im-light.im-mist-slash::before { content: "\f06d"; }
+.im-light.im-mistral-logo::before { content: "\f544"; }
 .im-light.im-mitten::before { content: "\f06e"; }
 .im-light.im-mobile-data::before { content: "\e7a3"; }
 .im-light.im-mobile-data-slash::before { content: "\e7a4"; }
@@ -3369,6 +3451,7 @@
 .im-light.im-modem::before { content: "\e7a5"; }
 .im-light.im-molecule::before { content: "\f2c3"; }
 .im-light.im-molecule-hexagon::before { content: "\f406"; }
+.im-light.im-mollie-logo::before { content: "\f545"; }
 .im-light.im-money::before { content: "\e14f"; }
 .im-light.im-money-bag::before { content: "\e534"; }
 .im-light.im-money-bag-bitcoin::before { content: "\f407"; }
@@ -3468,6 +3551,7 @@
 .im-light.im-mouse-right-click::before { content: "\e7bd"; }
 .im-light.im-mouse-scroll::before { content: "\e7be"; }
 .im-light.im-mouse-slash::before { content: "\e7bf"; }
+.im-light.im-muhammad-calligraphy::before { content: "\f546"; }
 .im-light.im-museum::before { content: "\ec82"; }
 .im-light.im-mushroom::before { content: "\f07b"; }
 .im-light.im-mushroom-slash::before { content: "\f07c"; }
@@ -3536,6 +3620,9 @@
 .im-light.im-nfc::before { content: "\e7c3"; }
 .im-light.im-nfc-slash::before { content: "\e7c4"; }
 .im-light.im-nightstand::before { content: "\ec97"; }
+.im-light.im-nike-logo::before { content: "\f547"; }
+.im-light.im-nintendo-logo::before { content: "\f548"; }
+.im-light.im-nintendo-switch::before { content: "\f549"; }
 .im-light.im-noodles::before { content: "\ec98"; }
 .im-light.im-north-star::before { content: "\f09c"; }
 .im-light.im-nose::before { content: "\ec99"; }
@@ -3568,6 +3655,8 @@
 .im-light.im-notepad::before { content: "\e159"; }
 .im-light.im-notes::before { content: "\e7ca"; }
 .im-light.im-notes-slash::before { content: "\e7cb"; }
+.im-light.im-notion-logo::before { content: "\f54a"; }
+.im-light.im-npm-logo::before { content: "\f54b"; }
 .im-light.im-nth-root-circle::before { content: "\f422"; }
 .im-light.im-nuclear-plant::before { content: "\f0a1"; }
 .im-light.im-number-0::before { content: "\eca7"; }
@@ -3649,6 +3738,7 @@
 .im-light.im-package-plus::before { content: "\f2cd"; }
 .im-light.im-package-slash::before { content: "\e554"; }
 .im-light.im-package-x::before { content: "\f2ce"; }
+.im-light.im-pacman::before { content: "\f54c"; }
 .im-light.im-padding::before { content: "\e555"; }
 .im-light.im-padel::before { content: "\f0a9"; }
 .im-light.im-page-break::before { content: "\e7cd"; }
@@ -3721,6 +3811,7 @@
 .im-light.im-pavilion::before { content: "\ecd9"; }
 .im-light.im-paw-print::before { content: "\e163"; }
 .im-light.im-paw-print-slash::before { content: "\e3cd"; }
+.im-light.im-paypal-logo::before { content: "\f54d"; }
 .im-light.im-paywall::before { content: "\e566"; }
 .im-light.im-peace::before { content: "\f0bb"; }
 .im-light.im-peach::before { content: "\ecda"; }
@@ -3770,6 +3861,8 @@
 .im-light.im-percent-circle::before { content: "\f0c0"; }
 .im-light.im-percent-square::before { content: "\f0c1"; }
 .im-light.im-perfume::before { content: "\f0c2"; }
+.im-light.im-periscope-logo::before { content: "\f54e"; }
+.im-light.im-perplexity-ai-logo::before { content: "\f54f"; }
 .im-light.im-person::before { content: "\e166"; }
 .im-light.im-person-arms-spread::before { content: "\f0c3"; }
 .im-light.im-person-arms-up::before { content: "\f0c4"; }
@@ -3805,6 +3898,7 @@
 .im-light.im-personal-transporter::before { content: "\f0dc"; }
 .im-light.im-perspective::before { content: "\e7eb"; }
 .im-light.im-perspective-slash::before { content: "\e7ec"; }
+.im-light.im-pexels-logo::before { content: "\f550"; }
 .im-light.im-pharmacy::before { content: "\ecdf"; }
 .im-light.im-phone::before { content: "\e167"; }
 .im-light.im-phone-booth::before { content: "\ece0"; }
@@ -3834,6 +3928,7 @@
 .im-light.im-pi-plus::before { content: "\f43a"; }
 .im-light.im-piano::before { content: "\f0df"; }
 .im-light.im-piano-keys::before { content: "\f0e0"; }
+.im-light.im-picasa-logo::before { content: "\f551"; }
 .im-light.im-pickaxe::before { content: "\f0e1"; }
 .im-light.im-pickleball::before { content: "\f0e2"; }
 .im-light.im-pickup-truck::before { content: "\f43b"; }
@@ -3857,6 +3952,7 @@
 .im-light.im-pineapple::before { content: "\ece8"; }
 .im-light.im-ping-pong::before { content: "\f0e5"; }
 .im-light.im-pint-glass::before { content: "\ece9"; }
+.im-light.im-pinterest-logo::before { content: "\f552"; }
 .im-light.im-pinwheel::before { content: "\f0e6"; }
 .im-light.im-pipe::before { content: "\ecea"; }
 .im-light.im-pipe-wrench::before { content: "\eceb"; }
@@ -3908,8 +4004,10 @@
 .im-light.im-plus-square::before { content: "\e174"; }
 .im-light.im-plus-square-dashed::before { content: "\ecf0"; }
 .im-light.im-pocket-knife::before { content: "\f0fa"; }
+.im-light.im-pocket-logo::before { content: "\f553"; }
 .im-light.im-podcast::before { content: "\e574"; }
 .im-light.im-podium::before { content: "\f0fb"; }
+.im-light.im-pokeball::before { content: "\f554"; }
 .im-light.im-poker-chip::before { content: "\f0fc"; }
 .im-light.im-police-badge::before { content: "\f0fd"; }
 .im-light.im-police-cap::before { content: "\f443"; }
@@ -4001,11 +4099,13 @@
 .im-light.im-question-slash::before { content: "\ed03"; }
 .im-light.im-question-square::before { content: "\ed04"; }
 .im-light.im-queue::before { content: "\f109"; }
+.im-light.im-quora-logo::before { content: "\f555"; }
 .im-light.im-quotes::before { content: "\e17c"; }
 .im-light.im-quotes-single::before { content: "\e80a"; }
 .im-light.im-quotes-slash::before { content: "\e80b"; }
 .im-light.im-quotes-square::before { content: "\f44e"; }
 .im-light.im-quran::before { content: "\f44f"; }
+.im-light.im-qwen-logo::before { content: "\f556"; }
 .im-light.im-rabbit::before { content: "\e3d3"; }
 .im-light.im-racquet::before { content: "\f10a"; }
 .im-light.im-radar::before { content: "\f10b"; }
@@ -4026,6 +4126,7 @@
 .im-light.im-ratio::before { content: "\f451"; }
 .im-light.im-rattle::before { content: "\f112"; }
 .im-light.im-razor::before { content: "\f113"; }
+.im-light.im-react-logo::before { content: "\f557"; }
 .im-light.im-receipt::before { content: "\e180"; }
 .im-light.im-receipt-bitcoin::before { content: "\e582"; }
 .im-light.im-receipt-currency-cent::before { content: "\f452"; }
@@ -4054,6 +4155,7 @@
 .im-light.im-recycle-lightning::before { content: "\f45a"; }
 .im-light.im-recycle-slash::before { content: "\f116"; }
 .im-light.im-red-envelope::before { content: "\e589"; }
+.im-light.im-reddit-logo::before { content: "\f558"; }
 .im-light.im-reduce-motion::before { content: "\ed07"; }
 .im-light.im-refund::before { content: "\e58a"; }
 .im-light.im-regex::before { content: "\e812"; }
@@ -4071,6 +4173,7 @@
 .im-light.im-replay-10::before { content: "\f119"; }
 .im-light.im-replay-30::before { content: "\f11a"; }
 .im-light.im-replay-5::before { content: "\f11b"; }
+.im-light.im-replit-logo::before { content: "\f559"; }
 .im-light.im-report-chart::before { content: "\e58b"; }
 .im-light.im-report-search::before { content: "\e58c"; }
 .im-light.im-resize::before { content: "\e819"; }
@@ -4084,11 +4187,13 @@
 .im-light.im-rickshaw::before { content: "\f11d"; }
 .im-light.im-right-angle::before { content: "\f45c"; }
 .im-light.im-ring::before { content: "\f11e"; }
+.im-light.im-ripple-logo::before { content: "\f55a"; }
 .im-light.im-road::before { content: "\ed0b"; }
 .im-light.im-road-horizon::before { content: "\ed0c"; }
 .im-light.im-road-lane::before { content: "\ed0d"; }
 .im-light.im-road-pencil::before { content: "\f45d"; }
 .im-light.im-road-slash::before { content: "\ed0e"; }
+.im-light.im-roblox-logo::before { content: "\f55b"; }
 .im-light.im-robot::before { content: "\e185"; }
 .im-light.im-robot-arm::before { content: "\f11f"; }
 .im-light.im-robot-face::before { content: "\e81c"; }
@@ -4140,6 +4245,7 @@
 .im-light.im-ruler-measure::before { content: "\e828"; }
 .im-light.im-ruler-slash::before { content: "\f12a"; }
 .im-light.im-saddle::before { content: "\f469"; }
+.im-light.im-safari-logo::before { content: "\f55c"; }
 .im-light.im-safety-pin::before { content: "\f46a"; }
 .im-light.im-sailboat::before { content: "\f12b"; }
 .im-light.im-sailboat-slash::before { content: "\f12c"; }
@@ -4162,7 +4268,6 @@
 .im-light.im-scales-slash::before { content: "\f132"; }
 .im-light.im-scallion::before { content: "\ed1c"; }
 .im-light.im-scan::before { content: "\e18c"; }
-.im-light.im-scan-line::before { content: "\f46b"; }
 .im-light.im-scan-position::before { content: "\ed1d"; }
 .im-light.im-scan-smiley::before { content: "\f133"; }
 .im-light.im-scan-sparkle::before { content: "\f46c"; }
@@ -4250,6 +4355,7 @@
 .im-light.im-servicemark::before { content: "\f14d"; }
 .im-light.im-set-square::before { content: "\e846"; }
 .im-light.im-sewing-machine::before { content: "\f14e"; }
+.im-light.im-shadcn-logo::before { content: "\f55d"; }
 .im-light.im-shadow::before { content: "\e847"; }
 .im-light.im-shadow-slash::before { content: "\e848"; }
 .im-light.im-shape-divide::before { content: "\e849"; }
@@ -4306,6 +4412,7 @@
 .im-light.im-shoe::before { content: "\f16e"; }
 .im-light.im-shoe-slash::before { content: "\f16f"; }
 .im-light.im-shooting-star::before { content: "\f170"; }
+.im-light.im-shopify-logo::before { content: "\f55e"; }
 .im-light.im-shopping-bag::before { content: "\e04c"; }
 .im-light.im-shopping-bag-arrow-down::before { content: "\e58e"; }
 .im-light.im-shopping-bag-arrow-up::before { content: "\e58f"; }
@@ -4400,6 +4507,7 @@
 .im-light.im-skateboard::before { content: "\f178"; }
 .im-light.im-skateboard-slash::before { content: "\f179"; }
 .im-light.im-skeleton::before { content: "\ed3e"; }
+.im-light.im-sketch-logo::before { content: "\f55f"; }
 .im-light.im-skew-horizontal::before { content: "\e855"; }
 .im-light.im-skew-vertical::before { content: "\e856"; }
 .im-light.im-skewer::before { content: "\ed3f"; }
@@ -4412,9 +4520,11 @@
 .im-light.im-skip-forward-circle::before { content: "\f17e"; }
 .im-light.im-skirt::before { content: "\f17f"; }
 .im-light.im-skull::before { content: "\e19c"; }
+.im-light.im-skype-logo::before { content: "\f560"; }
 .im-light.im-skyscraper::before { content: "\ed40"; }
 .im-light.im-skyscraper-spire::before { content: "\f48b"; }
 .im-light.im-skyscraper-twisted::before { content: "\f48c"; }
+.im-light.im-slack-logo::before { content: "\f561"; }
 .im-light.im-slash-command::before { content: "\e857"; }
 .im-light.im-slash-forward::before { content: "\f48d"; }
 .im-light.im-sled::before { content: "\f180"; }
@@ -4446,6 +4556,7 @@
 .im-light.im-sliders-star::before { content: "\ed56"; }
 .im-light.im-sliders-warning::before { content: "\ed57"; }
 .im-light.im-sliders-x::before { content: "\ed58"; }
+.im-light.im-slideshare-logo::before { content: "\f562"; }
 .im-light.im-slideshow::before { content: "\ed59"; }
 .im-light.im-slippers::before { content: "\f184"; }
 .im-light.im-slope::before { content: "\f185"; }
@@ -4515,6 +4626,7 @@
 .im-light.im-smoke-detector::before { content: "\ed5b"; }
 .im-light.im-snail::before { content: "\e3f2"; }
 .im-light.im-snake::before { content: "\e3f3"; }
+.im-light.im-snapchat-logo::before { content: "\f563"; }
 .im-light.im-sneaker::before { content: "\e1a0"; }
 .im-light.im-sneaker-move::before { content: "\f186"; }
 .im-light.im-snowflake::before { content: "\e1a1"; }
@@ -4548,6 +4660,7 @@
 .im-light.im-sort-shapes-descending::before { content: "\e894"; }
 .im-light.im-sos::before { content: "\f18f"; }
 .im-light.im-soundbar::before { content: "\e895"; }
+.im-light.im-soundcloud-logo::before { content: "\f564"; }
 .im-light.im-soup::before { content: "\ed62"; }
 .im-light.im-soup-slash::before { content: "\ed63"; }
 .im-light.im-spacebar::before { content: "\ed64"; }
@@ -4584,6 +4697,7 @@
 .im-light.im-split-horizontal::before { content: "\ed69"; }
 .im-light.im-split-vertical::before { content: "\ed6a"; }
 .im-light.im-spoon::before { content: "\ed6b"; }
+.im-light.im-spotify-logo::before { content: "\f565"; }
 .im-light.im-spotlight::before { content: "\f2e8"; }
 .im-light.im-spray-bottle::before { content: "\ed6c"; }
 .im-light.im-spray-can::before { content: "\f2e9"; }
@@ -4669,6 +4783,7 @@
 .im-light.im-stove::before { content: "\ed7d"; }
 .im-light.im-strategy::before { content: "\e5a0"; }
 .im-light.im-stretcher::before { content: "\ed7e"; }
+.im-light.im-stripe-logo::before { content: "\f566"; }
 .im-light.im-stroke-center::before { content: "\f2ee"; }
 .im-light.im-stroke-curved::before { content: "\e5a1"; }
 .im-light.im-stroke-dynamic::before { content: "\e5a2"; }
@@ -4676,6 +4791,7 @@
 .im-light.im-stroke-outside::before { content: "\f2f0"; }
 .im-light.im-stroke-straight::before { content: "\e5a3"; }
 .im-light.im-student::before { content: "\e8a4"; }
+.im-light.im-stumbleupon-logo::before { content: "\f567"; }
 .im-light.im-stupa::before { content: "\f4a6"; }
 .im-light.im-stylus::before { content: "\e8a5"; }
 .im-light.im-stylus-bluetooth::before { content: "\f4a7"; }
@@ -4709,6 +4825,8 @@
 .im-light.im-sun-slash::before { content: "\f1b3"; }
 .im-light.im-sun-wind::before { content: "\f1b4"; }
 .im-light.im-sunglasses::before { content: "\f1b5"; }
+.im-light.im-super-mario::before { content: "\f568"; }
+.im-light.im-super-mario-toad::before { content: "\f569"; }
 .im-light.im-superset-of::before { content: "\f1b6"; }
 .im-light.im-superset-proper-of::before { content: "\f1b7"; }
 .im-light.im-surfboard::before { content: "\f1b8"; }
@@ -4775,6 +4893,7 @@
 .im-light.im-tag-slash::before { content: "\ed97"; }
 .im-light.im-tags::before { content: "\e3fd"; }
 .im-light.im-tags-slash::before { content: "\e3fe"; }
+.im-light.im-tailwind-css-logo::before { content: "\f56a"; }
 .im-light.im-taj-mahal::before { content: "\ed98"; }
 .im-light.im-takeout-box::before { content: "\ed99"; }
 .im-light.im-tally-mark::before { content: "\f4b1"; }
@@ -4795,7 +4914,9 @@
 .im-light.im-tax::before { content: "\e3ff"; }
 .im-light.im-taxi::before { content: "\f1c6"; }
 .im-light.im-tea-bag::before { content: "\ed9a"; }
+.im-light.im-teamviewer-logo::before { content: "\f56b"; }
 .im-light.im-teapot::before { content: "\ed9b"; }
+.im-light.im-telegram-logo::before { content: "\f56c"; }
 .im-light.im-telescope::before { content: "\f1c7"; }
 .im-light.im-telescope-slash::before { content: "\f1c8"; }
 .im-light.im-television::before { content: "\e1b6"; }
@@ -4813,6 +4934,8 @@
 .im-light.im-terminal-x::before { content: "\e8b1"; }
 .im-light.im-test-tube::before { content: "\e1b9"; }
 .im-light.im-test-tube-slash::before { content: "\f1ca"; }
+.im-light.im-tether-logo::before { content: "\f56d"; }
+.im-light.im-tetris::before { content: "\f56e"; }
 .im-light.im-text-aa::before { content: "\e8b2"; }
 .im-light.im-text-aa-slash::before { content: "\e8b3"; }
 .im-light.im-text-ab::before { content: "\e8b4"; }
@@ -4871,7 +4994,6 @@
 .im-light.im-text-size::before { content: "\e8d2"; }
 .im-light.im-text-size-decrease::before { content: "\e8d3"; }
 .im-light.im-text-size-increase::before { content: "\e8d4"; }
-.im-light.im-text-small-caps::before { content: "\f4c8"; }
 .im-light.im-text-sparkle::before { content: "\e8d5"; }
 .im-light.im-text-strikethrough::before { content: "\e1c3"; }
 .im-light.im-text-subscript::before { content: "\e8d6"; }
@@ -4909,6 +5031,7 @@
 .im-light.im-thermos::before { content: "\f1d3"; }
 .im-light.im-thermostat::before { content: "\ed9e"; }
 .im-light.im-thief::before { content: "\f1d4"; }
+.im-light.im-threads-logo::before { content: "\f56f"; }
 .im-light.im-thumbs-down::before { content: "\e1c7"; }
 .im-light.im-thumbs-down-slash::before { content: "\f1d5"; }
 .im-light.im-thumbs-up::before { content: "\e1c8"; }
@@ -4924,6 +5047,7 @@
 .im-light.im-ticket-star::before { content: "\f4ce"; }
 .im-light.im-ticket-x::before { content: "\f2fa"; }
 .im-light.im-tiger::before { content: "\e401"; }
+.im-light.im-tiktok-logo::before { content: "\f570"; }
 .im-light.im-tilde::before { content: "\f1d8"; }
 .im-light.im-tiles::before { content: "\eda0"; }
 .im-light.im-tilt-shift::before { content: "\f1d9"; }
@@ -5030,6 +5154,7 @@
 .im-light.im-tree-structure-x::before { content: "\f4d8"; }
 .im-light.im-tree-view::before { content: "\edb6"; }
 .im-light.im-trees::before { content: "\f1f5"; }
+.im-light.im-trello-logo::before { content: "\f571"; }
 .im-light.im-trend-down::before { content: "\e1d6"; }
 .im-light.im-trend-up::before { content: "\e059"; }
 .im-light.im-trend-up-down::before { content: "\e40c"; }
@@ -5058,6 +5183,7 @@
 .im-light.im-truck-trailer::before { content: "\f1fe"; }
 .im-light.im-trumpet::before { content: "\f1ff"; }
 .im-light.im-tsunami::before { content: "\f200"; }
+.im-light.im-tumblr-logo::before { content: "\f572"; }
 .im-light.im-tunnel::before { content: "\f201"; }
 .im-light.im-turkey::before { content: "\e40d"; }
 .im-light.im-turn-left::before { content: "\edb7"; }
@@ -5068,10 +5194,13 @@
 .im-light.im-turtle::before { content: "\f302"; }
 .im-light.im-tv-tower::before { content: "\edbb"; }
 .im-light.im-twig::before { content: "\f203"; }
+.im-light.im-twitch-logo::before { content: "\f573"; }
+.im-light.im-twitter-logo::before { content: "\f574"; }
 .im-light.im-two-factor-auth::before { content: "\f204"; }
 .im-light.im-typeface::before { content: "\e5b9"; }
 .im-light.im-typeface-slash::before { content: "\e5ba"; }
 .im-light.im-u-turn::before { content: "\edbc"; }
+.im-light.im-uber-logo::before { content: "\f575"; }
 .im-light.im-ufo::before { content: "\f205"; }
 .im-light.im-ufo-slash::before { content: "\f206"; }
 .im-light.im-umbrella::before { content: "\e1da"; }
@@ -5083,8 +5212,10 @@
 .im-light.im-unite::before { content: "\e5bb"; }
 .im-light.im-unite-square::before { content: "\e5bc"; }
 .im-light.im-universe::before { content: "\f20c"; }
+.im-light.im-unsplash-logo::before { content: "\f576"; }
 .im-light.im-upload::before { content: "\e05a"; }
 .im-light.im-upload-slash::before { content: "\edbd"; }
+.im-light.im-upwork-logo::before { content: "\f577"; }
 .im-light.im-usb::before { content: "\e1db"; }
 .im-light.im-usb-bug::before { content: "\f4db"; }
 .im-light.im-usb-drive::before { content: "\e8ef"; }
@@ -5181,6 +5312,7 @@
 .im-light.im-versions::before { content: "\e8f7"; }
 .im-light.im-versions-slash::before { content: "\e8f8"; }
 .im-light.im-vest::before { content: "\f23c"; }
+.im-light.im-viber-logo::before { content: "\f578"; }
 .im-light.im-vibrate::before { content: "\e8f9"; }
 .im-light.im-vibrate-slash::before { content: "\f309"; }
 .im-light.im-video-camera::before { content: "\e1e2"; }
@@ -5204,11 +5336,15 @@
 .im-light.im-viewport-tall::before { content: "\edc6"; }
 .im-light.im-viewport-wide::before { content: "\edc7"; }
 .im-light.im-vignette::before { content: "\f246"; }
+.im-light.im-vimeo-logo::before { content: "\f579"; }
+.im-light.im-vine-logo::before { content: "\f57a"; }
 .im-light.im-vinyl-record::before { content: "\f247"; }
 .im-light.im-virus::before { content: "\e1e3"; }
 .im-light.im-virus-magnifying-glass::before { content: "\edc8"; }
 .im-light.im-virus-slash::before { content: "\edc9"; }
 .im-light.im-visor::before { content: "\e8fa"; }
+.im-light.im-visual-studio-code-logo::before { content: "\f57b"; }
+.im-light.im-vk-logo::before { content: "\f57c"; }
 .im-light.im-vocabulary::before { content: "\e8fb"; }
 .im-light.im-vocabulary-slash::before { content: "\e8fc"; }
 .im-light.im-voice::before { content: "\e5c8"; }
@@ -5220,6 +5356,7 @@
 .im-light.im-vr-headset::before { content: "\e8fd"; }
 .im-light.im-vr-headset-slash::before { content: "\e8fe"; }
 .im-light.im-vr-space::before { content: "\e8ff"; }
+.im-light.im-w3schools-logo::before { content: "\f57d"; }
 .im-light.im-walker::before { content: "\edca"; }
 .im-light.im-walking-cane::before { content: "\edcb"; }
 .im-light.im-wall::before { content: "\edcc"; }
@@ -5278,6 +5415,7 @@
 .im-light.im-water-tank::before { content: "\f4e9"; }
 .im-light.im-watering-can::before { content: "\f24e"; }
 .im-light.im-watermelon::before { content: "\edd8"; }
+.im-light.im-wattpad-logo::before { content: "\f57e"; }
 .im-light.im-wave-sawtooth::before { content: "\f24f"; }
 .im-light.im-wave-sine::before { content: "\f250"; }
 .im-light.im-wave-square::before { content: "\f251"; }
@@ -5289,13 +5427,18 @@
 .im-light.im-waves-arrow-down::before { content: "\f310"; }
 .im-light.im-waves-arrow-up::before { content: "\f311"; }
 .im-light.im-waves-slash::before { content: "\f255"; }
+.im-light.im-waze-logo::before { content: "\f57f"; }
 .im-light.im-webcam::before { content: "\e1ea"; }
 .im-light.im-webcam-slash::before { content: "\e915"; }
+.im-light.im-webflow-logo::before { content: "\f580"; }
 .im-light.im-webhook::before { content: "\e916"; }
 .im-light.im-webhook-slash::before { content: "\e917"; }
+.im-light.im-wechat-logo::before { content: "\f581"; }
 .im-light.im-weight::before { content: "\f256"; }
 .im-light.im-weight-tilde::before { content: "\f4ea"; }
 .im-light.im-whale::before { content: "\e40f"; }
+.im-light.im-whatsapp-business-logo::before { content: "\f582"; }
+.im-light.im-whatsapp-logo::before { content: "\f583"; }
 .im-light.im-wheat::before { content: "\f257"; }
 .im-light.im-wheat-slash::before { content: "\f258"; }
 .im-light.im-wheel::before { content: "\f259"; }
@@ -5322,6 +5465,7 @@
 .im-light.im-wifi-sync::before { content: "\f4ee"; }
 .im-light.im-wifi-warning::before { content: "\e91d"; }
 .im-light.im-wifi-x::before { content: "\e91e"; }
+.im-light.im-wikipedia-logo::before { content: "\f584"; }
 .im-light.im-wind::before { content: "\e1ed"; }
 .im-light.im-wind-arrow-down::before { content: "\f4ef"; }
 .im-light.im-wind-slash::before { content: "\f25e"; }
@@ -5331,18 +5475,23 @@
 .im-light.im-window::before { content: "\eddc"; }
 .im-light.im-window-minimize::before { content: "\eddd"; }
 .im-light.im-window-slash::before { content: "\edde"; }
+.im-light.im-windows-classic-logo::before { content: "\f585"; }
+.im-light.im-windows-logo::before { content: "\f586"; }
 .im-light.im-windshield-washer::before { content: "\f262"; }
 .im-light.im-windshield-wiper::before { content: "\f263"; }
 .im-light.im-windsock::before { content: "\f264"; }
 .im-light.im-wine::before { content: "\e1ee"; }
 .im-light.im-wireless-charging::before { content: "\e91f"; }
+.im-light.im-wise-logo::before { content: "\f587"; }
 .im-light.im-wizard-hat::before { content: "\f265"; }
 .im-light.im-wolf::before { content: "\e410"; }
 .im-light.im-woman::before { content: "\f266"; }
 .im-light.im-wood::before { content: "\f267"; }
+.im-light.im-wordpress-logo::before { content: "\f588"; }
 .im-light.im-workbench::before { content: "\f268"; }
 .im-light.im-workstation::before { content: "\e920"; }
 .im-light.im-worm::before { content: "\f313"; }
+.im-light.im-wps-office-logo::before { content: "\f589"; }
 .im-light.im-wrecking-ball::before { content: "\f269"; }
 .im-light.im-wrench::before { content: "\e1ef"; }
 .im-light.im-wrench-adjustable::before { content: "\f26a"; }
@@ -5352,13 +5501,17 @@
 .im-light.im-x-circle::before { content: "\e060"; }
 .im-light.im-x-circle-dashed::before { content: "\eddf"; }
 .im-light.im-x-diamond::before { content: "\ede0"; }
+.im-light.im-x-logo::before { content: "\f58a"; }
 .im-light.im-x-octagon::before { content: "\ede1"; }
 .im-light.im-x-ray::before { content: "\ede2"; }
 .im-light.im-x-square::before { content: "\e1f0"; }
+.im-light.im-xing-logo::before { content: "\f58b"; }
 .im-light.im-yarn::before { content: "\f26b"; }
+.im-light.im-yelp-logo::before { content: "\f58c"; }
 .im-light.im-yin-yang::before { content: "\f26c"; }
 .im-light.im-yoga::before { content: "\f26d"; }
 .im-light.im-yogurt::before { content: "\f4f0"; }
+.im-light.im-youtube-logo::before { content: "\f58d"; }
 .im-light.im-zeppelin::before { content: "\f26e"; }
 .im-light.im-zeppelin-slash::before { content: "\f26f"; }
 .im-light.im-zigzag::before { content: "\e5cf"; }
@@ -5377,5 +5530,6 @@
 .im-light.im-zodiac-virgo::before { content: "\f27b"; }
 .im-light.im-zoom-area-in::before { content: "\ede3"; }
 .im-light.im-zoom-area-out::before { content: "\ede4"; }
+.im-light.im-zoom-logo::before { content: "\f58e"; }
 .im-light.im-zoom-pan::before { content: "\ede5"; }
 .im-light.im-zoom-reset::before { content: "\ede6"; }

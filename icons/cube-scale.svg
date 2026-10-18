@@ -1,15 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" data-category="Design" data-tags="3d scale,scale,resize,transform,3d modeling,cube">
+<svg data-badge="custom" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" data-category="Design" data-tags="3d scale,scale,resize,transform,3d modeling,cube">
   <g data-role="area" fill="currentColor" opacity="0.2">
-    <path d="M88 32 L136 56 L136 108 L88 132 L40 108 L40 56 Z"/>
+    <path d="M92 32 L152 66 L152 134 L92 168 L32 134 L32 66 Z"/>
   </g>
   <g data-role="line" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M88 32 L136 56 L136 108 L88 132 L40 108 L40 56 Z"/>
-    <path d="M148 148 L220 220"/>
-    <path d="M184 220 H220 V184"/>
-    <path d="M148 184 V148 H184"/>
+    <path d="M92 32 L152 66 L152 134 L92 168 L32 134 L32 66 Z"/>
+    <path d="M168 168 L224 224"/>
+    <path d="M184 224 L224 224 L224 184"/>
   </g>
   <g data-role="detail" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M40 56 L88 80 L136 56"/>
-    <path d="M88 80 L88 132"/>
+    <path d="M32 66 L92 100 L152 66"/>
+    <path d="M92 100 L92 168"/>
   </g>
 </svg>

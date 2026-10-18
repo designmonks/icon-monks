@@ -26,6 +26,7 @@ CATEGORIES = {
     'Animals', 'Arrows', 'Business', 'Charts', 'Commerce', 'Communication', 'Design', 'Development', 'Devices',
     'Editor', 'Education', 'Emoji', 'Files', 'Food', 'Health', 'Home', 'Interface', 'Letters & Numbers', 'Maps',
     'Media', 'Nature', 'Objects', 'People', 'Science', 'Security', 'Sports', 'Symbols', 'Time', 'Transport', 'Weather',
+    'Brands',
 }
 LIVE = (32, 224)        # geometry must stay inside; 16-unit strokes then reach 24..232
 LIVE_TOL = 1            # curves bulge a little between whole-unit anchors

@@ -1,8 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" data-category="Design" data-tags="rotate corner,rotate cursor,bottom left,transform,rotate,handle">
   <g data-role="line" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M64 112 V192 H144"/>
-    <path d="M64 56 A136 136 0 0 1 200 192"/>
-    <path d="M88 32 L64 56 L88 80"/>
-    <path d="M176 168 L200 192 L224 168"/>
+    <path d="M216 104 H152 V40"/>
+    <path d="M56 104 A96 96 0 0 0 152 200"/>
+    <path d="M132 180 L152 200 L132 220"/>
   </g>
 </svg>

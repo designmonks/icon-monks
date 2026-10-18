@@ -1,16 +1,11 @@
-<svg data-detail="reviewed" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" data-category="Design" data-tags="solid top,border top,partial border,square,dashed,edge">
-  <g data-role="area" fill="currentColor" opacity="0.2">
-    <rect x="40" y="40" width="176" height="176" rx="20"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" data-category="Design" data-tags="solid top,border top,partial border,square,dashed,edge">
   <g data-role="line" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M47 67 V60 A13.54 13.54 0 0 1 60 47 H196 A13.54 13.54 0 0 1 209 60 V67"/>
-    <path d="M209 189 V196 A13.54 13.54 0 0 1 196 209 H189"/>
-    <path d="M67 209 H60 A13.54 13.54 0 0 1 47 196 V189"/>
-    <path d="M94 209 L114 209"/>
-    <path d="M142 209 L162 209"/>
-    <path d="M47 94 L47 114"/>
-    <path d="M47 142 L47 162"/>
-    <path d="M209 94 L209 114"/>
-    <path d="M209 142 L209 162"/>
+    <path d="M40 104 V54 A14 14 0 0 1 54 40 H202 A14 14 0 0 1 216 54 V104"/>
+    <path d="M216 192 V202 A14 14 0 0 1 202 216 H192"/>
+    <path d="M64 216 H54 A14 14 0 0 1 40 202 V192"/>
+    <path d="M40 136 L40 160"/>
+    <path d="M216 136 L216 160"/>
+    <path d="M96 216 L112 216"/>
+    <path d="M144 216 L160 216"/>
   </g>
 </svg>
