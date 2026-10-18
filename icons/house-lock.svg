@@ -1,4 +1,4 @@
-<svg data-badge="custom" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" data-category="Security" data-tags="home security,locked,house,lock">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" data-category="Security" data-tags="home security,locked,house,lock">
   <g data-role="area" fill="currentColor" opacity="0.2">
     <path d="M127 208 L48 208 L48 112 L128 44 L208 112 L208 127 A62 62 0 0 0 127 208 Z"/>
     <rect x="156" y="180" width="56" height="40" rx="8"/>
