@@ -1,13 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" data-category="Communication" data-tags="bell,favorite,starred,notification,alert">
+<svg data-badge="custom" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" data-category="Communication" data-tags="bell,favorite,starred,notification,alert">
   <g data-role="area" fill="currentColor" opacity="0.2">
-    <path d="M48 184 C64 168 72 144 72 112 A56 56 0 0 1 184 112 C184 144 192 168 208 184 Z"/>
+    <path d="M124 184 L48 184 C64 168 72 144 72 112 A56 56 0 0 1 184 112 C184 116.13 183.73 120.13 184 124 A60 60 0 0 0 124 184 Z"/>
+    <path d="M184 153 L193 175 L216 176 L198 192 L204 215 L184 202 L164 215 L170 192 L152 176 L175 175 Z"/>
   </g>
   <g data-role="line" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M48 184 C64 168 72 144 72 112 A56 56 0 0 1 184 112 C184 144 192 168 208 184 Z"/>
-    <path d="M108 200 A20 20 0 0 0 148 200"/>
+    <path d="M124 184 L48 184 C64 168 72 144 72 112 A56 56 0 0 1 184 112 C184 116.13 183.73 120.13 184 124"/>
     <path d="M128 40 L128 56"/>
-  </g>
-  <g data-role="badge" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M188 162 L196 181 L217 183 L200 196 L206 216 L188 205 L170 216 L176 196 L159 183 L180 181 Z"/>
+    <path d="M184 153 L193 175 L216 176 L198 192 L204 215 L184 202 L164 215 L170 192 L152 176 L175 175 Z"/>
   </g>
 </svg>
