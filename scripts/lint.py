@@ -52,7 +52,7 @@ BADGES = {
     'arrow-down': ['M188 162 V214', 'M166 192 L188 214 L210 192'],
     'user': [('circle', 188, 172, 14), 'M162 214 A26 26 0 0 1 214 214'],
 }
-NO_BASE_SLASH = {'cell-signal-slash', 'file-eye-slash'}  # partial slash drawn as part of the glyph
+NO_BASE_SLASH = {'cell-signal-slash', 'file-eye-slash', 'device-mobile-wifi-slash'}  # slash drawn as part of the glyph
 
 RULES = {
     'stroke': 'line/detail groups must use stroke-width 16 with round caps and joins',
