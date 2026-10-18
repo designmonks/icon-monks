@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" data-category="Food" data-tags="cotton candy,candy floss,fair,sweet,carnival,dessert">
+  <g data-role="area" fill="currentColor" opacity="0.2">
+    <path d="M84 123 A28 28 0 1 1 69 72 A32 32 0 0 1 128 49 A32 32 0 0 1 187 72 A28 28 0 1 1 172 123 A24 24 0 0 1 128 137 A24 24 0 0 1 84 123 Z"/>
+    <path d="M112 147 L128 220 L144 147 Z"/>
+  </g>
+  <g data-role="line" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M84 123 A28 28 0 1 1 69 72 A32 32 0 0 1 128 49 A32 32 0 0 1 187 72 A28 28 0 1 1 172 123 A24 24 0 0 1 128 137 A24 24 0 0 1 84 123 Z"/>
+    <path d="M112 147 L128 220 L144 147"/>
+  </g>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" data-category="Maps" data-tags="shaheed minar,martyrs monument,dhaka,bangladesh,memorial,landmark">
+  <g data-role="area" fill="currentColor" opacity="0.2">
+    <circle cx="128" cy="84" r="52"/>
+  </g>
+  <g data-role="line" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M152 130 A52 52 0 1 0 104 130"/>
+    <path d="M128 208 V84 L108 64"/>
+    <path d="M88 208 V136"/>
+    <path d="M168 208 V136"/>
+    <path d="M48 208 V160"/>
+    <path d="M208 208 V160"/>
+    <path d="M32 208 H224"/>
+  </g>
+</svg>

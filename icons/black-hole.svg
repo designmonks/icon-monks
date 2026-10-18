@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" data-category="Science" data-tags="black hole,space,singularity,event horizon,astronomy,vortex">
+  <g data-role="area" fill="currentColor" opacity="0.2">
+    <circle cx="128" cy="128" r="52"/>
+  </g>
+  <g data-role="line" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="128" cy="128" r="52"/>
+    <path d="M96 169 A96 30 -22 0 1 77 120"/>
+    <path d="M160 87 A96 30 -22 0 1 179 136"/>
+    <path d="M77 136 A96 30 22 0 1 97 87"/>
+    <path d="M179 120 A96 30 22 0 1 159 169"/>
+  </g>
+  <g data-role="detail" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M179 136 A96 30 -22 0 1 96 169"/>
+    <path d="M159 169 A96 30 22 0 1 77 136"/>
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" data-category="People" data-tags="finger heart,korean heart,love,gesture,hand,kpop">
+  <g data-role="area" fill="currentColor" opacity="0.2">
+    <path d="M68 180 V120 A15 15 0 0 1 98 120 V140 A15 15 0 0 1 128 140 A15 15 0 0 1 158 140 A15 15 0 0 1 188 140 V176 C188 204 168 224 140 224 H116 C88 224 68 208 68 180 Z"/>
+    <path d="M84 78 C70 70 60 60 60 50 A12 12 0 0 1 84 46 A12 12 0 0 1 108 50 C108 60 98 70 84 78 Z"/>
+  </g>
+  <g data-role="line" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M68 180 V120 A15 15 0 0 1 98 120 V140 A15 15 0 0 1 128 140 A15 15 0 0 1 158 140 A15 15 0 0 1 188 140 V176 C188 204 168 224 140 224 H116 C88 224 68 208 68 180 Z"/>
+    <path d="M84 78 C70 70 60 60 60 50 A12 12 0 0 1 84 46 A12 12 0 0 1 108 50 C108 60 98 70 84 78 Z"/>
+  </g>
+  <g data-role="detail" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M128 140 L128 160"/>
+    <path d="M158 140 L158 160"/>
+    <path d="M144 176 L80 112"/>
+  </g>
+</svg>

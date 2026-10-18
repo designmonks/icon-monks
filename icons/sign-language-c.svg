@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" data-category="People" data-tags="sign language,asl,letter c,deaf,gesture,accessibility">
+  <g data-role="area" fill="currentColor" opacity="0.2">
+    <path d="M76 224 V204 C52 190 40 164 40 136 V92 C40 58 64 36 100 36 H152 C184 36 208 58 208 92 A16 16 0 0 1 176 92 C176 82 170 74 158 72 A16 16 0 0 1 152 104 H124 C112 104 104 112 104 124 V160 C104 168 110 174 120 174 H150 C160 174 168 168 172 158 A16 16 0 0 1 202 170 C196 190 178 204 152 204 H140 C132 204 128 208 128 216 V224 Z"/>
+  </g>
+  <g data-role="line" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M76 224 V204 C52 190 40 164 40 136 V92 C40 58 64 36 100 36 H152 C184 36 208 58 208 92 A16 16 0 0 1 176 92 C176 82 170 74 158 72 A16 16 0 0 1 152 104 H124 C112 104 104 112 104 124 V160 C104 168 110 174 120 174 H150 C160 174 168 168 172 158 A16 16 0 0 1 202 170 C196 190 178 204 152 204 H140 C132 204 128 208 128 216 V224 Z"/>
+  </g>
+  <g data-role="detail" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M158 72 H116"/>
+  </g>
+</svg>

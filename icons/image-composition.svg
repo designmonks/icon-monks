@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" data-category="Media" data-tags="composition,rule of thirds,framing,photography,image,grid">
+  <g data-role="area" fill="currentColor" opacity="0.2">
+    <rect x="32" y="48" width="192" height="160" rx="14"/>
+  </g>
+  <g data-role="line" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="32" y="48" width="192" height="160" rx="14"/>
+  </g>
+  <g data-role="detail" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M96 72 V84 M96 120 V136 M96 172 V184"/>
+    <path d="M160 72 V84 M160 120 V136 M160 172 V184"/>
+    <path d="M56 100 H72 M120 100 H136 M184 100 H200"/>
+    <path d="M56 156 H72 M120 156 H136 M184 156 H200"/>
+  </g>
+</svg>

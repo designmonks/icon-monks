@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" data-category="Home" data-tags="garden gnome,gnome,garden,decoration,figure,ornament">
+  <g data-role="area" fill="currentColor" opacity="0.2">
+    <path d="M128 32 L172 100 H84 Z"/>
+    <circle cx="128" cy="176" r="48"/>
+    <path d="M76 124 H180 L128 196 Z"/>
+  </g>
+  <g data-role="line" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M128 32 L172 100 H84 Z"/>
+    <path d="M91 145 A48.27 48.27 0 1 0 165 145"/>
+  </g>
+  <g data-role="detail" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M76 124 H180 L128 196 Z"/>
+  </g>
+  <g data-role="dot" fill="currentColor">
+    <circle cx="128" cy="116" r="16"/>
+  </g>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" data-category="Interface" data-tags="autoscroll,scroll point,diagonal scroll,pan,cursor,move">
+  <g data-role="line" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M52 108 L52 52 L108 52"/>
+    <path d="M204 148 L204 204 L148 204"/>
+  </g>
+  <g data-role="dot" fill="currentColor">
+    <circle cx="128" cy="128" r="16"/>
+  </g>
+</svg>

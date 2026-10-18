@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" data-category="Transport" data-tags="traffic jam,congestion,gridlock,cars,delay,queue">
+  <g data-role="area" fill="currentColor" opacity="0.2">
+    <rect x="56" y="148" width="144" height="52" rx="14"/>
+  </g>
+  <g data-role="line" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="56" y="148" width="144" height="52" rx="14"/>
+    <path d="M76 148 L92 112 H164 L180 148"/>
+    <path d="M72 200 V208 A8 8 0 0 0 80 216 H92 A8 8 0 0 0 100 208 V200"/>
+    <path d="M156 200 V208 A8 8 0 0 0 164 216 H176 A8 8 0 0 0 184 208 V200"/>
+    <path d="M32 124 V76 A12 12 0 0 1 44 64 H116 M44 64 L54 40 H94 L104 64"/>
+    <path d="M224 124 V76 A12 12 0 0 0 212 64 H140 M212 64 L202 40 H162 L152 64"/>
+  </g>
+  <g data-role="dotcut" fill="currentColor">
+    <circle cx="88" cy="174" r="12"/>
+    <circle cx="168" cy="174" r="12"/>
+    <circle cx="56" cy="96" r="12"/>
+    <circle cx="200" cy="96" r="12"/>
+  </g>
+</svg>

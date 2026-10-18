@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" data-category="Interface" data-tags="rate,feedback,like,dislike,vote,review">
+  <g data-role="area" fill="currentColor" opacity="0.2">
+    <path d="M54 67 L66 38 C68 33.8 71.6 32 75 32 C82.4 32 87.8 37.4 86 46 L82 64 H106 C113 63.5 118.4 69.8 117 77 L111 103 C110.3 108.5 105.8 112.1 100 112 H54 Z"/>
+    <rect x="32" y="67" width="22" height="45" rx="4"/>
+    <path d="M159 189 L172 218 C173.6 222.2 177.2 224 181 224 C188 224 193.4 218.6 192 210 L188 192 H211 C218.6 192.5 224 186.2 222 179 L217 153 C215.9 147.5 211.4 143.9 206 144 H159 Z"/>
+    <rect x="138" y="144" width="21" height="45" rx="4"/>
+  </g>
+  <g data-role="line" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M54 67 L66 38 C68 33.8 71.6 32 75 32 C82.4 32 87.8 37.4 86 46 L82 64 H106 C113 63.5 118.4 69.8 117 77 L111 103 C110.3 108.5 105.8 112.1 100 112 H54 Z"/>
+    <rect x="32" y="67" width="22" height="45" rx="4"/>
+    <path d="M159 189 L172 218 C173.6 222.2 177.2 224 181 224 C188 224 193.4 218.6 192 210 L188 192 H211 C218.6 192.5 224 186.2 222 179 L217 153 C215.9 147.5 211.4 143.9 206 144 H159 Z"/>
+    <rect x="138" y="144" width="21" height="45" rx="4"/>
+  </g>
+  <g data-role="detail" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M54 71 L54 108"/>
+    <path d="M159 185 L159 148"/>
+  </g>
+</svg>

@@ -1,0 +1,22 @@
+<svg data-detail="reviewed" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" data-category="Design" data-tags="radial gradient,radial,concentric,fill,gradient,circle">
+  <g data-role="area" fill="currentColor" opacity="0.2">
+    <rect x="40" y="40" width="176" height="176" rx="15"/>
+  </g>
+  <g data-role="line" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="40" y="40" width="176" height="176" rx="15"/>
+  </g>
+  <g data-role="detail" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M191 140 A64 64 0 0 1 181 164"/>
+    <path d="M164 181 A64 64 0 0 1 140 191"/>
+    <path d="M116 191 A64 64 0 0 1 92 181"/>
+    <path d="M75 164 A64 64 0 0 1 65 140"/>
+    <path d="M65 116 A64 64 0 0 1 75 92"/>
+    <path d="M92 75 A64 64 0 0 1 116 65"/>
+    <path d="M140 65 A64 64 0 0 1 164 75"/>
+    <path d="M181 92 A64 64 0 0 1 191 116"/>
+    <circle cx="128" cy="128" r="40"/>
+  </g>
+  <g data-role="dotcut" fill="currentColor">
+    <circle cx="128" cy="128" r="16"/>
+  </g>
+</svg>

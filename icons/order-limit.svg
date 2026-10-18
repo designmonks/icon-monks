@@ -1,0 +1,24 @@
+<svg data-detail="reviewed" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" data-category="Business" data-tags="limit order,trading,target price,stocks,order,chart">
+  <g data-role="area" fill="currentColor" opacity="0.2">
+    <rect x="36" y="128" width="40" height="56" rx="8"/>
+    <rect x="108" y="96" width="40" height="64" rx="8"/>
+    <rect x="180" y="136" width="40" height="48" rx="8"/>
+  </g>
+  <g data-role="line" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="36" y="128" width="40" height="56" rx="8"/>
+    <rect x="108" y="96" width="40" height="64" rx="8"/>
+    <rect x="180" y="136" width="40" height="48" rx="8"/>
+    <path d="M56 104 L56 128"/>
+    <path d="M56 184 L56 208"/>
+    <path d="M128 72 L128 96"/>
+    <path d="M128 160 L128 184"/>
+    <path d="M200 112 L200 136"/>
+    <path d="M200 184 L200 216"/>
+    <path d="M32 40 L56 40"/>
+    <path d="M88 40 L112 40"/>
+    <path d="M144 40 L168 40"/>
+  </g>
+  <g data-role="dot" fill="currentColor">
+    <circle cx="208" cy="40" r="16"/>
+  </g>
+</svg>

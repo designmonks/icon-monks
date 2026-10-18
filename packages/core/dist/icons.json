@@ -39,6 +39,18 @@
   ]
  },
  {
+  "name": "abs",
+  "category": "Health",
+  "tags": [
+   "abs",
+   "six pack",
+   "core",
+   "anatomy",
+   "stomach",
+   "fitness"
+  ]
+ },
+ {
   "name": "access-point",
   "category": "Devices",
   "tags": [
@@ -356,6 +368,18 @@
    "airport",
    "terminal",
    "flight"
+  ]
+ },
+ {
+  "name": "al-aqsa-mosque",
+  "category": "Maps",
+  "tags": [
+   "al aqsa",
+   "mosque",
+   "jerusalem",
+   "landmark",
+   "islam",
+   "dome"
   ]
  },
  {
@@ -750,6 +774,18 @@
   ]
  },
  {
+  "name": "align-key-object",
+  "category": "Design",
+  "tags": [
+   "key object",
+   "align to",
+   "anchor object",
+   "alignment",
+   "illustrator",
+   "distribute"
+  ]
+ },
+ {
   "name": "align-left",
   "category": "Design",
   "tags": [
@@ -1034,12 +1070,36 @@
   ]
  },
  {
+  "name": "ammo",
+  "category": "Objects",
+  "tags": [
+   "ammo",
+   "bullets",
+   "ammunition",
+   "cartridge",
+   "rounds",
+   "weapon"
+  ]
+ },
+ {
   "name": "ampersand",
   "category": "Letters & Numbers",
   "tags": [
    "and",
    "ampersand",
    "symbol"
+  ]
+ },
+ {
+  "name": "amphitheater",
+  "category": "Maps",
+  "tags": [
+   "colosseum",
+   "rome",
+   "amphitheater",
+   "arena",
+   "landmark",
+   "italy"
   ]
  },
  {
@@ -1202,6 +1262,18 @@
   ]
  },
  {
+  "name": "api-gateway",
+  "category": "Development",
+  "tags": [
+   "api gateway",
+   "api",
+   "gateway",
+   "middleware",
+   "integration",
+   "router"
+  ]
+ },
+ {
   "name": "api-slash",
   "category": "Development",
   "tags": [
@@ -1307,6 +1379,18 @@
   ]
  },
  {
+  "name": "app-window-swap",
+  "category": "Interface",
+  "tags": [
+   "screen mode",
+   "display mode",
+   "toggle view",
+   "switch layout",
+   "window",
+   "swap"
+  ]
+ },
+ {
   "name": "app-window-x",
   "category": "Interface",
   "tags": [
@@ -1375,6 +1459,18 @@
    "paris",
    "monument",
    "arch"
+  ]
+ },
+ {
+  "name": "arcade-spaceship",
+  "category": "Sports",
+  "tags": [
+   "arcade",
+   "space shooter",
+   "spaceship",
+   "retro game",
+   "shooter",
+   "gaming"
   ]
  },
  {
@@ -1468,6 +1564,18 @@
    "disabled",
    "off",
    "home"
+  ]
+ },
+ {
+  "name": "armored-boot",
+  "category": "Sports",
+  "tags": [
+   "armored boot",
+   "greave",
+   "armor",
+   "knight",
+   "medieval",
+   "gear"
   ]
  },
  {
@@ -2001,6 +2109,18 @@
    "direction",
    "down",
    "arc"
+  ]
+ },
+ {
+  "name": "arrow-down-to-dot",
+  "category": "Arrows",
+  "tags": [
+   "arrow down",
+   "target",
+   "drop point",
+   "down",
+   "arrow",
+   "dot"
   ]
  },
  {
@@ -3024,6 +3144,18 @@
   ]
  },
  {
+  "name": "arrow-up-from-dot",
+  "category": "Arrows",
+  "tags": [
+   "arrow up",
+   "origin",
+   "launch",
+   "up",
+   "arrow",
+   "dot"
+  ]
+ },
+ {
   "name": "arrow-up-from-line",
   "category": "Arrows",
   "tags": [
@@ -3178,6 +3310,18 @@
    "refresh off",
    "no sync",
    "paused"
+  ]
+ },
+ {
+  "name": "arrows-clockwise-sparkle",
+  "category": "Arrows",
+  "tags": [
+   "ai auto rotate",
+   "smart rotate",
+   "auto rotate",
+   "rotate",
+   "arrows",
+   "sparkle"
   ]
  },
  {
@@ -3523,6 +3667,42 @@
    "split",
    "diverge",
    "fork"
+  ]
+ },
+ {
+  "name": "arrows-transfer-diagonal",
+  "category": "Arrows",
+  "tags": [
+   "data transfer",
+   "diagonal",
+   "upload download",
+   "sync",
+   "exchange",
+   "arrows"
+  ]
+ },
+ {
+  "name": "arrows-transfer-diagonal-circle",
+  "category": "Arrows",
+  "tags": [
+   "data transfer",
+   "diagonal",
+   "sync",
+   "exchange",
+   "circle",
+   "arrows"
+  ]
+ },
+ {
+  "name": "arrows-transfer-diagonal-square",
+  "category": "Arrows",
+  "tags": [
+   "data transfer",
+   "diagonal",
+   "sync",
+   "exchange",
+   "square",
+   "arrows"
   ]
  },
  {
@@ -3886,6 +4066,18 @@
   ]
  },
  {
+  "name": "axis-3d",
+  "category": "Design",
+  "tags": [
+   "3d axis",
+   "xyz",
+   "gizmo",
+   "coordinate system",
+   "3d modeling",
+   "axes"
+  ]
+ },
+ {
   "name": "axis-x",
   "category": "Charts",
   "tags": [
@@ -3987,6 +4179,18 @@
    "meal",
    "jar",
    "feeding"
+  ]
+ },
+ {
+  "name": "back-muscles",
+  "category": "Health",
+  "tags": [
+   "back",
+   "muscles",
+   "anatomy",
+   "lats",
+   "spine",
+   "body"
   ]
  },
  {
@@ -4585,6 +4789,18 @@
   ]
  },
  {
+  "name": "barber-chair",
+  "category": "Objects",
+  "tags": [
+   "barber chair",
+   "salon",
+   "barbershop",
+   "haircut",
+   "chair",
+   "stylist"
+  ]
+ },
+ {
   "name": "barcode",
   "category": "Devices",
   "tags": [
@@ -4958,6 +5174,18 @@
   ]
  },
  {
+  "name": "basket-shield",
+  "category": "Commerce",
+  "tags": [
+   "secure checkout",
+   "safe shopping",
+   "protected purchase",
+   "basket",
+   "shield",
+   "security"
+  ]
+ },
+ {
   "name": "basket-slash",
   "category": "Commerce",
   "tags": [
@@ -5201,6 +5429,18 @@
   ]
  },
  {
+  "name": "battle-ropes",
+  "category": "Sports",
+  "tags": [
+   "battle ropes",
+   "rope training",
+   "cardio",
+   "workout",
+   "gym",
+   "conditioning"
+  ]
+ },
+ {
   "name": "beach",
   "category": "Nature",
   "tags": [
@@ -5272,6 +5512,18 @@
   ]
  },
  {
+  "name": "beans-slash",
+  "category": "Food",
+  "tags": [
+   "no beans",
+   "bean free",
+   "allergen",
+   "legume",
+   "dietary",
+   "soy"
+  ]
+ },
+ {
   "name": "bear",
   "category": "Animals",
   "tags": [
@@ -5320,6 +5572,18 @@
    "disabled",
    "off",
    "home"
+  ]
+ },
+ {
+  "name": "bedug",
+  "category": "Objects",
+  "tags": [
+   "bedug",
+   "drum",
+   "mosque drum",
+   "indonesia",
+   "ramadan",
+   "percussion"
   ]
  },
  {
@@ -5747,6 +6011,18 @@
   ]
  },
  {
+  "name": "binder-clip",
+  "category": "Objects",
+  "tags": [
+   "binder clip",
+   "clip",
+   "office",
+   "stationery",
+   "fastener",
+   "paper clamp"
+  ]
+ },
+ {
   "name": "binoculars",
   "category": "Objects",
   "tags": [
@@ -5786,6 +6062,30 @@
    "nature",
    "wildlife",
    "pet"
+  ]
+ },
+ {
+  "name": "birdhouse",
+  "category": "Home",
+  "tags": [
+   "birdhouse",
+   "bird box",
+   "nest box",
+   "garden",
+   "bird",
+   "feeder"
+  ]
+ },
+ {
+  "name": "black-hole",
+  "category": "Science",
+  "tags": [
+   "black hole",
+   "space",
+   "singularity",
+   "event horizon",
+   "astronomy",
+   "vortex"
   ]
  },
  {
@@ -5934,6 +6234,18 @@
   ]
  },
  {
+  "name": "blockquote-rtl",
+  "category": "Editor",
+  "tags": [
+   "rtl",
+   "right to left",
+   "blockquote",
+   "quote",
+   "arabic",
+   "hebrew"
+  ]
+ },
+ {
   "name": "blocks",
   "category": "Development",
   "tags": [
@@ -5963,6 +6275,18 @@
    "cuff",
    "sphygmomanometer",
    "hypertension"
+  ]
+ },
+ {
+  "name": "blood-type",
+  "category": "Health",
+  "tags": [
+   "blood type",
+   "blood group",
+   "donor",
+   "blood drop",
+   "type a",
+   "hematology"
   ]
  },
  {
@@ -6016,6 +6340,18 @@
    "wireless",
    "disconnect",
    "disconnected"
+  ]
+ },
+ {
+  "name": "bluetooth-square",
+  "category": "Devices",
+  "tags": [
+   "bluetooth",
+   "wireless",
+   "connection",
+   "pairing",
+   "square",
+   "badge"
   ]
  },
  {
@@ -6190,6 +6526,42 @@
   ]
  },
  {
+  "name": "book-chef-hat",
+  "category": "Food",
+  "tags": [
+   "cookbook",
+   "recipes",
+   "cooking",
+   "book",
+   "chef",
+   "kitchen"
+  ]
+ },
+ {
+  "name": "book-dashed",
+  "category": "Education",
+  "tags": [
+   "book",
+   "placeholder",
+   "draft",
+   "empty",
+   "dashed",
+   "template"
+  ]
+ },
+ {
+  "name": "book-globe",
+  "category": "Education",
+  "tags": [
+   "global education",
+   "international",
+   "world",
+   "learning",
+   "book",
+   "globe"
+  ]
+ },
+ {
   "name": "book-headphones",
   "category": "Education",
   "tags": [
@@ -6208,6 +6580,30 @@
    "favorite book",
    "loved",
    "reading list"
+  ]
+ },
+ {
+  "name": "book-letter-a",
+  "category": "Education",
+  "tags": [
+   "dictionary",
+   "alphabet",
+   "language",
+   "vocabulary",
+   "book",
+   "letter a"
+  ]
+ },
+ {
+  "name": "book-letter-t",
+  "category": "Education",
+  "tags": [
+   "glossary",
+   "typography",
+   "font",
+   "grammar",
+   "book",
+   "letter t"
   ]
  },
  {
@@ -6240,6 +6636,18 @@
    "manual",
    "reference",
    "health record"
+  ]
+ },
+ {
+  "name": "book-minus",
+  "category": "Education",
+  "tags": [
+   "book",
+   "remove",
+   "minus",
+   "library",
+   "delete",
+   "unsubscribe"
   ]
  },
  {
@@ -6317,6 +6725,18 @@
    "alert",
    "book",
    "warning"
+  ]
+ },
+ {
+  "name": "book-x",
+  "category": "Education",
+  "tags": [
+   "book",
+   "remove",
+   "delete",
+   "x",
+   "library",
+   "cancel"
   ]
  },
  {
@@ -6745,6 +7165,18 @@
   ]
  },
  {
+  "name": "border-top-x",
+  "category": "Editor",
+  "tags": [
+   "remove top border",
+   "border",
+   "top",
+   "close",
+   "x",
+   "cancel"
+  ]
+ },
+ {
   "name": "border-vertical",
   "category": "Editor",
   "tags": [
@@ -7114,6 +7546,18 @@
   ]
  },
  {
+  "name": "brackets-curly-circle",
+  "category": "Development",
+  "tags": [
+   "curly braces",
+   "braces",
+   "code",
+   "object",
+   "circle",
+   "frame"
+  ]
+ },
+ {
   "name": "brackets-curly-slash",
   "category": "Development",
   "tags": [
@@ -7125,6 +7569,18 @@
   ]
  },
  {
+  "name": "brackets-curly-square",
+  "category": "Development",
+  "tags": [
+   "curly braces",
+   "second bracket",
+   "brackets",
+   "code",
+   "json",
+   "square"
+  ]
+ },
+ {
   "name": "brackets-round",
   "category": "Development",
   "tags": [
@@ -7132,6 +7588,18 @@
    "brackets",
    "code",
    "round"
+  ]
+ },
+ {
+  "name": "brackets-round-circle",
+  "category": "Development",
+  "tags": [
+   "parentheses",
+   "round brackets",
+   "brackets",
+   "circle",
+   "code",
+   "function"
   ]
  },
  {
@@ -7146,6 +7614,18 @@
   ]
  },
  {
+  "name": "brackets-round-square",
+  "category": "Development",
+  "tags": [
+   "parentheses",
+   "round brackets",
+   "code",
+   "math",
+   "square",
+   "frame"
+  ]
+ },
+ {
   "name": "brackets-square",
   "category": "Editor",
   "tags": [
@@ -7153,6 +7633,18 @@
    "array",
    "code",
    "square"
+  ]
+ },
+ {
+  "name": "brackets-square-circle",
+  "category": "Development",
+  "tags": [
+   "square brackets",
+   "array",
+   "code",
+   "math",
+   "circle",
+   "frame"
   ]
  },
  {
@@ -7164,6 +7656,18 @@
    "off",
    "brackets",
    "code"
+  ]
+ },
+ {
+  "name": "brackets-square-square",
+  "category": "Development",
+  "tags": [
+   "square brackets",
+   "third bracket",
+   "brackets",
+   "code",
+   "array",
+   "square"
   ]
  },
  {
@@ -7185,6 +7689,18 @@
    "intelligence",
    "smart",
    "idea"
+  ]
+ },
+ {
+  "name": "brain-bitcoin",
+  "category": "People",
+  "tags": [
+   "crypto mindset",
+   "bitcoin idea",
+   "thinking crypto",
+   "btc",
+   "brain",
+   "bitcoin"
   ]
  },
  {
@@ -7297,6 +7813,18 @@
   ]
  },
  {
+  "name": "breastplate",
+  "category": "Sports",
+  "tags": [
+   "breastplate",
+   "body armor",
+   "chest plate",
+   "armor",
+   "warrior",
+   "cuirass"
+  ]
+ },
+ {
   "name": "bridge",
   "category": "Maps",
   "tags": [
@@ -7315,6 +7843,18 @@
    "job",
    "office",
    "portfolio"
+  ]
+ },
+ {
+  "name": "briefcase-arrows-clockwise",
+  "category": "Business",
+  "tags": [
+   "work update",
+   "job update",
+   "status update",
+   "refresh",
+   "briefcase",
+   "sync"
   ]
  },
  {
@@ -7343,6 +7883,30 @@
   ]
  },
  {
+  "name": "briefcase-infinity",
+  "category": "Business",
+  "tags": [
+   "permanent job",
+   "full-time",
+   "tenure",
+   "career",
+   "employment",
+   "briefcase"
+  ]
+ },
+ {
+  "name": "briefcase-link",
+  "category": "Business",
+  "tags": [
+   "job link",
+   "job posting",
+   "career link",
+   "job url",
+   "briefcase",
+   "link"
+  ]
+ },
+ {
   "name": "briefcase-magnifying-glass",
   "category": "Business",
   "tags": [
@@ -7364,6 +7928,18 @@
    "career",
    "opportunity",
    "add"
+  ]
+ },
+ {
+  "name": "briefcase-share",
+  "category": "Business",
+  "tags": [
+   "share job",
+   "refer",
+   "job posting",
+   "career",
+   "briefcase",
+   "share"
   ]
  },
  {
@@ -7904,6 +8480,18 @@
   ]
  },
  {
+  "name": "building-university",
+  "category": "Education",
+  "tags": [
+   "university",
+   "college",
+   "campus",
+   "academic",
+   "institution",
+   "building"
+  ]
+ },
+ {
   "name": "buildings",
   "category": "Business",
   "tags": [
@@ -7922,6 +8510,42 @@
    "construction",
    "vehicle",
    "dig"
+  ]
+ },
+ {
+  "name": "bulletproof-vest",
+  "category": "Security",
+  "tags": [
+   "bulletproof vest",
+   "body armor",
+   "police",
+   "protection",
+   "kevlar",
+   "tactical"
+  ]
+ },
+ {
+  "name": "bunk-bed",
+  "category": "Home",
+  "tags": [
+   "bunk bed",
+   "bed",
+   "dorm",
+   "kids room",
+   "hostel",
+   "sleep"
+  ]
+ },
+ {
+  "name": "burj-al-arab",
+  "category": "Maps",
+  "tags": [
+   "burj al arab",
+   "dubai",
+   "hotel",
+   "landmark",
+   "sail",
+   "tower"
   ]
  },
  {
@@ -8019,6 +8643,18 @@
   ]
  },
  {
+  "name": "cabinet",
+  "category": "Home",
+  "tags": [
+   "cabinet",
+   "cupboard",
+   "sideboard",
+   "storage",
+   "furniture",
+   "kitchen"
+  ]
+ },
+ {
   "name": "cable",
   "category": "Devices",
   "tags": [
@@ -8058,6 +8694,18 @@
    "disabled",
    "off",
    "nature"
+  ]
+ },
+ {
+  "name": "cafe",
+  "category": "Food",
+  "tags": [
+   "cafe",
+   "coffee shop",
+   "bistro",
+   "storefront",
+   "awning",
+   "outdoor seating"
   ]
  },
  {
@@ -8111,6 +8759,18 @@
   ]
  },
  {
+  "name": "calendar-1",
+  "category": "Time",
+  "tags": [
+   "calendar date",
+   "day one",
+   "first day",
+   "month start",
+   "date",
+   "numeral 1"
+  ]
+ },
+ {
   "name": "calendar-arrow-down",
   "category": "Time",
   "tags": [
@@ -8129,6 +8789,18 @@
    "back",
    "return date",
    "calendar"
+  ]
+ },
+ {
+  "name": "calendar-arrow-right",
+  "category": "Time",
+  "tags": [
+   "next week",
+   "postpone",
+   "forward",
+   "reschedule",
+   "calendar",
+   "later"
   ]
  },
  {
@@ -8220,6 +8892,18 @@
   ]
  },
  {
+  "name": "calendar-graduation-cap",
+  "category": "Education",
+  "tags": [
+   "graduation date",
+   "calendar",
+   "academic",
+   "commencement",
+   "graduation",
+   "school"
+  ]
+ },
+ {
   "name": "calendar-heart",
   "category": "Time",
   "tags": [
@@ -8282,6 +8966,18 @@
    "minus",
    "event",
    "remove event"
+  ]
+ },
+ {
+  "name": "calendar-moon",
+  "category": "Time",
+  "tags": [
+   "ramadan",
+   "calendar",
+   "month",
+   "crescent",
+   "islamic calendar",
+   "fasting"
   ]
  },
  {
@@ -8627,6 +9323,18 @@
   ]
  },
  {
+  "name": "camera-microphone",
+  "category": "Media",
+  "tags": [
+   "camera microphone",
+   "camera mic",
+   "vlog",
+   "record",
+   "camera",
+   "microphone"
+  ]
+ },
+ {
   "name": "camera-minus",
   "category": "Media",
   "tags": [
@@ -8886,6 +9594,18 @@
   ]
  },
  {
+  "name": "cannabis-slash",
+  "category": "Nature",
+  "tags": [
+   "cannabis off",
+   "no cannabis",
+   "no smoking",
+   "hemp",
+   "disabled",
+   "slash"
+  ]
+ },
+ {
   "name": "caps-lock",
   "category": "Interface",
   "tags": [
@@ -8934,6 +9654,18 @@
    "12v",
    "power",
    "terminal"
+  ]
+ },
+ {
+  "name": "car-clock",
+  "category": "Transport",
+  "tags": [
+   "car",
+   "clock",
+   "parking time",
+   "rental",
+   "schedule",
+   "arrival"
   ]
  },
  {
@@ -9031,6 +9763,18 @@
   ]
  },
  {
+  "name": "car-signal",
+  "category": "Transport",
+  "tags": [
+   "connected car",
+   "car signal",
+   "wireless",
+   "telematics",
+   "vehicle",
+   "broadcast"
+  ]
+ },
+ {
   "name": "car-slash",
   "category": "Transport",
   "tags": [
@@ -9069,6 +9813,18 @@
    "turbo",
    "car",
    "engine"
+  ]
+ },
+ {
+  "name": "car-warning",
+  "category": "Transport",
+  "tags": [
+   "car alert",
+   "vehicle warning",
+   "car problem",
+   "breakdown",
+   "caution",
+   "warning"
   ]
  },
  {
@@ -9121,6 +9877,18 @@
    "content",
    "text",
    "panel"
+  ]
+ },
+ {
+  "name": "card-user",
+  "category": "Development",
+  "tags": [
+   "user story",
+   "agile",
+   "story card",
+   "backlog",
+   "requirement",
+   "user"
   ]
  },
  {
@@ -9636,6 +10404,18 @@
    "pet",
    "kitten",
    "animal"
+  ]
+ },
+ {
+  "name": "catalog",
+  "category": "Commerce",
+  "tags": [
+   "catalog",
+   "catalogue",
+   "brochure",
+   "products",
+   "inventory",
+   "publication"
   ]
  },
  {
@@ -10194,6 +10974,42 @@
   ]
  },
  {
+  "name": "chart-line-average",
+  "category": "Charts",
+  "tags": [
+   "average",
+   "mean",
+   "baseline",
+   "statistics",
+   "chart",
+   "line"
+  ]
+ },
+ {
+  "name": "chart-line-bitcoin",
+  "category": "Charts",
+  "tags": [
+   "bitcoin chart",
+   "crypto price",
+   "btc",
+   "market",
+   "chart",
+   "bitcoin"
+  ]
+ },
+ {
+  "name": "chart-line-breakout",
+  "category": "Charts",
+  "tags": [
+   "breakout",
+   "trading range",
+   "price breakout",
+   "stocks",
+   "chart",
+   "trend"
+  ]
+ },
+ {
   "name": "chart-line-down",
   "category": "Charts",
   "tags": [
@@ -10202,6 +11018,42 @@
    "decrease",
    "trend",
    "falling"
+  ]
+ },
+ {
+  "name": "chart-line-maximum",
+  "category": "Charts",
+  "tags": [
+   "maximum",
+   "peak",
+   "high",
+   "statistics",
+   "chart",
+   "line"
+  ]
+ },
+ {
+  "name": "chart-line-median",
+  "category": "Charts",
+  "tags": [
+   "median",
+   "middle",
+   "mid value",
+   "statistics",
+   "chart",
+   "line"
+  ]
+ },
+ {
+  "name": "chart-line-minimum",
+  "category": "Charts",
+  "tags": [
+   "minimum",
+   "low",
+   "trough",
+   "statistics",
+   "chart",
+   "line"
   ]
  },
  {
@@ -10235,6 +11087,18 @@
    "analytics",
    "statistics",
    "share"
+  ]
+ },
+ {
+  "name": "chart-pie-bitcoin",
+  "category": "Charts",
+  "tags": [
+   "crypto portfolio",
+   "allocation",
+   "btc share",
+   "pie chart",
+   "chart",
+   "bitcoin"
   ]
  },
  {
@@ -10660,6 +11524,18 @@
   ]
  },
  {
+  "name": "chat-diff",
+  "category": "Communication",
+  "tags": [
+   "chat diff",
+   "code review",
+   "changes",
+   "comment",
+   "diff",
+   "message"
+  ]
+ },
+ {
   "name": "chat-dots",
   "category": "Communication",
   "tags": [
@@ -10668,6 +11544,18 @@
    "comment",
    "bubble",
    "reply"
+  ]
+ },
+ {
+  "name": "chat-eye",
+  "category": "Communication",
+  "tags": [
+   "chat preview",
+   "message preview",
+   "read",
+   "view message",
+   "chat",
+   "eye"
   ]
  },
  {
@@ -10754,6 +11642,18 @@
    "secure",
    "message",
    "private chat"
+  ]
+ },
+ {
+  "name": "chat-lock-open",
+  "category": "Communication",
+  "tags": [
+   "unlocked chat",
+   "unencrypted",
+   "chat",
+   "open lock",
+   "unlock",
+   "message"
   ]
  },
  {
@@ -11319,6 +12219,30 @@
   ]
  },
  {
+  "name": "chest-expander",
+  "category": "Sports",
+  "tags": [
+   "chest expander",
+   "spring",
+   "resistance",
+   "stretch",
+   "gym",
+   "equipment"
+  ]
+ },
+ {
+  "name": "chest-press",
+  "category": "Sports",
+  "tags": [
+   "chest press",
+   "gym machine",
+   "strength",
+   "exercise machine",
+   "workout",
+   "weights"
+  ]
+ },
+ {
   "name": "chicken",
   "category": "Animals",
   "tags": [
@@ -11450,6 +12374,18 @@
   ]
  },
  {
+  "name": "cinnamon-roll",
+  "category": "Food",
+  "tags": [
+   "cinnamon roll",
+   "pastry",
+   "bun",
+   "bakery",
+   "dessert",
+   "swirl"
+  ]
+ },
+ {
   "name": "circle",
   "category": "Interface",
   "tags": [
@@ -11481,6 +12417,30 @@
   ]
  },
  {
+  "name": "circle-dot-dashed",
+  "category": "Design",
+  "tags": [
+   "dashed circle dot",
+   "target",
+   "draft point",
+   "anchor",
+   "circle",
+   "dashed"
+  ]
+ },
+ {
+  "name": "circle-fading-arrow-up",
+  "category": "Arrows",
+  "tags": [
+   "update available",
+   "upgrade",
+   "progress",
+   "upload",
+   "arrow up",
+   "circle"
+  ]
+ },
+ {
   "name": "circle-half",
   "category": "Design",
   "tags": [
@@ -11508,6 +12468,18 @@
    "four circles",
    "grid",
    "dots"
+  ]
+ },
+ {
+  "name": "circles-pile",
+  "category": "Objects",
+  "tags": [
+   "pile",
+   "stack",
+   "logs",
+   "pipes",
+   "round",
+   "heap"
   ]
  },
  {
@@ -12237,6 +13209,114 @@
    "like",
    "time",
    "hour"
+  ]
+ },
+ {
+  "name": "clock-hour-1",
+  "category": "Time",
+  "tags": [
+   "clock",
+   "1 o'clock",
+   "one",
+   "hour",
+   "time",
+   "schedule"
+  ]
+ },
+ {
+  "name": "clock-hour-2",
+  "category": "Time",
+  "tags": [
+   "clock",
+   "2 o'clock",
+   "two",
+   "hour",
+   "time",
+   "schedule"
+  ]
+ },
+ {
+  "name": "clock-hour-3",
+  "category": "Time",
+  "tags": [
+   "3 o'clock",
+   "three",
+   "hour",
+   "clock",
+   "time",
+   "schedule"
+  ]
+ },
+ {
+  "name": "clock-hour-4",
+  "category": "Time",
+  "tags": [
+   "clock",
+   "4 o'clock",
+   "four",
+   "hour",
+   "time",
+   "schedule"
+  ]
+ },
+ {
+  "name": "clock-hour-5",
+  "category": "Time",
+  "tags": [
+   "5 o'clock",
+   "five",
+   "hour",
+   "clock",
+   "time",
+   "schedule"
+  ]
+ },
+ {
+  "name": "clock-hour-6",
+  "category": "Time",
+  "tags": [
+   "6 oclock",
+   "six",
+   "clock",
+   "time",
+   "hour",
+   "clock face"
+  ]
+ },
+ {
+  "name": "clock-hour-7",
+  "category": "Time",
+  "tags": [
+   "clock",
+   "7 o'clock",
+   "seven",
+   "hour",
+   "time",
+   "schedule"
+  ]
+ },
+ {
+  "name": "clock-hour-8",
+  "category": "Time",
+  "tags": [
+   "8 oclock",
+   "eight",
+   "clock",
+   "time",
+   "hour",
+   "clock face"
+  ]
+ },
+ {
+  "name": "clock-hour-9",
+  "category": "Time",
+  "tags": [
+   "9 oclock",
+   "nine",
+   "clock",
+   "time",
+   "hour",
+   "clock face"
   ]
  },
  {
@@ -13204,6 +14284,30 @@
   ]
  },
  {
+  "name": "code-variable-eye",
+  "category": "Development",
+  "tags": [
+   "view property",
+   "variable",
+   "attribute",
+   "inspect",
+   "code",
+   "eye"
+  ]
+ },
+ {
+  "name": "code-variable-magnifying-glass",
+  "category": "Development",
+  "tags": [
+   "search property",
+   "variable",
+   "attribute",
+   "find",
+   "code",
+   "search"
+  ]
+ },
+ {
   "name": "code-variable-minus",
   "category": "Development",
   "tags": [
@@ -13215,6 +14319,18 @@
   ]
  },
  {
+  "name": "code-variable-pencil",
+  "category": "Development",
+  "tags": [
+   "edit property",
+   "variable",
+   "attribute",
+   "edit",
+   "code",
+   "pencil"
+  ]
+ },
+ {
   "name": "code-variable-plus",
   "category": "Development",
   "tags": [
@@ -13223,6 +14339,18 @@
    "new",
    "code",
    "developer"
+  ]
+ },
+ {
+  "name": "code-variable-x",
+  "category": "Development",
+  "tags": [
+   "delete property",
+   "variable",
+   "attribute",
+   "remove",
+   "code",
+   "x"
   ]
  },
  {
@@ -13296,6 +14424,30 @@
   ]
  },
  {
+  "name": "coin-bitcoin-arrow-down",
+  "category": "Commerce",
+  "tags": [
+   "bitcoin price down",
+   "crypto drop",
+   "bearish",
+   "btc",
+   "decrease",
+   "bitcoin"
+  ]
+ },
+ {
+  "name": "coin-bitcoin-arrow-up",
+  "category": "Commerce",
+  "tags": [
+   "bitcoin price up",
+   "crypto rise",
+   "bullish",
+   "btc",
+   "increase",
+   "bitcoin"
+  ]
+ },
+ {
   "name": "coin-euro",
   "category": "Commerce",
   "tags": [
@@ -13315,6 +14467,18 @@
    "money",
    "pound",
    "commerce"
+  ]
+ },
+ {
+  "name": "coin-rocket",
+  "category": "Commerce",
+  "tags": [
+   "ico",
+   "initial coin offering",
+   "token launch",
+   "crypto",
+   "coin",
+   "launch"
   ]
  },
  {
@@ -13380,6 +14544,18 @@
    "change",
    "currency",
    "savings"
+  ]
+ },
+ {
+  "name": "coins-lock",
+  "category": "Commerce",
+  "tags": [
+   "staking",
+   "stake",
+   "locked coins",
+   "crypto",
+   "earn",
+   "coins"
   ]
  },
  {
@@ -13472,6 +14648,18 @@
    "layout",
    "grid",
    "columns"
+  ]
+ },
+ {
+  "name": "columns-three-gear",
+  "category": "Interface",
+  "tags": [
+   "column settings",
+   "layout settings",
+   "columns",
+   "configure",
+   "three columns",
+   "gear"
   ]
  },
  {
@@ -13654,6 +14842,19 @@
    "math",
    "equal",
    "geometry"
+  ]
+ },
+ {
+  "name": "constellation",
+  "category": "Science",
+  "tags": [
+   "constellation",
+   "stars",
+   "astronomy",
+   "night sky",
+   "zodiac",
+   "space",
+   "star map"
   ]
  },
  {
@@ -14111,6 +15312,18 @@
   ]
  },
  {
+  "name": "cotton-candy",
+  "category": "Food",
+  "tags": [
+   "cotton candy",
+   "candy floss",
+   "fair",
+   "sweet",
+   "carnival",
+   "dessert"
+  ]
+ },
+ {
   "name": "couch",
   "category": "Objects",
   "tags": [
@@ -14129,6 +15342,18 @@
    "off",
    "disabled",
    "hidden"
+  ]
+ },
+ {
+  "name": "couple",
+  "category": "People",
+  "tags": [
+   "couple",
+   "man and woman",
+   "pair",
+   "partners",
+   "family",
+   "two people"
   ]
  },
  {
@@ -14188,6 +15413,44 @@
    "chip",
    "hardware",
    "computer"
+  ]
+ },
+ {
+  "name": "cpu-bitcoin",
+  "category": "Devices",
+  "tags": [
+   "bitcoin mining",
+   "crypto mining",
+   "mining rig",
+   "cpu",
+   "btc",
+   "bitcoin"
+  ]
+ },
+ {
+  "name": "cpu-gear",
+  "category": "Devices",
+  "tags": [
+   "cpu settings",
+   "processor",
+   "configure",
+   "overclock",
+   "chip",
+   "hardware",
+   "gear"
+  ]
+ },
+ {
+  "name": "cpu-lightning",
+  "category": "Devices",
+  "tags": [
+   "cpu power",
+   "processor",
+   "charging",
+   "performance",
+   "boost",
+   "chip",
+   "lightning"
   ]
  },
  {
@@ -14365,6 +15628,18 @@
   ]
  },
  {
+  "name": "credit-card-bitcoin",
+  "category": "Commerce",
+  "tags": [
+   "crypto card",
+   "bitcoin card",
+   "btc",
+   "payment",
+   "credit card",
+   "bitcoin"
+  ]
+ },
+ {
   "name": "credit-card-check",
   "category": "Commerce",
   "tags": [
@@ -14470,6 +15745,18 @@
    "credit card",
    "switch",
    "transaction"
+  ]
+ },
+ {
+  "name": "credit-card-thaw",
+  "category": "Commerce",
+  "tags": [
+   "unfreeze card",
+   "defrost card",
+   "reactivate card",
+   "unblock",
+   "credit card",
+   "payment"
   ]
  },
  {
@@ -14623,6 +15910,18 @@
   ]
  },
  {
+  "name": "crop-sparkle",
+  "category": "Design",
+  "tags": [
+   "ai crop",
+   "smart crop",
+   "auto crop",
+   "trim",
+   "crop",
+   "sparkle"
+  ]
+ },
+ {
   "name": "crop-square",
   "category": "Design",
   "tags": [
@@ -14672,6 +15971,30 @@
    "royal",
    "premium",
    "winner"
+  ]
+ },
+ {
+  "name": "crown-minus",
+  "category": "Symbols",
+  "tags": [
+   "crown",
+   "remove",
+   "minus",
+   "premium",
+   "downgrade",
+   "king"
+  ]
+ },
+ {
+  "name": "crown-plus",
+  "category": "Symbols",
+  "tags": [
+   "crown",
+   "add",
+   "plus",
+   "premium",
+   "upgrade",
+   "king"
   ]
  },
  {
@@ -14751,6 +16074,18 @@
    "3d scan",
    "ar",
    "object focus"
+  ]
+ },
+ {
+  "name": "cube-move",
+  "category": "Design",
+  "tags": [
+   "3d move",
+   "move",
+   "translate",
+   "cube",
+   "3d modeling",
+   "transform"
   ]
  },
  {
@@ -14835,6 +16170,19 @@
    "unfolded",
    "cube",
    "geometry"
+  ]
+ },
+ {
+  "name": "cube-waves",
+  "category": "Science",
+  "tags": [
+   "submerge",
+   "immerse",
+   "dip",
+   "underwater",
+   "sink",
+   "plunge",
+   "water"
   ]
  },
  {
@@ -15092,6 +16440,18 @@
    "currency",
    "forex",
    "convert"
+  ]
+ },
+ {
+  "name": "currency-exchange-bitcoin",
+  "category": "Commerce",
+  "tags": [
+   "bitcoin exchange",
+   "crypto exchange",
+   "convert",
+   "btc",
+   "forex",
+   "bitcoin"
   ]
  },
  {
@@ -15573,6 +16933,18 @@
   ]
  },
  {
+  "name": "cursor-hourglass",
+  "category": "Interface",
+  "tags": [
+   "busy cursor",
+   "loading",
+   "wait",
+   "hourglass",
+   "cursor",
+   "processing"
+  ]
+ },
+ {
   "name": "cursor-lightning",
   "category": "Interface",
   "tags": [
@@ -15642,6 +17014,42 @@
   ]
  },
  {
+  "name": "cursor-scroll-diagonal",
+  "category": "Interface",
+  "tags": [
+   "autoscroll",
+   "scroll point",
+   "diagonal scroll",
+   "pan",
+   "cursor",
+   "move"
+  ]
+ },
+ {
+  "name": "cursor-scroll-horizontal",
+  "category": "Interface",
+  "tags": [
+   "autoscroll",
+   "scroll point",
+   "horizontal scroll",
+   "pan",
+   "cursor",
+   "move"
+  ]
+ },
+ {
+  "name": "cursor-scroll-vertical",
+  "category": "Interface",
+  "tags": [
+   "autoscroll",
+   "scroll point",
+   "vertical scroll",
+   "pan",
+   "cursor",
+   "move"
+  ]
+ },
+ {
   "name": "cursor-share",
   "category": "Interface",
   "tags": [
@@ -15658,6 +17066,18 @@
    "disabled",
    "off",
    "editor"
+  ]
+ },
+ {
+  "name": "cursor-spinner",
+  "category": "Interface",
+  "tags": [
+   "progress cursor",
+   "loading",
+   "busy",
+   "spinner",
+   "cursor",
+   "working"
   ]
  },
  {
@@ -15720,6 +17140,18 @@
    "bezier",
    "path",
    "spline"
+  ]
+ },
+ {
+  "name": "curve-bend",
+  "category": "Design",
+  "tags": [
+   "bend tool",
+   "warp",
+   "bend path",
+   "distort",
+   "curve",
+   "vector"
   ]
  },
  {
@@ -15880,6 +17312,18 @@
   ]
  },
  {
+  "name": "database-arrows-out",
+  "category": "Development",
+  "tags": [
+   "database",
+   "expand",
+   "scale",
+   "grow",
+   "resize",
+   "data"
+  ]
+ },
+ {
   "name": "database-backup",
   "category": "Development",
   "tags": [
@@ -15887,6 +17331,18 @@
    "restore point",
    "data copy",
    "database"
+  ]
+ },
+ {
+  "name": "database-bitcoin",
+  "category": "Development",
+  "tags": [
+   "blockchain storage",
+   "crypto database",
+   "ledger",
+   "btc",
+   "database",
+   "bitcoin"
   ]
  },
  {
@@ -16315,6 +17771,18 @@
   ]
  },
  {
+  "name": "detergent-bottle",
+  "category": "Home",
+  "tags": [
+   "detergent",
+   "laundry",
+   "soap",
+   "cleaning",
+   "washing",
+   "jug"
+  ]
+ },
+ {
   "name": "device-foldable",
   "category": "Devices",
   "tags": [
@@ -16354,6 +17822,18 @@
    "upload",
    "phone",
    "smartphone"
+  ]
+ },
+ {
+  "name": "device-mobile-bitcoin",
+  "category": "Devices",
+  "tags": [
+   "mobile crypto",
+   "bitcoin app",
+   "crypto wallet",
+   "btc",
+   "phone",
+   "bitcoin"
   ]
  },
  {
@@ -16594,6 +18074,18 @@
   ]
  },
  {
+  "name": "device-mobile-sparkle",
+  "category": "Devices",
+  "tags": [
+   "ai phone",
+   "smartphone",
+   "mobile ai",
+   "phone assistant",
+   "smart device",
+   "sparkle"
+  ]
+ },
+ {
   "name": "device-mobile-speaker",
   "category": "Devices",
   "tags": [
@@ -16647,6 +18139,30 @@
   ]
  },
  {
+  "name": "device-mobile-wifi",
+  "category": "Devices",
+  "tags": [
+   "phone wifi",
+   "mobile",
+   "wireless",
+   "internet",
+   "connected",
+   "hotspot"
+  ]
+ },
+ {
+  "name": "device-mobile-wifi-slash",
+  "category": "Devices",
+  "tags": [
+   "no wifi",
+   "phone",
+   "offline",
+   "disconnected",
+   "mobile",
+   "wifi off"
+  ]
+ },
+ {
   "name": "device-mobile-wrench",
   "category": "Devices",
   "tags": [
@@ -16696,6 +18212,18 @@
    "increase",
    "upload",
    "tablet",
+   "ipad"
+  ]
+ },
+ {
+  "name": "device-tablet-bluetooth",
+  "category": "Devices",
+  "tags": [
+   "tablet",
+   "bluetooth",
+   "wireless",
+   "pairing",
+   "connected",
    "ipad"
   ]
  },
@@ -16865,6 +18393,18 @@
   ]
  },
  {
+  "name": "device-tablet-usb",
+  "category": "Devices",
+  "tags": [
+   "tablet",
+   "usb",
+   "connected",
+   "cable",
+   "charging",
+   "device"
+  ]
+ },
+ {
   "name": "device-tablet-warning",
   "category": "Devices",
   "tags": [
@@ -16873,6 +18413,18 @@
    "error",
    "tablet",
    "ipad"
+  ]
+ },
+ {
+  "name": "device-tablet-wifi",
+  "category": "Devices",
+  "tags": [
+   "tablet",
+   "wifi",
+   "wireless",
+   "internet",
+   "connected",
+   "online"
   ]
  },
  {
@@ -17187,6 +18739,30 @@
   ]
  },
  {
+  "name": "diamond-minus",
+  "category": "Design",
+  "tags": [
+   "diamond",
+   "shape",
+   "remove",
+   "minus",
+   "rhombus",
+   "geometry"
+  ]
+ },
+ {
+  "name": "diamond-plus",
+  "category": "Design",
+  "tags": [
+   "diamond",
+   "shape",
+   "add",
+   "plus",
+   "rhombus",
+   "geometry"
+  ]
+ },
+ {
   "name": "diamond-slash",
   "category": "Objects",
   "tags": [
@@ -17324,6 +18900,18 @@
    "restaurant table",
    "dining",
    "furniture"
+  ]
+ },
+ {
+  "name": "dining-table-umbrella",
+  "category": "Home",
+  "tags": [
+   "patio table",
+   "outdoor dining",
+   "restaurant",
+   "cafe",
+   "terrace",
+   "umbrella"
   ]
  },
  {
@@ -17593,6 +19181,18 @@
   ]
  },
  {
+  "name": "dna-sparkle",
+  "category": "Health",
+  "tags": [
+   "ai genetics",
+   "ai biology",
+   "gene",
+   "helix",
+   "dna",
+   "sparkle"
+  ]
+ },
+ {
   "name": "doctor",
   "category": "Health",
   "tags": [
@@ -17641,6 +19241,19 @@
    "observatory",
    "capitol",
    "building"
+  ]
+ },
+ {
+  "name": "domino",
+  "category": "Sports",
+  "tags": [
+   "domino",
+   "dominoes",
+   "tile",
+   "game",
+   "dots",
+   "pips",
+   "board game"
   ]
  },
  {
@@ -17802,6 +19415,18 @@
    "apps",
    "launcher",
    "menu"
+  ]
+ },
+ {
+  "name": "dots-nine-circle",
+  "category": "Interface",
+  "tags": [
+   "app menu",
+   "apps",
+   "launcher",
+   "grid menu",
+   "circle",
+   "dots"
   ]
  },
  {
@@ -18287,6 +19912,18 @@
   ]
  },
  {
+  "name": "drum",
+  "category": "Media",
+  "tags": [
+   "drum",
+   "snare",
+   "percussion",
+   "instrument",
+   "music",
+   "band"
+  ]
+ },
+ {
   "name": "drumstick",
   "category": "Food",
   "tags": [
@@ -18446,6 +20083,19 @@
    "fashion",
    "drop earrings",
    "pair"
+  ]
+ },
+ {
+  "name": "earth-layers",
+  "category": "Science",
+  "tags": [
+   "geology",
+   "earth layers",
+   "crust",
+   "core",
+   "mantle",
+   "planet",
+   "cross section"
   ]
  },
  {
@@ -18863,6 +20513,18 @@
   ]
  },
  {
+  "name": "envelope-gavel",
+  "category": "Business",
+  "tags": [
+   "subpoena",
+   "summons",
+   "legal notice",
+   "court",
+   "law",
+   "official"
+  ]
+ },
+ {
   "name": "envelope-gear",
   "category": "Communication",
   "tags": [
@@ -18932,6 +20594,18 @@
    "private",
    "lock",
    "encrypted"
+  ]
+ },
+ {
+  "name": "envelope-lock-open",
+  "category": "Communication",
+  "tags": [
+   "unlocked mail",
+   "unencrypted email",
+   "envelope",
+   "unlock",
+   "mail",
+   "open lock"
   ]
  },
  {
@@ -19229,6 +20903,18 @@
    "remove",
    "clear",
    "rubber"
+  ]
+ },
+ {
+  "name": "eraser-plus",
+  "category": "Editor",
+  "tags": [
+   "eraser",
+   "add",
+   "new eraser",
+   "editing",
+   "correction",
+   "plus"
   ]
  },
  {
@@ -19883,6 +21569,18 @@
   ]
  },
  {
+  "name": "face-mask-heart",
+  "category": "Health",
+  "tags": [
+   "face mask",
+   "care",
+   "love",
+   "healthcare",
+   "heart",
+   "medical"
+  ]
+ },
+ {
   "name": "face-mask-slash",
   "category": "Health",
   "tags": [
@@ -20054,6 +21752,18 @@
   ]
  },
  {
+  "name": "fencing-mask",
+  "category": "Sports",
+  "tags": [
+   "fencing mask",
+   "fencing",
+   "mesh",
+   "sword sport",
+   "epee",
+   "helmet"
+  ]
+ },
+ {
   "name": "ferris-wheel",
   "category": "Maps",
   "tags": [
@@ -20103,6 +21813,18 @@
    "page",
    "file",
    "3d"
+  ]
+ },
+ {
+  "name": "file-7z",
+  "category": "Files",
+  "tags": [
+   "7z",
+   "7-zip archive",
+   "compressed",
+   "archive",
+   "file",
+   "zip"
   ]
  },
  {
@@ -20404,6 +22126,30 @@
   ]
  },
  {
+  "name": "file-currency-pound",
+  "category": "Files",
+  "tags": [
+   "file",
+   "pound",
+   "gbp",
+   "invoice",
+   "document",
+   "currency"
+  ]
+ },
+ {
+  "name": "file-currency-yen",
+  "category": "Files",
+  "tags": [
+   "file",
+   "yen",
+   "jpy",
+   "invoice",
+   "document",
+   "currency"
+  ]
+ },
+ {
   "name": "file-cv",
   "category": "Files",
   "tags": [
@@ -20488,6 +22234,18 @@
    "page",
    "file",
    "dots"
+  ]
+ },
+ {
+  "name": "file-estimate",
+  "category": "Business",
+  "tags": [
+   "estimate",
+   "quote",
+   "quotation",
+   "approximate cost",
+   "proposal",
+   "document"
   ]
  },
  {
@@ -20761,6 +22519,18 @@
    "private",
    "protected",
    "document"
+  ]
+ },
+ {
+  "name": "file-lock-open",
+  "category": "Files",
+  "tags": [
+   "unlocked file",
+   "file",
+   "unlock",
+   "unprotected",
+   "open lock",
+   "access"
   ]
  },
  {
@@ -21526,6 +23296,18 @@
   ]
  },
  {
+  "name": "file-xsl",
+  "category": "Files",
+  "tags": [
+   "xsl",
+   "xslt",
+   "stylesheet",
+   "xml",
+   "file type",
+   "transform"
+  ]
+ },
+ {
   "name": "file-yml",
   "category": "Files",
   "tags": [
@@ -21692,6 +23474,18 @@
    "verified",
    "biometric ok",
    "authenticated"
+  ]
+ },
+ {
+  "name": "fingerprint-lock",
+  "category": "Security",
+  "tags": [
+   "biometric access",
+   "fingerprint lock",
+   "touch id",
+   "authentication",
+   "access control",
+   "lock"
   ]
  },
  {
@@ -22283,6 +24077,18 @@
   ]
  },
  {
+  "name": "flask-sparkle",
+  "category": "Science",
+  "tags": [
+   "ai chemistry",
+   "ai science",
+   "lab",
+   "experiment",
+   "flask",
+   "sparkle"
+  ]
+ },
+ {
   "name": "flip-flops",
   "category": "Objects",
   "tags": [
@@ -22301,6 +24107,18 @@
    "horizontal",
    "reflect",
    "transform"
+  ]
+ },
+ {
+  "name": "flip-phone",
+  "category": "Devices",
+  "tags": [
+   "flip phone",
+   "clamshell",
+   "feature phone",
+   "mobile",
+   "classic phone",
+   "cellular"
   ]
  },
  {
@@ -22362,6 +24180,18 @@
   ]
  },
  {
+  "name": "floppy-disk-slash",
+  "category": "Files",
+  "tags": [
+   "save off",
+   "no save",
+   "floppy disk",
+   "disabled",
+   "unsaved",
+   "slash"
+  ]
+ },
+ {
   "name": "flow-arrow",
   "category": "Development",
   "tags": [
@@ -22411,6 +24241,19 @@
    "zen",
    "flower",
    "spa"
+  ]
+ },
+ {
+  "name": "flower-rose",
+  "category": "Nature",
+  "tags": [
+   "rose",
+   "flower",
+   "bloom",
+   "valentine",
+   "garden",
+   "love",
+   "plant"
   ]
  },
  {
@@ -22565,6 +24408,18 @@
   ]
  },
  {
+  "name": "folder-books",
+  "category": "Files",
+  "tags": [
+   "library folder",
+   "books",
+   "collection",
+   "resources",
+   "folder",
+   "reading"
+  ]
+ },
+ {
   "name": "folder-chart",
   "category": "Files",
   "tags": [
@@ -22680,6 +24535,18 @@
   ]
  },
  {
+  "name": "folder-kanban",
+  "category": "Files",
+  "tags": [
+   "project folder",
+   "kanban",
+   "board",
+   "tasks",
+   "folder",
+   "columns"
+  ]
+ },
+ {
   "name": "folder-lightning",
   "category": "Files",
   "tags": [
@@ -22697,6 +24564,18 @@
    "private",
    "protected",
    "directory"
+  ]
+ },
+ {
+  "name": "folder-lock-open",
+  "category": "Files",
+  "tags": [
+   "unlocked folder",
+   "folder",
+   "unlock",
+   "unprotected",
+   "open lock",
+   "access"
   ]
  },
  {
@@ -22761,6 +24640,18 @@
   ]
  },
  {
+  "name": "folder-paperclip",
+  "category": "Files",
+  "tags": [
+   "folder",
+   "attachment",
+   "paperclip",
+   "attach",
+   "documents",
+   "email"
+  ]
+ },
+ {
   "name": "folder-pause",
   "category": "Files",
   "tags": [
@@ -22819,6 +24710,18 @@
    "folder",
    "question",
    "help",
+   "directory"
+  ]
+ },
+ {
+  "name": "folder-root",
+  "category": "Files",
+  "tags": [
+   "root folder",
+   "root directory",
+   "base",
+   "system",
+   "home",
    "directory"
   ]
  },
@@ -23039,6 +24942,30 @@
   ]
  },
  {
+  "name": "fork-knife-magnifying-glass",
+  "category": "Food",
+  "tags": [
+   "find restaurant",
+   "restaurant search",
+   "dining search",
+   "food search",
+   "fork knife",
+   "magnifying glass"
+  ]
+ },
+ {
+  "name": "fork-knife-scan",
+  "category": "Health",
+  "tags": [
+   "meal scan",
+   "food recognition",
+   "calorie tracking",
+   "scan",
+   "nutrition",
+   "meal"
+  ]
+ },
+ {
   "name": "fork-knife-slash",
   "category": "Food",
   "tags": [
@@ -23086,6 +25013,18 @@
    "skip",
    "ahead",
    "video"
+  ]
+ },
+ {
+  "name": "forward-5",
+  "category": "Media",
+  "tags": [
+   "forward 5 seconds",
+   "skip 5",
+   "jump ahead",
+   "seek forward",
+   "video",
+   "audio"
   ]
  },
  {
@@ -23260,6 +25199,18 @@
   ]
  },
  {
+  "name": "function-circle",
+  "category": "Development",
+  "tags": [
+   "function",
+   "f(x)",
+   "math",
+   "formula",
+   "code",
+   "circle"
+  ]
+ },
+ {
   "name": "function-slash",
   "category": "Development",
   "tags": [
@@ -23296,6 +25247,18 @@
    "upload",
    "up",
    "increase"
+  ]
+ },
+ {
+  "name": "funnel-bitcoin",
+  "category": "Interface",
+  "tags": [
+   "filter crypto",
+   "bitcoin filter",
+   "btc",
+   "funnel",
+   "sort",
+   "bitcoin"
   ]
  },
  {
@@ -23528,6 +25491,18 @@
   ]
  },
  {
+  "name": "game-controller-sparkle",
+  "category": "Devices",
+  "tags": [
+   "ai game",
+   "ai gaming",
+   "game generation",
+   "gamepad",
+   "controller",
+   "sparkle"
+  ]
+ },
+ {
   "name": "gamepad-button-letter",
   "category": "Devices",
   "tags": [
@@ -23556,6 +25531,30 @@
    "parking",
    "door",
    "car"
+  ]
+ },
+ {
+  "name": "garbage-truck",
+  "category": "Transport",
+  "tags": [
+   "garbage truck",
+   "refuse",
+   "waste",
+   "trash",
+   "collection",
+   "sanitation"
+  ]
+ },
+ {
+  "name": "garden-gnome",
+  "category": "Home",
+  "tags": [
+   "garden gnome",
+   "gnome",
+   "garden",
+   "decoration",
+   "figure",
+   "ornament"
   ]
  },
  {
@@ -23630,6 +25629,18 @@
   ]
  },
  {
+  "name": "gate-colonnade",
+  "category": "Maps",
+  "tags": [
+   "brandenburg gate",
+   "berlin",
+   "colonnade gate",
+   "landmark",
+   "germany",
+   "monument"
+  ]
+ },
+ {
   "name": "gauge",
   "category": "Charts",
   "tags": [
@@ -23647,6 +25658,30 @@
    "speed",
    "increase",
    "meter"
+  ]
+ },
+ {
+  "name": "gauge-gear",
+  "category": "Interface",
+  "tags": [
+   "dashboard settings",
+   "gauge",
+   "configure",
+   "preferences",
+   "meter",
+   "gear"
+  ]
+ },
+ {
+  "name": "gauge-pencil",
+  "category": "Interface",
+  "tags": [
+   "dashboard",
+   "edit",
+   "gauge",
+   "customize",
+   "widget",
+   "pencil"
   ]
  },
  {
@@ -23708,6 +25743,18 @@
    "upload",
    "up",
    "increase"
+  ]
+ },
+ {
+  "name": "gear-bitcoin",
+  "category": "Interface",
+  "tags": [
+   "crypto settings",
+   "bitcoin settings",
+   "btc",
+   "configure",
+   "gear",
+   "bitcoin"
   ]
  },
  {
@@ -24075,6 +26122,18 @@
   ]
  },
  {
+  "name": "git-branch-minus",
+  "category": "Development",
+  "tags": [
+   "git",
+   "branch",
+   "delete branch",
+   "remove",
+   "minus",
+   "version control"
+  ]
+ },
+ {
   "name": "git-cherry-pick",
   "category": "Development",
   "tags": [
@@ -24352,6 +26411,18 @@
   ]
  },
  {
+  "name": "globe-arrows-clockwise",
+  "category": "Maps",
+  "tags": [
+   "global refresh",
+   "sync worldwide",
+   "update",
+   "web",
+   "globe",
+   "sync"
+  ]
+ },
+ {
   "name": "globe-check",
   "category": "Maps",
   "tags": [
@@ -24494,6 +26565,18 @@
   ]
  },
  {
+  "name": "globe-pencil",
+  "category": "Maps",
+  "tags": [
+   "global editing",
+   "edit worldwide",
+   "translate",
+   "web edit",
+   "globe",
+   "pencil"
+  ]
+ },
+ {
   "name": "globe-plus",
   "category": "Maps",
   "tags": [
@@ -24582,6 +26665,18 @@
   ]
  },
  {
+  "name": "glove",
+  "category": "Objects",
+  "tags": [
+   "work glove",
+   "glove",
+   "protection",
+   "safety",
+   "gardening",
+   "hand"
+  ]
+ },
+ {
   "name": "go-game",
   "category": "Sports",
   "tags": [
@@ -24622,6 +26717,30 @@
   ]
  },
  {
+  "name": "gold-bars-minus",
+  "category": "Commerce",
+  "tags": [
+   "sell gold",
+   "gold",
+   "bullion",
+   "divest",
+   "sell",
+   "minus"
+  ]
+ },
+ {
+  "name": "gold-bars-plus",
+  "category": "Commerce",
+  "tags": [
+   "buy gold",
+   "gold",
+   "bullion",
+   "invest",
+   "purchase",
+   "plus"
+  ]
+ },
+ {
   "name": "golf",
   "category": "Sports",
   "tags": [
@@ -24630,6 +26749,18 @@
    "hole",
    "course",
    "club"
+  ]
+ },
+ {
+  "name": "golf-cart",
+  "category": "Transport",
+  "tags": [
+   "golf cart",
+   "buggy",
+   "golf",
+   "cart",
+   "electric",
+   "course"
   ]
  },
  {
@@ -24675,6 +26806,18 @@
   ]
  },
  {
+  "name": "gradient-radial",
+  "category": "Design",
+  "tags": [
+   "radial gradient",
+   "radial",
+   "concentric",
+   "fill",
+   "gradient",
+   "circle"
+  ]
+ },
+ {
   "name": "graduation-cap",
   "category": "People",
   "tags": [
@@ -24683,6 +26826,18 @@
    "student",
    "degree",
    "university"
+  ]
+ },
+ {
+  "name": "graduation-cap-arrows",
+  "category": "Education",
+  "tags": [
+   "elearning",
+   "exchange",
+   "student exchange",
+   "course",
+   "learning",
+   "swap"
   ]
  },
  {
@@ -24721,6 +26876,66 @@
    "nodes",
    "connections",
    "diagram"
+  ]
+ },
+ {
+  "name": "graph-arrow-down",
+  "category": "Development",
+  "tags": [
+   "move node down",
+   "reorder",
+   "diagram",
+   "network",
+   "graph",
+   "arrow down"
+  ]
+ },
+ {
+  "name": "graph-arrow-up",
+  "category": "Development",
+  "tags": [
+   "move node up",
+   "reorder",
+   "diagram",
+   "network",
+   "graph",
+   "arrow up"
+  ]
+ },
+ {
+  "name": "graph-minus",
+  "category": "Development",
+  "tags": [
+   "remove node",
+   "delete node",
+   "diagram",
+   "network",
+   "graph",
+   "minus"
+  ]
+ },
+ {
+  "name": "graph-pencil",
+  "category": "Development",
+  "tags": [
+   "edit node",
+   "diagram",
+   "network",
+   "modify",
+   "graph",
+   "pencil"
+  ]
+ },
+ {
+  "name": "graph-plus",
+  "category": "Development",
+  "tags": [
+   "add node",
+   "new node",
+   "diagram",
+   "network",
+   "graph",
+   "plus"
   ]
  },
  {
@@ -24765,6 +26980,19 @@
   ]
  },
  {
+  "name": "gravity",
+  "category": "Science",
+  "tags": [
+   "gravity",
+   "force",
+   "physics",
+   "pull",
+   "mass",
+   "downward",
+   "attraction"
+  ]
+ },
+ {
   "name": "great-wall",
   "category": "Maps",
   "tags": [
@@ -24794,6 +27022,18 @@
    "math",
    "greater than or equal",
    "comparison"
+  ]
+ },
+ {
+  "name": "greek-helmet",
+  "category": "Sports",
+  "tags": [
+   "greek helmet",
+   "spartan",
+   "corinthian",
+   "ancient",
+   "warrior",
+   "crest"
   ]
  },
  {
@@ -24999,6 +27239,18 @@
   ]
  },
  {
+  "name": "ham",
+  "category": "Food",
+  "tags": [
+   "ham",
+   "pork",
+   "meat",
+   "roast",
+   "butcher",
+   "protein"
+  ]
+ },
+ {
   "name": "hamburger",
   "category": "Food",
   "tags": [
@@ -25106,6 +27358,19 @@
   ]
  },
  {
+  "name": "hand-device-mobile",
+  "category": "Devices",
+  "tags": [
+   "hand holding phone",
+   "phone",
+   "mobile",
+   "smartphone",
+   "hand",
+   "hold",
+   "device"
+  ]
+ },
+ {
   "name": "hand-drag",
   "category": "Interface",
   "tags": [
@@ -25125,6 +27390,18 @@
   ]
  },
  {
+  "name": "hand-finger-heart",
+  "category": "People",
+  "tags": [
+   "finger heart",
+   "korean heart",
+   "love",
+   "gesture",
+   "hand",
+   "kpop"
+  ]
+ },
+ {
   "name": "hand-fist",
   "category": "People",
   "tags": [
@@ -25132,6 +27409,18 @@
    "power",
    "solidarity",
    "punch"
+  ]
+ },
+ {
+  "name": "hand-four-fingers",
+  "category": "People",
+  "tags": [
+   "four fingers",
+   "count",
+   "gesture",
+   "hand",
+   "number four",
+   "palm"
   ]
  },
  {
@@ -25164,6 +27453,19 @@
    "horns",
    "metal",
    "gesture"
+  ]
+ },
+ {
+  "name": "hand-lock",
+  "category": "Security",
+  "tags": [
+   "hand",
+   "lock",
+   "hold",
+   "protected",
+   "restricted",
+   "access control",
+   "secure"
   ]
  },
  {
@@ -25312,6 +27614,19 @@
    "gesture",
    "hand",
    "surf"
+  ]
+ },
+ {
+  "name": "hand-shield",
+  "category": "Security",
+  "tags": [
+   "protection",
+   "safe",
+   "care",
+   "security",
+   "trust",
+   "shield",
+   "hand"
   ]
  },
  {
@@ -25564,6 +27879,18 @@
   ]
  },
  {
+  "name": "hard-drive-arrow-up",
+  "category": "Devices",
+  "tags": [
+   "upload to drive",
+   "backup",
+   "hard drive",
+   "storage",
+   "upload",
+   "arrow up"
+  ]
+ },
+ {
   "name": "hard-drive-network",
   "category": "Devices",
   "tags": [
@@ -25582,6 +27909,18 @@
    "storage",
    "rack",
    "disks"
+  ]
+ },
+ {
+  "name": "hard-drives-gear",
+  "category": "Development",
+  "tags": [
+   "server settings",
+   "server",
+   "configure",
+   "admin",
+   "gear",
+   "infrastructure"
   ]
  },
  {
@@ -26179,6 +28518,19 @@
   ]
  },
  {
+  "name": "hex-nut",
+  "category": "Objects",
+  "tags": [
+   "hex nut",
+   "nut",
+   "bolt",
+   "hardware",
+   "fastener",
+   "hexagon",
+   "tools"
+  ]
+ },
+ {
   "name": "hexagon",
   "category": "Interface",
   "tags": [
@@ -26353,6 +28705,18 @@
   ]
  },
  {
+  "name": "hologram",
+  "category": "Devices",
+  "tags": [
+   "hologram",
+   "projection",
+   "3d display",
+   "holographic",
+   "ar",
+   "virtual"
+  ]
+ },
+ {
   "name": "honey-jar",
   "category": "Food",
   "tags": [
@@ -26370,6 +28734,30 @@
    "sweatshirt",
    "clothing",
    "hood"
+  ]
+ },
+ {
+  "name": "hop",
+  "category": "Food",
+  "tags": [
+   "hop",
+   "hops",
+   "brewing",
+   "beer",
+   "cone",
+   "ingredient"
+  ]
+ },
+ {
+  "name": "hop-slash",
+  "category": "Food",
+  "tags": [
+   "no hops",
+   "hop free",
+   "allergen",
+   "gluten free",
+   "brewing",
+   "dietary"
   ]
  },
  {
@@ -26810,6 +29198,18 @@
   ]
  },
  {
+  "name": "house-trullo",
+  "category": "Home",
+  "tags": [
+   "trullo",
+   "trulli",
+   "cone roof",
+   "stone hut",
+   "alberobello",
+   "cottage"
+  ]
+ },
+ {
   "name": "house-user",
   "category": "Home",
   "tags": [
@@ -27024,6 +29424,18 @@
   ]
  },
  {
+  "name": "image-actual-size",
+  "category": "Media",
+  "tags": [
+   "actual size",
+   "100%",
+   "1:1",
+   "original size",
+   "zoom",
+   "image"
+  ]
+ },
+ {
   "name": "image-arrow-down",
   "category": "Media",
   "tags": [
@@ -27094,6 +29506,30 @@
    "before after",
    "split",
    "picture"
+  ]
+ },
+ {
+  "name": "image-composition",
+  "category": "Media",
+  "tags": [
+   "composition",
+   "rule of thirds",
+   "framing",
+   "photography",
+   "image",
+   "grid"
+  ]
+ },
+ {
+  "name": "image-composition-oval",
+  "category": "Media",
+  "tags": [
+   "oval composition",
+   "framing",
+   "portrait guide",
+   "photography",
+   "image",
+   "oval"
   ]
  },
  {
@@ -27310,6 +29746,18 @@
   ]
  },
  {
+  "name": "image-to-video",
+  "category": "Media",
+  "tags": [
+   "image to video",
+   "animate image",
+   "photo to video",
+   "convert",
+   "ai video",
+   "generate"
+  ]
+ },
+ {
   "name": "image-warning",
   "category": "Media",
   "tags": [
@@ -27358,6 +29806,19 @@
    "arrow in",
    "tray",
    "load"
+  ]
+ },
+ {
+  "name": "inclined-plane",
+  "category": "Science",
+  "tags": [
+   "acceleration",
+   "incline",
+   "ramp",
+   "slope",
+   "physics",
+   "motion",
+   "rolling ball"
   ]
  },
  {
@@ -27795,6 +30256,18 @@
   ]
  },
  {
+  "name": "kaaba",
+  "category": "Maps",
+  "tags": [
+   "kaaba",
+   "mecca",
+   "hajj",
+   "landmark",
+   "islam",
+   "cube"
+  ]
+ },
+ {
   "name": "kanban",
   "category": "Editor",
   "tags": [
@@ -27817,6 +30290,18 @@
   ]
  },
  {
+  "name": "keffiyeh",
+  "category": "Objects",
+  "tags": [
+   "keffiyeh",
+   "headdress",
+   "shemagh",
+   "scarf",
+   "agal",
+   "clothing"
+  ]
+ },
+ {
   "name": "kettle",
   "category": "Home",
   "tags": [
@@ -27827,6 +30312,18 @@
   ]
  },
  {
+  "name": "ketupat",
+  "category": "Food",
+  "tags": [
+   "ketupat",
+   "rice cake",
+   "woven",
+   "eid",
+   "indonesia",
+   "malaysia"
+  ]
+ },
+ {
   "name": "key",
   "category": "Security",
   "tags": [
@@ -27834,6 +30331,18 @@
    "access",
    "unlock",
    "login"
+  ]
+ },
+ {
+  "name": "key-bitcoin",
+  "category": "Security",
+  "tags": [
+   "private key",
+   "crypto key",
+   "wallet key",
+   "btc",
+   "key",
+   "bitcoin"
   ]
  },
  {
@@ -28042,6 +30551,19 @@
   ]
  },
  {
+  "name": "kite",
+  "category": "Objects",
+  "tags": [
+   "kite",
+   "toy",
+   "flying",
+   "wind",
+   "play",
+   "diamond",
+   "string"
+  ]
+ },
+ {
   "name": "kitesurfing",
   "category": "Sports",
   "tags": [
@@ -28060,6 +30582,18 @@
    "cut",
    "kitchen",
    "chef"
+  ]
+ },
+ {
+  "name": "knight-shield",
+  "category": "Sports",
+  "tags": [
+   "knight shield",
+   "heater shield",
+   "medieval",
+   "armor",
+   "heraldry",
+   "defense"
   ]
  },
  {
@@ -28114,6 +30648,18 @@
   ]
  },
  {
+  "name": "lake",
+  "category": "Nature",
+  "tags": [
+   "lake",
+   "pond",
+   "water",
+   "nature",
+   "shore",
+   "reservoir"
+  ]
+ },
+ {
   "name": "lambda",
   "category": "Science",
   "tags": [
@@ -28153,6 +30699,18 @@
   ]
  },
  {
+  "name": "land-plot",
+  "category": "Maps",
+  "tags": [
+   "land plot",
+   "parcel",
+   "lot",
+   "real estate",
+   "property",
+   "survey"
+  ]
+ },
+ {
   "name": "landslide",
   "category": "Nature",
   "tags": [
@@ -28160,6 +30718,31 @@
    "rockfall",
    "hazard",
    "mudslide"
+  ]
+ },
+ {
+  "name": "lantern",
+  "category": "Objects",
+  "tags": [
+   "lantern",
+   "camping light",
+   "lamp",
+   "outdoor",
+   "glow",
+   "portable light"
+  ]
+ },
+ {
+  "name": "lantern-crescent",
+  "category": "Symbols",
+  "tags": [
+   "eid mubarak",
+   "eid",
+   "ramadan",
+   "lantern",
+   "crescent",
+   "celebration",
+   "islam"
   ]
  },
  {
@@ -28208,6 +30791,18 @@
    "disabled",
    "off",
    "devices"
+  ]
+ },
+ {
+  "name": "laptop-sparkle",
+  "category": "Devices",
+  "tags": [
+   "ai laptop",
+   "ai pc",
+   "smart laptop",
+   "computer",
+   "laptop",
+   "sparkle"
   ]
  },
  {
@@ -28501,6 +31096,30 @@
   ]
  },
  {
+  "name": "layout-image-bottom",
+  "category": "Editor",
+  "tags": [
+   "image below text",
+   "insert image",
+   "layout",
+   "content block",
+   "image",
+   "bottom"
+  ]
+ },
+ {
+  "name": "layout-image-top",
+  "category": "Editor",
+  "tags": [
+   "image above text",
+   "insert image",
+   "layout",
+   "content block",
+   "image",
+   "top"
+  ]
+ },
+ {
   "name": "layout-list",
   "category": "Interface",
   "tags": [
@@ -28528,6 +31147,18 @@
    "off",
    "disabled",
    "hidden"
+  ]
+ },
+ {
+  "name": "layout-sparkle",
+  "category": "Editor",
+  "tags": [
+   "ai template",
+   "generated layout",
+   "smart template",
+   "wireframe",
+   "layout",
+   "sparkle"
   ]
  },
  {
@@ -28619,6 +31250,18 @@
    "led",
    "smart light",
    "decoration"
+  ]
+ },
+ {
+  "name": "leg",
+  "category": "Health",
+  "tags": [
+   "leg",
+   "anatomy",
+   "limb",
+   "knee",
+   "body part",
+   "thigh"
   ]
  },
  {
@@ -29564,6 +32207,18 @@
   ]
  },
  {
+  "name": "lifting-belt",
+  "category": "Sports",
+  "tags": [
+   "lifting belt",
+   "harness",
+   "weightlifting",
+   "strength",
+   "gym",
+   "support"
+  ]
+ },
+ {
   "name": "lightbulb",
   "category": "Devices",
   "tags": [
@@ -29849,6 +32504,30 @@
   ]
  },
  {
+  "name": "link-arrow-left",
+  "category": "Interface",
+  "tags": [
+   "link",
+   "back",
+   "previous",
+   "backlink",
+   "return",
+   "navigate"
+  ]
+ },
+ {
+  "name": "link-arrow-right",
+  "category": "Interface",
+  "tags": [
+   "link",
+   "forward",
+   "next",
+   "outgoing link",
+   "continue",
+   "navigate"
+  ]
+ },
+ {
   "name": "link-break",
   "category": "Interface",
   "tags": [
@@ -29941,6 +32620,18 @@
   ]
  },
  {
+  "name": "list-bullets-rtl",
+  "category": "Editor",
+  "tags": [
+   "rtl",
+   "right to left",
+   "bullet list",
+   "list",
+   "arabic",
+   "hebrew"
+  ]
+ },
+ {
   "name": "list-checks",
   "category": "Editor",
   "tags": [
@@ -29970,6 +32661,18 @@
    "unordered",
    "items",
    "dashes"
+  ]
+ },
+ {
+  "name": "list-dashes-rtl",
+  "category": "Editor",
+  "tags": [
+   "rtl",
+   "right to left",
+   "dash list",
+   "list",
+   "arabic",
+   "hebrew"
   ]
  },
  {
@@ -30045,6 +32748,18 @@
   ]
  },
  {
+  "name": "list-minus",
+  "category": "Editor",
+  "tags": [
+   "remove from list",
+   "list",
+   "minus",
+   "remove item",
+   "bullet list",
+   "subtract"
+  ]
+ },
+ {
   "name": "list-nested",
   "category": "Editor",
   "tags": [
@@ -30063,6 +32778,18 @@
    "list",
    "steps",
    "ol"
+  ]
+ },
+ {
+  "name": "list-numbers-rtl",
+  "category": "Editor",
+  "tags": [
+   "rtl",
+   "right to left",
+   "numbered list",
+   "list",
+   "arabic",
+   "hebrew"
   ]
  },
  {
@@ -30085,6 +32812,18 @@
    "list",
    "rating",
    "starred list"
+  ]
+ },
+ {
+  "name": "list-triangles-rtl",
+  "category": "Editor",
+  "tags": [
+   "rtl",
+   "right to left",
+   "toggle list",
+   "collapsible list",
+   "list",
+   "triangle"
   ]
  },
  {
@@ -30426,6 +33165,18 @@
   ]
  },
  {
+  "name": "lock-sync",
+  "category": "Security",
+  "tags": [
+   "lock sync",
+   "secure sync",
+   "encrypted sync",
+   "refresh",
+   "lock",
+   "synchronize"
+  ]
+ },
+ {
   "name": "lock-user",
   "category": "Security",
   "tags": [
@@ -30710,6 +33461,18 @@
   ]
  },
  {
+  "name": "magnifying-glass-bitcoin",
+  "category": "Commerce",
+  "tags": [
+   "search crypto",
+   "bitcoin lookup",
+   "btc",
+   "find",
+   "magnifying glass",
+   "bitcoin"
+  ]
+ },
+ {
   "name": "magnifying-glass-chart",
   "category": "Interface",
   "tags": [
@@ -30730,6 +33493,18 @@
    "match",
    "verified",
    "magnifying glass check"
+  ]
+ },
+ {
+  "name": "magnifying-glass-circle",
+  "category": "Interface",
+  "tags": [
+   "search button",
+   "search",
+   "circle",
+   "find",
+   "magnifying glass",
+   "lookup"
   ]
  },
  {
@@ -30950,6 +33725,30 @@
    "up",
    "increase",
    "map"
+  ]
+ },
+ {
+  "name": "map-pin-arrows-clockwise",
+  "category": "Maps",
+  "tags": [
+   "update location",
+   "refresh location",
+   "relocate",
+   "gps",
+   "map pin",
+   "sync"
+  ]
+ },
+ {
+  "name": "map-pin-bitcoin",
+  "category": "Maps",
+  "tags": [
+   "bitcoin atm",
+   "crypto location",
+   "accepts bitcoin",
+   "btc",
+   "map pin",
+   "bitcoin"
   ]
  },
  {
@@ -31279,6 +34078,18 @@
    "up",
    "increase",
    "map"
+  ]
+ },
+ {
+  "name": "map-trifold-arrows-clockwise",
+  "category": "Maps",
+  "tags": [
+   "refresh map",
+   "reload map",
+   "update map",
+   "sync",
+   "map",
+   "navigation"
   ]
  },
  {
@@ -31650,12 +34461,36 @@
   ]
  },
  {
+  "name": "math-absolute",
+  "category": "Letters & Numbers",
+  "tags": [
+   "absolute value",
+   "modulus",
+   "math",
+   "algebra",
+   "x",
+   "bars"
+  ]
+ },
+ {
   "name": "math-book",
   "category": "Education",
   "tags": [
    "algebra",
    "textbook",
    "mathematics"
+  ]
+ },
+ {
+  "name": "math-cos",
+  "category": "Letters & Numbers",
+  "tags": [
+   "cosine",
+   "cos",
+   "trigonometry",
+   "math",
+   "function",
+   "formula"
   ]
  },
  {
@@ -31688,6 +34523,30 @@
    "disabled",
    "hidden",
    "math"
+  ]
+ },
+ {
+  "name": "math-sin",
+  "category": "Letters & Numbers",
+  "tags": [
+   "sine",
+   "sin",
+   "trigonometry",
+   "math",
+   "function",
+   "formula"
+  ]
+ },
+ {
+  "name": "math-tan",
+  "category": "Letters & Numbers",
+  "tags": [
+   "tangent",
+   "tan",
+   "trigonometry",
+   "math",
+   "function",
+   "formula"
   ]
  },
  {
@@ -31842,6 +34701,30 @@
   ]
  },
  {
+  "name": "meeting-room",
+  "category": "Business",
+  "tags": [
+   "meeting room",
+   "conference room",
+   "boardroom",
+   "table",
+   "chairs",
+   "meeting"
+  ]
+ },
+ {
+  "name": "meeting-room-slash",
+  "category": "Business",
+  "tags": [
+   "no meeting room",
+   "room unavailable",
+   "booked",
+   "meeting",
+   "disabled",
+   "slash"
+  ]
+ },
+ {
   "name": "megaphone",
   "category": "Communication",
   "tags": [
@@ -31881,6 +34764,18 @@
    "element of",
    "set",
    "math"
+  ]
+ },
+ {
+  "name": "memorial-pillars",
+  "category": "Maps",
+  "tags": [
+   "shaheed minar",
+   "martyrs monument",
+   "dhaka",
+   "bangladesh",
+   "memorial",
+   "landmark"
   ]
  },
  {
@@ -32059,6 +34954,18 @@
    "mute",
    "karaoke",
    "microphone"
+  ]
+ },
+ {
+  "name": "microphone-stage-sparkle",
+  "category": "Media",
+  "tags": [
+   "ai concert",
+   "ai singer",
+   "ai music",
+   "performance",
+   "microphone",
+   "sparkle"
   ]
  },
  {
@@ -32298,6 +35205,18 @@
   ]
  },
  {
+  "name": "mochi",
+  "category": "Food",
+  "tags": [
+   "mochi",
+   "rice cake",
+   "japanese sweet",
+   "daifuku",
+   "dessert",
+   "snack"
+  ]
+ },
+ {
   "name": "modem",
   "category": "Devices",
   "tags": [
@@ -32320,6 +35239,19 @@
   ]
  },
  {
+  "name": "molecule-hexagon",
+  "category": "Science",
+  "tags": [
+   "nanotechnology",
+   "nano",
+   "molecular",
+   "hexagon",
+   "particle",
+   "lattice",
+   "technology"
+  ]
+ },
+ {
   "name": "money",
   "category": "Commerce",
   "tags": [
@@ -32339,6 +35271,18 @@
    "wealth",
    "cash",
    "sack"
+  ]
+ },
+ {
+  "name": "money-bag-bitcoin",
+  "category": "Commerce",
+  "tags": [
+   "bitcoin savings",
+   "crypto wealth",
+   "money bag",
+   "btc",
+   "bitcoin",
+   "crypto"
   ]
  },
  {
@@ -32383,6 +35327,18 @@
    "new",
    "money bag",
    "savings"
+  ]
+ },
+ {
+  "name": "money-bitcoin",
+  "category": "Commerce",
+  "tags": [
+   "bitcoin banknote",
+   "crypto cash",
+   "btc",
+   "paper money",
+   "cryptocurrency",
+   "payment"
   ]
  },
  {
@@ -32446,6 +35402,54 @@
   ]
  },
  {
+  "name": "money-receive-bitcoin",
+  "category": "Commerce",
+  "tags": [
+   "receive bitcoin",
+   "crypto payment",
+   "btc",
+   "income",
+   "money",
+   "bitcoin"
+  ]
+ },
+ {
+  "name": "money-receive-currency-euro",
+  "category": "Commerce",
+  "tags": [
+   "receive euro",
+   "income",
+   "get paid",
+   "euro",
+   "money",
+   "currency"
+  ]
+ },
+ {
+  "name": "money-receive-currency-pound",
+  "category": "Commerce",
+  "tags": [
+   "receive pound",
+   "income",
+   "get paid",
+   "gbp",
+   "money",
+   "currency"
+  ]
+ },
+ {
+  "name": "money-receive-currency-yen",
+  "category": "Commerce",
+  "tags": [
+   "receive yen",
+   "income",
+   "get paid",
+   "jpy",
+   "money",
+   "currency"
+  ]
+ },
+ {
   "name": "money-refund",
   "category": "Commerce",
   "tags": [
@@ -32458,12 +35462,108 @@
   ]
  },
  {
+  "name": "money-refund-bitcoin",
+  "category": "Commerce",
+  "tags": [
+   "bitcoin cashback",
+   "crypto refund",
+   "btc",
+   "rebate",
+   "money",
+   "bitcoin"
+  ]
+ },
+ {
+  "name": "money-refund-currency-euro",
+  "category": "Commerce",
+  "tags": [
+   "euro cashback",
+   "refund",
+   "rebate",
+   "money back",
+   "euro",
+   "currency"
+  ]
+ },
+ {
+  "name": "money-refund-currency-pound",
+  "category": "Commerce",
+  "tags": [
+   "pound cashback",
+   "refund",
+   "rebate",
+   "money back",
+   "gbp",
+   "currency"
+  ]
+ },
+ {
+  "name": "money-refund-currency-yen",
+  "category": "Commerce",
+  "tags": [
+   "yen cashback",
+   "refund",
+   "rebate",
+   "money back",
+   "jpy",
+   "currency"
+  ]
+ },
+ {
   "name": "money-send",
   "category": "Commerce",
   "tags": [
    "send money",
    "pay",
    "transfer"
+  ]
+ },
+ {
+  "name": "money-send-bitcoin",
+  "category": "Commerce",
+  "tags": [
+   "send bitcoin",
+   "crypto transfer",
+   "btc",
+   "pay",
+   "money",
+   "bitcoin"
+  ]
+ },
+ {
+  "name": "money-send-currency-euro",
+  "category": "Commerce",
+  "tags": [
+   "send euro",
+   "pay",
+   "transfer",
+   "euro",
+   "money",
+   "currency"
+  ]
+ },
+ {
+  "name": "money-send-currency-pound",
+  "category": "Commerce",
+  "tags": [
+   "send pound",
+   "pay",
+   "transfer",
+   "gbp",
+   "money",
+   "currency"
+  ]
+ },
+ {
+  "name": "money-send-currency-yen",
+  "category": "Commerce",
+  "tags": [
+   "send yen",
+   "pay",
+   "transfer",
+   "jpy",
+   "money",
+   "currency"
   ]
  },
  {
@@ -32498,6 +35598,18 @@
   ]
  },
  {
+  "name": "money-transfer-user",
+  "category": "Commerce",
+  "tags": [
+   "self transfer",
+   "own accounts",
+   "move money",
+   "transfer",
+   "account",
+   "user"
+  ]
+ },
+ {
   "name": "money-wavy",
   "category": "Commerce",
   "tags": [
@@ -32514,6 +35626,18 @@
    "atm",
    "cash out",
    "money"
+  ]
+ },
+ {
+  "name": "money-withdraw-bitcoin",
+  "category": "Commerce",
+  "tags": [
+   "withdraw bitcoin",
+   "cash out crypto",
+   "btc",
+   "withdraw",
+   "money",
+   "bitcoin"
   ]
  },
  {
@@ -32610,6 +35734,19 @@
    "price",
    "desktop",
    "computer"
+  ]
+ },
+ {
+  "name": "monitor-dot",
+  "category": "Devices",
+  "tags": [
+   "monitor",
+   "notification",
+   "status",
+   "online",
+   "indicator",
+   "display",
+   "desktop"
   ]
  },
  {
@@ -32779,6 +35916,31 @@
   ]
  },
  {
+  "name": "monitor-sparkle",
+  "category": "Devices",
+  "tags": [
+   "ai computer",
+   "ai pc",
+   "smart display",
+   "desktop",
+   "monitor",
+   "sparkle"
+  ]
+ },
+ {
+  "name": "monitor-speaker",
+  "category": "Devices",
+  "tags": [
+   "desktop",
+   "speaker",
+   "audio",
+   "computer",
+   "workstation",
+   "sound",
+   "setup"
+  ]
+ },
+ {
   "name": "monitor-star",
   "category": "Devices",
   "tags": [
@@ -32787,6 +35949,18 @@
    "starred",
    "desktop",
    "computer"
+  ]
+ },
+ {
+  "name": "monitor-stop",
+  "category": "Devices",
+  "tags": [
+   "stop sharing",
+   "stop recording",
+   "monitor",
+   "screen",
+   "stop",
+   "display"
   ]
  },
  {
@@ -32832,6 +36006,18 @@
   ]
  },
  {
+  "name": "monocle",
+  "category": "Objects",
+  "tags": [
+   "monocle",
+   "eyeglass",
+   "lens",
+   "vintage",
+   "gentleman",
+   "optics"
+  ]
+ },
+ {
   "name": "monorail",
   "category": "Transport",
   "tags": [
@@ -32839,6 +36025,18 @@
    "train",
    "elevated rail",
    "transit"
+  ]
+ },
+ {
+  "name": "monster-truck",
+  "category": "Transport",
+  "tags": [
+   "monster truck",
+   "off road",
+   "truck",
+   "big wheels",
+   "stunt",
+   "4x4"
   ]
  },
  {
@@ -32852,6 +36050,18 @@
   ]
  },
  {
+  "name": "monument-flame",
+  "category": "Maps",
+  "tags": [
+   "monas",
+   "national monument",
+   "jakarta",
+   "obelisk",
+   "landmark",
+   "flame"
+  ]
+ },
+ {
   "name": "moon",
   "category": "Weather",
   "tags": [
@@ -32859,6 +36069,18 @@
    "dark mode",
    "sleep",
    "crescent"
+  ]
+ },
+ {
+  "name": "moon-flag",
+  "category": "Science",
+  "tags": [
+   "moon landing",
+   "lunar",
+   "flag",
+   "space",
+   "exploration",
+   "astronaut"
   ]
  },
  {
@@ -32961,6 +36183,18 @@
    "islam",
    "religion",
    "worship"
+  ]
+ },
+ {
+  "name": "mosque-clock",
+  "category": "Time",
+  "tags": [
+   "prayer time",
+   "salah",
+   "mosque",
+   "clock",
+   "schedule",
+   "islam"
   ]
  },
  {
@@ -33918,6 +37152,19 @@
   ]
  },
  {
+  "name": "note-check",
+  "category": "Editor",
+  "tags": [
+   "note done",
+   "note",
+   "check",
+   "complete",
+   "done",
+   "task",
+   "finished"
+  ]
+ },
+ {
   "name": "note-pencil",
   "category": "Editor",
   "tags": [
@@ -33947,6 +37194,18 @@
    "off",
    "disabled",
    "hidden"
+  ]
+ },
+ {
+  "name": "note-x",
+  "category": "Files",
+  "tags": [
+   "delete note",
+   "remove note",
+   "note",
+   "sticky",
+   "memo",
+   "x"
   ]
  },
  {
@@ -34119,6 +37378,18 @@
    "off",
    "disabled",
    "hidden"
+  ]
+ },
+ {
+  "name": "nth-root-circle",
+  "category": "Symbols",
+  "tags": [
+   "nth root",
+   "root",
+   "radical",
+   "math",
+   "algebra",
+   "circle"
   ]
  },
  {
@@ -34515,6 +37786,18 @@
   ]
  },
  {
+  "name": "nut-slash",
+  "category": "Food",
+  "tags": [
+   "nut free",
+   "no nuts",
+   "allergen",
+   "allergy",
+   "dietary",
+   "nut"
+  ]
+ },
+ {
   "name": "object-group",
   "category": "Design",
   "tags": [
@@ -34685,6 +37968,18 @@
   ]
  },
  {
+  "name": "options-call",
+  "category": "Business",
+  "tags": [
+   "call option",
+   "options trading",
+   "derivative",
+   "stocks",
+   "bullish",
+   "finance"
+  ]
+ },
+ {
   "name": "orange",
   "category": "Food",
   "tags": [
@@ -34721,6 +38016,42 @@
    "atom",
    "solar system",
    "rings"
+  ]
+ },
+ {
+  "name": "order-limit",
+  "category": "Business",
+  "tags": [
+   "limit order",
+   "trading",
+   "target price",
+   "stocks",
+   "order",
+   "chart"
+  ]
+ },
+ {
+  "name": "order-market",
+  "category": "Business",
+  "tags": [
+   "market order",
+   "trading",
+   "instant buy",
+   "stocks",
+   "order",
+   "chart"
+  ]
+ },
+ {
+  "name": "order-stop-loss",
+  "category": "Business",
+  "tags": [
+   "stop loss",
+   "trading",
+   "risk limit",
+   "stocks",
+   "order",
+   "chart"
   ]
  },
  {
@@ -34789,6 +38120,18 @@
   ]
  },
  {
+  "name": "package-dimensions",
+  "category": "Commerce",
+  "tags": [
+   "package size",
+   "dimensions",
+   "parcel",
+   "measure",
+   "shipping",
+   "box"
+  ]
+ },
+ {
   "name": "package-export",
   "category": "Commerce",
   "tags": [
@@ -34796,6 +38139,18 @@
    "export",
    "outgoing",
    "box"
+  ]
+ },
+ {
+  "name": "package-eye",
+  "category": "Commerce",
+  "tags": [
+   "view delivery",
+   "track package",
+   "delivery details",
+   "shipment",
+   "package",
+   "eye"
   ]
  },
  {
@@ -35094,6 +38449,18 @@
   ]
  },
  {
+  "name": "panel-bottom-dashed",
+  "category": "Interface",
+  "tags": [
+   "panel",
+   "bottom",
+   "dashed",
+   "placeholder",
+   "layout",
+   "drawer"
+  ]
+ },
+ {
   "name": "panel-bottom-open",
   "category": "Interface",
   "tags": [
@@ -35115,12 +38482,36 @@
   ]
  },
  {
+  "name": "panel-left-dashed",
+  "category": "Interface",
+  "tags": [
+   "panel",
+   "left",
+   "sidebar",
+   "dashed",
+   "placeholder",
+   "layout"
+  ]
+ },
+ {
   "name": "panel-left-open",
   "category": "Interface",
   "tags": [
    "expand sidebar",
    "show panel",
    "left panel"
+  ]
+ },
+ {
+  "name": "panel-left-right-dashed",
+  "category": "Interface",
+  "tags": [
+   "panels",
+   "left",
+   "right",
+   "dashed",
+   "placeholder",
+   "layout"
   ]
  },
  {
@@ -35133,12 +38524,72 @@
   ]
  },
  {
+  "name": "panel-right-dashed",
+  "category": "Interface",
+  "tags": [
+   "panel",
+   "right",
+   "sidebar",
+   "dashed",
+   "placeholder",
+   "layout"
+  ]
+ },
+ {
   "name": "panel-right-open",
   "category": "Interface",
   "tags": [
    "expand panel",
    "show panel",
    "right panel"
+  ]
+ },
+ {
+  "name": "panel-top-close",
+  "category": "Interface",
+  "tags": [
+   "panel",
+   "top",
+   "close",
+   "collapse",
+   "hide",
+   "layout"
+  ]
+ },
+ {
+  "name": "panel-top-dashed",
+  "category": "Interface",
+  "tags": [
+   "panel",
+   "top",
+   "dashed",
+   "placeholder",
+   "layout",
+   "header"
+  ]
+ },
+ {
+  "name": "panel-top-open",
+  "category": "Interface",
+  "tags": [
+   "panel",
+   "top",
+   "open",
+   "expand",
+   "show",
+   "layout"
+  ]
+ },
+ {
+  "name": "panels-top-left",
+  "category": "Interface",
+  "tags": [
+   "panels",
+   "split",
+   "top",
+   "left",
+   "layout",
+   "arrangement"
   ]
  },
  {
@@ -35494,6 +38945,19 @@
    "off",
    "disabled",
    "hidden"
+  ]
+ },
+ {
+  "name": "patient",
+  "category": "Health",
+  "tags": [
+   "patient",
+   "person",
+   "medical",
+   "healthcare",
+   "clinic",
+   "hospital",
+   "care"
   ]
  },
  {
@@ -36092,6 +39556,18 @@
   ]
  },
  {
+  "name": "person-bowing",
+  "category": "People",
+  "tags": [
+   "ruku",
+   "bowing",
+   "prayer",
+   "posture",
+   "salah",
+   "bow"
+  ]
+ },
+ {
   "name": "person-boy",
   "category": "People",
   "tags": [
@@ -36166,6 +39642,18 @@
   ]
  },
  {
+  "name": "person-flying",
+  "category": "People",
+  "tags": [
+   "flying",
+   "superhero",
+   "person",
+   "flight",
+   "motion",
+   "action"
+  ]
+ },
+ {
   "name": "person-girl",
   "category": "People",
   "tags": [
@@ -36208,6 +39696,18 @@
   ]
  },
  {
+  "name": "person-pilgrim",
+  "category": "People",
+  "tags": [
+   "hajj",
+   "haji",
+   "pilgrim",
+   "ihram",
+   "pilgrimage",
+   "islam"
+  ]
+ },
+ {
   "name": "person-pregnant",
   "category": "People",
   "tags": [
@@ -36216,6 +39716,18 @@
    "maternity",
    "mother",
    "pregnant"
+  ]
+ },
+ {
+  "name": "person-prostrating",
+  "category": "People",
+  "tags": [
+   "sujood",
+   "prostration",
+   "prayer",
+   "salah",
+   "kneeling",
+   "worship"
   ]
  },
  {
@@ -36280,6 +39792,18 @@
    "speaker",
    "talk",
    "narrator"
+  ]
+ },
+ {
+  "name": "person-squatting",
+  "category": "People",
+  "tags": [
+   "squat",
+   "workout",
+   "exercise",
+   "legs",
+   "fitness",
+   "training"
   ]
  },
  {
@@ -36476,6 +40000,18 @@
   ]
  },
  {
+  "name": "phone-lock-open",
+  "category": "Communication",
+  "tags": [
+   "unlocked call",
+   "phone",
+   "unlock",
+   "unsecured",
+   "call",
+   "open lock"
+  ]
+ },
+ {
   "name": "phone-minus",
   "category": "Communication",
   "tags": [
@@ -36611,6 +40147,30 @@
   ]
  },
  {
+  "name": "pi-minus",
+  "category": "Letters & Numbers",
+  "tags": [
+   "pi",
+   "remove",
+   "delete",
+   "math",
+   "constant",
+   "minus"
+  ]
+ },
+ {
+  "name": "pi-plus",
+  "category": "Letters & Numbers",
+  "tags": [
+   "pi",
+   "insert",
+   "add",
+   "math",
+   "constant",
+   "plus"
+  ]
+ },
+ {
   "name": "piano",
   "category": "Media",
   "tags": [
@@ -36650,6 +40210,18 @@
    "paddle",
    "ball",
    "racket"
+  ]
+ },
+ {
+  "name": "pickup-truck",
+  "category": "Transport",
+  "tags": [
+   "pickup truck",
+   "pickup",
+   "truck",
+   "cargo",
+   "utility",
+   "vehicle"
   ]
  },
  {
@@ -36736,6 +40308,54 @@
    "piggy",
    "deposit",
    "budget"
+  ]
+ },
+ {
+  "name": "piggy-bank-bitcoin",
+  "category": "Commerce",
+  "tags": [
+   "bitcoin savings",
+   "crypto savings",
+   "btc",
+   "piggy bank",
+   "save",
+   "bitcoin"
+  ]
+ },
+ {
+  "name": "piggy-bank-currency-euro",
+  "category": "Commerce",
+  "tags": [
+   "save euro",
+   "savings",
+   "piggy bank",
+   "deposit",
+   "euro",
+   "currency"
+  ]
+ },
+ {
+  "name": "piggy-bank-currency-pound",
+  "category": "Commerce",
+  "tags": [
+   "save pound",
+   "savings",
+   "piggy bank",
+   "deposit",
+   "gbp",
+   "currency"
+  ]
+ },
+ {
+  "name": "piggy-bank-currency-yen",
+  "category": "Commerce",
+  "tags": [
+   "save yen",
+   "savings",
+   "piggy bank",
+   "deposit",
+   "jpy",
+   "currency"
   ]
  },
  {
@@ -36861,6 +40481,18 @@
   ]
  },
  {
+  "name": "pistol",
+  "category": "Objects",
+  "tags": [
+   "pistol",
+   "gun",
+   "handgun",
+   "firearm",
+   "weapon",
+   "shoot"
+  ]
+ },
+ {
   "name": "pizza",
   "category": "Food",
   "tags": [
@@ -36868,6 +40500,18 @@
    "slice",
    "fast food",
    "italian"
+  ]
+ },
+ {
+  "name": "pizza-cutter",
+  "category": "Food",
+  "tags": [
+   "pizza cutter",
+   "wheel cutter",
+   "kitchen",
+   "slicer",
+   "pizza",
+   "tool"
   ]
  },
  {
@@ -37185,6 +40829,18 @@
   ]
  },
  {
+  "name": "plug-wrench",
+  "category": "Devices",
+  "tags": [
+   "power service",
+   "electrical service",
+   "electrician",
+   "maintenance",
+   "plug",
+   "wrench"
+  ]
+ },
+ {
   "name": "plug-x",
   "category": "Devices",
   "tags": [
@@ -37348,6 +41004,18 @@
   ]
  },
  {
+  "name": "police-cap",
+  "category": "Security",
+  "tags": [
+   "police cap",
+   "officer",
+   "peaked cap",
+   "uniform",
+   "law enforcement",
+   "hat"
+  ]
+ },
+ {
   "name": "police-car",
   "category": "Transport",
   "tags": [
@@ -37355,6 +41023,18 @@
    "cop",
    "emergency",
    "patrol"
+  ]
+ },
+ {
+  "name": "police-station",
+  "category": "Maps",
+  "tags": [
+   "police station",
+   "precinct",
+   "law enforcement",
+   "building",
+   "headquarters",
+   "security"
   ]
  },
  {
@@ -37540,6 +41220,30 @@
   ]
  },
  {
+  "name": "power-circle",
+  "category": "Interface",
+  "tags": [
+   "power button",
+   "power",
+   "on off",
+   "switch",
+   "start",
+   "circle"
+  ]
+ },
+ {
+  "name": "power-leaf",
+  "category": "Nature",
+  "tags": [
+   "eco power",
+   "green energy",
+   "renewable",
+   "sustainable",
+   "power",
+   "leaf"
+  ]
+ },
+ {
   "name": "power-supply",
   "category": "Devices",
   "tags": [
@@ -37547,6 +41251,30 @@
    "psu",
    "adapter",
    "charger"
+  ]
+ },
+ {
+  "name": "prayer-beads",
+  "category": "Objects",
+  "tags": [
+   "tasbih",
+   "prayer beads",
+   "misbaha",
+   "rosary",
+   "beads",
+   "counting"
+  ]
+ },
+ {
+  "name": "prayer-rug",
+  "category": "Home",
+  "tags": [
+   "prayer rug",
+   "prayer mat",
+   "sajadah",
+   "rug",
+   "islam",
+   "prayer"
   ]
  },
  {
@@ -37567,6 +41295,18 @@
    "board",
    "easel",
    "slides"
+  ]
+ },
+ {
+  "name": "presentation-bitcoin",
+  "category": "Business",
+  "tags": [
+   "crypto presentation",
+   "bitcoin pitch",
+   "btc",
+   "board",
+   "presentation",
+   "bitcoin"
   ]
  },
  {
@@ -37803,6 +41543,18 @@
   ]
  },
  {
+  "name": "prison-guard",
+  "category": "People",
+  "tags": [
+   "prison guard",
+   "guard",
+   "warden",
+   "officer",
+   "jail",
+   "security"
+  ]
+ },
+ {
   "name": "progress-bar",
   "category": "Interface",
   "tags": [
@@ -37894,6 +41646,19 @@
   ]
  },
  {
+  "name": "pulley",
+  "category": "Science",
+  "tags": [
+   "pulley",
+   "mechanics",
+   "lift",
+   "rope",
+   "wheel",
+   "physics",
+   "hoist"
+  ]
+ },
+ {
   "name": "pulse",
   "category": "Charts",
   "tags": [
@@ -37979,6 +41744,18 @@
   ]
  },
  {
+  "name": "push-up-bars",
+  "category": "Sports",
+  "tags": [
+   "push up bars",
+   "push up",
+   "handles",
+   "gym",
+   "fitness",
+   "strength"
+  ]
+ },
+ {
   "name": "puzzle-cube",
   "category": "Sports",
   "tags": [
@@ -38038,6 +41815,18 @@
    "disabled",
    "hidden",
    "pyramid"
+  ]
+ },
+ {
+  "name": "pyramid-stepped",
+  "category": "Maps",
+  "tags": [
+   "mayan pyramid",
+   "step pyramid",
+   "ziggurat",
+   "ancient",
+   "landmark",
+   "temple"
   ]
  },
  {
@@ -38174,6 +41963,30 @@
   ]
  },
  {
+  "name": "quotes-square",
+  "category": "Editor",
+  "tags": [
+   "quote",
+   "quotes",
+   "quotation",
+   "citation",
+   "square",
+   "blockquote"
+  ]
+ },
+ {
+  "name": "quran",
+  "category": "Education",
+  "tags": [
+   "quran",
+   "holy book",
+   "islam",
+   "scripture",
+   "reading",
+   "religion"
+  ]
+ },
+ {
   "name": "rabbit",
   "category": "Animals",
   "tags": [
@@ -38212,6 +42025,18 @@
    "off",
    "disabled",
    "hidden"
+  ]
+ },
+ {
+  "name": "radiator",
+  "category": "Home",
+  "tags": [
+   "radiator",
+   "heater",
+   "space heater",
+   "heating",
+   "warmth",
+   "appliance"
   ]
  },
  {
@@ -38336,6 +42161,18 @@
   ]
  },
  {
+  "name": "ratio",
+  "category": "Symbols",
+  "tags": [
+   "ratio",
+   "proportion",
+   "colon",
+   "math",
+   "compare",
+   "a to b"
+  ]
+ },
+ {
   "name": "rattle",
   "category": "People",
   "tags": [
@@ -38376,6 +42213,18 @@
   ]
  },
  {
+  "name": "receipt-currency-cent",
+  "category": "Commerce",
+  "tags": [
+   "receipt",
+   "cent",
+   "price",
+   "bill",
+   "money",
+   "currency"
+  ]
+ },
+ {
   "name": "receipt-currency-dollar",
   "category": "Commerce",
   "tags": [
@@ -38393,6 +42242,78 @@
    "euro",
    "price",
    "money"
+  ]
+ },
+ {
+  "name": "receipt-currency-franc",
+  "category": "Commerce",
+  "tags": [
+   "receipt",
+   "franc",
+   "chf",
+   "bill",
+   "money",
+   "currency"
+  ]
+ },
+ {
+  "name": "receipt-currency-lira",
+  "category": "Commerce",
+  "tags": [
+   "receipt",
+   "lira",
+   "try",
+   "bill",
+   "money",
+   "currency"
+  ]
+ },
+ {
+  "name": "receipt-currency-pound",
+  "category": "Commerce",
+  "tags": [
+   "receipt",
+   "pound",
+   "gbp",
+   "bill",
+   "money",
+   "currency"
+  ]
+ },
+ {
+  "name": "receipt-currency-ruble",
+  "category": "Commerce",
+  "tags": [
+   "receipt",
+   "ruble",
+   "rub",
+   "bill",
+   "money",
+   "currency"
+  ]
+ },
+ {
+  "name": "receipt-currency-rupee",
+  "category": "Commerce",
+  "tags": [
+   "receipt",
+   "rupee",
+   "inr",
+   "bill",
+   "money",
+   "currency"
+  ]
+ },
+ {
+  "name": "receipt-currency-yen",
+  "category": "Commerce",
+  "tags": [
+   "receipt",
+   "yen",
+   "jpy",
+   "bill",
+   "money",
+   "currency"
   ]
  },
  {
@@ -38415,6 +42336,18 @@
    "return",
    "receipt",
    "money back"
+  ]
+ },
+ {
+  "name": "receipt-send",
+  "category": "Commerce",
+  "tags": [
+   "send order",
+   "order",
+   "kitchen ticket",
+   "dispatch",
+   "receipt",
+   "outgoing"
   ]
  },
  {
@@ -38526,6 +42459,18 @@
    "environment",
    "reuse",
    "green"
+  ]
+ },
+ {
+  "name": "recycle-lightning",
+  "category": "Nature",
+  "tags": [
+   "sustainable energy",
+   "renewable",
+   "clean energy",
+   "recycling",
+   "circular",
+   "power"
   ]
  },
  {
@@ -38682,6 +42627,18 @@
   ]
  },
  {
+  "name": "replay",
+  "category": "Media",
+  "tags": [
+   "replay",
+   "restart",
+   "play again",
+   "video",
+   "rewind",
+   "loop"
+  ]
+ },
+ {
   "name": "replay-10",
   "category": "Media",
   "tags": [
@@ -38826,6 +42783,18 @@
   ]
  },
  {
+  "name": "right-angle",
+  "category": "Education",
+  "tags": [
+   "right angle",
+   "90 degrees",
+   "perpendicular",
+   "geometry",
+   "angle",
+   "math"
+  ]
+ },
+ {
   "name": "ring",
   "category": "Objects",
   "tags": [
@@ -38864,6 +42833,18 @@
    "road",
    "highway",
    "lines"
+  ]
+ },
+ {
+  "name": "road-pencil",
+  "category": "Maps",
+  "tags": [
+   "edit road",
+   "map editing",
+   "road",
+   "route edit",
+   "pencil",
+   "street"
   ]
  },
  {
@@ -39044,6 +43025,30 @@
   ]
  },
  {
+  "name": "rotate-bottom-left",
+  "category": "Design",
+  "tags": [
+   "rotate corner",
+   "rotate cursor",
+   "bottom left",
+   "transform",
+   "rotate",
+   "handle"
+  ]
+ },
+ {
+  "name": "rotate-bottom-right",
+  "category": "Design",
+  "tags": [
+   "rotate corner",
+   "rotate cursor",
+   "bottom right",
+   "transform",
+   "rotate",
+   "handle"
+  ]
+ },
+ {
   "name": "rotate-dot",
   "category": "Design",
   "tags": [
@@ -39051,6 +43056,18 @@
    "pivot",
    "transform",
    "center"
+  ]
+ },
+ {
+  "name": "rotate-key",
+  "category": "Security",
+  "tags": [
+   "key rotation",
+   "rotate credentials",
+   "renew key",
+   "api key",
+   "security",
+   "rotate"
   ]
  },
  {
@@ -39091,6 +43108,30 @@
    "clockwise",
    "turn",
    "transform"
+  ]
+ },
+ {
+  "name": "rotate-top-left",
+  "category": "Design",
+  "tags": [
+   "rotate corner",
+   "rotate cursor",
+   "top left",
+   "transform",
+   "rotate",
+   "handle"
+  ]
+ },
+ {
+  "name": "rotate-top-right",
+  "category": "Design",
+  "tags": [
+   "rotate corner",
+   "rotate cursor",
+   "top right",
+   "transform",
+   "rotate",
+   "handle"
   ]
  },
  {
@@ -39217,6 +43258,19 @@
   ]
  },
  {
+  "name": "rows-three",
+  "category": "Editor",
+  "tags": [
+   "three rows",
+   "rows",
+   "layout",
+   "horizontal",
+   "stack",
+   "sections",
+   "split"
+  ]
+ },
+ {
   "name": "rss",
   "category": "Communication",
   "tags": [
@@ -39225,6 +43279,66 @@
    "news",
    "blog",
    "podcast"
+  ]
+ },
+ {
+  "name": "rss-check",
+  "category": "Communication",
+  "tags": [
+   "rss",
+   "connected",
+   "subscribed",
+   "feed",
+   "check",
+   "news"
+  ]
+ },
+ {
+  "name": "rss-lock",
+  "category": "Communication",
+  "tags": [
+   "rss",
+   "private feed",
+   "lock",
+   "secure",
+   "feed",
+   "news"
+  ]
+ },
+ {
+  "name": "rss-lock-open",
+  "category": "Communication",
+  "tags": [
+   "rss",
+   "public feed",
+   "unlock",
+   "open lock",
+   "feed",
+   "news"
+  ]
+ },
+ {
+  "name": "rss-warning",
+  "category": "Communication",
+  "tags": [
+   "rss",
+   "error",
+   "feed error",
+   "warning",
+   "feed",
+   "news"
+  ]
+ },
+ {
+  "name": "rub-el-hizb",
+  "category": "Symbols",
+  "tags": [
+   "rub el hizb",
+   "islamic star",
+   "octagram",
+   "symbol",
+   "islam",
+   "quran"
   ]
  },
  {
@@ -39274,6 +43388,30 @@
    "off",
    "disabled",
    "hidden"
+  ]
+ },
+ {
+  "name": "saddle",
+  "category": "Sports",
+  "tags": [
+   "saddle",
+   "horse riding",
+   "equestrian",
+   "stirrup",
+   "horse",
+   "riding"
+  ]
+ },
+ {
+  "name": "safety-pin",
+  "category": "Objects",
+  "tags": [
+   "safety pin",
+   "pin",
+   "fasten",
+   "sewing",
+   "diaper",
+   "clasp"
   ]
  },
  {
@@ -39493,6 +43631,18 @@
   ]
  },
  {
+  "name": "scan-line",
+  "category": "Devices",
+  "tags": [
+   "scan line",
+   "scanning",
+   "reader",
+   "qr reader",
+   "document scan",
+   "scan"
+  ]
+ },
+ {
   "name": "scan-position",
   "category": "Interface",
   "tags": [
@@ -39511,6 +43661,18 @@
    "recognition",
    "scan",
    "smiley"
+  ]
+ },
+ {
+  "name": "scan-sparkle",
+  "category": "Devices",
+  "tags": [
+   "ai scan",
+   "smart scan",
+   "ai detection",
+   "recognition",
+   "scan",
+   "sparkle"
   ]
  },
  {
@@ -39616,6 +43778,18 @@
    "score",
    "match",
    "game"
+  ]
+ },
+ {
+  "name": "scratch-card",
+  "category": "Commerce",
+  "tags": [
+   "scratch card",
+   "lottery",
+   "instant win",
+   "scratch off",
+   "prize",
+   "ticket"
   ]
  },
  {
@@ -39796,6 +43970,18 @@
   ]
  },
  {
+  "name": "seal-currency-cent",
+  "category": "Commerce",
+  "tags": [
+   "price badge",
+   "cent",
+   "money",
+   "coupon",
+   "seal",
+   "currency"
+  ]
+ },
+ {
   "name": "seal-currency-dollar",
   "category": "Commerce",
   "tags": [
@@ -39805,6 +43991,107 @@
    "payment",
    "reward",
    "seal"
+  ]
+ },
+ {
+  "name": "seal-currency-euro",
+  "category": "Commerce",
+  "tags": [
+   "price badge",
+   "euro",
+   "money",
+   "coupon",
+   "seal",
+   "currency"
+  ]
+ },
+ {
+  "name": "seal-currency-franc",
+  "category": "Commerce",
+  "tags": [
+   "price badge",
+   "franc",
+   "chf",
+   "swiss",
+   "money",
+   "seal",
+   "currency"
+  ]
+ },
+ {
+  "name": "seal-currency-lira",
+  "category": "Commerce",
+  "tags": [
+   "price badge",
+   "lira",
+   "try",
+   "turkey",
+   "money",
+   "seal",
+   "currency"
+  ]
+ },
+ {
+  "name": "seal-currency-pound",
+  "category": "Commerce",
+  "tags": [
+   "price badge",
+   "pound",
+   "gbp",
+   "sterling",
+   "money",
+   "seal",
+   "currency"
+  ]
+ },
+ {
+  "name": "seal-currency-ruble",
+  "category": "Commerce",
+  "tags": [
+   "price badge",
+   "ruble",
+   "rub",
+   "money",
+   "seal",
+   "currency"
+  ]
+ },
+ {
+  "name": "seal-currency-rupee",
+  "category": "Commerce",
+  "tags": [
+   "price badge",
+   "rupee",
+   "inr",
+   "india",
+   "money",
+   "seal",
+   "currency"
+  ]
+ },
+ {
+  "name": "seal-currency-yen",
+  "category": "Commerce",
+  "tags": [
+   "price badge",
+   "yen",
+   "jpy",
+   "japan",
+   "money",
+   "seal",
+   "currency"
+  ]
+ },
+ {
+  "name": "seal-halal",
+  "category": "Food",
+  "tags": [
+   "halal",
+   "certified",
+   "food label",
+   "islam",
+   "seal",
+   "dietary"
   ]
  },
  {
@@ -40050,6 +44337,30 @@
   ]
  },
  {
+  "name": "selection-circle",
+  "category": "Editor",
+  "tags": [
+   "circle selection",
+   "ellipse select",
+   "marquee",
+   "selection",
+   "region",
+   "round"
+  ]
+ },
+ {
+  "name": "selection-crop",
+  "category": "Design",
+  "tags": [
+   "pathfinder crop",
+   "boolean",
+   "crop shapes",
+   "mask",
+   "shapes",
+   "pathfinder"
+  ]
+ },
+ {
   "name": "selection-exclude",
   "category": "Design",
   "tags": [
@@ -40097,6 +44408,18 @@
   ]
  },
  {
+  "name": "selection-outline",
+  "category": "Design",
+  "tags": [
+   "pathfinder outline",
+   "outline shapes",
+   "boolean",
+   "strokes",
+   "shapes",
+   "pathfinder"
+  ]
+ },
+ {
   "name": "selection-plus",
   "category": "Design",
   "tags": [
@@ -40124,6 +44447,30 @@
    "boolean",
    "minus front",
    "shapes"
+  ]
+ },
+ {
+  "name": "selection-subtract-back",
+  "category": "Design",
+  "tags": [
+   "minus back",
+   "pathfinder",
+   "boolean",
+   "subtract",
+   "shapes",
+   "difference"
+  ]
+ },
+ {
+  "name": "selection-trim",
+  "category": "Design",
+  "tags": [
+   "pathfinder trim",
+   "trim",
+   "boolean",
+   "hidden parts",
+   "shapes",
+   "pathfinder"
   ]
  },
  {
@@ -40282,6 +44629,18 @@
   ]
  },
  {
+  "name": "shapes-sparkle",
+  "category": "Design",
+  "tags": [
+   "ai elements",
+   "generated shapes",
+   "design elements",
+   "ai design",
+   "shapes",
+   "sparkle"
+  ]
+ },
+ {
   "name": "share-fat",
   "category": "Interface",
   "tags": [
@@ -40373,6 +44732,30 @@
   ]
  },
  {
+  "name": "shield-bitcoin",
+  "category": "Security",
+  "tags": [
+   "crypto security",
+   "secure bitcoin",
+   "btc",
+   "protection",
+   "shield",
+   "bitcoin"
+  ]
+ },
+ {
+  "name": "shield-blockchain",
+  "category": "Security",
+  "tags": [
+   "blockchain security",
+   "secure ledger",
+   "crypto",
+   "chain",
+   "shield",
+   "protection"
+  ]
+ },
+ {
   "name": "shield-broken",
   "category": "Security",
   "tags": [
@@ -40424,6 +44807,30 @@
   ]
  },
  {
+  "name": "shield-currency-rupee",
+  "category": "Security",
+  "tags": [
+   "shield",
+   "rupee",
+   "inr",
+   "secure payment",
+   "money",
+   "currency"
+  ]
+ },
+ {
+  "name": "shield-dots",
+  "category": "Security",
+  "tags": [
+   "shield",
+   "more",
+   "options",
+   "menu",
+   "security settings",
+   "dots"
+  ]
+ },
+ {
   "name": "shield-eye",
   "category": "Security",
   "tags": [
@@ -40432,6 +44839,18 @@
    "surveillance protection",
    "shield",
    "eye"
+  ]
+ },
+ {
+  "name": "shield-fire",
+  "category": "Security",
+  "tags": [
+   "fire safety",
+   "fire protection",
+   "shield",
+   "fire",
+   "safety",
+   "prevention"
   ]
  },
  {
@@ -40537,6 +44956,18 @@
   ]
  },
  {
+  "name": "shield-prohibit",
+  "category": "Security",
+  "tags": [
+   "blocked",
+   "access denied",
+   "banned",
+   "restricted",
+   "shield",
+   "prohibit"
+  ]
+ },
+ {
   "name": "shield-push-pin",
   "category": "Security",
   "tags": [
@@ -40596,6 +45027,20 @@
    "shield",
    "star",
    "rank"
+  ]
+ },
+ {
+  "name": "shield-sword",
+  "category": "Objects",
+  "tags": [
+   "adventure",
+   "rpg",
+   "quest",
+   "sword",
+   "shield",
+   "fantasy",
+   "battle",
+   "game"
   ]
  },
  {
@@ -40900,6 +45345,18 @@
   ]
  },
  {
+  "name": "shopping-cart-bitcoin",
+  "category": "Commerce",
+  "tags": [
+   "pay with bitcoin",
+   "crypto shopping",
+   "btc",
+   "cart",
+   "checkout",
+   "bitcoin"
+  ]
+ },
+ {
   "name": "shopping-cart-check",
   "category": "Commerce",
   "tags": [
@@ -41108,6 +45565,18 @@
   ]
  },
  {
+  "name": "shoulder",
+  "category": "Health",
+  "tags": [
+   "shoulder",
+   "joint",
+   "anatomy",
+   "deltoid",
+   "body part",
+   "pain"
+  ]
+ },
+ {
   "name": "shovel",
   "category": "Objects",
   "tags": [
@@ -41223,6 +45692,30 @@
   ]
  },
  {
+  "name": "sigma-square",
+  "category": "Education",
+  "tags": [
+   "sum",
+   "summation",
+   "sigma",
+   "math",
+   "total",
+   "square"
+  ]
+ },
+ {
+  "name": "sign-a-frame",
+  "category": "Commerce",
+  "tags": [
+   "a-frame sign",
+   "sandwich board",
+   "shop sign",
+   "open sign",
+   "storefront",
+   "menu board"
+  ]
+ },
+ {
   "name": "sign-dead-end",
   "category": "Maps",
   "tags": [
@@ -41301,6 +45794,18 @@
    "gesture",
    "hands",
    "communication"
+  ]
+ },
+ {
+  "name": "sign-language-c",
+  "category": "People",
+  "tags": [
+   "sign language",
+   "asl",
+   "letter c",
+   "deaf",
+   "gesture",
+   "accessibility"
   ]
  },
  {
@@ -41571,6 +46076,18 @@
   ]
  },
  {
+  "name": "sim-card-dual",
+  "category": "Devices",
+  "tags": [
+   "dual sim",
+   "sim card",
+   "two sims",
+   "mobile",
+   "carrier",
+   "cellular"
+  ]
+ },
+ {
   "name": "sim-card-slash",
   "category": "Devices",
   "tags": [
@@ -41579,6 +46096,18 @@
    "disabled",
    "slash",
    "sim missing"
+  ]
+ },
+ {
+  "name": "sink",
+  "category": "Home",
+  "tags": [
+   "sink",
+   "basin",
+   "washbasin",
+   "bathroom",
+   "kitchen sink",
+   "plumbing"
   ]
  },
  {
@@ -41762,6 +46291,30 @@
   ]
  },
  {
+  "name": "skyscraper-spire",
+  "category": "Maps",
+  "tags": [
+   "chrysler building",
+   "art deco",
+   "new york",
+   "skyscraper",
+   "landmark",
+   "spire"
+  ]
+ },
+ {
+  "name": "skyscraper-twisted",
+  "category": "Maps",
+  "tags": [
+   "twisted tower",
+   "cayan tower",
+   "dubai",
+   "skyscraper",
+   "landmark",
+   "modern"
+  ]
+ },
+ {
   "name": "slash-command",
   "category": "Development",
   "tags": [
@@ -41769,6 +46322,18 @@
    "command",
    "shortcut",
    "prompt"
+  ]
+ },
+ {
+  "name": "slash-forward",
+  "category": "Letters & Numbers",
+  "tags": [
+   "forward slash",
+   "slash",
+   "solidus",
+   "character",
+   "punctuation",
+   "separator"
   ]
  },
  {
@@ -42954,6 +47519,54 @@
   ]
  },
  {
+  "name": "soil-drop",
+  "category": "Nature",
+  "tags": [
+   "soil moisture",
+   "irrigation",
+   "agriculture",
+   "field sensor",
+   "soil",
+   "water"
+  ]
+ },
+ {
+  "name": "soil-drop-globe",
+  "category": "Nature",
+  "tags": [
+   "global soil moisture",
+   "satellite",
+   "agriculture",
+   "regional",
+   "soil",
+   "water"
+  ]
+ },
+ {
+  "name": "soil-thermometer",
+  "category": "Nature",
+  "tags": [
+   "soil temperature",
+   "agriculture",
+   "field sensor",
+   "ground heat",
+   "soil",
+   "thermometer"
+  ]
+ },
+ {
+  "name": "soil-thermometer-globe",
+  "category": "Nature",
+  "tags": [
+   "global soil temperature",
+   "satellite",
+   "agriculture",
+   "regional",
+   "soil",
+   "thermometer"
+  ]
+ },
+ {
   "name": "solar-panel",
   "category": "Science",
   "tags": [
@@ -42971,6 +47584,18 @@
    "solar panels",
    "renewable",
    "roof"
+  ]
+ },
+ {
+  "name": "solar-system",
+  "category": "Science",
+  "tags": [
+   "solar system",
+   "planets",
+   "orbit",
+   "sun",
+   "astronomy",
+   "space"
   ]
  },
  {
@@ -43315,6 +47940,18 @@
   ]
  },
  {
+  "name": "sperm",
+  "category": "Health",
+  "tags": [
+   "sperm",
+   "fertility",
+   "reproduction",
+   "ivf",
+   "biology",
+   "cell"
+  ]
+ },
+ {
   "name": "sphere",
   "category": "Design",
   "tags": [
@@ -43489,6 +48126,54 @@
   ]
  },
  {
+  "name": "square-centerline-horizontal",
+  "category": "Design",
+  "tags": [
+   "centerline",
+   "horizontal guide",
+   "center",
+   "midline",
+   "square",
+   "dashed"
+  ]
+ },
+ {
+  "name": "square-centerline-vertical",
+  "category": "Design",
+  "tags": [
+   "centerline",
+   "vertical guide",
+   "center",
+   "midline",
+   "square",
+   "dashed"
+  ]
+ },
+ {
+  "name": "square-dashed-bottom",
+  "category": "Design",
+  "tags": [
+   "dashed bottom",
+   "border bottom",
+   "partial border",
+   "square",
+   "dashed",
+   "edge"
+  ]
+ },
+ {
+  "name": "square-dashed-top-solid",
+  "category": "Design",
+  "tags": [
+   "solid top",
+   "border top",
+   "partial border",
+   "square",
+   "dashed",
+   "edge"
+  ]
+ },
+ {
   "name": "square-half",
   "category": "Design",
   "tags": [
@@ -43518,6 +48203,18 @@
   ]
  },
  {
+  "name": "square-nested",
+  "category": "Interface",
+  "tags": [
+   "nested square",
+   "square in square",
+   "frame",
+   "container",
+   "box",
+   "inset"
+  ]
+ },
+ {
   "name": "square-root",
   "category": "Symbols",
   "tags": [
@@ -43525,6 +48222,54 @@
    "radical",
    "math",
    "sqrt"
+  ]
+ },
+ {
+  "name": "square-root-brackets-curly",
+  "category": "Letters & Numbers",
+  "tags": [
+   "square root",
+   "curly braces",
+   "math",
+   "radical",
+   "formula",
+   "braces"
+  ]
+ },
+ {
+  "name": "square-root-brackets-round",
+  "category": "Letters & Numbers",
+  "tags": [
+   "square root",
+   "parentheses",
+   "math",
+   "radical",
+   "formula",
+   "round brackets"
+  ]
+ },
+ {
+  "name": "square-root-brackets-square",
+  "category": "Letters & Numbers",
+  "tags": [
+   "square root",
+   "square brackets",
+   "math",
+   "radical",
+   "formula",
+   "brackets"
+  ]
+ },
+ {
+  "name": "square-root-square",
+  "category": "Symbols",
+  "tags": [
+   "square root",
+   "radical",
+   "math",
+   "sqrt",
+   "square",
+   "formula"
   ]
  },
  {
@@ -43570,12 +48315,49 @@
   ]
  },
  {
+  "name": "squares-four-check",
+  "category": "Interface",
+  "tags": [
+   "grid check",
+   "squares",
+   "select all",
+   "apps",
+   "approved",
+   "check",
+   "dashboard"
+  ]
+ },
+ {
+  "name": "squares-four-gear",
+  "category": "Interface",
+  "tags": [
+   "dashboard settings",
+   "widgets",
+   "configure",
+   "layout",
+   "apps",
+   "gear"
+  ]
+ },
+ {
   "name": "squares-four-minus",
   "category": "Interface",
   "tags": [
    "remove grid",
    "delete cell",
    "grid"
+  ]
+ },
+ {
+  "name": "squares-four-pencil",
+  "category": "Interface",
+  "tags": [
+   "dashboard",
+   "edit",
+   "widgets",
+   "layout",
+   "customize",
+   "pencil"
   ]
  },
  {
@@ -43619,6 +48401,30 @@
   ]
  },
  {
+  "name": "squircle",
+  "category": "Design",
+  "tags": [
+   "squircle",
+   "superellipse",
+   "rounded square",
+   "shape",
+   "app icon",
+   "geometric"
+  ]
+ },
+ {
+  "name": "squircle-dashed",
+  "category": "Design",
+  "tags": [
+   "squircle",
+   "dashed",
+   "shape",
+   "placeholder",
+   "rounded square",
+   "frame"
+  ]
+ },
+ {
   "name": "squirrel",
   "category": "Animals",
   "tags": [
@@ -43650,6 +48456,18 @@
    "stacked",
    "levels",
    "depth"
+  ]
+ },
+ {
+  "name": "stack-lightning",
+  "category": "Science",
+  "tags": [
+   "energy storage",
+   "power stack",
+   "electricity",
+   "battery storage",
+   "stack",
+   "lightning"
   ]
  },
  {
@@ -43787,6 +48605,18 @@
   ]
  },
  {
+  "name": "stamp-sparkle",
+  "category": "Business",
+  "tags": [
+   "ai watermark",
+   "ai generated",
+   "content label",
+   "provenance",
+   "stamp",
+   "sparkle"
+  ]
+ },
+ {
   "name": "stapler",
   "category": "Objects",
   "tags": [
@@ -43812,6 +48642,18 @@
   "tags": [
    "crescent",
    "islam",
+   "star"
+  ]
+ },
+ {
+  "name": "star-circle",
+  "category": "Symbols",
+  "tags": [
+   "star circle",
+   "rating",
+   "favorite",
+   "emblem",
+   "badge",
    "star"
   ]
  },
@@ -44067,6 +48909,18 @@
   ]
  },
  {
+  "name": "storefront-bitcoin",
+  "category": "Commerce",
+  "tags": [
+   "accepts bitcoin",
+   "crypto store",
+   "btc",
+   "shop",
+   "storefront",
+   "bitcoin"
+  ]
+ },
+ {
   "name": "storefront-gear",
   "category": "Commerce",
   "tags": [
@@ -44205,6 +49059,18 @@
   ]
  },
  {
+  "name": "stupa",
+  "category": "Maps",
+  "tags": [
+   "stupa",
+   "borobudur",
+   "buddhist",
+   "temple",
+   "landmark",
+   "indonesia"
+  ]
+ },
+ {
   "name": "stylus",
   "category": "Devices",
   "tags": [
@@ -44213,6 +49079,42 @@
    "digital pen",
    "pencil",
    "pen"
+  ]
+ },
+ {
+  "name": "stylus-bluetooth",
+  "category": "Devices",
+  "tags": [
+   "stylus",
+   "bluetooth",
+   "pen",
+   "pairing",
+   "wireless",
+   "tablet pen"
+  ]
+ },
+ {
+  "name": "stylus-usb",
+  "category": "Devices",
+  "tags": [
+   "stylus",
+   "usb",
+   "pen",
+   "charging",
+   "wired",
+   "cable"
+  ]
+ },
+ {
+  "name": "stylus-wifi",
+  "category": "Devices",
+  "tags": [
+   "stylus",
+   "wifi",
+   "pen",
+   "wireless",
+   "connected",
+   "smart pen"
   ]
  },
  {
@@ -44583,6 +49485,18 @@
   ]
  },
  {
+  "name": "swap-sparkle",
+  "category": "Interface",
+  "tags": [
+   "ai swap",
+   "ai replace",
+   "smart replace",
+   "generative replace",
+   "swap",
+   "sparkle"
+  ]
+ },
+ {
   "name": "swatches",
   "category": "Design",
   "tags": [
@@ -44611,6 +49525,30 @@
    "jumper",
    "knit",
    "clothing"
+  ]
+ },
+ {
+  "name": "swim-cap",
+  "category": "Sports",
+  "tags": [
+   "swim cap",
+   "swimming",
+   "pool",
+   "swimmer",
+   "cap",
+   "head"
+  ]
+ },
+ {
+  "name": "swim-fins",
+  "category": "Sports",
+  "tags": [
+   "swim fins",
+   "flippers",
+   "diving",
+   "snorkeling",
+   "swimming",
+   "scuba"
   ]
  },
  {
@@ -44822,6 +49760,18 @@
   ]
  },
  {
+  "name": "t-shirt-sparkle",
+  "category": "Objects",
+  "tags": [
+   "ai fashion",
+   "virtual try-on",
+   "ai clothes",
+   "outfit",
+   "t-shirt",
+   "sparkle"
+  ]
+ },
+ {
   "name": "tab",
   "category": "Interface",
   "tags": [
@@ -44933,6 +49883,18 @@
    "subtract",
    "table",
    "grid"
+  ]
+ },
+ {
+  "name": "table-pencil",
+  "category": "Editor",
+  "tags": [
+   "edit table",
+   "table",
+   "spreadsheet",
+   "edit",
+   "data",
+   "pencil"
   ]
  },
  {
@@ -45049,6 +50011,30 @@
   ]
  },
  {
+  "name": "tag-bitcoin",
+  "category": "Commerce",
+  "tags": [
+   "bitcoin price",
+   "crypto price",
+   "btc",
+   "label",
+   "tag",
+   "bitcoin"
+  ]
+ },
+ {
+  "name": "tag-fire",
+  "category": "Commerce",
+  "tags": [
+   "hot price",
+   "hot deal",
+   "trending deal",
+   "sale",
+   "tag",
+   "fire"
+  ]
+ },
+ {
   "name": "tag-heart",
   "category": "Commerce",
   "tags": [
@@ -45131,6 +50117,18 @@
   ]
  },
  {
+  "name": "tally-mark",
+  "category": "Symbols",
+  "tags": [
+   "tally mark",
+   "one",
+   "single stroke",
+   "count",
+   "tally",
+   "score"
+  ]
+ },
+ {
   "name": "tally-marks",
   "category": "Symbols",
   "tags": [
@@ -45139,6 +50137,54 @@
    "five",
    "score",
    "tally"
+  ]
+ },
+ {
+  "name": "tally-marks-2",
+  "category": "Symbols",
+  "tags": [
+   "tally 2",
+   "two",
+   "count",
+   "score",
+   "tally marks",
+   "2"
+  ]
+ },
+ {
+  "name": "tally-marks-3",
+  "category": "Symbols",
+  "tags": [
+   "tally three",
+   "three",
+   "count",
+   "score",
+   "tally",
+   "marks"
+  ]
+ },
+ {
+  "name": "tally-marks-4",
+  "category": "Symbols",
+  "tags": [
+   "tally 4",
+   "four",
+   "count",
+   "score",
+   "tally marks",
+   "4"
+  ]
+ },
+ {
+  "name": "tangent",
+  "category": "Science",
+  "tags": [
+   "tangent",
+   "geometry",
+   "circle",
+   "line",
+   "math",
+   "touch point"
   ]
  },
  {
@@ -45158,6 +50204,18 @@
    "sleeveless",
    "singlet",
    "clothing"
+  ]
+ },
+ {
+  "name": "tanker-truck",
+  "category": "Transport",
+  "tags": [
+   "tanker truck",
+   "fuel",
+   "tanker",
+   "oil",
+   "transport",
+   "liquid"
   ]
  },
  {
@@ -45189,6 +50247,18 @@
    "bullseye",
    "arrow",
    "aim"
+  ]
+ },
+ {
+  "name": "target-bitcoin",
+  "category": "Business",
+  "tags": [
+   "crypto goal",
+   "bitcoin target",
+   "btc",
+   "price target",
+   "target",
+   "bitcoin"
   ]
  },
  {
@@ -45284,6 +50354,18 @@
   ]
  },
  {
+  "name": "television-4k",
+  "category": "Media",
+  "tags": [
+   "4k tv",
+   "ultra hd",
+   "television",
+   "uhd",
+   "screen",
+   "4k"
+  ]
+ },
+ {
   "name": "television-retro",
   "category": "Devices",
   "tags": [
@@ -45303,6 +50385,18 @@
    "television",
    "slash",
    "disabled"
+  ]
+ },
+ {
+  "name": "television-wrench",
+  "category": "Devices",
+  "tags": [
+   "tv repair",
+   "television",
+   "fix",
+   "service",
+   "maintenance",
+   "wrench"
   ]
  },
  {
@@ -45542,6 +50636,18 @@
   ]
  },
  {
+  "name": "text-c",
+  "category": "Letters & Numbers",
+  "tags": [
+   "c language",
+   "c programming",
+   "code",
+   "developer",
+   "programming language",
+   "c"
+  ]
+ },
+ {
   "name": "text-caption",
   "category": "Editor",
   "tags": [
@@ -45559,6 +50665,54 @@
    "change case",
    "text",
    "typography"
+  ]
+ },
+ {
+  "name": "text-centerline-left",
+  "category": "Editor",
+  "tags": [
+   "centerline",
+   "text guide",
+   "left",
+   "alignment",
+   "typography",
+   "text"
+  ]
+ },
+ {
+  "name": "text-centerline-middle",
+  "category": "Editor",
+  "tags": [
+   "centerline",
+   "text guide",
+   "middle",
+   "alignment",
+   "typography",
+   "text"
+  ]
+ },
+ {
+  "name": "text-centerline-right",
+  "category": "Editor",
+  "tags": [
+   "centerline",
+   "text guide",
+   "right",
+   "alignment",
+   "typography",
+   "text"
+  ]
+ },
+ {
+  "name": "text-centerline-top",
+  "category": "Editor",
+  "tags": [
+   "centerline",
+   "text guide",
+   "top",
+   "alignment",
+   "typography",
+   "text"
   ]
  },
  {
@@ -45584,6 +50738,18 @@
   ]
  },
  {
+  "name": "text-cpp",
+  "category": "Letters & Numbers",
+  "tags": [
+   "c++",
+   "cpp",
+   "programming language",
+   "code",
+   "developer",
+   "c plus plus"
+  ]
+ },
+ {
   "name": "text-direction-ltr",
   "category": "Editor",
   "tags": [
@@ -45603,6 +50769,18 @@
    "rtl",
    "paragraph",
    "writing"
+  ]
+ },
+ {
+  "name": "text-drop-cap",
+  "category": "Editor",
+  "tags": [
+   "drop cap",
+   "initial",
+   "first letter",
+   "typography",
+   "paragraph",
+   "text"
   ]
  },
  {
@@ -45725,6 +50903,30 @@
   ]
  },
  {
+  "name": "text-indent-first-line",
+  "category": "Editor",
+  "tags": [
+   "first line indent",
+   "indent",
+   "paragraph",
+   "format",
+   "text",
+   "tab"
+  ]
+ },
+ {
+  "name": "text-indent-hanging",
+  "category": "Editor",
+  "tags": [
+   "hanging indent",
+   "first line left",
+   "outdent",
+   "paragraph",
+   "format",
+   "text"
+  ]
+ },
+ {
   "name": "text-italic",
   "category": "Editor",
   "tags": [
@@ -45747,6 +50949,18 @@
   ]
  },
  {
+  "name": "text-js",
+  "category": "Letters & Numbers",
+  "tags": [
+   "javascript",
+   "js",
+   "programming language",
+   "code",
+   "developer",
+   "script"
+  ]
+ },
+ {
   "name": "text-kerning",
   "category": "Editor",
   "tags": [
@@ -45754,6 +50968,18 @@
    "letter spacing",
    "typography",
    "text"
+  ]
+ },
+ {
+  "name": "text-ligature",
+  "category": "Editor",
+  "tags": [
+   "ligature",
+   "typography",
+   "joined letters",
+   "font",
+   "text",
+   "glyph"
   ]
  },
  {
@@ -45778,6 +51004,18 @@
   ]
  },
  {
+  "name": "text-numero",
+  "category": "Editor",
+  "tags": [
+   "numero",
+   "number sign",
+   "no",
+   "ordinal",
+   "typography",
+   "text"
+  ]
+ },
+ {
   "name": "text-outdent",
   "category": "Editor",
   "tags": [
@@ -45799,6 +51037,18 @@
   ]
  },
  {
+  "name": "text-phonetic",
+  "category": "Editor",
+  "tags": [
+   "phonetic",
+   "pronunciation",
+   "ipa",
+   "phonetics",
+   "text",
+   "language"
+  ]
+ },
+ {
   "name": "text-plus",
   "category": "Editor",
   "tags": [
@@ -45807,6 +51057,18 @@
    "text box",
    "plus",
    "new text"
+  ]
+ },
+ {
+  "name": "text-re",
+  "category": "Letters & Numbers",
+  "tags": [
+   "re",
+   "reply",
+   "email reply",
+   "response",
+   "subject",
+   "mail"
   ]
  },
  {
@@ -45872,6 +51134,18 @@
    "typography",
    "plus",
    "increase font"
+  ]
+ },
+ {
+  "name": "text-small-caps",
+  "category": "Editor",
+  "tags": [
+   "small caps",
+   "typography",
+   "capitals",
+   "font",
+   "text",
+   "case"
   ]
  },
  {
@@ -45989,6 +51263,42 @@
    "case",
    "typography",
    "capitals"
+  ]
+ },
+ {
+  "name": "text-variable",
+  "category": "Editor",
+  "tags": [
+   "variable font",
+   "font axis",
+   "weight",
+   "typography",
+   "font",
+   "text"
+  ]
+ },
+ {
+  "name": "text-vs",
+  "category": "Letters & Numbers",
+  "tags": [
+   "versus",
+   "vs",
+   "compare",
+   "battle",
+   "match",
+   "against"
+  ]
+ },
+ {
+  "name": "text-whole-word",
+  "category": "Editor",
+  "tags": [
+   "whole word",
+   "match word",
+   "find",
+   "search",
+   "text",
+   "word"
   ]
  },
  {
@@ -46264,6 +51574,18 @@
   ]
  },
  {
+  "name": "thumbs-up-down",
+  "category": "Interface",
+  "tags": [
+   "rate",
+   "feedback",
+   "like",
+   "dislike",
+   "vote",
+   "review"
+  ]
+ },
+ {
   "name": "thumbs-up-slash",
   "category": "People",
   "tags": [
@@ -46317,6 +51639,18 @@
   ]
  },
  {
+  "name": "ticket-minus",
+  "category": "Commerce",
+  "tags": [
+   "remove ticket",
+   "cancel ticket",
+   "ticket",
+   "event",
+   "minus",
+   "booking"
+  ]
+ },
+ {
   "name": "ticket-plus",
   "category": "Commerce",
   "tags": [
@@ -46335,6 +51669,18 @@
    "off",
    "disabled",
    "hidden"
+  ]
+ },
+ {
+  "name": "ticket-star",
+  "category": "Commerce",
+  "tags": [
+   "favorite ticket",
+   "vip ticket",
+   "featured event",
+   "ticket",
+   "star",
+   "event"
   ]
  },
  {
@@ -46597,6 +51943,18 @@
   ]
  },
  {
+  "name": "tongue",
+  "category": "People",
+  "tags": [
+   "tongue",
+   "mouth",
+   "taste",
+   "lick",
+   "body part",
+   "lips"
+  ]
+ },
+ {
   "name": "toolbox",
   "category": "Objects",
   "tags": [
@@ -46647,6 +52005,18 @@
    "teeth",
    "health",
    "mouth"
+  ]
+ },
+ {
+  "name": "tooth-braces",
+  "category": "Health",
+  "tags": [
+   "braces",
+   "orthodontics",
+   "teeth",
+   "dental",
+   "dentist",
+   "tooth"
   ]
  },
  {
@@ -46847,6 +52217,18 @@
   ]
  },
  {
+  "name": "towers-twin",
+  "category": "Maps",
+  "tags": [
+   "twin towers",
+   "petronas",
+   "kuala lumpur",
+   "skyscraper",
+   "landmark",
+   "malaysia"
+  ]
+ },
+ {
   "name": "toy-brick",
   "category": "Objects",
   "tags": [
@@ -46896,6 +52278,18 @@
    "disabled",
    "hidden",
    "traffic"
+  ]
+ },
+ {
+  "name": "traffic-jam",
+  "category": "Transport",
+  "tags": [
+   "traffic jam",
+   "congestion",
+   "gridlock",
+   "cars",
+   "delay",
+   "queue"
   ]
  },
  {
@@ -46960,6 +52354,18 @@
   ]
  },
  {
+  "name": "train-track",
+  "category": "Transport",
+  "tags": [
+   "train track",
+   "railway",
+   "rails",
+   "sleepers",
+   "railroad",
+   "line"
+  ]
+ },
+ {
   "name": "tram",
   "category": "Transport",
   "tags": [
@@ -46968,6 +52374,18 @@
    "streetcar",
    "rail",
    "trolley"
+  ]
+ },
+ {
+  "name": "trampoline",
+  "category": "Sports",
+  "tags": [
+   "trampoline",
+   "bounce",
+   "jump",
+   "play",
+   "backyard",
+   "gym"
   ]
  },
  {
@@ -47320,6 +52738,43 @@
   ]
  },
  {
+  "name": "tree-structure-check",
+  "category": "Development",
+  "tags": [
+   "structure valid",
+   "hierarchy check",
+   "approved",
+   "org chart",
+   "tree",
+   "check"
+  ]
+ },
+ {
+  "name": "tree-structure-clock",
+  "category": "Business",
+  "tags": [
+   "time management",
+   "planning",
+   "organization",
+   "workflow",
+   "hierarchy",
+   "schedule",
+   "team"
+  ]
+ },
+ {
+  "name": "tree-structure-plus",
+  "category": "Development",
+  "tags": [
+   "add structure",
+   "add branch",
+   "hierarchy",
+   "org chart",
+   "tree",
+   "plus"
+  ]
+ },
+ {
   "name": "tree-structure-slash",
   "category": "Development",
   "tags": [
@@ -47327,6 +52782,18 @@
    "off",
    "disabled",
    "hidden",
+   "tree"
+  ]
+ },
+ {
+  "name": "tree-structure-x",
+  "category": "Development",
+  "tags": [
+   "subnode",
+   "delete node",
+   "hierarchy",
+   "structure",
+   "remove",
    "tree"
   ]
  },
@@ -47435,6 +52902,18 @@
    "add",
    "new",
    "create"
+  ]
+ },
+ {
+  "name": "triangle-right-angle",
+  "category": "Design",
+  "tags": [
+   "right triangle",
+   "triangle",
+   "right angle",
+   "geometry",
+   "math",
+   "shape"
   ]
  },
  {
@@ -47551,6 +53030,18 @@
    "truck",
    "dirt",
    "haul"
+  ]
+ },
+ {
+  "name": "truck-electric",
+  "category": "Transport",
+  "tags": [
+   "electric truck",
+   "ev",
+   "truck",
+   "lightning",
+   "delivery",
+   "green"
   ]
  },
  {
@@ -47902,6 +53393,18 @@
   ]
  },
  {
+  "name": "usb-bug",
+  "category": "Security",
+  "tags": [
+   "usb malware",
+   "infected usb",
+   "bug",
+   "virus",
+   "usb",
+   "threat"
+  ]
+ },
+ {
   "name": "usb-drive",
   "category": "Devices",
   "tags": [
@@ -47910,6 +53413,18 @@
    "usb stick",
    "storage",
    "usb drive"
+  ]
+ },
+ {
+  "name": "usb-drive-bitcoin",
+  "category": "Devices",
+  "tags": [
+   "hardware wallet",
+   "cold storage",
+   "crypto usb",
+   "btc",
+   "usb drive",
+   "bitcoin"
   ]
  },
  {
@@ -47953,6 +53468,18 @@
    "usb off",
    "offline",
    "slash"
+  ]
+ },
+ {
+  "name": "usb-warning",
+  "category": "Devices",
+  "tags": [
+   "usb error",
+   "usb warning",
+   "device error",
+   "connection problem",
+   "usb",
+   "warning"
   ]
  },
  {
@@ -48017,6 +53544,18 @@
    "friend",
    "confirmed",
    "member"
+  ]
+ },
+ {
+  "name": "user-chef",
+  "category": "People",
+  "tags": [
+   "chef",
+   "cook",
+   "culinary",
+   "kitchen staff",
+   "restaurant",
+   "person"
   ]
  },
  {
@@ -48177,6 +53716,30 @@
   ]
  },
  {
+  "name": "user-hijab",
+  "category": "People",
+  "tags": [
+   "hijab",
+   "headscarf",
+   "woman",
+   "avatar",
+   "muslim",
+   "profile"
+  ]
+ },
+ {
+  "name": "user-kufi",
+  "category": "People",
+  "tags": [
+   "muslim",
+   "man",
+   "kufi",
+   "cap",
+   "avatar",
+   "profile"
+  ]
+ },
+ {
   "name": "user-lightning",
   "category": "People",
   "tags": [
@@ -48256,6 +53819,18 @@
    "musician",
    "singer",
    "user"
+  ]
+ },
+ {
+  "name": "user-niqab",
+  "category": "People",
+  "tags": [
+   "niqab",
+   "veil",
+   "woman",
+   "avatar",
+   "muslim",
+   "profile"
   ]
  },
  {
@@ -48467,6 +54042,18 @@
   ]
  },
  {
+  "name": "users-cloche",
+  "category": "People",
+  "tags": [
+   "waiters",
+   "serving staff",
+   "catering team",
+   "restaurant",
+   "service",
+   "users"
+  ]
+ },
+ {
   "name": "users-currency-dollar",
   "category": "People",
   "tags": [
@@ -48517,6 +54104,19 @@
    "no users",
    "disabled",
    "group"
+  ]
+ },
+ {
+  "name": "users-sparkle",
+  "category": "People",
+  "tags": [
+   "ai co-editing",
+   "collaboration",
+   "human and ai",
+   "co-pilot",
+   "team",
+   "users",
+   "sparkle"
   ]
  },
  {
@@ -48664,6 +54264,18 @@
    "bank",
    "storage",
    "lock"
+  ]
+ },
+ {
+  "name": "vault-bitcoin",
+  "category": "Commerce",
+  "tags": [
+   "crypto vault",
+   "cold storage",
+   "secure bitcoin",
+   "btc",
+   "safe",
+   "bitcoin"
   ]
  },
  {
@@ -48870,6 +54482,19 @@
    "delete video",
    "recording error",
    "camera error"
+  ]
+ },
+ {
+  "name": "video-cassette",
+  "category": "Media",
+  "tags": [
+   "videotape",
+   "video cassette",
+   "vhs",
+   "retro",
+   "tape",
+   "recording",
+   "movie"
   ]
  },
  {
@@ -49298,6 +54923,18 @@
   ]
  },
  {
+  "name": "wanted-poster",
+  "category": "Security",
+  "tags": [
+   "wanted",
+   "fugitive",
+   "poster",
+   "criminal",
+   "law enforcement",
+   "bounty"
+  ]
+ },
+ {
   "name": "wardrobe",
   "category": "Home",
   "tags": [
@@ -49631,6 +55268,18 @@
   ]
  },
  {
+  "name": "watch-sparkle",
+  "category": "Devices",
+  "tags": [
+   "ai smartwatch",
+   "smart watch",
+   "wearable ai",
+   "watch",
+   "wearable",
+   "sparkle"
+  ]
+ },
+ {
   "name": "watch-star",
   "category": "Devices",
   "tags": [
@@ -49724,6 +55373,30 @@
    "ball",
    "pool",
    "swim"
+  ]
+ },
+ {
+  "name": "water-pump",
+  "category": "Home",
+  "tags": [
+   "water pump",
+   "hand pump",
+   "well",
+   "village pump",
+   "water",
+   "farm"
+  ]
+ },
+ {
+  "name": "water-tank",
+  "category": "Home",
+  "tags": [
+   "water tank",
+   "storage tank",
+   "poly tank",
+   "cistern",
+   "reservoir",
+   "water"
   ]
  },
  {
@@ -49916,6 +55589,18 @@
   ]
  },
  {
+  "name": "weight-tilde",
+  "category": "Health",
+  "tags": [
+   "weight change",
+   "fluctuation",
+   "approximate",
+   "variation",
+   "weight",
+   "measurement"
+  ]
+ },
+ {
   "name": "whale",
   "category": "Animals",
   "tags": [
@@ -50050,6 +55735,18 @@
   ]
  },
  {
+  "name": "wifi-check",
+  "category": "Devices",
+  "tags": [
+   "wifi connected",
+   "connected",
+   "online",
+   "network",
+   "wifi",
+   "check"
+  ]
+ },
+ {
   "name": "wifi-gear",
   "category": "Devices",
   "tags": [
@@ -50084,6 +55781,18 @@
   ]
  },
  {
+  "name": "wifi-lock-open",
+  "category": "Security",
+  "tags": [
+   "open wifi",
+   "public network",
+   "unlocked",
+   "wifi",
+   "no password",
+   "open lock"
+  ]
+ },
+ {
   "name": "wifi-low",
   "category": "Devices",
   "tags": [
@@ -50092,6 +55801,18 @@
    "wireless",
    "weak signal",
    "wifi 1 bar"
+  ]
+ },
+ {
+  "name": "wifi-map-pin",
+  "category": "Maps",
+  "tags": [
+   "wifi location",
+   "hotspot",
+   "wifi",
+   "location",
+   "map pin",
+   "nearby"
   ]
  },
  {
@@ -50137,6 +55858,18 @@
   ]
  },
  {
+  "name": "wifi-sync",
+  "category": "Devices",
+  "tags": [
+   "wifi",
+   "sync",
+   "reconnect",
+   "refresh",
+   "wireless",
+   "network"
+  ]
+ },
+ {
   "name": "wifi-warning",
   "category": "Devices",
   "tags": [
@@ -50167,6 +55900,18 @@
    "weather",
    "blow",
    "windy"
+  ]
+ },
+ {
+  "name": "wind-arrow-down",
+  "category": "Weather",
+  "tags": [
+   "wind direction",
+   "downdraft",
+   "wind down",
+   "weather",
+   "wind",
+   "arrow"
   ]
  },
  {
@@ -50514,6 +56259,18 @@
   ]
  },
  {
+  "name": "yogurt",
+  "category": "Food",
+  "tags": [
+   "yogurt",
+   "dairy",
+   "cup",
+   "dessert",
+   "breakfast",
+   "spoon"
+  ]
+ },
+ {
   "name": "zeppelin",
   "category": "Transport",
   "tags": [
@@ -50611,6 +56368,18 @@
    "zodiac",
    "astrology",
    "horoscope"
+  ]
+ },
+ {
+  "name": "zodiac-ophiuchus",
+  "category": "Symbols",
+  "tags": [
+   "ophiuchus",
+   "zodiac",
+   "astrology",
+   "serpent bearer",
+   "horoscope",
+   "sign"
   ]
  },
  {

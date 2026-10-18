@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" data-category="Nature" data-tags="soil temperature,agriculture,field sensor,ground heat,soil,thermometer">
+  <g data-role="area" fill="currentColor" opacity="0.2">
+    <path d="M108 136 V52 A20 20 0 0 1 148 52 V136 A32 32 0 1 1 108 136 Z"/>
+    <path d="M32 224 C40 198 56 182 72 176 L184 176 C200 182 216 198 224 224 Z"/>
+  </g>
+  <g data-role="line" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M108 136 V52 A20 20 0 0 1 148 52 V136 A32 32 0 1 1 108 136 Z"/>
+    <path d="M72 176 C56 182 40 198 32 224 H224 C216 198 200 182 184 176"/>
+  </g>
+  <g data-role="detail" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M128 168 L128 80"/>
+  </g>
+</svg>

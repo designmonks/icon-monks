@@ -1,15 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" data-category="Design" data-tags="3d scale,scale,resize,transform,3d modeling,cube">
   <g data-role="area" fill="currentColor" opacity="0.2">
-    <path d="M88 118 L136 142 L136 194 L88 218 L40 194 L40 142 Z"/>
+    <path d="M88 32 L136 56 L136 108 L88 132 L40 108 L40 56 Z"/>
   </g>
   <g data-role="line" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M88 118 L136 142 L136 194 L88 218 L40 194 L40 142 Z"/>
-    <path d="M156 100 L216 40"/>
-    <path d="M180 40 H216 V76"/>
-    <path d="M156 64 V100 H192"/>
+    <path d="M88 32 L136 56 L136 108 L88 132 L40 108 L40 56 Z"/>
+    <path d="M148 148 L220 220"/>
+    <path d="M184 220 H220 V184"/>
+    <path d="M148 184 V148 H184"/>
   </g>
   <g data-role="detail" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M40 142 L88 166 L136 142"/>
-    <path d="M88 166 L88 218"/>
+    <path d="M40 56 L88 80 L136 56"/>
+    <path d="M88 80 L88 132"/>
   </g>
 </svg>

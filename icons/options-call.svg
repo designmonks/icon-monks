@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" data-category="Business" data-tags="call option,options trading,derivative,stocks,bullish,finance">
+  <g data-role="area" fill="currentColor" opacity="0.2">
+    <rect x="144" y="144" width="80" height="80" rx="16"/>
+  </g>
+  <g data-role="line" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M32 40 L32 216 L112 216"/>
+    <path d="M64 144 L96 104 L120 120 L184 56"/>
+    <path d="M156 58 L184 56 L186 84"/>
+    <rect x="144" y="144" width="80" height="80" rx="16"/>
+  </g>
+  <g data-role="detail" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M200 168 A22.63 22.63 0 1 0 200 200"/>
+  </g>
+</svg>

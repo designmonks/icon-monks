@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" data-category="Commerce" data-tags="ico,initial coin offering,token launch,crypto,coin,launch">
+  <g data-role="area" fill="currentColor" opacity="0.2">
+    <path d="M108 32 H144 A76 96 0 0 1 182 107 A74 74 0 0 0 127 221 L108 224 A76 96 0 0 1 108 32 Z"/>
+    <path d="M180 124 C199 137 203 158 203 178 V193 H157 V178 C157 158 161 137 180 124 Z"/>
+  </g>
+  <g data-role="line" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M127 221 A76 96 0 1 1 180 96"/>
+    <path d="M108 32 H144 A76 96 0 0 1 182 107"/>
+    <path d="M180 124 C199 137 203 158 203 178 V193 H157 V178 C157 158 161 137 180 124 Z"/>
+    <path d="M157 174 L142 189 V205 L157 197"/>
+    <path d="M203 174 L218 189 V205 L203 197"/>
+    <path d="M180 205 V216"/>
+  </g>
+  <g data-role="detail" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+    <ellipse cx="108" cy="128" rx="40" ry="60"/>
+  </g>
+</svg>

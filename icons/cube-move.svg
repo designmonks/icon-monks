@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" data-category="Design" data-tags="3d move,move,translate,cube,3d modeling,transform">
+  <g data-role="area" fill="currentColor" opacity="0.2">
+    <path d="M88 32 L136 56 L136 108 L88 132 L40 108 L40 56 Z"/>
+  </g>
+  <g data-role="line" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M88 32 L136 56 L136 108 L88 132 L40 108 L40 56 Z"/>
+    <path d="M172 120 L172 224 M120 172 L224 172"/>
+    <path d="M152 140 L172 120 L192 140"/>
+    <path d="M152 204 L172 224 L192 204"/>
+    <path d="M140 152 L120 172 L140 192"/>
+    <path d="M204 152 L224 172 L204 192"/>
+  </g>
+  <g data-role="detail" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M40 56 L88 80 L136 56"/>
+    <path d="M88 80 L88 132"/>
+  </g>
+</svg>
