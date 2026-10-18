@@ -74,6 +74,15 @@ main.wrap { padding-block: 20px 56px; display: grid; grid-template-columns: minm
 .tile[aria-selected="true"] { border-color: var(--saffron); box-shadow: inset 0 0 0 1px var(--saffron); }
 .tile span { font: 11px/1.2 var(--mono); color: var(--muted); overflow-wrap: anywhere; text-align: center; }
 .tile svg { display: block; }
+.tile.pending svg { background: var(--grid); border-radius: 8px; }
+.cat-head { grid-column: 1 / -1; display: flex; align-items: baseline; gap: 8px; margin: 22px 0 4px; font: 500 20px/1.2 var(--display); }
+.cat-head:first-child { margin-top: 0; }
+.cat-head button { all: unset; cursor: pointer; }
+.cat-head button:hover { color: var(--saffron); }
+.cat-head button:focus-visible { outline: 2px solid var(--saffron); outline-offset: 2px; }
+.cat-head span { font: 12px var(--mono); color: var(--muted); }
+.search kbd { position: absolute; right: 10px; top: 50%; transform: translateY(-50%); font: 11px var(--mono); color: var(--muted); border: 1px solid var(--rule); border-radius: 6px; padding: 1px 6px; pointer-events: none; }
+.search input:focus ~ kbd, .search input:not(:placeholder-shown) ~ kbd { display: none; }
 .empty { padding: 40px 0; color: var(--muted); }
 aside.detail { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 84px); background: var(--sheet); border: 1px solid var(--rule); border-radius: 16px; padding: 18px; display: grid; grid-template-columns: minmax(0, 1fr); gap: 14px; min-width: 0; }
 .detail > * { min-width: 0; }
@@ -214,7 +223,7 @@ footer { border-top: 1px solid var(--rule); padding-block: 32px 40px; color: var
 <div class="rail">
   <div class="wrap">
     <label class="search"><svg viewBox="0 0 256 256" aria-hidden="true"><path id="search-path"/></svg>
-      <input id="q" type="search" placeholder="Search icons, e.g. home, mail, settings" autocomplete="off" aria-label="Search icons"></label>
+      <input id="q" type="search" placeholder="Search __COUNT__ icons" autocomplete="off" aria-label="Search icons"><kbd aria-hidden="true">/</kbd></label>
     <div class="weights" role="group" aria-label="Weight" id="weights"></div>
     <label class="knob" for="cat"><span class="sr">Category</span><select id="cat" aria-label="Category"><option value="">All categories</option></select></label>
     <label class="knob size" for="size">Size <input id="size" type="range" min="16" max="64" step="4" value="32"><span id="size-out">32px</span></label>
@@ -379,13 +388,30 @@ const pascal = (n) => n.split('-').map((p) => p[0].toUpperCase() + p.slice(1)).j
 const camel = (n) => { const p = pascal(n); return p[0].toLowerCase() + p.slice(1); };
 const byName = Object.fromEntries(DATA.icons.map((i) => [i.name, i]));
 
-// Path data lives in data/<weight>.json (one array per weight, in DATA.icons order), loaded on demand.
+// Path data lives in data/<weight>/<n>.json shards (DATA.shards gives each shard's first index, in DATA.icons order).
+// The first shard covers the first screen, so the grid paints after one small request; the rest load in parallel.
 const PATHS = {};
 const pending = {};
+function loadShard(w, k) {
+  return fetch(`data/${w}/${k}.json`).then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then((a) => { a.forEach((d, j) => { PATHS[w][DATA.shards[k] + j] = d; }); fillPending(w); });
+}
 function loadWeight(w) {
-  if (!pending[w]) pending[w] = fetch(`data/${w}.json`).then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
-    .then((a) => { PATHS[w] = a; return a; }).catch((e) => { delete pending[w]; throw e; });
+  if (!pending[w]) {
+    PATHS[w] = PATHS[w] || [];
+    pending[w] = loadShard(w, 0).then(() => { Promise.all(DATA.shards.slice(2).map((_, k) => loadShard(w, k + 1))).catch(() => {}); })
+      .catch((e) => { delete pending[w]; throw e; });
+  }
   return pending[w];
+}
+// Tiles drawn before their shard arrived are filled in place.
+function fillPending(w) {
+  if (w !== state.weight) return;
+  document.querySelectorAll('.tile.pending').forEach((t) => {
+    const icon = byName[t.dataset.name];
+    if (PATHS[w][icon.i]) { t.querySelector('svg').innerHTML = body(icon, w); t.classList.remove('pending'); }
+  });
+  renderDetail();
 }
 // Single icons (for the preview strip and downloads) come from svg/<weight>/ so a visit doesn't fetch every weight.
 const ONE = {};
@@ -398,7 +424,7 @@ function loadOne(icon, w) {
       ONE[k] = w === 'duotone' ? (ds.length > 1 ? [ds[0], ds[1]] : ['', ds[0]]) : ds[0]; return ONE[k]; });
   return ONE_PENDING[k];
 }
-const pathOf = (icon, w) => (PATHS[w] ? PATHS[w][icon.i] : ONE[w + '/' + icon.name] || null);
+const pathOf = (icon, w) => (PATHS[w] && PATHS[w][icon.i]) || ONE[w + '/' + icon.name] || null;
 function body(icon, weight) {
   const d = pathOf(icon, weight);
   if (!d) return '';
@@ -416,11 +442,20 @@ function matches(icon, q) {
 // The grid renders in chunks as you scroll, so thousands of icons stay fast.
 const CHUNK = 240;
 let shown = [];
+let jumpTo = '';
 let drawn = 0;
-const tile = (i) => `<button class="tile" role="option" type="button" data-name="${i.name}" aria-selected="${i.name === state.selected}" title="${i.name}">${svg(i, state.weight, state.size, state.color)}<span>${i.name}</span></button>`;
+const tile = (i) => `<button class="tile${pathOf(i, state.weight) ? '' : ' pending'}" role="option" type="button" data-name="${i.name}" aria-selected="${i.name === state.selected}" title="${i.name}">${svg(i, state.weight, state.size, state.color)}<span>${i.name}</span></button>`;
+// With no search or category filter, icons sit under a heading per category; clicking a heading filters to it.
+const grouped = () => !state.cat && !state.q.trim();
+const head = (c) => `<h3 class="cat-head" role="presentation"><button type="button" data-cat="${c}">${c}</button><span>${cats[c]}</span></h3>`;
 function drawMore(upTo) {
   const end = Math.min(shown.length, Math.max(drawn + CHUNK, upTo || 0));
-  $('grid').insertAdjacentHTML('beforeend', shown.slice(drawn, end).map(tile).join(''));
+  let html = '';
+  for (let k = drawn; k < end; k++) {
+    if (grouped() && (k === 0 || shown[k - 1].category !== shown[k].category)) html += head(shown[k].category);
+    html += tile(shown[k]);
+  }
+  $('grid').insertAdjacentHTML('beforeend', html);
   drawn = end;
   $('more').hidden = drawn >= shown.length;
 }
@@ -428,14 +463,16 @@ function renderGrid() {
   const q = state.q.trim().toLowerCase();
   shown = DATA.icons.filter((i) => (!state.cat || i.category === state.cat) && matches(i, q));
   $('empty').hidden = shown.length > 0;
-  if (!PATHS[state.weight]) {
+  if (!PATHS[state.weight] || !PATHS[state.weight][0]) {
     $('count').textContent = `Loading ${state.weight} icons…`;
     loadWeight(state.weight).then(renderGrid, () => { $('count').textContent = 'Could not load the icons. Check your connection and reload.'; });
     return;
   }
   $('grid').innerHTML = ''; drawn = 0;
-  drawMore(shown.findIndex((i) => i.name === state.selected) + 1);
-  $('count').textContent = `${shown.length} of ${DATA.icons.length} icons · ${state.weight}`;
+  // Draw far enough to include an icon named in the link (?icon=), once; otherwise just the first chunk.
+  drawMore(jumpTo ? shown.findIndex((i) => i.name === jumpTo) + 1 : 0);
+  jumpTo = '';
+  $('count').textContent = `${shown.length.toLocaleString('en-US')} of ${DATA.icons.length.toLocaleString('en-US')} icons · ${state.weight}`;
 }
 if ('IntersectionObserver' in window) {
   new IntersectionObserver((es) => { if (es.some((e) => e.isIntersecting) && drawn < shown.length) drawMore(); }, { rootMargin: '800px' }).observe($('more'));
@@ -592,6 +629,8 @@ $('weights').addEventListener('click', (e) => {
   renderWeights(); renderGrid(); renderDetail();
 });
 $('grid').addEventListener('click', (e) => {
+  const h = e.target.closest('.cat-head button');
+  if (h) { state.cat = h.dataset.cat; $('cat').value = state.cat; renderGrid(); syncUrl(); $('icons').scrollIntoView(); return; }
   const b = e.target.closest('.tile'); if (!b) return;
   state.selected = b.dataset.name; state.previewWeight = null;
   document.querySelectorAll('.tile[aria-selected="true"]').forEach((t) => t.setAttribute('aria-selected', 'false'));
@@ -600,7 +639,11 @@ $('grid').addEventListener('click', (e) => {
   if (window.matchMedia('(max-width: 900px)').matches) $('detail').classList.add('open');
 });
 $('sheet-close').addEventListener('click', () => $('detail').classList.remove('open'));
-document.addEventListener('keydown', (e) => { if (e.key === 'Escape') $('detail').classList.remove('open'); });
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') { $('detail').classList.remove('open'); return; }
+  const typing = /^(INPUT|TEXTAREA|SELECT)$/.test(document.activeElement.tagName);
+  if ((e.key === '/' && !typing) || (e.key === 'k' && (e.metaKey || e.ctrlKey))) { e.preventDefault(); $('q').focus(); $('q').select(); }
+});
 // Theme: System follows the OS; Light and Dark override it and are remembered.
 $('theme').value = document.documentElement.dataset.theme || '';
 $('theme').addEventListener('change', (e) => {
@@ -636,7 +679,7 @@ $('cat').insertAdjacentHTML('beforeend', Object.keys(cats).sort().map((c) => `<o
 const params = (() => { try { return new URLSearchParams(location.search); } catch { return new URLSearchParams(); } })();
 if (params.get('q')) { state.q = params.get('q'); $('q').value = state.q; }
 if (cats[params.get('category')]) { state.cat = params.get('category'); $('cat').value = state.cat; }
-if (byName[params.get('icon')]) state.selected = params.get('icon');
+if (byName[params.get('icon')]) state.selected = jumpTo = params.get('icon');
 if (WEIGHTS.includes(params.get('weight'))) state.weight = params.get('weight');
 let urlTimer;
 function syncUrl() {
