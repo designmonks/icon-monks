@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" data-category="Emoji" data-tags="star struck,star eyes,amazed,excited,emoji,face">
+  <g data-role="area" fill="currentColor" opacity="0.2">
+    <circle cx="128" cy="128" r="96"/>
+  </g>
+  <g data-role="line" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="128" cy="128" r="96"/>
+  </g>
+  <g data-role="detail" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M90 64 L98 84 L118 85 L103 99 L108 119 L90 108 L72 119 L77 99 L62 85 L82 84 Z"/>
+    <path d="M166 64 L174 84 L194 85 L179 99 L184 119 L166 108 L148 119 L153 99 L138 85 L158 84 Z"/>
+    <path d="M72 136 H184 C184 172 160 196 128 196 C96 196 72 172 72 136 Z"/>
+    <path d="M76 162 L180 162"/>
+  </g>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" data-category="Security" data-tags="handcuffs,arrest,police,law,crime,restraint">
+  <g data-role="area" fill="currentColor" opacity="0.2">
+    <circle cx="72" cy="168" r="40"/>
+    <circle cx="184" cy="168" r="40"/>
+    <rect x="52" y="100" width="40" height="32" rx="8"/>
+    <rect x="164" y="100" width="40" height="32" rx="8"/>
+  </g>
+  <g data-role="line" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M100 140 A40 40 0 1 1 44 140"/>
+    <path d="M212 140 A40 40 0 1 1 156 140"/>
+    <rect x="52" y="100" width="40" height="32" rx="8"/>
+    <rect x="164" y="100" width="40" height="32" rx="8"/>
+    <path d="M92 116 H108"/>
+    <path d="M148 116 H164"/>
+    <rect x="108" y="104" width="40" height="24" rx="12"/>
+  </g>
+</svg>
