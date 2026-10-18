@@ -65,7 +65,7 @@ ${ld({ '@graph': [breadcrumb, ...jsonld] })}
 <body>
 <header class="nav"><div class="wrap">
   <a class="brand" href="${up}"><img src="${up}favicon.svg" alt="" width="24" height="24">Icon Monks</a>
-  <nav aria-label="Main"><a href="${up}">Icons</a><a href="${up}categories/">Categories</a><a href="${up}getting-started/">Get started</a><a href="${up}license/">License</a><a href="${REPO}">GitHub</a><label class="theme"><span class="sr">Theme</span><select id="theme" aria-label="Theme"><option value="">System</option><option value="light">Light</option><option value="dark">Dark</option></select></label></nav>
+  <nav aria-label="Main"><a href="${up}">Icons</a><a href="${up}categories/">Categories</a><a href="${up}getting-started/">Get started</a><a href="${up}showcase/">Showcase</a><a href="${up}license/">License</a><a href="${REPO}">GitHub</a><label class="theme"><span class="sr">Theme</span><select id="theme" aria-label="Theme"><option value="">System</option><option value="light">Light</option><option value="dark">Dark</option></select></label></nav>
 </div></header>
 <main class="wrap">
   <ol class="crumbs">${trail.map(([name, p], k) => k === trail.length - 1 ? `<li aria-current="page">${esc(name)}</li>` : `<li><a href="${up}${p}">${esc(name)}</a></li>`).join('')}</ol>
