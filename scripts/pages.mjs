@@ -5,14 +5,19 @@
 //   getting-started/, license/
 // Pages share site.css and link to the SVG files GitHub Pages serves from svg/.
 import { mkdirSync, rmSync, writeFileSync } from 'node:fs';
-import { header, HEADER_CSS, HEADER_JS } from './chrome.mjs';
+import { header, HEADER_CSS, HEADER_JS, HEADER_THEME, STUDIO, STUDIO_LINK, CREDIT } from './chrome.mjs';
 
 const esc = (t) => String(t).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 const pascal = (n) => n.split('-').map((p) => p[0].toUpperCase() + p.slice(1)).join('');
 const camel = (n) => { const p = pascal(n); return p[0].toLowerCase() + p.slice(1); };
+// Which main-nav link a page sits under: icon pages under Icons, platform guides under Get started.
+const navKey = (path) => path.startsWith('icon/') ? 'icons' : path.startsWith('categories') ? 'categories'
+  : path.startsWith('getting-started') || PLATFORMS.some((p) => p.path === path) ? 'start' : '';
 const slug = (c) => c.toLowerCase().replace(/&/g, 'and').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 const title = (n) => n.split('-').map((p) => p[0].toUpperCase() + p.slice(1)).join(' ');
 const svgFile = (name, w) => `svg/${w}/${name}${w === 'regular' ? '' : '-' + w}.svg`;
+// The maker named in structured data on every page.
+const ORG = { '@type': 'Organization', name: STUDIO.name, url: STUDIO.url };
 const ld = (o) => `<script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', ...o }).replace(/</g, '\\u003c')}</script>`;
 
 export function buildPages({ root, data, SITE, REPO, count, version }) {
@@ -44,6 +49,8 @@ export function buildPages({ root, data, SITE, REPO, count, version }) {
 <meta name="description" content="${esc(description)}">
 <link rel="canonical" href="${url}">
 <meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="author" content="Design Monks">
+<meta name="publisher" content="Design Monks">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Icon Monks">
 <meta property="og:title" content="${esc(t)}">
@@ -56,7 +63,7 @@ export function buildPages({ root, data, SITE, REPO, count, version }) {
 <meta name="twitter:image" content="${og}">
 <link rel="icon" href="${up}favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="${up}apple-touch-icon.png">
-<script>try{const t=localStorage.getItem('im-theme');if(t==='light'||t==='dark')document.documentElement.dataset.theme=t}catch(e){}</script>
+${HEADER_THEME}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@400;500&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&family=IBM+Plex+Mono:wght@400;500&display=swap">
@@ -64,7 +71,7 @@ export function buildPages({ root, data, SITE, REPO, count, version }) {
 ${ld({ '@graph': [breadcrumb, ...jsonld] })}
 </head>
 <body>
-${header({ byName, up, REPO, current: path.startsWith('categories') ? 'categories' : path.startsWith('getting-started') ? 'start' : '' })}
+${header({ byName, up, REPO, current: navKey(path) })}
 <main class="wrap">
   <ol class="crumbs">${trail.map(([name, p], k) => k === trail.length - 1 ? `<li aria-current="page">${esc(name)}</li>` : `<li><a href="${up}${p}">${esc(name)}</a></li>`).join('')}</ol>
   <h1>${h1}</h1>
@@ -72,11 +79,12 @@ ${header({ byName, up, REPO, current: path.startsWith('categories') ? 'categorie
   ${body(up)}
 </main>
 <footer><div class="wrap foot">
-  <div><h2>Icon Monks</h2><p>${count} free, open source icons in six weights by Design Monks, released under the MIT license.</p></div>
+  <div><h2>Icon Monks</h2><p>${count} free, open source icons in six weights by ${STUDIO_LINK}, released under the MIT license.</p></div>
   <nav aria-label="Popular categories"><h2>Categories</h2><ul>${['Interface', 'Arrows', 'Commerce', 'Media', 'Communication', 'Weather'].map((c) => `<li><a href="${up}categories/${slug(c)}/">${c} icons</a></li>`).join('')}<li><a href="${up}categories/">All categories</a></li></ul></nav>
   <nav aria-label="Platforms"><h2>Platforms</h2><ul>${PLATFORMS.map((p) => `<li><a href="${up}${p.path}">${p.short}</a></li>`).join('')}</ul></nav>
   <nav aria-label="Resources"><h2>Resources</h2><ul><li><a href="${up}getting-started/">Get started</a></li><li><a href="${up}license/">License</a></li><li><a href="${REPO}/releases">Releases</a></li><li><a href="${REPO}/issues">Request an icon</a></li><li><a href="${REPO}">GitHub</a></li></ul></nav>
-</div></footer>
+</div>
+<div class="wrap">${CREDIT}</div></footer>
 ${HEADER_JS}
 </body>
 </html>
@@ -117,7 +125,7 @@ ${HEADER_JS}
       lede: `A free ${esc(T.toLowerCase())} icon from the ${esc(i.category)} set${tags.length ? `, useful for ${esc(tags.slice(0, 4).join(', '))}` : ''}. It comes in six weights and is free for personal and commercial use under the MIT license.`,
       crumbs: [[`${i.category} icons`, `categories/${slug(i.category)}/`], [T, path]],
       jsonld: [{ '@type': 'ImageObject', name: `${T} icon`, contentUrl: SITE + svgFile(i.name, 'regular'), encodingFormat: 'image/svg+xml',
-        license: 'https://opensource.org/licenses/MIT', acquireLicensePage: `${SITE}license/`, creditText: 'Icon Monks', creator: { '@type': 'Organization', name: 'Design Monks' }, copyrightNotice: 'Design Monks' }],
+        license: 'https://opensource.org/licenses/MIT', acquireLicensePage: `${SITE}license/`, creditText: 'Icon Monks', creator: ORG, copyrightNotice: 'Design Monks' }],
       body: (up) => `
   <section class="weights" aria-label="Weights">
     ${data.weights.map((w) => `<figure><img src="${up}${svgFile(i.name, w)}" alt="${esc(T)} icon, ${w} weight" width="64" height="64"><figcaption>${w[0].toUpperCase() + w.slice(1)}</figcaption><a class="dl" href="${up}${svgFile(i.name, w)}" download>SVG</a></figure>`).join('\n    ')}
@@ -172,7 +180,7 @@ ${HEADER_JS}
       title: p.title(count), description: p.description(count),
       h1: p.h1, lede: p.lede(count),
       crumbs: [[p.short, p.path]],
-      jsonld: [{ '@type': 'TechArticle', headline: p.h1, description: p.description(count), url: SITE + p.path, author: { '@type': 'Organization', name: 'Design Monks' },
+      jsonld: [{ '@type': 'TechArticle', headline: p.h1, description: p.description(count), url: SITE + p.path, author: ORG,
         about: { '@type': 'SoftwareSourceCode', name: p.pkg, codeRepository: REPO, license: 'https://opensource.org/licenses/MIT', programmingLanguage: p.lang, version } },
       faq(p.faq)],
       body: (up) => `
@@ -250,7 +258,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.</code></pre>`,
   }));
 
-  writeFileSync(new URL('site.css', root), CSS + HEADER_CSS + ':root{--head-max:1120px}');
+  writeFileSync(new URL('site.css', root), CSS + HEADER_CSS);
   return { urls, slug, PLATFORMS };
 }
 
@@ -392,14 +400,14 @@ const LICENSE_FAQ = [
   ['Can I include the icons in an icon pack or UI kit I sell?', 'Yes, as long as the license notice is included with the redistributed icons.'],
 ];
 
-const CSS = `:root{--paper:#f4f5f8;--sheet:#fff;--ink:#1b1e3a;--muted:#5d6280;--rule:#dfe2ec;--saffron:#c96a00;--fill:#a85600;--on-fill:#fff;--display:'Funnel Display','Space Grotesk','Helvetica Neue',Arial,sans-serif;--body:'DM Sans',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;--mono:'IBM Plex Mono',ui-monospace,Menlo,monospace}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--paper:#11132a;--sheet:#191c38;--ink:#e8e9f4;--muted:#a0a4c4;--rule:#2c3058;--saffron:#f5a53a;--fill:#f5a53a;--on-fill:#1b1e3a;color-scheme:dark}:root:not([data-theme="light"]) img[src*="/svg/"]{filter:invert(1) hue-rotate(180deg)}}
-:root[data-theme="dark"]{--paper:#11132a;--sheet:#191c38;--ink:#e8e9f4;--muted:#a0a4c4;--rule:#2c3058;--saffron:#f5a53a;--fill:#f5a53a;--on-fill:#1b1e3a;color-scheme:dark}:root[data-theme="dark"] img[src*="/svg/"]{filter:invert(1) hue-rotate(180deg)}
+const CSS = `:root{--paper:#f4f5f8;--sheet:#fff;--ink:#1b1e3a;--muted:#5d6280;--rule:#dfe2ec;--saffron:#5754d4;--fill:#aeacff;--on-fill:#1b1e3a;--display:'Funnel Display','Space Grotesk','Helvetica Neue',Arial,sans-serif;--body:'DM Sans',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;--mono:'IBM Plex Mono',ui-monospace,Menlo,monospace}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--paper:#11132a;--sheet:#191c38;--ink:#e8e9f4;--muted:#a0a4c4;--rule:#2c3058;--saffron:#aeacff;--fill:#aeacff;--on-fill:#1b1e3a;color-scheme:dark}:root:not([data-theme="light"]) img[src*="/svg/"]{filter:invert(1) hue-rotate(180deg)}}
+:root[data-theme="dark"]{--paper:#11132a;--sheet:#191c38;--ink:#e8e9f4;--muted:#a0a4c4;--rule:#2c3058;--saffron:#aeacff;--fill:#aeacff;--on-fill:#1b1e3a;color-scheme:dark}:root[data-theme="dark"] img[src*="/svg/"]{filter:invert(1) hue-rotate(180deg)}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
 .tiles span{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;min-height:2.4em}
 *{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.6 var(--body)}a{color:inherit}
-.wrap{max-width:1120px;margin:0 auto;padding:0 16px}
-main{padding-block:24px 64px}.crumbs{list-style:none;display:flex;flex-wrap:wrap;gap:6px;padding:0;margin:0 0 20px;font-size:13px;color:var(--muted)}.crumbs li+li::before{content:"/";margin-right:6px}.crumbs a{text-decoration:none}.crumbs a:hover{text-decoration:underline}
+.wrap{max-width:1240px;margin:0 auto;padding:0 16px}
+main.wrap{padding-block:32px 64px}.crumbs{list-style:none;display:flex;flex-wrap:wrap;gap:6px;padding:0;margin:0 0 20px;font-size:13px;color:var(--muted)}.crumbs li+li::before{content:"/";margin-right:6px}.crumbs a{text-decoration:none}.crumbs a:hover{text-decoration:underline}
 h1{font:400 clamp(34px,5vw,56px)/1.05 var(--display);margin:0 0 12px;letter-spacing:-.01em}h2{font:400 28px/1.2 var(--display);margin:48px 0 14px}h3{font:600 16px var(--body);margin:0 0 6px}
 .lede{font-size:18px;color:var(--muted);max-width:68ch;margin:0 0 24px}p{max-width:72ch}p a,.faq a{color:var(--saffron)}
 pre{margin:0 0 12px;background:var(--sheet);border:1px solid var(--rule);border-radius:10px;padding:14px;overflow-x:auto;font:13px/1.6 var(--mono)}code{font-family:var(--mono);font-size:.92em}
@@ -418,5 +426,6 @@ table{border-collapse:collapse;width:100%;max-width:720px;background:var(--sheet
 .license{white-space:pre-wrap}
 a:focus-visible,summary:focus-visible{outline:2px solid var(--saffron);outline-offset:2px}
 footer{border-top:1px solid var(--rule);padding-block:32px 40px;color:var(--muted);font-size:13px}.foot{display:grid;grid-template-columns:minmax(0,2fr) repeat(3,minmax(0,1fr));gap:24px}.foot h2{font:500 12px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--ink);margin:0 0 12px}.foot ul{list-style:none;margin:0;padding:0;display:grid;gap:6px}.foot a{text-decoration:none}.foot a:hover{color:var(--ink);text-decoration:underline}.foot p{margin:0;max-width:46ch}
+.foot-base{margin:28px 0 0;padding-top:20px;border-top:1px solid var(--rule);max-width:none}.foot p a,.foot-base a{color:var(--ink)}.foot-base a{font-weight:500}
 @media (max-width:720px){.foot{grid-template-columns:repeat(2,minmax(0,1fr))}.foot>div:first-child{grid-column:1/-1}}
 `;
