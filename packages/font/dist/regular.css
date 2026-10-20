@@ -62,6 +62,7 @@
 .im.im-airplane-taxiing::before { content: "\edf1"; }
 .im.im-airplane-window::before { content: "\edf2"; }
 .im.im-airport::before { content: "\edf3"; }
+.im.im-airtable-logo::before { content: "\f591"; }
 .im.im-al-aqsa-mosque::before { content: "\f315"; }
 .im.im-alarm::before { content: "\e063"; }
 .im.im-alarm-check::before { content: "\edf4"; }
@@ -142,6 +143,7 @@
 .im.im-angle::before { content: "\e421"; }
 .im.im-angle-tool::before { content: "\e422"; }
 .im.im-angry-bird::before { content: "\f4fd"; }
+.im.im-angular-logo::before { content: "\f592"; }
 .im.im-animation::before { content: "\e423"; }
 .im.im-ankh::before { content: "\edfd"; }
 .im.im-antenna::before { content: "\e5e8"; }
@@ -402,6 +404,7 @@
 .im.im-artboard-slash::before { content: "\e425"; }
 .im.im-article::before { content: "\e082"; }
 .im.im-article-slash::before { content: "\e5ef"; }
+.im.im-asana-logo::before { content: "\f593"; }
 .im.im-asclepius::before { content: "\e952"; }
 .im.im-aspect-ratio::before { content: "\e426"; }
 .im.im-aspect-ratio-slash::before { content: "\e427"; }
@@ -418,6 +421,7 @@
 .im.im-atm::before { content: "\e2a5"; }
 .im.im-atom::before { content: "\e085"; }
 .im.im-atom-slash::before { content: "\ee05"; }
+.im.im-audi-logo::before { content: "\f594"; }
 .im.im-augmented-reality::before { content: "\e5f3"; }
 .im.im-augmented-reality-slash::before { content: "\e5f4"; }
 .im.im-automatic-gearbox::before { content: "\ee06"; }
@@ -431,6 +435,7 @@
 .im.im-axis-3d::before { content: "\f323"; }
 .im.im-axis-x::before { content: "\e2a7"; }
 .im.im-axis-y::before { content: "\e2a8"; }
+.im.im-azure-logo::before { content: "\f595"; }
 .im.im-baby::before { content: "\e086"; }
 .im.im-baby-bonnet::before { content: "\ee09"; }
 .im.im-baby-bottle::before { content: "\ee0a"; }
@@ -622,6 +627,7 @@
 .im.im-biohazard-slash::before { content: "\ee29"; }
 .im.im-bird::before { content: "\e096"; }
 .im.im-birdhouse::before { content: "\f32b"; }
+.im.im-bitbucket-logo::before { content: "\f596"; }
 .im.im-black-hole::before { content: "\f32c"; }
 .im.im-blanket::before { content: "\e971"; }
 .im.im-blazer::before { content: "\ee2a"; }
@@ -653,6 +659,7 @@
 .im.im-blur::before { content: "\e42f"; }
 .im.im-blur-motion::before { content: "\e430"; }
 .im.im-blur-slash::before { content: "\e431"; }
+.im.im-bmw-logo::before { content: "\f597"; }
 .im.im-boarding-pass::before { content: "\ee2c"; }
 .im.im-boat::before { content: "\e098"; }
 .im.im-bomb::before { content: "\ee2d"; }
@@ -782,6 +789,7 @@
 .im.im-brain-warning::before { content: "\e989"; }
 .im.im-brake-disc::before { content: "\ee39"; }
 .im.im-brandy::before { content: "\e98a"; }
+.im.im-brave-logo::before { content: "\f598"; }
 .im.im-bread::before { content: "\e98b"; }
 .im.im-bread-maker::before { content: "\e98c"; }
 .im.im-bread-slash::before { content: "\e98d"; }
@@ -1024,6 +1032,7 @@
 .im.im-carousel-vertical::before { content: "\e9b1"; }
 .im.im-carrot::before { content: "\e9b2"; }
 .im.im-carrot-slash::before { content: "\e9b3"; }
+.im.im-cash-app-logo::before { content: "\f599"; }
 .im.im-cash-register::before { content: "\e0b7"; }
 .im.im-cassette-tape::before { content: "\ee92"; }
 .im.im-castle::before { content: "\e9b4"; }
@@ -1210,6 +1219,7 @@
 .im.im-christmas-ornament::before { content: "\ee9c"; }
 .im.im-christmas-tree::before { content: "\ee9d"; }
 .im.im-christmas-tree-slash::before { content: "\ee9e"; }
+.im.im-chromecast-logo::before { content: "\f59a"; }
 .im.im-church::before { content: "\e9c5"; }
 .im.im-cigarette::before { content: "\ee9f"; }
 .im.im-cigarette-slash::before { content: "\eea0"; }
@@ -1254,6 +1264,7 @@
 .im.im-clear-all::before { content: "\e9c9"; }
 .im.im-clear-formatting::before { content: "\e65a"; }
 .im.im-cleats::before { content: "\eeb7"; }
+.im.im-clickup-logo::before { content: "\f59b"; }
 .im.im-cliff-jumping::before { content: "\eeb8"; }
 .im.im-clinic::before { content: "\e9ca"; }
 .im.im-clipboard::before { content: "\e0c4"; }
@@ -1376,6 +1387,7 @@
 .im.im-cloud-wifi::before { content: "\e66e"; }
 .im.im-cloud-wind::before { content: "\eeed"; }
 .im.im-cloud-x::before { content: "\eeee"; }
+.im.im-cloudflare-logo::before { content: "\f59c"; }
 .im.im-clouds::before { content: "\eeef"; }
 .im.im-clover::before { content: "\eef0"; }
 .im.im-club::before { content: "\eef1"; }
@@ -1835,6 +1847,7 @@
 .im.im-dice-two::before { content: "\ef2a"; }
 .im.im-dimensions::before { content: "\e49c"; }
 .im.im-dimmer-switch::before { content: "\ea0c"; }
+.im.im-diners-club-logo::before { content: "\f59d"; }
 .im.im-dining-table::before { content: "\ea0d"; }
 .im.im-dining-table-umbrella::before { content: "\f397"; }
 .im.im-direction-arrows::before { content: "\e3b4"; }
@@ -1939,6 +1952,7 @@
 .im.im-drum::before { content: "\f39b"; }
 .im.im-drumstick::before { content: "\ea27"; }
 .im.im-drumstick-slash::before { content: "\ea28"; }
+.im.im-drupal-logo::before { content: "\f59e"; }
 .im.im-dual-screen::before { content: "\e6fb"; }
 .im.im-duck::before { content: "\e3ba"; }
 .im.im-dumbbell::before { content: "\ef4e"; }
@@ -1977,6 +1991,7 @@
 .im.im-elephant::before { content: "\e3bc"; }
 .im.im-elevator::before { content: "\e0ef"; }
 .im.im-elevator-slash::before { content: "\ea31"; }
+.im.im-elevenlabs-logo::before { content: "\f59f"; }
 .im.im-ellipse::before { content: "\e4ad"; }
 .im.im-ellipse-vertical::before { content: "\e4ae"; }
 .im.im-empty-set::before { content: "\ef57"; }
@@ -2201,6 +2216,7 @@
 .im.im-file-neutral::before { content: "\e74b"; }
 .im.im-file-orientation::before { content: "\e74c"; }
 .im.im-file-otf::before { content: "\e74d"; }
+.im.im-file-page-number::before { content: "\f5a0"; }
 .im.im-file-pdf::before { content: "\e74e"; }
 .im.im-file-pencil::before { content: "\e74f"; }
 .im.im-file-percent::before { content: "\e750"; }
@@ -2290,6 +2306,7 @@
 .im.im-fire-hydrant-slash::before { content: "\ef81"; }
 .im.im-fire-slash::before { content: "\ef82"; }
 .im.im-fire-truck::before { content: "\ef83"; }
+.im.im-firebase-logo::before { content: "\f5a1"; }
 .im.im-fireplace::before { content: "\ea84"; }
 .im.im-firewall::before { content: "\ef84"; }
 .im.im-firewall-check::before { content: "\ef85"; }
@@ -2359,6 +2376,7 @@
 .im.im-flower-rose::before { content: "\f3ac"; }
 .im.im-flower-slash::before { content: "\ef92"; }
 .im.im-flower-tulip::before { content: "\ef93"; }
+.im.im-flutter-logo::before { content: "\f5a2"; }
 .im.im-focus::before { content: "\eaa2"; }
 .im.im-focus-auto::before { content: "\eaa3"; }
 .im.im-focus-center::before { content: "\eaa4"; }
@@ -2493,6 +2511,7 @@
 .im.im-gas-pump-slash::before { content: "\ef9f"; }
 .im.im-gate::before { content: "\eaf2"; }
 .im.im-gate-colonnade::before { content: "\f3ba"; }
+.im.im-gatsby-logo::before { content: "\f5a3"; }
 .im.im-gauge::before { content: "\e117"; }
 .im.im-gauge-fast::before { content: "\efa0"; }
 .im.im-gauge-gear::before { content: "\f3bb"; }
@@ -2606,7 +2625,9 @@
 .im.im-golf::before { content: "\efab"; }
 .im.im-golf-cart::before { content: "\f3c4"; }
 .im.im-golf-slash::before { content: "\efac"; }
+.im.im-goodreads-logo::before { content: "\f5a4"; }
 .im.im-google-chrome-logo::before { content: "\f525"; }
+.im.im-google-cloud-logo::before { content: "\f5a5"; }
 .im.im-google-docs-logo::before { content: "\f526"; }
 .im.im-google-drive-logo::before { content: "\f527"; }
 .im.im-google-gemini-logo::before { content: "\f528"; }
@@ -2614,8 +2635,10 @@
 .im.im-google-lens-logo::before { content: "\f52a"; }
 .im.im-google-logo::before { content: "\f52b"; }
 .im.im-google-maps-logo::before { content: "\f52c"; }
+.im.im-google-meet-logo::before { content: "\f5a6"; }
 .im.im-google-photos-logo::before { content: "\f52d"; }
 .im.im-google-play-logo::before { content: "\f52e"; }
+.im.im-google-wallet-logo::before { content: "\f5a7"; }
 .im.im-gps-fix::before { content: "\eb2a"; }
 .im.im-gps-fix-slash::before { content: "\eb2b"; }
 .im.im-gradient::before { content: "\e4e6"; }
@@ -2996,6 +3019,7 @@
 .im.im-knob::before { content: "\e784"; }
 .im.im-ko-fi-logo::before { content: "\f538"; }
 .im.im-koala::before { content: "\e3c6"; }
+.im.im-kubernetes-logo::before { content: "\f5a8"; }
 .im.im-ladder::before { content: "\f011"; }
 .im.im-ladder-slash::before { content: "\f012"; }
 .im.im-ladle::before { content: "\eba7"; }
@@ -3407,6 +3431,7 @@
 .im.im-memory::before { content: "\e7a0"; }
 .im.im-menorah::before { content: "\f05f"; }
 .im.im-menu-open::before { content: "\ec72"; }
+.im.im-mercedes-logo::before { content: "\f5a9"; }
 .im.im-merry-go-round::before { content: "\ec73"; }
 .im.im-mesh::before { content: "\e533"; }
 .im.im-messenger-logo::before { content: "\f541"; }
@@ -3428,9 +3453,11 @@
 .im.im-microscope::before { content: "\e14c"; }
 .im.im-microscope-slash::before { content: "\f069"; }
 .im.im-microsoft-logo::before { content: "\f543"; }
+.im.im-microsoft-teams-logo::before { content: "\f5aa"; }
 .im.im-microwave::before { content: "\ec74"; }
 .im.im-microwave-slash::before { content: "\ec75"; }
 .im.im-middleware::before { content: "\e7a2"; }
+.im.im-midjourney-logo::before { content: "\f5ab"; }
 .im.im-military-rank::before { content: "\f06a"; }
 .im.im-milk::before { content: "\ec76"; }
 .im.im-milk-slash::before { content: "\ec77"; }
@@ -3490,6 +3517,7 @@
 .im.im-money-withdraw::before { content: "\e544"; }
 .im.im-money-withdraw-bitcoin::before { content: "\f416"; }
 .im.im-money-x::before { content: "\f2c5"; }
+.im.im-mongodb-logo::before { content: "\f5ac"; }
 .im.im-monitor::before { content: "\e03e"; }
 .im.im-monitor-arrow-down::before { content: "\e7a6"; }
 .im.im-monitor-arrow-up::before { content: "\e7a7"; }
@@ -3612,6 +3640,7 @@
 .im.im-necktie::before { content: "\f099"; }
 .im.im-needle::before { content: "\f09a"; }
 .im.im-needle-thread::before { content: "\f09b"; }
+.im.im-netflix-logo::before { content: "\f5ad"; }
 .im.im-network::before { content: "\e7c0"; }
 .im.im-network-slash::before { content: "\e7c1"; }
 .im.im-network-x::before { content: "\e7c2"; }
@@ -3619,12 +3648,14 @@
 .im.im-newspaper::before { content: "\e156"; }
 .im.im-newspaper-clipping::before { content: "\e546"; }
 .im.im-newspaper-slash::before { content: "\e547"; }
+.im.im-nextjs-logo::before { content: "\f5ae"; }
 .im.im-nfc::before { content: "\e7c3"; }
 .im.im-nfc-slash::before { content: "\e7c4"; }
 .im.im-nightstand::before { content: "\ec97"; }
 .im.im-nike-logo::before { content: "\f547"; }
 .im.im-nintendo-logo::before { content: "\f548"; }
 .im.im-nintendo-switch::before { content: "\f549"; }
+.im.im-nodejs-logo::before { content: "\f5af"; }
 .im.im-noodles::before { content: "\ec98"; }
 .im.im-north-star::before { content: "\f09c"; }
 .im.im-nose::before { content: "\ec99"; }
@@ -3697,6 +3728,7 @@
 .im.im-nurse-cap::before { content: "\ecc7"; }
 .im.im-nut::before { content: "\ecc8"; }
 .im.im-nut-slash::before { content: "\f423"; }
+.im.im-nuxt-logo::before { content: "\f5b0"; }
 .im.im-object-group::before { content: "\e548"; }
 .im.im-object-scan::before { content: "\ecc9"; }
 .im.im-object-ungroup::before { content: "\e549"; }
@@ -3710,10 +3742,12 @@
 .im.im-office-chair::before { content: "\ecca"; }
 .im.im-oil-can::before { content: "\f0a2"; }
 .im.im-oil-pump::before { content: "\e54f"; }
+.im.im-ollama-logo::before { content: "\f5b1"; }
 .im.im-om::before { content: "\f0a3"; }
 .im.im-omega::before { content: "\f0a4"; }
 .im.im-onesie::before { content: "\f0a5"; }
 .im.im-onigiri::before { content: "\eccb"; }
+.im.im-opera-logo::before { content: "\f5b2"; }
 .im.im-options-call::before { content: "\f424"; }
 .im.im-orange::before { content: "\eccc"; }
 .im.im-orange-half::before { content: "\eccd"; }
@@ -3744,6 +3778,7 @@
 .im.im-padding::before { content: "\e555"; }
 .im.im-padel::before { content: "\f0a9"; }
 .im.im-page-break::before { content: "\e7cd"; }
+.im.im-pagination::before { content: "\f5b3"; }
 .im.im-pagoda::before { content: "\ecd0"; }
 .im.im-paint-brush::before { content: "\e15c"; }
 .im.im-paint-brush-broad::before { content: "\e556"; }
@@ -3798,6 +3833,7 @@
 .im.im-parallelogram::before { content: "\e565"; }
 .im.im-parent::before { content: "\f0b4"; }
 .im.im-parking-meter::before { content: "\f0b5"; }
+.im.im-party-horn::before { content: "\f5b4"; }
 .im.im-passkey::before { content: "\f0b6"; }
 .im.im-passport::before { content: "\f0b7"; }
 .im.im-passport-check::before { content: "\f2d2"; }
@@ -3808,6 +3844,7 @@
 .im.im-path::before { content: "\e161"; }
 .im.im-path-slash::before { content: "\ecd8"; }
 .im.im-patient::before { content: "\f432"; }
+.im.im-patreon-logo::before { content: "\f5b5"; }
 .im.im-pause::before { content: "\e042"; }
 .im.im-pause-circle::before { content: "\e162"; }
 .im.im-pavilion::before { content: "\ecd9"; }
@@ -4063,8 +4100,10 @@
 .im.im-priority-up::before { content: "\ecf8"; }
 .im.im-prism::before { content: "\f101"; }
 .im.im-prism-slash::before { content: "\f102"; }
+.im.im-prisma-logo::before { content: "\f5b6"; }
 .im.im-prison::before { content: "\ecf9"; }
 .im.im-prison-guard::before { content: "\f44a"; }
+.im.im-producthunt-logo::before { content: "\f5b7"; }
 .im.im-progress-bar::before { content: "\ecfa"; }
 .im.im-progress-check::before { content: "\ecfb"; }
 .im.im-progress-circle::before { content: "\ecfc"; }
@@ -4166,6 +4205,7 @@
 .im.im-relation-many-to-many::before { content: "\e814"; }
 .im.im-relation-one-to-many::before { content: "\e815"; }
 .im.im-relation-one-to-one::before { content: "\e816"; }
+.im.im-remix-logo::before { content: "\f5b8"; }
 .im.im-remote-control::before { content: "\e817"; }
 .im.im-rename::before { content: "\e818"; }
 .im.im-repeat::before { content: "\e182"; }
@@ -4175,6 +4215,7 @@
 .im.im-replay-10::before { content: "\f119"; }
 .im.im-replay-30::before { content: "\f11a"; }
 .im.im-replay-5::before { content: "\f11b"; }
+.im.im-replicate-logo::before { content: "\f5b9"; }
 .im.im-replit-logo::before { content: "\f559"; }
 .im.im-report-chart::before { content: "\e58b"; }
 .im.im-report-search::before { content: "\e58c"; }
@@ -4496,6 +4537,7 @@
 .im.im-signal-3g::before { content: "\e84e"; }
 .im.im-signal-4g::before { content: "\e84f"; }
 .im.im-signal-5g::before { content: "\e850"; }
+.im.im-signal-logo::before { content: "\f5ba"; }
 .im.im-signal-lte::before { content: "\e851"; }
 .im.im-signature::before { content: "\e852"; }
 .im.im-signature-slash::before { content: "\e853"; }
@@ -4743,6 +4785,7 @@
 .im.im-stack-push::before { content: "\e8a0"; }
 .im.im-stack-slash::before { content: "\e59d"; }
 .im.im-stacking-rings::before { content: "\f19a"; }
+.im.im-stackoverflow-logo::before { content: "\f5bb"; }
 .im.im-stadium::before { content: "\f19b"; }
 .im.im-stairs::before { content: "\e1a8"; }
 .im.im-stairs-down::before { content: "\e3f5"; }
@@ -4827,6 +4870,7 @@
 .im.im-sun-slash::before { content: "\f1b3"; }
 .im.im-sun-wind::before { content: "\f1b4"; }
 .im.im-sunglasses::before { content: "\f1b5"; }
+.im.im-supabase-logo::before { content: "\f5bc"; }
 .im.im-super-mario::before { content: "\f568"; }
 .im.im-super-mario-toad::before { content: "\f569"; }
 .im.im-superset-of::before { content: "\f1b6"; }
@@ -4836,6 +4880,7 @@
 .im.im-surveyor-level::before { content: "\f1ba"; }
 .im.im-sushi::before { content: "\f2f2"; }
 .im.im-suv::before { content: "\f1bb"; }
+.im.im-svelte-logo::before { content: "\f5bd"; }
 .im.im-swap::before { content: "\ed81"; }
 .im.im-swap-sparkle::before { content: "\f4aa"; }
 .im.im-swatches::before { content: "\e5a7"; }
@@ -4934,6 +4979,7 @@
 .im.im-terminal-minus::before { content: "\e8af"; }
 .im.im-terminal-plus::before { content: "\e8b0"; }
 .im.im-terminal-x::before { content: "\e8b1"; }
+.im.im-tesla-logo::before { content: "\f5be"; }
 .im.im-test-tube::before { content: "\e1b9"; }
 .im.im-test-tube-slash::before { content: "\f1ca"; }
 .im.im-tether-logo::before { content: "\f56d"; }
@@ -5101,6 +5147,7 @@
 .im.im-towel::before { content: "\edaa"; }
 .im.im-towers-twin::before { content: "\f4d1"; }
 .im.im-toy-brick::before { content: "\f1e5"; }
+.im.im-toyota-logo::before { content: "\f5bf"; }
 .im.im-tractor::before { content: "\f1e6"; }
 .im.im-trademark::before { content: "\f1e7"; }
 .im.im-traffic-cone::before { content: "\f1e8"; }
@@ -5187,6 +5234,7 @@
 .im.im-tsunami::before { content: "\f200"; }
 .im.im-tumblr-logo::before { content: "\f572"; }
 .im.im-tunnel::before { content: "\f201"; }
+.im.im-turborepo-logo::before { content: "\f5c0"; }
 .im.im-turkey::before { content: "\e40d"; }
 .im.im-turn-left::before { content: "\edb7"; }
 .im.im-turn-right::before { content: "\edb8"; }
@@ -5203,6 +5251,7 @@
 .im.im-typeface-slash::before { content: "\e5ba"; }
 .im.im-u-turn::before { content: "\edbc"; }
 .im.im-uber-logo::before { content: "\f575"; }
+.im.im-ubuntu-logo::before { content: "\f5c1"; }
 .im.im-ufo::before { content: "\f205"; }
 .im.im-ufo-slash::before { content: "\f206"; }
 .im.im-umbrella::before { content: "\e1da"; }
@@ -5311,6 +5360,7 @@
 .im.im-vector-triangle-slash::before { content: "\e5c2"; }
 .im.im-vector-two::before { content: "\e5c3"; }
 .im.im-vegan::before { content: "\edc3"; }
+.im.im-vercel-logo::before { content: "\f5c2"; }
 .im.im-versions::before { content: "\e8f7"; }
 .im.im-versions-slash::before { content: "\e8f8"; }
 .im.im-vest::before { content: "\f23c"; }
@@ -5346,6 +5396,7 @@
 .im.im-virus-slash::before { content: "\edc9"; }
 .im.im-visor::before { content: "\e8fa"; }
 .im.im-visual-studio-code-logo::before { content: "\f57b"; }
+.im.im-vite-logo::before { content: "\f5c3"; }
 .im.im-vk-logo::before { content: "\f57c"; }
 .im.im-vocabulary::before { content: "\e8fb"; }
 .im.im-vocabulary-slash::before { content: "\e8fc"; }
@@ -5354,10 +5405,12 @@
 .im.im-voicemail::before { content: "\e1e4"; }
 .im.im-voicemail-slash::before { content: "\f248"; }
 .im.im-volcano::before { content: "\f249"; }
+.im.im-volkswagen-logo::before { content: "\f5c4"; }
 .im.im-volleyball::before { content: "\f24a"; }
 .im.im-vr-headset::before { content: "\e8fd"; }
 .im.im-vr-headset-slash::before { content: "\e8fe"; }
 .im.im-vr-space::before { content: "\e8ff"; }
+.im.im-vuejs-logo::before { content: "\f5c5"; }
 .im.im-w3schools-logo::before { content: "\f57d"; }
 .im.im-walker::before { content: "\edca"; }
 .im.im-walking-cane::before { content: "\edcb"; }
@@ -5507,13 +5560,18 @@
 .im.im-x-octagon::before { content: "\ede1"; }
 .im.im-x-ray::before { content: "\ede2"; }
 .im.im-x-square::before { content: "\e1f0"; }
+.im.im-xbox-logo::before { content: "\f5c6"; }
 .im.im-xing-logo::before { content: "\f58b"; }
+.im.im-yahoo-logo::before { content: "\f5c7"; }
 .im.im-yarn::before { content: "\f26b"; }
+.im.im-ycombinator-logo::before { content: "\f5c8"; }
 .im.im-yelp-logo::before { content: "\f58c"; }
 .im.im-yin-yang::before { content: "\f26c"; }
 .im.im-yoga::before { content: "\f26d"; }
 .im.im-yogurt::before { content: "\f4f0"; }
 .im.im-youtube-logo::before { content: "\f58d"; }
+.im.im-youtube-music-logo::before { content: "\f5c9"; }
+.im.im-zapier-logo::before { content: "\f5ca"; }
 .im.im-zeppelin::before { content: "\f26e"; }
 .im.im-zeppelin-slash::before { content: "\f26f"; }
 .im.im-zigzag::before { content: "\e5cf"; }
