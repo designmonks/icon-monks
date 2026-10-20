@@ -99,7 +99,7 @@ const page = chrome(readFileSync(new URL('docs/template.html', root), 'utf8'), {
   .replace('<!--__FAQ__-->', faqHtml);
 
 const split = page.indexOf('</style>') + '</style>'.length;
-const title = `Icon Monks: ${count} Free SVG Icons for React, Vue, Flutter, iOS & Android`;
+const title = 'Icon Monks: 70000+ Free Icons for Websites, Web Apps & Mobile Apps';
 const description = `${count} free, open source SVG icons in 6 weights, MIT licensed. Download SVG, PNG or PDF, or install for React, Vue, Flutter, SwiftUI and Jetpack Compose.`;
 const ld = {
   '@context': 'https://schema.org',
