@@ -276,7 +276,7 @@ const CATEGORY_BLURBS = {
 };
 
 const code = (t) => `<pre><code>${esc(t)}</code></pre>`;
-const SITE_URL = 'https://designmonks.github.io/icon-monks/';
+const SITE_URL = 'https://www.iconmonks.co/';
 
 const PLATFORMS = [
   { path: 'react-icons/', short: 'React icons', pkg: '@icon-monks/react', lang: 'TypeScript', install: 'npm i @icon-monks/react',

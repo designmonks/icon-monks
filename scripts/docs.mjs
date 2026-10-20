@@ -29,7 +29,7 @@ const meta = {
   shards: SHARDS,
   icons: ordered.map((i, n) => ({ i: n, name: i.name, category: i.category, tags: i.tags })),
 };
-const SITE = 'https://designmonks.github.io/icon-monks/';
+const SITE = 'https://www.iconmonks.co/';
 const REPO = 'https://github.com/designmonks/icon-monks';
 const n = data.icons.length;
 const count = n.toLocaleString('en-US');
