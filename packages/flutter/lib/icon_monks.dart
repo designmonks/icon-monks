@@ -55,6 +55,7 @@ class IconMonks {
   static const IconData airQuality = IconData(0xedea, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData airbnbLogo = IconData(0xf4f8, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData airdrop = IconData(0xf4f9, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
+  static const IconData airflowLogo = IconData(0xf76d, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData airplane = IconData(0xe062, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData airplaneCircling = IconData(0xedeb, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData airplaneInFlight = IconData(0xedec, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
@@ -1446,6 +1447,7 @@ class IconMonks {
   static const IconData cloudWind = IconData(0xeeed, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData cloudX = IconData(0xeeee, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData cloudflareLogo = IconData(0xf59c, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
+  static const IconData cloudinaryLogo = IconData(0xf76e, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData clouds = IconData(0xeeef, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData clover = IconData(0xeef0, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData club = IconData(0xeef1, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
@@ -1572,6 +1574,7 @@ class IconMonks {
   static const IconData cottonCandy = IconData(0xf378, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData couch = IconData(0xe0d8, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData couchSlash = IconData(0xe9e4, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
+  static const IconData couchbaseLogo = IconData(0xf76f, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData couple = IconData(0xf379, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData coupon = IconData(0xe378, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData courtBasketball = IconData(0xef03, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
@@ -1797,6 +1800,7 @@ class IconMonks {
   static const IconData databaseWarning = IconData(0xe6aa, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData databaseX = IconData(0xe6ab, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData davinciResolveLogo = IconData(0xf623, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
+  static const IconData dbtLogo = IconData(0xf770, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData debianLogo = IconData(0xf6df, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData decimal = IconData(0xe6ac, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData decimalDecrease = IconData(0xe6ad, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
@@ -2687,6 +2691,7 @@ class IconMonks {
   static const IconData gitPullRequestDraft = IconData(0xe76d, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData gitRebase = IconData(0xe76e, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData gitRepository = IconData(0xe76f, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
+  static const IconData gitbookLogo = IconData(0xf771, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData giteaLogo = IconData(0xf6ee, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData githubCopilotLogo = IconData(0xf522, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData githubLogo = IconData(0xf523, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
@@ -3446,6 +3451,7 @@ class IconMonks {
   static const IconData livePhoto = IconData(0xec1d, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData livePhotoSlash = IconData(0xec1e, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData liveView = IconData(0xec1f, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
+  static const IconData livekitLogo = IconData(0xf772, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData liver = IconData(0xf2be, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData llamaindexLogo = IconData(0xf712, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData loadBalancer = IconData(0xe79a, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
@@ -3495,6 +3501,7 @@ class IconMonks {
   static const IconData logseqLogo = IconData(0xf714, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData lollipop = IconData(0xec21, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData lollipopSlash = IconData(0xec22, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
+  static const IconData lookerLogo = IconData(0xf773, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData loomLogo = IconData(0xf53c, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData lottiefilesLogo = IconData(0xf53d, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData luaLogo = IconData(0xf662, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
@@ -3657,6 +3664,7 @@ class IconMonks {
   static const IconData mesh = IconData(0xe533, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData messengerLogo = IconData(0xf541, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData metaLogo = IconData(0xf542, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
+  static const IconData metabaseLogo = IconData(0xf774, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData metamaskLogo = IconData(0xf665, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData meteor = IconData(0xf060, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData meteorSlash = IconData(0xf061, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
@@ -3884,6 +3892,7 @@ class IconMonks {
   static const IconData necktie = IconData(0xf099, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData needle = IconData(0xf09a, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData needleThread = IconData(0xf09b, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
+  static const IconData neonLogo = IconData(0xf775, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData neovimLogo = IconData(0xf66c, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData netflixLogo = IconData(0xf5ad, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData netlifyLogo = IconData(0xf5ed, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
@@ -4283,6 +4292,7 @@ class IconMonks {
   static const IconData plaidLogo = IconData(0xf736, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData planet = IconData(0xe16f, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData planetSlash = IconData(0xf0e7, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
+  static const IconData planetscaleLogo = IconData(0xf776, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData plant = IconData(0xe170, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData plantSlash = IconData(0xf0e8, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData plausibleLogo = IconData(0xf67c, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
@@ -5290,6 +5300,7 @@ class IconMonks {
   static const IconData tableSlash = IconData(0xed94, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData tableSparkle = IconData(0xed95, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData tableSplit = IconData(0xe8ac, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
+  static const IconData tableauLogo = IconData(0xf777, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData tabnineLogo = IconData(0xf755, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData tabs = IconData(0xed96, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData taco = IconData(0xf2f5, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
@@ -5336,6 +5347,7 @@ class IconMonks {
   static const IconData televisionSlash = IconData(0xe8ae, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData televisionWrench = IconData(0xf4b9, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData temple = IconData(0xed9c, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
+  static const IconData temporalLogo = IconData(0xf778, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData tennisBall = IconData(0xe1b7, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData tensorflowLogo = IconData(0xf6a7, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData tent = IconData(0xe1b8, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
@@ -5617,6 +5629,7 @@ class IconMonks {
   static const IconData turnSlightLeft = IconData(0xedb9, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData turnSlightRight = IconData(0xedba, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData turnstile = IconData(0xf202, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
+  static const IconData tursoLogo = IconData(0xf779, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData turtle = IconData(0xf302, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData tvTower = IconData(0xedbb, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData twig = IconData(0xf203, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
@@ -5650,6 +5663,7 @@ class IconMonks {
   static const IconData unsplashLogo = IconData(0xf576, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData upload = IconData(0xe05a, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData uploadSlash = IconData(0xedbd, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
+  static const IconData upstashLogo = IconData(0xf77a, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData upworkLogo = IconData(0xf577, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData usb = IconData(0xe1db, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   static const IconData usbBug = IconData(0xf4db, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
@@ -6054,6 +6068,7 @@ class IconMonksThin {
   final IconData airQuality = const IconData(0xedea, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData airbnbLogo = const IconData(0xf4f8, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData airdrop = const IconData(0xf4f9, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
+  final IconData airflowLogo = const IconData(0xf76d, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData airplane = const IconData(0xe062, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData airplaneCircling = const IconData(0xedeb, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData airplaneInFlight = const IconData(0xedec, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
@@ -7445,6 +7460,7 @@ class IconMonksThin {
   final IconData cloudWind = const IconData(0xeeed, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData cloudX = const IconData(0xeeee, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData cloudflareLogo = const IconData(0xf59c, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
+  final IconData cloudinaryLogo = const IconData(0xf76e, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData clouds = const IconData(0xeeef, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData clover = const IconData(0xeef0, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData club = const IconData(0xeef1, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
@@ -7571,6 +7587,7 @@ class IconMonksThin {
   final IconData cottonCandy = const IconData(0xf378, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData couch = const IconData(0xe0d8, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData couchSlash = const IconData(0xe9e4, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
+  final IconData couchbaseLogo = const IconData(0xf76f, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData couple = const IconData(0xf379, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData coupon = const IconData(0xe378, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData courtBasketball = const IconData(0xef03, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
@@ -7796,6 +7813,7 @@ class IconMonksThin {
   final IconData databaseWarning = const IconData(0xe6aa, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData databaseX = const IconData(0xe6ab, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData davinciResolveLogo = const IconData(0xf623, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
+  final IconData dbtLogo = const IconData(0xf770, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData debianLogo = const IconData(0xf6df, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData decimal = const IconData(0xe6ac, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData decimalDecrease = const IconData(0xe6ad, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
@@ -8686,6 +8704,7 @@ class IconMonksThin {
   final IconData gitPullRequestDraft = const IconData(0xe76d, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData gitRebase = const IconData(0xe76e, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData gitRepository = const IconData(0xe76f, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
+  final IconData gitbookLogo = const IconData(0xf771, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData giteaLogo = const IconData(0xf6ee, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData githubCopilotLogo = const IconData(0xf522, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData githubLogo = const IconData(0xf523, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
@@ -9445,6 +9464,7 @@ class IconMonksThin {
   final IconData livePhoto = const IconData(0xec1d, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData livePhotoSlash = const IconData(0xec1e, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData liveView = const IconData(0xec1f, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
+  final IconData livekitLogo = const IconData(0xf772, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData liver = const IconData(0xf2be, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData llamaindexLogo = const IconData(0xf712, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData loadBalancer = const IconData(0xe79a, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
@@ -9494,6 +9514,7 @@ class IconMonksThin {
   final IconData logseqLogo = const IconData(0xf714, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData lollipop = const IconData(0xec21, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData lollipopSlash = const IconData(0xec22, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
+  final IconData lookerLogo = const IconData(0xf773, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData loomLogo = const IconData(0xf53c, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData lottiefilesLogo = const IconData(0xf53d, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData luaLogo = const IconData(0xf662, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
@@ -9656,6 +9677,7 @@ class IconMonksThin {
   final IconData mesh = const IconData(0xe533, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData messengerLogo = const IconData(0xf541, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData metaLogo = const IconData(0xf542, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
+  final IconData metabaseLogo = const IconData(0xf774, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData metamaskLogo = const IconData(0xf665, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData meteor = const IconData(0xf060, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData meteorSlash = const IconData(0xf061, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
@@ -9883,6 +9905,7 @@ class IconMonksThin {
   final IconData necktie = const IconData(0xf099, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData needle = const IconData(0xf09a, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData needleThread = const IconData(0xf09b, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
+  final IconData neonLogo = const IconData(0xf775, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData neovimLogo = const IconData(0xf66c, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData netflixLogo = const IconData(0xf5ad, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData netlifyLogo = const IconData(0xf5ed, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
@@ -10282,6 +10305,7 @@ class IconMonksThin {
   final IconData plaidLogo = const IconData(0xf736, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData planet = const IconData(0xe16f, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData planetSlash = const IconData(0xf0e7, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
+  final IconData planetscaleLogo = const IconData(0xf776, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData plant = const IconData(0xe170, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData plantSlash = const IconData(0xf0e8, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData plausibleLogo = const IconData(0xf67c, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
@@ -11289,6 +11313,7 @@ class IconMonksThin {
   final IconData tableSlash = const IconData(0xed94, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData tableSparkle = const IconData(0xed95, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData tableSplit = const IconData(0xe8ac, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
+  final IconData tableauLogo = const IconData(0xf777, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData tabnineLogo = const IconData(0xf755, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData tabs = const IconData(0xed96, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData taco = const IconData(0xf2f5, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
@@ -11335,6 +11360,7 @@ class IconMonksThin {
   final IconData televisionSlash = const IconData(0xe8ae, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData televisionWrench = const IconData(0xf4b9, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData temple = const IconData(0xed9c, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
+  final IconData temporalLogo = const IconData(0xf778, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData tennisBall = const IconData(0xe1b7, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData tensorflowLogo = const IconData(0xf6a7, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData tent = const IconData(0xe1b8, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
@@ -11616,6 +11642,7 @@ class IconMonksThin {
   final IconData turnSlightLeft = const IconData(0xedb9, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData turnSlightRight = const IconData(0xedba, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData turnstile = const IconData(0xf202, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
+  final IconData tursoLogo = const IconData(0xf779, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData turtle = const IconData(0xf302, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData tvTower = const IconData(0xedbb, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData twig = const IconData(0xf203, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
@@ -11649,6 +11676,7 @@ class IconMonksThin {
   final IconData unsplashLogo = const IconData(0xf576, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData upload = const IconData(0xe05a, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData uploadSlash = const IconData(0xedbd, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
+  final IconData upstashLogo = const IconData(0xf77a, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData upworkLogo = const IconData(0xf577, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData usb = const IconData(0xe1db, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
   final IconData usbBug = const IconData(0xf4db, fontFamily: 'IconMonksThin', fontPackage: 'icon_monks');
@@ -12052,6 +12080,7 @@ class IconMonksLight {
   final IconData airQuality = const IconData(0xedea, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData airbnbLogo = const IconData(0xf4f8, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData airdrop = const IconData(0xf4f9, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
+  final IconData airflowLogo = const IconData(0xf76d, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData airplane = const IconData(0xe062, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData airplaneCircling = const IconData(0xedeb, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData airplaneInFlight = const IconData(0xedec, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
@@ -13443,6 +13472,7 @@ class IconMonksLight {
   final IconData cloudWind = const IconData(0xeeed, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData cloudX = const IconData(0xeeee, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData cloudflareLogo = const IconData(0xf59c, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
+  final IconData cloudinaryLogo = const IconData(0xf76e, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData clouds = const IconData(0xeeef, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData clover = const IconData(0xeef0, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData club = const IconData(0xeef1, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
@@ -13569,6 +13599,7 @@ class IconMonksLight {
   final IconData cottonCandy = const IconData(0xf378, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData couch = const IconData(0xe0d8, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData couchSlash = const IconData(0xe9e4, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
+  final IconData couchbaseLogo = const IconData(0xf76f, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData couple = const IconData(0xf379, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData coupon = const IconData(0xe378, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData courtBasketball = const IconData(0xef03, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
@@ -13794,6 +13825,7 @@ class IconMonksLight {
   final IconData databaseWarning = const IconData(0xe6aa, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData databaseX = const IconData(0xe6ab, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData davinciResolveLogo = const IconData(0xf623, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
+  final IconData dbtLogo = const IconData(0xf770, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData debianLogo = const IconData(0xf6df, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData decimal = const IconData(0xe6ac, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData decimalDecrease = const IconData(0xe6ad, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
@@ -14684,6 +14716,7 @@ class IconMonksLight {
   final IconData gitPullRequestDraft = const IconData(0xe76d, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData gitRebase = const IconData(0xe76e, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData gitRepository = const IconData(0xe76f, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
+  final IconData gitbookLogo = const IconData(0xf771, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData giteaLogo = const IconData(0xf6ee, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData githubCopilotLogo = const IconData(0xf522, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData githubLogo = const IconData(0xf523, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
@@ -15443,6 +15476,7 @@ class IconMonksLight {
   final IconData livePhoto = const IconData(0xec1d, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData livePhotoSlash = const IconData(0xec1e, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData liveView = const IconData(0xec1f, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
+  final IconData livekitLogo = const IconData(0xf772, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData liver = const IconData(0xf2be, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData llamaindexLogo = const IconData(0xf712, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData loadBalancer = const IconData(0xe79a, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
@@ -15492,6 +15526,7 @@ class IconMonksLight {
   final IconData logseqLogo = const IconData(0xf714, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData lollipop = const IconData(0xec21, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData lollipopSlash = const IconData(0xec22, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
+  final IconData lookerLogo = const IconData(0xf773, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData loomLogo = const IconData(0xf53c, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData lottiefilesLogo = const IconData(0xf53d, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData luaLogo = const IconData(0xf662, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
@@ -15654,6 +15689,7 @@ class IconMonksLight {
   final IconData mesh = const IconData(0xe533, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData messengerLogo = const IconData(0xf541, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData metaLogo = const IconData(0xf542, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
+  final IconData metabaseLogo = const IconData(0xf774, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData metamaskLogo = const IconData(0xf665, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData meteor = const IconData(0xf060, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData meteorSlash = const IconData(0xf061, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
@@ -15881,6 +15917,7 @@ class IconMonksLight {
   final IconData necktie = const IconData(0xf099, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData needle = const IconData(0xf09a, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData needleThread = const IconData(0xf09b, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
+  final IconData neonLogo = const IconData(0xf775, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData neovimLogo = const IconData(0xf66c, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData netflixLogo = const IconData(0xf5ad, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData netlifyLogo = const IconData(0xf5ed, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
@@ -16280,6 +16317,7 @@ class IconMonksLight {
   final IconData plaidLogo = const IconData(0xf736, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData planet = const IconData(0xe16f, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData planetSlash = const IconData(0xf0e7, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
+  final IconData planetscaleLogo = const IconData(0xf776, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData plant = const IconData(0xe170, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData plantSlash = const IconData(0xf0e8, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData plausibleLogo = const IconData(0xf67c, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
@@ -17287,6 +17325,7 @@ class IconMonksLight {
   final IconData tableSlash = const IconData(0xed94, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData tableSparkle = const IconData(0xed95, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData tableSplit = const IconData(0xe8ac, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
+  final IconData tableauLogo = const IconData(0xf777, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData tabnineLogo = const IconData(0xf755, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData tabs = const IconData(0xed96, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData taco = const IconData(0xf2f5, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
@@ -17333,6 +17372,7 @@ class IconMonksLight {
   final IconData televisionSlash = const IconData(0xe8ae, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData televisionWrench = const IconData(0xf4b9, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData temple = const IconData(0xed9c, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
+  final IconData temporalLogo = const IconData(0xf778, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData tennisBall = const IconData(0xe1b7, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData tensorflowLogo = const IconData(0xf6a7, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData tent = const IconData(0xe1b8, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
@@ -17614,6 +17654,7 @@ class IconMonksLight {
   final IconData turnSlightLeft = const IconData(0xedb9, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData turnSlightRight = const IconData(0xedba, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData turnstile = const IconData(0xf202, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
+  final IconData tursoLogo = const IconData(0xf779, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData turtle = const IconData(0xf302, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData tvTower = const IconData(0xedbb, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData twig = const IconData(0xf203, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
@@ -17647,6 +17688,7 @@ class IconMonksLight {
   final IconData unsplashLogo = const IconData(0xf576, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData upload = const IconData(0xe05a, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData uploadSlash = const IconData(0xedbd, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
+  final IconData upstashLogo = const IconData(0xf77a, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData upworkLogo = const IconData(0xf577, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData usb = const IconData(0xe1db, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
   final IconData usbBug = const IconData(0xf4db, fontFamily: 'IconMonksLight', fontPackage: 'icon_monks');
@@ -18050,6 +18092,7 @@ class IconMonksRegular {
   final IconData airQuality = const IconData(0xedea, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData airbnbLogo = const IconData(0xf4f8, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData airdrop = const IconData(0xf4f9, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
+  final IconData airflowLogo = const IconData(0xf76d, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData airplane = const IconData(0xe062, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData airplaneCircling = const IconData(0xedeb, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData airplaneInFlight = const IconData(0xedec, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
@@ -19441,6 +19484,7 @@ class IconMonksRegular {
   final IconData cloudWind = const IconData(0xeeed, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData cloudX = const IconData(0xeeee, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData cloudflareLogo = const IconData(0xf59c, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
+  final IconData cloudinaryLogo = const IconData(0xf76e, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData clouds = const IconData(0xeeef, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData clover = const IconData(0xeef0, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData club = const IconData(0xeef1, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
@@ -19567,6 +19611,7 @@ class IconMonksRegular {
   final IconData cottonCandy = const IconData(0xf378, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData couch = const IconData(0xe0d8, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData couchSlash = const IconData(0xe9e4, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
+  final IconData couchbaseLogo = const IconData(0xf76f, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData couple = const IconData(0xf379, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData coupon = const IconData(0xe378, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData courtBasketball = const IconData(0xef03, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
@@ -19792,6 +19837,7 @@ class IconMonksRegular {
   final IconData databaseWarning = const IconData(0xe6aa, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData databaseX = const IconData(0xe6ab, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData davinciResolveLogo = const IconData(0xf623, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
+  final IconData dbtLogo = const IconData(0xf770, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData debianLogo = const IconData(0xf6df, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData decimal = const IconData(0xe6ac, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData decimalDecrease = const IconData(0xe6ad, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
@@ -20682,6 +20728,7 @@ class IconMonksRegular {
   final IconData gitPullRequestDraft = const IconData(0xe76d, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData gitRebase = const IconData(0xe76e, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData gitRepository = const IconData(0xe76f, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
+  final IconData gitbookLogo = const IconData(0xf771, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData giteaLogo = const IconData(0xf6ee, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData githubCopilotLogo = const IconData(0xf522, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData githubLogo = const IconData(0xf523, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
@@ -21441,6 +21488,7 @@ class IconMonksRegular {
   final IconData livePhoto = const IconData(0xec1d, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData livePhotoSlash = const IconData(0xec1e, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData liveView = const IconData(0xec1f, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
+  final IconData livekitLogo = const IconData(0xf772, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData liver = const IconData(0xf2be, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData llamaindexLogo = const IconData(0xf712, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData loadBalancer = const IconData(0xe79a, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
@@ -21490,6 +21538,7 @@ class IconMonksRegular {
   final IconData logseqLogo = const IconData(0xf714, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData lollipop = const IconData(0xec21, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData lollipopSlash = const IconData(0xec22, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
+  final IconData lookerLogo = const IconData(0xf773, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData loomLogo = const IconData(0xf53c, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData lottiefilesLogo = const IconData(0xf53d, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData luaLogo = const IconData(0xf662, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
@@ -21652,6 +21701,7 @@ class IconMonksRegular {
   final IconData mesh = const IconData(0xe533, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData messengerLogo = const IconData(0xf541, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData metaLogo = const IconData(0xf542, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
+  final IconData metabaseLogo = const IconData(0xf774, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData metamaskLogo = const IconData(0xf665, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData meteor = const IconData(0xf060, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData meteorSlash = const IconData(0xf061, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
@@ -21879,6 +21929,7 @@ class IconMonksRegular {
   final IconData necktie = const IconData(0xf099, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData needle = const IconData(0xf09a, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData needleThread = const IconData(0xf09b, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
+  final IconData neonLogo = const IconData(0xf775, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData neovimLogo = const IconData(0xf66c, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData netflixLogo = const IconData(0xf5ad, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData netlifyLogo = const IconData(0xf5ed, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
@@ -22278,6 +22329,7 @@ class IconMonksRegular {
   final IconData plaidLogo = const IconData(0xf736, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData planet = const IconData(0xe16f, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData planetSlash = const IconData(0xf0e7, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
+  final IconData planetscaleLogo = const IconData(0xf776, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData plant = const IconData(0xe170, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData plantSlash = const IconData(0xf0e8, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData plausibleLogo = const IconData(0xf67c, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
@@ -23285,6 +23337,7 @@ class IconMonksRegular {
   final IconData tableSlash = const IconData(0xed94, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData tableSparkle = const IconData(0xed95, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData tableSplit = const IconData(0xe8ac, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
+  final IconData tableauLogo = const IconData(0xf777, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData tabnineLogo = const IconData(0xf755, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData tabs = const IconData(0xed96, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData taco = const IconData(0xf2f5, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
@@ -23331,6 +23384,7 @@ class IconMonksRegular {
   final IconData televisionSlash = const IconData(0xe8ae, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData televisionWrench = const IconData(0xf4b9, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData temple = const IconData(0xed9c, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
+  final IconData temporalLogo = const IconData(0xf778, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData tennisBall = const IconData(0xe1b7, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData tensorflowLogo = const IconData(0xf6a7, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData tent = const IconData(0xe1b8, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
@@ -23612,6 +23666,7 @@ class IconMonksRegular {
   final IconData turnSlightLeft = const IconData(0xedb9, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData turnSlightRight = const IconData(0xedba, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData turnstile = const IconData(0xf202, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
+  final IconData tursoLogo = const IconData(0xf779, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData turtle = const IconData(0xf302, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData tvTower = const IconData(0xedbb, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData twig = const IconData(0xf203, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
@@ -23645,6 +23700,7 @@ class IconMonksRegular {
   final IconData unsplashLogo = const IconData(0xf576, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData upload = const IconData(0xe05a, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData uploadSlash = const IconData(0xedbd, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
+  final IconData upstashLogo = const IconData(0xf77a, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData upworkLogo = const IconData(0xf577, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData usb = const IconData(0xe1db, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
   final IconData usbBug = const IconData(0xf4db, fontFamily: 'IconMonksRegular', fontPackage: 'icon_monks');
@@ -24048,6 +24104,7 @@ class IconMonksBold {
   final IconData airQuality = const IconData(0xedea, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData airbnbLogo = const IconData(0xf4f8, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData airdrop = const IconData(0xf4f9, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
+  final IconData airflowLogo = const IconData(0xf76d, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData airplane = const IconData(0xe062, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData airplaneCircling = const IconData(0xedeb, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData airplaneInFlight = const IconData(0xedec, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
@@ -25439,6 +25496,7 @@ class IconMonksBold {
   final IconData cloudWind = const IconData(0xeeed, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData cloudX = const IconData(0xeeee, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData cloudflareLogo = const IconData(0xf59c, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
+  final IconData cloudinaryLogo = const IconData(0xf76e, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData clouds = const IconData(0xeeef, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData clover = const IconData(0xeef0, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData club = const IconData(0xeef1, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
@@ -25565,6 +25623,7 @@ class IconMonksBold {
   final IconData cottonCandy = const IconData(0xf378, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData couch = const IconData(0xe0d8, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData couchSlash = const IconData(0xe9e4, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
+  final IconData couchbaseLogo = const IconData(0xf76f, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData couple = const IconData(0xf379, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData coupon = const IconData(0xe378, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData courtBasketball = const IconData(0xef03, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
@@ -25790,6 +25849,7 @@ class IconMonksBold {
   final IconData databaseWarning = const IconData(0xe6aa, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData databaseX = const IconData(0xe6ab, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData davinciResolveLogo = const IconData(0xf623, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
+  final IconData dbtLogo = const IconData(0xf770, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData debianLogo = const IconData(0xf6df, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData decimal = const IconData(0xe6ac, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData decimalDecrease = const IconData(0xe6ad, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
@@ -26680,6 +26740,7 @@ class IconMonksBold {
   final IconData gitPullRequestDraft = const IconData(0xe76d, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData gitRebase = const IconData(0xe76e, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData gitRepository = const IconData(0xe76f, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
+  final IconData gitbookLogo = const IconData(0xf771, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData giteaLogo = const IconData(0xf6ee, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData githubCopilotLogo = const IconData(0xf522, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData githubLogo = const IconData(0xf523, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
@@ -27439,6 +27500,7 @@ class IconMonksBold {
   final IconData livePhoto = const IconData(0xec1d, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData livePhotoSlash = const IconData(0xec1e, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData liveView = const IconData(0xec1f, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
+  final IconData livekitLogo = const IconData(0xf772, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData liver = const IconData(0xf2be, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData llamaindexLogo = const IconData(0xf712, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData loadBalancer = const IconData(0xe79a, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
@@ -27488,6 +27550,7 @@ class IconMonksBold {
   final IconData logseqLogo = const IconData(0xf714, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData lollipop = const IconData(0xec21, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData lollipopSlash = const IconData(0xec22, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
+  final IconData lookerLogo = const IconData(0xf773, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData loomLogo = const IconData(0xf53c, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData lottiefilesLogo = const IconData(0xf53d, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData luaLogo = const IconData(0xf662, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
@@ -27650,6 +27713,7 @@ class IconMonksBold {
   final IconData mesh = const IconData(0xe533, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData messengerLogo = const IconData(0xf541, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData metaLogo = const IconData(0xf542, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
+  final IconData metabaseLogo = const IconData(0xf774, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData metamaskLogo = const IconData(0xf665, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData meteor = const IconData(0xf060, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData meteorSlash = const IconData(0xf061, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
@@ -27877,6 +27941,7 @@ class IconMonksBold {
   final IconData necktie = const IconData(0xf099, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData needle = const IconData(0xf09a, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData needleThread = const IconData(0xf09b, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
+  final IconData neonLogo = const IconData(0xf775, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData neovimLogo = const IconData(0xf66c, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData netflixLogo = const IconData(0xf5ad, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData netlifyLogo = const IconData(0xf5ed, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
@@ -28276,6 +28341,7 @@ class IconMonksBold {
   final IconData plaidLogo = const IconData(0xf736, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData planet = const IconData(0xe16f, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData planetSlash = const IconData(0xf0e7, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
+  final IconData planetscaleLogo = const IconData(0xf776, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData plant = const IconData(0xe170, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData plantSlash = const IconData(0xf0e8, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData plausibleLogo = const IconData(0xf67c, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
@@ -29283,6 +29349,7 @@ class IconMonksBold {
   final IconData tableSlash = const IconData(0xed94, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData tableSparkle = const IconData(0xed95, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData tableSplit = const IconData(0xe8ac, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
+  final IconData tableauLogo = const IconData(0xf777, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData tabnineLogo = const IconData(0xf755, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData tabs = const IconData(0xed96, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData taco = const IconData(0xf2f5, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
@@ -29329,6 +29396,7 @@ class IconMonksBold {
   final IconData televisionSlash = const IconData(0xe8ae, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData televisionWrench = const IconData(0xf4b9, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData temple = const IconData(0xed9c, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
+  final IconData temporalLogo = const IconData(0xf778, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData tennisBall = const IconData(0xe1b7, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData tensorflowLogo = const IconData(0xf6a7, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData tent = const IconData(0xe1b8, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
@@ -29610,6 +29678,7 @@ class IconMonksBold {
   final IconData turnSlightLeft = const IconData(0xedb9, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData turnSlightRight = const IconData(0xedba, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData turnstile = const IconData(0xf202, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
+  final IconData tursoLogo = const IconData(0xf779, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData turtle = const IconData(0xf302, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData tvTower = const IconData(0xedbb, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData twig = const IconData(0xf203, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
@@ -29643,6 +29712,7 @@ class IconMonksBold {
   final IconData unsplashLogo = const IconData(0xf576, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData upload = const IconData(0xe05a, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData uploadSlash = const IconData(0xedbd, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
+  final IconData upstashLogo = const IconData(0xf77a, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData upworkLogo = const IconData(0xf577, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData usb = const IconData(0xe1db, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
   final IconData usbBug = const IconData(0xf4db, fontFamily: 'IconMonksBold', fontPackage: 'icon_monks');
@@ -30046,6 +30116,7 @@ class IconMonksFill {
   final IconData airQuality = const IconData(0xedea, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData airbnbLogo = const IconData(0xf4f8, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData airdrop = const IconData(0xf4f9, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
+  final IconData airflowLogo = const IconData(0xf76d, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData airplane = const IconData(0xe062, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData airplaneCircling = const IconData(0xedeb, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData airplaneInFlight = const IconData(0xedec, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
@@ -31437,6 +31508,7 @@ class IconMonksFill {
   final IconData cloudWind = const IconData(0xeeed, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData cloudX = const IconData(0xeeee, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData cloudflareLogo = const IconData(0xf59c, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
+  final IconData cloudinaryLogo = const IconData(0xf76e, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData clouds = const IconData(0xeeef, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData clover = const IconData(0xeef0, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData club = const IconData(0xeef1, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
@@ -31563,6 +31635,7 @@ class IconMonksFill {
   final IconData cottonCandy = const IconData(0xf378, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData couch = const IconData(0xe0d8, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData couchSlash = const IconData(0xe9e4, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
+  final IconData couchbaseLogo = const IconData(0xf76f, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData couple = const IconData(0xf379, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData coupon = const IconData(0xe378, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData courtBasketball = const IconData(0xef03, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
@@ -31788,6 +31861,7 @@ class IconMonksFill {
   final IconData databaseWarning = const IconData(0xe6aa, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData databaseX = const IconData(0xe6ab, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData davinciResolveLogo = const IconData(0xf623, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
+  final IconData dbtLogo = const IconData(0xf770, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData debianLogo = const IconData(0xf6df, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData decimal = const IconData(0xe6ac, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData decimalDecrease = const IconData(0xe6ad, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
@@ -32678,6 +32752,7 @@ class IconMonksFill {
   final IconData gitPullRequestDraft = const IconData(0xe76d, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData gitRebase = const IconData(0xe76e, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData gitRepository = const IconData(0xe76f, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
+  final IconData gitbookLogo = const IconData(0xf771, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData giteaLogo = const IconData(0xf6ee, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData githubCopilotLogo = const IconData(0xf522, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData githubLogo = const IconData(0xf523, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
@@ -33437,6 +33512,7 @@ class IconMonksFill {
   final IconData livePhoto = const IconData(0xec1d, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData livePhotoSlash = const IconData(0xec1e, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData liveView = const IconData(0xec1f, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
+  final IconData livekitLogo = const IconData(0xf772, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData liver = const IconData(0xf2be, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData llamaindexLogo = const IconData(0xf712, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData loadBalancer = const IconData(0xe79a, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
@@ -33486,6 +33562,7 @@ class IconMonksFill {
   final IconData logseqLogo = const IconData(0xf714, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData lollipop = const IconData(0xec21, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData lollipopSlash = const IconData(0xec22, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
+  final IconData lookerLogo = const IconData(0xf773, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData loomLogo = const IconData(0xf53c, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData lottiefilesLogo = const IconData(0xf53d, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData luaLogo = const IconData(0xf662, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
@@ -33648,6 +33725,7 @@ class IconMonksFill {
   final IconData mesh = const IconData(0xe533, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData messengerLogo = const IconData(0xf541, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData metaLogo = const IconData(0xf542, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
+  final IconData metabaseLogo = const IconData(0xf774, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData metamaskLogo = const IconData(0xf665, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData meteor = const IconData(0xf060, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData meteorSlash = const IconData(0xf061, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
@@ -33875,6 +33953,7 @@ class IconMonksFill {
   final IconData necktie = const IconData(0xf099, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData needle = const IconData(0xf09a, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData needleThread = const IconData(0xf09b, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
+  final IconData neonLogo = const IconData(0xf775, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData neovimLogo = const IconData(0xf66c, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData netflixLogo = const IconData(0xf5ad, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData netlifyLogo = const IconData(0xf5ed, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
@@ -34274,6 +34353,7 @@ class IconMonksFill {
   final IconData plaidLogo = const IconData(0xf736, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData planet = const IconData(0xe16f, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData planetSlash = const IconData(0xf0e7, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
+  final IconData planetscaleLogo = const IconData(0xf776, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData plant = const IconData(0xe170, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData plantSlash = const IconData(0xf0e8, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData plausibleLogo = const IconData(0xf67c, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
@@ -35281,6 +35361,7 @@ class IconMonksFill {
   final IconData tableSlash = const IconData(0xed94, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData tableSparkle = const IconData(0xed95, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData tableSplit = const IconData(0xe8ac, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
+  final IconData tableauLogo = const IconData(0xf777, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData tabnineLogo = const IconData(0xf755, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData tabs = const IconData(0xed96, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData taco = const IconData(0xf2f5, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
@@ -35327,6 +35408,7 @@ class IconMonksFill {
   final IconData televisionSlash = const IconData(0xe8ae, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData televisionWrench = const IconData(0xf4b9, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData temple = const IconData(0xed9c, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
+  final IconData temporalLogo = const IconData(0xf778, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData tennisBall = const IconData(0xe1b7, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData tensorflowLogo = const IconData(0xf6a7, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData tent = const IconData(0xe1b8, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
@@ -35608,6 +35690,7 @@ class IconMonksFill {
   final IconData turnSlightLeft = const IconData(0xedb9, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData turnSlightRight = const IconData(0xedba, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData turnstile = const IconData(0xf202, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
+  final IconData tursoLogo = const IconData(0xf779, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData turtle = const IconData(0xf302, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData tvTower = const IconData(0xedbb, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData twig = const IconData(0xf203, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
@@ -35641,6 +35724,7 @@ class IconMonksFill {
   final IconData unsplashLogo = const IconData(0xf576, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData upload = const IconData(0xe05a, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData uploadSlash = const IconData(0xedbd, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
+  final IconData upstashLogo = const IconData(0xf77a, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData upworkLogo = const IconData(0xf577, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData usb = const IconData(0xe1db, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');
   final IconData usbBug = const IconData(0xf4db, fontFamily: 'IconMonksFill', fontPackage: 'icon_monks');

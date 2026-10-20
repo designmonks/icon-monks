@@ -59,6 +59,7 @@
 .im-light.im-air-quality::before { content: "\edea"; }
 .im-light.im-airbnb-logo::before { content: "\f4f8"; }
 .im-light.im-airdrop::before { content: "\f4f9"; }
+.im-light.im-airflow-logo::before { content: "\f76d"; }
 .im-light.im-airplane::before { content: "\e062"; }
 .im-light.im-airplane-circling::before { content: "\edeb"; }
 .im-light.im-airplane-in-flight::before { content: "\edec"; }
@@ -1450,6 +1451,7 @@
 .im-light.im-cloud-wind::before { content: "\eeed"; }
 .im-light.im-cloud-x::before { content: "\eeee"; }
 .im-light.im-cloudflare-logo::before { content: "\f59c"; }
+.im-light.im-cloudinary-logo::before { content: "\f76e"; }
 .im-light.im-clouds::before { content: "\eeef"; }
 .im-light.im-clover::before { content: "\eef0"; }
 .im-light.im-club::before { content: "\eef1"; }
@@ -1576,6 +1578,7 @@
 .im-light.im-cotton-candy::before { content: "\f378"; }
 .im-light.im-couch::before { content: "\e0d8"; }
 .im-light.im-couch-slash::before { content: "\e9e4"; }
+.im-light.im-couchbase-logo::before { content: "\f76f"; }
 .im-light.im-couple::before { content: "\f379"; }
 .im-light.im-coupon::before { content: "\e378"; }
 .im-light.im-court-basketball::before { content: "\ef03"; }
@@ -1801,6 +1804,7 @@
 .im-light.im-database-warning::before { content: "\e6aa"; }
 .im-light.im-database-x::before { content: "\e6ab"; }
 .im-light.im-davinci-resolve-logo::before { content: "\f623"; }
+.im-light.im-dbt-logo::before { content: "\f770"; }
 .im-light.im-debian-logo::before { content: "\f6df"; }
 .im-light.im-decimal::before { content: "\e6ac"; }
 .im-light.im-decimal-decrease::before { content: "\e6ad"; }
@@ -2691,6 +2695,7 @@
 .im-light.im-git-pull-request-draft::before { content: "\e76d"; }
 .im-light.im-git-rebase::before { content: "\e76e"; }
 .im-light.im-git-repository::before { content: "\e76f"; }
+.im-light.im-gitbook-logo::before { content: "\f771"; }
 .im-light.im-gitea-logo::before { content: "\f6ee"; }
 .im-light.im-github-copilot-logo::before { content: "\f522"; }
 .im-light.im-github-logo::before { content: "\f523"; }
@@ -3450,6 +3455,7 @@
 .im-light.im-live-photo::before { content: "\ec1d"; }
 .im-light.im-live-photo-slash::before { content: "\ec1e"; }
 .im-light.im-live-view::before { content: "\ec1f"; }
+.im-light.im-livekit-logo::before { content: "\f772"; }
 .im-light.im-liver::before { content: "\f2be"; }
 .im-light.im-llamaindex-logo::before { content: "\f712"; }
 .im-light.im-load-balancer::before { content: "\e79a"; }
@@ -3499,6 +3505,7 @@
 .im-light.im-logseq-logo::before { content: "\f714"; }
 .im-light.im-lollipop::before { content: "\ec21"; }
 .im-light.im-lollipop-slash::before { content: "\ec22"; }
+.im-light.im-looker-logo::before { content: "\f773"; }
 .im-light.im-loom-logo::before { content: "\f53c"; }
 .im-light.im-lottiefiles-logo::before { content: "\f53d"; }
 .im-light.im-lua-logo::before { content: "\f662"; }
@@ -3661,6 +3668,7 @@
 .im-light.im-mesh::before { content: "\e533"; }
 .im-light.im-messenger-logo::before { content: "\f541"; }
 .im-light.im-meta-logo::before { content: "\f542"; }
+.im-light.im-metabase-logo::before { content: "\f774"; }
 .im-light.im-metamask-logo::before { content: "\f665"; }
 .im-light.im-meteor::before { content: "\f060"; }
 .im-light.im-meteor-slash::before { content: "\f061"; }
@@ -3888,6 +3896,7 @@
 .im-light.im-necktie::before { content: "\f099"; }
 .im-light.im-needle::before { content: "\f09a"; }
 .im-light.im-needle-thread::before { content: "\f09b"; }
+.im-light.im-neon-logo::before { content: "\f775"; }
 .im-light.im-neovim-logo::before { content: "\f66c"; }
 .im-light.im-netflix-logo::before { content: "\f5ad"; }
 .im-light.im-netlify-logo::before { content: "\f5ed"; }
@@ -4287,6 +4296,7 @@
 .im-light.im-plaid-logo::before { content: "\f736"; }
 .im-light.im-planet::before { content: "\e16f"; }
 .im-light.im-planet-slash::before { content: "\f0e7"; }
+.im-light.im-planetscale-logo::before { content: "\f776"; }
 .im-light.im-plant::before { content: "\e170"; }
 .im-light.im-plant-slash::before { content: "\f0e8"; }
 .im-light.im-plausible-logo::before { content: "\f67c"; }
@@ -5294,6 +5304,7 @@
 .im-light.im-table-slash::before { content: "\ed94"; }
 .im-light.im-table-sparkle::before { content: "\ed95"; }
 .im-light.im-table-split::before { content: "\e8ac"; }
+.im-light.im-tableau-logo::before { content: "\f777"; }
 .im-light.im-tabnine-logo::before { content: "\f755"; }
 .im-light.im-tabs::before { content: "\ed96"; }
 .im-light.im-taco::before { content: "\f2f5"; }
@@ -5340,6 +5351,7 @@
 .im-light.im-television-slash::before { content: "\e8ae"; }
 .im-light.im-television-wrench::before { content: "\f4b9"; }
 .im-light.im-temple::before { content: "\ed9c"; }
+.im-light.im-temporal-logo::before { content: "\f778"; }
 .im-light.im-tennis-ball::before { content: "\e1b7"; }
 .im-light.im-tensorflow-logo::before { content: "\f6a7"; }
 .im-light.im-tent::before { content: "\e1b8"; }
@@ -5621,6 +5633,7 @@
 .im-light.im-turn-slight-left::before { content: "\edb9"; }
 .im-light.im-turn-slight-right::before { content: "\edba"; }
 .im-light.im-turnstile::before { content: "\f202"; }
+.im-light.im-turso-logo::before { content: "\f779"; }
 .im-light.im-turtle::before { content: "\f302"; }
 .im-light.im-tv-tower::before { content: "\edbb"; }
 .im-light.im-twig::before { content: "\f203"; }
@@ -5654,6 +5667,7 @@
 .im-light.im-unsplash-logo::before { content: "\f576"; }
 .im-light.im-upload::before { content: "\e05a"; }
 .im-light.im-upload-slash::before { content: "\edbd"; }
+.im-light.im-upstash-logo::before { content: "\f77a"; }
 .im-light.im-upwork-logo::before { content: "\f577"; }
 .im-light.im-usb::before { content: "\e1db"; }
 .im-light.im-usb-bug::before { content: "\f4db"; }

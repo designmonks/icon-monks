@@ -470,6 +470,20 @@
   ]
  },
  {
+  "name": "airflow-logo",
+  "category": "Brands",
+  "tags": [
+   "airflow",
+   "apache airflow",
+   "apache",
+   "workflow",
+   "pipelines",
+   "pinwheel",
+   "logo",
+   "brand"
+  ]
+ },
+ {
   "name": "airplane",
   "category": "Maps",
   "tags": [
@@ -15451,6 +15465,19 @@
   ]
  },
  {
+  "name": "cloudinary-logo",
+  "category": "Brands",
+  "tags": [
+   "cloudinary",
+   "media",
+   "images",
+   "video",
+   "cdn",
+   "logo",
+   "brand"
+  ]
+ },
+ {
   "name": "clouds",
   "category": "Weather",
   "tags": [
@@ -16793,6 +16820,18 @@
    "off",
    "disabled",
    "hidden"
+  ]
+ },
+ {
+  "name": "couchbase-logo",
+  "category": "Brands",
+  "tags": [
+   "couchbase",
+   "nosql",
+   "database",
+   "document database",
+   "logo",
+   "brand"
   ]
  },
  {
@@ -19220,6 +19259,19 @@
    "video editing",
    "color grading",
    "film",
+   "logo",
+   "brand"
+  ]
+ },
+ {
+  "name": "dbt-logo",
+  "category": "Brands",
+  "tags": [
+   "dbt",
+   "data build tool",
+   "analytics engineering",
+   "sql",
+   "data",
    "logo",
    "brand"
   ]
@@ -28696,6 +28748,19 @@
   ]
  },
  {
+  "name": "gitbook-logo",
+  "category": "Brands",
+  "tags": [
+   "gitbook",
+   "documentation",
+   "docs",
+   "knowledge base",
+   "book",
+   "logo",
+   "brand"
+  ]
+ },
+ {
   "name": "gitea-logo",
   "category": "Brands",
   "tags": [
@@ -36898,6 +36963,19 @@
   ]
  },
  {
+  "name": "livekit-logo",
+  "category": "Brands",
+  "tags": [
+   "livekit",
+   "webrtc",
+   "realtime",
+   "video",
+   "audio",
+   "logo",
+   "brand"
+  ]
+ },
+ {
   "name": "liver",
   "category": "Health",
   "tags": [
@@ -37392,6 +37470,18 @@
    "off",
    "disabled",
    "hidden"
+  ]
+ },
+ {
+  "name": "looker-logo",
+  "category": "Brands",
+  "tags": [
+   "looker",
+   "google",
+   "business intelligence",
+   "analytics",
+   "logo",
+   "brand"
   ]
  },
  {
@@ -39154,6 +39244,18 @@
    "social media",
    "company",
    "infinity",
+   "logo",
+   "brand"
+  ]
+ },
+ {
+  "name": "metabase-logo",
+  "category": "Brands",
+  "tags": [
+   "metabase",
+   "business intelligence",
+   "analytics",
+   "dashboards",
    "logo",
    "brand"
   ]
@@ -41679,6 +41781,18 @@
    "needle",
    "thread",
    "tailor"
+  ]
+ },
+ {
+  "name": "neon-logo",
+  "category": "Brands",
+  "tags": [
+   "neon",
+   "postgres",
+   "database",
+   "serverless",
+   "logo",
+   "brand"
   ]
  },
  {
@@ -46033,6 +46147,18 @@
    "off",
    "disabled",
    "hidden"
+  ]
+ },
+ {
+  "name": "planetscale-logo",
+  "category": "Brands",
+  "tags": [
+   "planetscale",
+   "mysql",
+   "database",
+   "serverless",
+   "logo",
+   "brand"
   ]
  },
  {
@@ -56906,6 +57032,19 @@
   ]
  },
  {
+  "name": "tableau-logo",
+  "category": "Brands",
+  "tags": [
+   "tableau",
+   "analytics",
+   "business intelligence",
+   "visualization",
+   "salesforce",
+   "logo",
+   "brand"
+  ]
+ },
+ {
   "name": "tabnine-logo",
   "category": "Brands",
   "tags": [
@@ -57413,6 +57552,18 @@
    "shrine",
    "worship",
    "pagoda"
+  ]
+ },
+ {
+  "name": "temporal-logo",
+  "category": "Brands",
+  "tags": [
+   "temporal",
+   "workflow",
+   "orchestration",
+   "durable execution",
+   "logo",
+   "brand"
   ]
  },
  {
@@ -60443,6 +60594,19 @@
   ]
  },
  {
+  "name": "turso-logo",
+  "category": "Brands",
+  "tags": [
+   "turso",
+   "sqlite",
+   "libsql",
+   "database",
+   "edge",
+   "logo",
+   "brand"
+  ]
+ },
+ {
   "name": "turtle",
   "category": "Animals",
   "tags": [
@@ -60815,6 +60979,18 @@
    "no upload",
    "blocked",
    "offline"
+  ]
+ },
+ {
+  "name": "upstash-logo",
+  "category": "Brands",
+  "tags": [
+   "upstash",
+   "redis",
+   "database",
+   "serverless",
+   "logo",
+   "brand"
   ]
  },
  {

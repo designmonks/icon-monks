@@ -59,6 +59,7 @@
 .im.im-air-quality::before { content: "\edea"; }
 .im.im-airbnb-logo::before { content: "\f4f8"; }
 .im.im-airdrop::before { content: "\f4f9"; }
+.im.im-airflow-logo::before { content: "\f76d"; }
 .im.im-airplane::before { content: "\e062"; }
 .im.im-airplane-circling::before { content: "\edeb"; }
 .im.im-airplane-in-flight::before { content: "\edec"; }
@@ -1450,6 +1451,7 @@
 .im.im-cloud-wind::before { content: "\eeed"; }
 .im.im-cloud-x::before { content: "\eeee"; }
 .im.im-cloudflare-logo::before { content: "\f59c"; }
+.im.im-cloudinary-logo::before { content: "\f76e"; }
 .im.im-clouds::before { content: "\eeef"; }
 .im.im-clover::before { content: "\eef0"; }
 .im.im-club::before { content: "\eef1"; }
@@ -1576,6 +1578,7 @@
 .im.im-cotton-candy::before { content: "\f378"; }
 .im.im-couch::before { content: "\e0d8"; }
 .im.im-couch-slash::before { content: "\e9e4"; }
+.im.im-couchbase-logo::before { content: "\f76f"; }
 .im.im-couple::before { content: "\f379"; }
 .im.im-coupon::before { content: "\e378"; }
 .im.im-court-basketball::before { content: "\ef03"; }
@@ -1801,6 +1804,7 @@
 .im.im-database-warning::before { content: "\e6aa"; }
 .im.im-database-x::before { content: "\e6ab"; }
 .im.im-davinci-resolve-logo::before { content: "\f623"; }
+.im.im-dbt-logo::before { content: "\f770"; }
 .im.im-debian-logo::before { content: "\f6df"; }
 .im.im-decimal::before { content: "\e6ac"; }
 .im.im-decimal-decrease::before { content: "\e6ad"; }
@@ -2691,6 +2695,7 @@
 .im.im-git-pull-request-draft::before { content: "\e76d"; }
 .im.im-git-rebase::before { content: "\e76e"; }
 .im.im-git-repository::before { content: "\e76f"; }
+.im.im-gitbook-logo::before { content: "\f771"; }
 .im.im-gitea-logo::before { content: "\f6ee"; }
 .im.im-github-copilot-logo::before { content: "\f522"; }
 .im.im-github-logo::before { content: "\f523"; }
@@ -3450,6 +3455,7 @@
 .im.im-live-photo::before { content: "\ec1d"; }
 .im.im-live-photo-slash::before { content: "\ec1e"; }
 .im.im-live-view::before { content: "\ec1f"; }
+.im.im-livekit-logo::before { content: "\f772"; }
 .im.im-liver::before { content: "\f2be"; }
 .im.im-llamaindex-logo::before { content: "\f712"; }
 .im.im-load-balancer::before { content: "\e79a"; }
@@ -3499,6 +3505,7 @@
 .im.im-logseq-logo::before { content: "\f714"; }
 .im.im-lollipop::before { content: "\ec21"; }
 .im.im-lollipop-slash::before { content: "\ec22"; }
+.im.im-looker-logo::before { content: "\f773"; }
 .im.im-loom-logo::before { content: "\f53c"; }
 .im.im-lottiefiles-logo::before { content: "\f53d"; }
 .im.im-lua-logo::before { content: "\f662"; }
@@ -3661,6 +3668,7 @@
 .im.im-mesh::before { content: "\e533"; }
 .im.im-messenger-logo::before { content: "\f541"; }
 .im.im-meta-logo::before { content: "\f542"; }
+.im.im-metabase-logo::before { content: "\f774"; }
 .im.im-metamask-logo::before { content: "\f665"; }
 .im.im-meteor::before { content: "\f060"; }
 .im.im-meteor-slash::before { content: "\f061"; }
@@ -3888,6 +3896,7 @@
 .im.im-necktie::before { content: "\f099"; }
 .im.im-needle::before { content: "\f09a"; }
 .im.im-needle-thread::before { content: "\f09b"; }
+.im.im-neon-logo::before { content: "\f775"; }
 .im.im-neovim-logo::before { content: "\f66c"; }
 .im.im-netflix-logo::before { content: "\f5ad"; }
 .im.im-netlify-logo::before { content: "\f5ed"; }
@@ -4287,6 +4296,7 @@
 .im.im-plaid-logo::before { content: "\f736"; }
 .im.im-planet::before { content: "\e16f"; }
 .im.im-planet-slash::before { content: "\f0e7"; }
+.im.im-planetscale-logo::before { content: "\f776"; }
 .im.im-plant::before { content: "\e170"; }
 .im.im-plant-slash::before { content: "\f0e8"; }
 .im.im-plausible-logo::before { content: "\f67c"; }
@@ -5294,6 +5304,7 @@
 .im.im-table-slash::before { content: "\ed94"; }
 .im.im-table-sparkle::before { content: "\ed95"; }
 .im.im-table-split::before { content: "\e8ac"; }
+.im.im-tableau-logo::before { content: "\f777"; }
 .im.im-tabnine-logo::before { content: "\f755"; }
 .im.im-tabs::before { content: "\ed96"; }
 .im.im-taco::before { content: "\f2f5"; }
@@ -5340,6 +5351,7 @@
 .im.im-television-slash::before { content: "\e8ae"; }
 .im.im-television-wrench::before { content: "\f4b9"; }
 .im.im-temple::before { content: "\ed9c"; }
+.im.im-temporal-logo::before { content: "\f778"; }
 .im.im-tennis-ball::before { content: "\e1b7"; }
 .im.im-tensorflow-logo::before { content: "\f6a7"; }
 .im.im-tent::before { content: "\e1b8"; }
@@ -5621,6 +5633,7 @@
 .im.im-turn-slight-left::before { content: "\edb9"; }
 .im.im-turn-slight-right::before { content: "\edba"; }
 .im.im-turnstile::before { content: "\f202"; }
+.im.im-turso-logo::before { content: "\f779"; }
 .im.im-turtle::before { content: "\f302"; }
 .im.im-tv-tower::before { content: "\edbb"; }
 .im.im-twig::before { content: "\f203"; }
@@ -5654,6 +5667,7 @@
 .im.im-unsplash-logo::before { content: "\f576"; }
 .im.im-upload::before { content: "\e05a"; }
 .im.im-upload-slash::before { content: "\edbd"; }
+.im.im-upstash-logo::before { content: "\f77a"; }
 .im.im-upwork-logo::before { content: "\f577"; }
 .im.im-usb::before { content: "\e1db"; }
 .im.im-usb-bug::before { content: "\f4db"; }

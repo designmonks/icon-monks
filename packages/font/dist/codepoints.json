@@ -5995,5 +5995,19 @@
  "youtube-kids-logo": "f769",
  "zed-logo": "f76a",
  "zendesk-logo": "f76b",
- "zeplin-logo": "f76c"
+ "zeplin-logo": "f76c",
+ "airflow-logo": "f76d",
+ "cloudinary-logo": "f76e",
+ "couchbase-logo": "f76f",
+ "dbt-logo": "f770",
+ "gitbook-logo": "f771",
+ "livekit-logo": "f772",
+ "looker-logo": "f773",
+ "metabase-logo": "f774",
+ "neon-logo": "f775",
+ "planetscale-logo": "f776",
+ "tableau-logo": "f777",
+ "temporal-logo": "f778",
+ "turso-logo": "f779",
+ "upstash-logo": "f77a"
 }

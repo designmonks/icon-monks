@@ -5995,5 +5995,19 @@
   "youtube-kids-logo": 63337,
   "zed-logo": 63338,
   "zendesk-logo": 63339,
-  "zeplin-logo": 63340
+  "zeplin-logo": 63340,
+  "airflow-logo": 63341,
+  "cloudinary-logo": 63342,
+  "couchbase-logo": 63343,
+  "dbt-logo": 63344,
+  "gitbook-logo": 63345,
+  "livekit-logo": 63346,
+  "looker-logo": 63347,
+  "metabase-logo": 63348,
+  "neon-logo": 63349,
+  "planetscale-logo": 63350,
+  "tableau-logo": 63351,
+  "temporal-logo": 63352,
+  "turso-logo": 63353,
+  "upstash-logo": 63354
 }
