@@ -171,8 +171,10 @@
 .im-thin.im-apple::before { content: "\e067"; }
 .im-thin.im-apple-finder-logo::before { content: "\f4ff"; }
 .im-thin.im-apple-half::before { content: "\e94b"; }
+.im-thin.im-apple-logo::before { content: "\f5cb"; }
 .im-thin.im-apple-music-logo::before { content: "\f500"; }
 .im-thin.im-apple-news-logo::before { content: "\f501"; }
+.im-thin.im-apple-pay-logo::before { content: "\f5cc"; }
 .im-thin.im-apple-reminders-logo::before { content: "\f502"; }
 .im-thin.im-apple-stocks-logo::before { content: "\f503"; }
 .im-thin.im-apple-vision-pro::before { content: "\f504"; }
@@ -430,6 +432,7 @@
 .im-thin.im-avocado::before { content: "\e955"; }
 .im-thin.im-awareness-ribbon::before { content: "\e956"; }
 .im-thin.im-aws-lambda-logo::before { content: "\f506"; }
+.im-thin.im-aws-logo::before { content: "\f5cd"; }
 .im-thin.im-axe::before { content: "\ee08"; }
 .im-thin.im-axes::before { content: "\e2a6"; }
 .im-thin.im-axis-3d::before { content: "\f323"; }
@@ -962,6 +965,7 @@
 .im-thin.im-candy-slash::before { content: "\e9ac"; }
 .im-thin.im-cannabis::before { content: "\ee80"; }
 .im-thin.im-cannabis-slash::before { content: "\f34f"; }
+.im-thin.im-canva-logo::before { content: "\f5ce"; }
 .im-thin.im-caps-lock::before { content: "\e9ad"; }
 .im-thin.im-capsule::before { content: "\e43b"; }
 .im-thin.im-car::before { content: "\e0af"; }
@@ -1459,6 +1463,7 @@
 .im-thin.im-cone-slash::before { content: "\e471"; }
 .im-thin.im-confetti::before { content: "\e0d5"; }
 .im-thin.im-confetti-slash::before { content: "\eefa"; }
+.im-thin.im-confluence-logo::before { content: "\f5cf"; }
 .im-thin.im-confucius::before { content: "\eefb"; }
 .im-thin.im-congruent-to::before { content: "\eefc"; }
 .im-thin.im-constellation::before { content: "\f377"; }
@@ -1861,6 +1866,7 @@
 .im-thin.im-disco-ball::before { content: "\ef2e"; }
 .im-thin.im-discord-logo::before { content: "\f516"; }
 .im-thin.im-dishwasher::before { content: "\ea10"; }
+.im-thin.im-disney-plus-logo::before { content: "\f5d0"; }
 .im-thin.im-displayport::before { content: "\e6f5"; }
 .im-thin.im-distribute-horizontal::before { content: "\e49d"; }
 .im-thin.im-distribute-horizontal-left::before { content: "\e49e"; }
@@ -1878,6 +1884,7 @@
 .im-thin.im-dna::before { content: "\e0e7"; }
 .im-thin.im-dna-slash::before { content: "\ef33"; }
 .im-thin.im-dna-sparkle::before { content: "\f398"; }
+.im-thin.im-docker-logo::before { content: "\f5d1"; }
 .im-thin.im-doctor::before { content: "\ea11"; }
 .im-thin.im-dog::before { content: "\e3b6"; }
 .im-thin.im-dog-bowl::before { content: "\e3b7"; }
@@ -2058,6 +2065,7 @@
 .im-thin.im-ethereum-logo::before { content: "\f51a"; }
 .im-thin.im-ethernet::before { content: "\e702"; }
 .im-thin.im-ethernet-slash::before { content: "\e703"; }
+.im-thin.im-etsy-logo::before { content: "\f5d2"; }
 .im-thin.im-ev-plug::before { content: "\ef5f"; }
 .im-thin.im-exam::before { content: "\e704"; }
 .im-thin.im-excavator::before { content: "\ef60"; }
@@ -2307,6 +2315,7 @@
 .im-thin.im-fire-slash::before { content: "\ef82"; }
 .im-thin.im-fire-truck::before { content: "\ef83"; }
 .im-thin.im-firebase-logo::before { content: "\f5a1"; }
+.im-thin.im-firefox-logo::before { content: "\f5d3"; }
 .im-thin.im-fireplace::before { content: "\ea84"; }
 .im-thin.im-firewall::before { content: "\ef84"; }
 .im-thin.im-firewall-check::before { content: "\ef85"; }
@@ -2565,6 +2574,7 @@
 .im-thin.im-git-compare::before { content: "\e769"; }
 .im-thin.im-git-diff::before { content: "\e76a"; }
 .im-thin.im-git-fork::before { content: "\e11e"; }
+.im-thin.im-git-logo::before { content: "\f5d4"; }
 .im-thin.im-git-merge::before { content: "\e11f"; }
 .im-thin.im-git-merge-queue::before { content: "\e76b"; }
 .im-thin.im-git-merge-warning::before { content: "\f2b1"; }
@@ -2616,7 +2626,9 @@
 .im-thin.im-globe-warning::before { content: "\eb27"; }
 .im-thin.im-globe-x::before { content: "\eb28"; }
 .im-thin.im-glove::before { content: "\f3c1"; }
+.im-thin.im-gmail-logo::before { content: "\f5d5"; }
 .im-thin.im-go-game::before { content: "\efa9"; }
+.im-thin.im-go-logo::before { content: "\f5d6"; }
 .im-thin.im-goblet::before { content: "\eb29"; }
 .im-thin.im-goggles::before { content: "\efaa"; }
 .im-thin.im-gold-bars::before { content: "\e4e5"; }
@@ -2626,6 +2638,7 @@
 .im-thin.im-golf-cart::before { content: "\f3c4"; }
 .im-thin.im-golf-slash::before { content: "\efac"; }
 .im-thin.im-goodreads-logo::before { content: "\f5a4"; }
+.im-thin.im-google-calendar-logo::before { content: "\f5d7"; }
 .im-thin.im-google-chrome-logo::before { content: "\f525"; }
 .im-thin.im-google-cloud-logo::before { content: "\f5a5"; }
 .im-thin.im-google-docs-logo::before { content: "\f526"; }
@@ -2636,8 +2649,10 @@
 .im-thin.im-google-logo::before { content: "\f52b"; }
 .im-thin.im-google-maps-logo::before { content: "\f52c"; }
 .im-thin.im-google-meet-logo::before { content: "\f5a6"; }
+.im-thin.im-google-pay-logo::before { content: "\f5d8"; }
 .im-thin.im-google-photos-logo::before { content: "\f52d"; }
 .im-thin.im-google-play-logo::before { content: "\f52e"; }
+.im-thin.im-google-sheets-logo::before { content: "\f5d9"; }
 .im-thin.im-google-wallet-logo::before { content: "\f5a7"; }
 .im-thin.im-gps-fix::before { content: "\eb2a"; }
 .im-thin.im-gps-fix-slash::before { content: "\eb2b"; }
@@ -2645,6 +2660,7 @@
 .im-thin.im-gradient-radial::before { content: "\f3c5"; }
 .im-thin.im-graduation-cap::before { content: "\e122"; }
 .im-thin.im-graduation-cap-arrows::before { content: "\f3c6"; }
+.im-thin.im-grafana-logo::before { content: "\f5da"; }
 .im-thin.im-grains::before { content: "\eb2c"; }
 .im-thin.im-grains-slash::before { content: "\eb2d"; }
 .im-thin.im-grapes::before { content: "\eb2e"; }
@@ -2656,6 +2672,7 @@
 .im-thin.im-graph-plus::before { content: "\f3cb"; }
 .im-thin.im-graph-slash::before { content: "\e3c2"; }
 .im-thin.im-graphics-card::before { content: "\e771"; }
+.im-thin.im-graphql-logo::before { content: "\f5db"; }
 .im-thin.im-grass::before { content: "\efad"; }
 .im-thin.im-grave::before { content: "\efae"; }
 .im-thin.im-gravity::before { content: "\f3cc"; }
@@ -2882,6 +2899,9 @@
 .im-thin.im-house-wifi::before { content: "\eb76"; }
 .im-thin.im-house-x::before { content: "\eb77"; }
 .im-thin.im-houses::before { content: "\eb78"; }
+.im-thin.im-html5-logo::before { content: "\f5dc"; }
+.im-thin.im-hubspot-logo::before { content: "\f5dd"; }
+.im-thin.im-hugging-face-logo::before { content: "\f5de"; }
 .im-thin.im-hula-hoop::before { content: "\eff5"; }
 .im-thin.im-humidity::before { content: "\eff6"; }
 .im-thin.im-ice-cream::before { content: "\e136"; }
@@ -2890,6 +2910,7 @@
 .im-thin.im-ice-skate::before { content: "\eff7"; }
 .im-thin.im-iceberg::before { content: "\eff8"; }
 .im-thin.im-ichthys::before { content: "\eff9"; }
+.im-thin.im-icloud-logo::before { content: "\f5df"; }
 .im-thin.im-icosahedron::before { content: "\e502"; }
 .im-thin.im-identification-badge::before { content: "\effa"; }
 .im-thin.im-identification-badge-slash::before { content: "\effb"; }
@@ -2973,10 +2994,12 @@
 .im-thin.im-jackhammer::before { content: "\f004"; }
 .im-thin.im-jar::before { content: "\eba1"; }
 .im-thin.im-java-logo::before { content: "\f534"; }
+.im-thin.im-javascript-logo::before { content: "\f5e0"; }
 .im-thin.im-jellyfish::before { content: "\e3c5"; }
 .im-thin.im-jersey::before { content: "\f005"; }
 .im-thin.im-jet-ski::before { content: "\f006"; }
 .im-thin.im-jetpack::before { content: "\f007"; }
+.im-thin.im-jira-logo::before { content: "\f5e1"; }
 .im-thin.im-joker::before { content: "\f008"; }
 .im-thin.im-joystick::before { content: "\e139"; }
 .im-thin.im-juice::before { content: "\eba2"; }
@@ -3019,6 +3042,7 @@
 .im-thin.im-knob::before { content: "\e784"; }
 .im-thin.im-ko-fi-logo::before { content: "\f538"; }
 .im-thin.im-koala::before { content: "\e3c6"; }
+.im-thin.im-kotlin-logo::before { content: "\f5e2"; }
 .im-thin.im-kubernetes-logo::before { content: "\f5a8"; }
 .im-thin.im-ladder::before { content: "\f011"; }
 .im-thin.im-ladder-slash::before { content: "\f012"; }
@@ -3203,6 +3227,7 @@
 .im-thin.im-line-style::before { content: "\e529"; }
 .im-thin.im-line-vertical::before { content: "\ec16"; }
 .im-thin.im-line-weight::before { content: "\e52a"; }
+.im-thin.im-linear-logo::before { content: "\f5e3"; }
 .im-thin.im-link::before { content: "\e035"; }
 .im-thin.im-link-arrow-left::before { content: "\f3f0"; }
 .im-thin.im-link-arrow-right::before { content: "\f3f1"; }
@@ -3211,6 +3236,7 @@
 .im-thin.im-link-minus::before { content: "\ec18"; }
 .im-thin.im-link-plus::before { content: "\ec19"; }
 .im-thin.im-linkedin-logo::before { content: "\f53a"; }
+.im-thin.im-linux-logo::before { content: "\f5e4"; }
 .im-thin.im-lips::before { content: "\f022"; }
 .im-thin.im-lipstick::before { content: "\f023"; }
 .im-thin.im-list::before { content: "\e036"; }
@@ -3318,6 +3344,7 @@
 .im-thin.im-magnifying-glass-x::before { content: "\ec2f"; }
 .im-thin.im-mailbox::before { content: "\e52b"; }
 .im-thin.im-mailbox-slash::before { content: "\e52c"; }
+.im-thin.im-mailchimp-logo::before { content: "\f5e5"; }
 .im-thin.im-makeup-brush::before { content: "\f04f"; }
 .im-thin.im-man::before { content: "\f050"; }
 .im-thin.im-map-area::before { content: "\ec30"; }
@@ -3452,8 +3479,13 @@
 .im-thin.im-microphone-warning::before { content: "\f068"; }
 .im-thin.im-microscope::before { content: "\e14c"; }
 .im-thin.im-microscope-slash::before { content: "\f069"; }
+.im-thin.im-microsoft-edge-logo::before { content: "\f5e6"; }
+.im-thin.im-microsoft-excel-logo::before { content: "\f5e7"; }
 .im-thin.im-microsoft-logo::before { content: "\f543"; }
+.im-thin.im-microsoft-outlook-logo::before { content: "\f5e8"; }
+.im-thin.im-microsoft-powerpoint-logo::before { content: "\f5e9"; }
 .im-thin.im-microsoft-teams-logo::before { content: "\f5aa"; }
+.im-thin.im-microsoft-word-logo::before { content: "\f5ea"; }
 .im-thin.im-microwave::before { content: "\ec74"; }
 .im-thin.im-microwave-slash::before { content: "\ec75"; }
 .im-thin.im-middleware::before { content: "\e7a2"; }
@@ -3469,6 +3501,7 @@
 .im-thin.im-minus-circle-dashed::before { content: "\ec79"; }
 .im-thin.im-minus-square::before { content: "\e14e"; }
 .im-thin.im-minus-square-dashed::before { content: "\ec7a"; }
+.im-thin.im-miro-logo::before { content: "\f5eb"; }
 .im-thin.im-mirror::before { content: "\ec7b"; }
 .im-thin.im-mist::before { content: "\f06c"; }
 .im-thin.im-mist-slash::before { content: "\f06d"; }
@@ -3613,6 +3646,7 @@
 .im-thin.im-music-staff::before { content: "\f094"; }
 .im-thin.im-music-video::before { content: "\f095"; }
 .im-thin.im-mustache::before { content: "\f096"; }
+.im-thin.im-mysql-logo::before { content: "\f5ec"; }
 .im-thin.im-nail-polish::before { content: "\f097"; }
 .im-thin.im-name-tag::before { content: "\e545"; }
 .im-thin.im-navigation-arrow::before { content: "\e155"; }
@@ -3641,6 +3675,7 @@
 .im-thin.im-needle::before { content: "\f09a"; }
 .im-thin.im-needle-thread::before { content: "\f09b"; }
 .im-thin.im-netflix-logo::before { content: "\f5ad"; }
+.im-thin.im-netlify-logo::before { content: "\f5ed"; }
 .im-thin.im-network::before { content: "\e7c0"; }
 .im-thin.im-network-slash::before { content: "\e7c1"; }
 .im-thin.im-network-x::before { content: "\e7c2"; }
@@ -3732,6 +3767,7 @@
 .im-thin.im-object-group::before { content: "\e548"; }
 .im-thin.im-object-scan::before { content: "\ecc9"; }
 .im-thin.im-object-ungroup::before { content: "\e549"; }
+.im-thin.im-obsidian-logo::before { content: "\f5ee"; }
 .im-thin.im-octagon::before { content: "\e15a"; }
 .im-thin.im-octagon-minus::before { content: "\e54a"; }
 .im-thin.im-octagon-plus::before { content: "\e54b"; }
@@ -3745,6 +3781,7 @@
 .im-thin.im-ollama-logo::before { content: "\f5b1"; }
 .im-thin.im-om::before { content: "\f0a3"; }
 .im-thin.im-omega::before { content: "\f0a4"; }
+.im-thin.im-onedrive-logo::before { content: "\f5ef"; }
 .im-thin.im-onesie::before { content: "\f0a5"; }
 .im-thin.im-onigiri::before { content: "\eccb"; }
 .im-thin.im-opera-logo::before { content: "\f5b2"; }
@@ -3961,6 +3998,7 @@
 .im-thin.im-phone-video::before { content: "\e573"; }
 .im-thin.im-phone-x::before { content: "\e16b"; }
 .im-thin.im-photo-album::before { content: "\f0dd"; }
+.im-thin.im-php-logo::before { content: "\f5f0"; }
 .im-thin.im-physiotherapy::before { content: "\ece1"; }
 .im-thin.im-pi::before { content: "\f0de"; }
 .im-thin.im-pi-minus::before { content: "\f439"; }
@@ -4022,6 +4060,7 @@
 .im-thin.im-playlist-plus::before { content: "\f0f4"; }
 .im-thin.im-playlist-slash::before { content: "\f0f5"; }
 .im-thin.im-playlist-x::before { content: "\f0f6"; }
+.im-thin.im-playstation-logo::before { content: "\f5f1"; }
 .im-thin.im-pliers::before { content: "\f0f7"; }
 .im-thin.im-plug::before { content: "\e173"; }
 .im-thin.im-plug-charging::before { content: "\e7f0"; }
@@ -4066,6 +4105,7 @@
 .im-thin.im-postage-stamp::before { content: "\e575"; }
 .im-thin.im-postage-stamp-heart::before { content: "\e576"; }
 .im-thin.im-postcard::before { content: "\e577"; }
+.im-thin.im-postgresql-logo::before { content: "\f5f2"; }
 .im-thin.im-potion::before { content: "\f0ff"; }
 .im-thin.im-potted-plant::before { content: "\f100"; }
 .im-thin.im-power::before { content: "\e047"; }
@@ -4088,6 +4128,7 @@
 .im-thin.im-presentation-x::before { content: "\e57f"; }
 .im-thin.im-presenter::before { content: "\e580"; }
 .im-thin.im-pressure-cooker::before { content: "\ecf4"; }
+.im-thin.im-prime-video-logo::before { content: "\f5f3"; }
 .im-thin.im-printer::before { content: "\e176"; }
 .im-thin.im-printer-3d::before { content: "\f2d8"; }
 .im-thin.im-printer-check::before { content: "\f2d9"; }
@@ -4130,6 +4171,7 @@
 .im-thin.im-pyramid-3d::before { content: "\e3d1"; }
 .im-thin.im-pyramid-3d-slash::before { content: "\e3d2"; }
 .im-thin.im-pyramid-stepped::before { content: "\f44d"; }
+.im-thin.im-python-logo::before { content: "\f5f4"; }
 .im-thin.im-qr-code::before { content: "\e17b"; }
 .im-thin.im-qr-code-scan::before { content: "\ed00"; }
 .im-thin.im-qr-code-slash::before { content: "\e809"; }
@@ -4197,6 +4239,7 @@
 .im-thin.im-recycle-slash::before { content: "\f116"; }
 .im-thin.im-red-envelope::before { content: "\e589"; }
 .im-thin.im-reddit-logo::before { content: "\f558"; }
+.im-thin.im-redis-logo::before { content: "\f5f5"; }
 .im-thin.im-reduce-motion::before { content: "\ed07"; }
 .im-thin.im-refund::before { content: "\e58a"; }
 .im-thin.im-regex::before { content: "\e812"; }
@@ -4287,12 +4330,14 @@
 .im-thin.im-ruler::before { content: "\e18a"; }
 .im-thin.im-ruler-measure::before { content: "\e828"; }
 .im-thin.im-ruler-slash::before { content: "\f12a"; }
+.im-thin.im-rust-logo::before { content: "\f5f6"; }
 .im-thin.im-saddle::before { content: "\f469"; }
 .im-thin.im-safari-logo::before { content: "\f55c"; }
 .im-thin.im-safety-pin::before { content: "\f46a"; }
 .im-thin.im-sailboat::before { content: "\f12b"; }
 .im-thin.im-sailboat-slash::before { content: "\f12c"; }
 .im-thin.im-salad::before { content: "\ed15"; }
+.im-thin.im-salesforce-logo::before { content: "\f5f7"; }
 .im-thin.im-salt::before { content: "\ed16"; }
 .im-thin.im-sandals::before { content: "\f12d"; }
 .im-thin.im-sandbox::before { content: "\e829"; }
@@ -4391,6 +4436,7 @@
 .im-thin.im-selection-union::before { content: "\e840"; }
 .im-thin.im-send-backward::before { content: "\e841"; }
 .im-thin.im-send-to-back::before { content: "\e842"; }
+.im-thin.im-sentry-logo::before { content: "\f5f8"; }
 .im-thin.im-separator::before { content: "\e843"; }
 .im-thin.im-separator-horizontal::before { content: "\e844"; }
 .im-thin.im-separator-vertical::before { content: "\e845"; }
@@ -4806,6 +4852,7 @@
 .im-thin.im-stars-slash::before { content: "\f1a0"; }
 .im-thin.im-status-change::before { content: "\ed79"; }
 .im-thin.im-steak::before { content: "\f2eb"; }
+.im-thin.im-steam-logo::before { content: "\f5f9"; }
 .im-thin.im-steering-wheel::before { content: "\f1a1"; }
 .im-thin.im-steering-wheel-slash::before { content: "\f1a2"; }
 .im-thin.im-step-into::before { content: "\e8a1"; }
@@ -5249,6 +5296,7 @@
 .im-thin.im-two-factor-auth::before { content: "\f204"; }
 .im-thin.im-typeface::before { content: "\e5b9"; }
 .im-thin.im-typeface-slash::before { content: "\e5ba"; }
+.im-thin.im-typescript-logo::before { content: "\f5fa"; }
 .im-thin.im-u-turn::before { content: "\edbc"; }
 .im-thin.im-uber-logo::before { content: "\f575"; }
 .im-thin.im-ubuntu-logo::before { content: "\f5c1"; }

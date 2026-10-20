@@ -159,8 +159,10 @@
   <url><loc>https://designmonks.github.io/icon-monks/icon/apple/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/apple-finder-logo/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/apple-half/</loc></url>
+  <url><loc>https://designmonks.github.io/icon-monks/icon/apple-logo/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/apple-music-logo/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/apple-news-logo/</loc></url>
+  <url><loc>https://designmonks.github.io/icon-monks/icon/apple-pay-logo/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/apple-reminders-logo/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/apple-stocks-logo/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/apple-vision-pro/</loc></url>
@@ -418,6 +420,7 @@
   <url><loc>https://designmonks.github.io/icon-monks/icon/avocado/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/awareness-ribbon/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/aws-lambda-logo/</loc></url>
+  <url><loc>https://designmonks.github.io/icon-monks/icon/aws-logo/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/axe/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/axes/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/axis-3d/</loc></url>
@@ -950,6 +953,7 @@
   <url><loc>https://designmonks.github.io/icon-monks/icon/candy-slash/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/cannabis/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/cannabis-slash/</loc></url>
+  <url><loc>https://designmonks.github.io/icon-monks/icon/canva-logo/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/caps-lock/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/capsule/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/car/</loc></url>
@@ -1447,6 +1451,7 @@
   <url><loc>https://designmonks.github.io/icon-monks/icon/cone-slash/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/confetti/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/confetti-slash/</loc></url>
+  <url><loc>https://designmonks.github.io/icon-monks/icon/confluence-logo/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/confucius/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/congruent-to/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/constellation/</loc></url>
@@ -1849,6 +1854,7 @@
   <url><loc>https://designmonks.github.io/icon-monks/icon/disco-ball/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/discord-logo/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/dishwasher/</loc></url>
+  <url><loc>https://designmonks.github.io/icon-monks/icon/disney-plus-logo/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/displayport/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/distribute-horizontal/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/distribute-horizontal-left/</loc></url>
@@ -1866,6 +1872,7 @@
   <url><loc>https://designmonks.github.io/icon-monks/icon/dna/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/dna-slash/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/dna-sparkle/</loc></url>
+  <url><loc>https://designmonks.github.io/icon-monks/icon/docker-logo/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/doctor/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/dog/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/dog-bowl/</loc></url>
@@ -2046,6 +2053,7 @@
   <url><loc>https://designmonks.github.io/icon-monks/icon/ethereum-logo/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/ethernet/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/ethernet-slash/</loc></url>
+  <url><loc>https://designmonks.github.io/icon-monks/icon/etsy-logo/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/ev-plug/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/exam/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/excavator/</loc></url>
@@ -2295,6 +2303,7 @@
   <url><loc>https://designmonks.github.io/icon-monks/icon/fire-slash/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/fire-truck/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/firebase-logo/</loc></url>
+  <url><loc>https://designmonks.github.io/icon-monks/icon/firefox-logo/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/fireplace/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/firewall/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/firewall-check/</loc></url>
@@ -2553,6 +2562,7 @@
   <url><loc>https://designmonks.github.io/icon-monks/icon/git-compare/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/git-diff/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/git-fork/</loc></url>
+  <url><loc>https://designmonks.github.io/icon-monks/icon/git-logo/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/git-merge/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/git-merge-queue/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/git-merge-warning/</loc></url>
@@ -2604,7 +2614,9 @@
   <url><loc>https://designmonks.github.io/icon-monks/icon/globe-warning/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/globe-x/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/glove/</loc></url>
+  <url><loc>https://designmonks.github.io/icon-monks/icon/gmail-logo/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/go-game/</loc></url>
+  <url><loc>https://designmonks.github.io/icon-monks/icon/go-logo/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/goblet/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/goggles/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/gold-bars/</loc></url>
@@ -2614,6 +2626,7 @@
   <url><loc>https://designmonks.github.io/icon-monks/icon/golf-cart/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/golf-slash/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/goodreads-logo/</loc></url>
+  <url><loc>https://designmonks.github.io/icon-monks/icon/google-calendar-logo/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/google-chrome-logo/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/google-cloud-logo/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/google-docs-logo/</loc></url>
@@ -2624,8 +2637,10 @@
   <url><loc>https://designmonks.github.io/icon-monks/icon/google-logo/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/google-maps-logo/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/google-meet-logo/</loc></url>
+  <url><loc>https://designmonks.github.io/icon-monks/icon/google-pay-logo/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/google-photos-logo/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/google-play-logo/</loc></url>
+  <url><loc>https://designmonks.github.io/icon-monks/icon/google-sheets-logo/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/google-wallet-logo/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/gps-fix/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/gps-fix-slash/</loc></url>
@@ -2633,6 +2648,7 @@
   <url><loc>https://designmonks.github.io/icon-monks/icon/gradient-radial/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/graduation-cap/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/graduation-cap-arrows/</loc></url>
+  <url><loc>https://designmonks.github.io/icon-monks/icon/grafana-logo/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/grains/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/grains-slash/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/grapes/</loc></url>
@@ -2644,6 +2660,7 @@
   <url><loc>https://designmonks.github.io/icon-monks/icon/graph-plus/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/graph-slash/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/graphics-card/</loc></url>
+  <url><loc>https://designmonks.github.io/icon-monks/icon/graphql-logo/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/grass/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/grave/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/gravity/</loc></url>
@@ -2870,6 +2887,9 @@
   <url><loc>https://designmonks.github.io/icon-monks/icon/house-wifi/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/house-x/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/houses/</loc></url>
+  <url><loc>https://designmonks.github.io/icon-monks/icon/html5-logo/</loc></url>
+  <url><loc>https://designmonks.github.io/icon-monks/icon/hubspot-logo/</loc></url>
+  <url><loc>https://designmonks.github.io/icon-monks/icon/hugging-face-logo/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/hula-hoop/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/humidity/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/ice-cream/</loc></url>
@@ -2878,6 +2898,7 @@
   <url><loc>https://designmonks.github.io/icon-monks/icon/ice-skate/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/iceberg/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/ichthys/</loc></url>
+  <url><loc>https://designmonks.github.io/icon-monks/icon/icloud-logo/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/icosahedron/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/identification-badge/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/identification-badge-slash/</loc></url>
@@ -2961,10 +2982,12 @@
   <url><loc>https://designmonks.github.io/icon-monks/icon/jackhammer/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/jar/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/java-logo/</loc></url>
+  <url><loc>https://designmonks.github.io/icon-monks/icon/javascript-logo/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/jellyfish/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/jersey/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/jet-ski/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/jetpack/</loc></url>
+  <url><loc>https://designmonks.github.io/icon-monks/icon/jira-logo/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/joker/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/joystick/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/juice/</loc></url>
@@ -3007,6 +3030,7 @@
   <url><loc>https://designmonks.github.io/icon-monks/icon/knob/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/ko-fi-logo/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/koala/</loc></url>
+  <url><loc>https://designmonks.github.io/icon-monks/icon/kotlin-logo/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/kubernetes-logo/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/ladder/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/ladder-slash/</loc></url>
@@ -3191,6 +3215,7 @@
   <url><loc>https://designmonks.github.io/icon-monks/icon/line-style/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/line-vertical/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/line-weight/</loc></url>
+  <url><loc>https://designmonks.github.io/icon-monks/icon/linear-logo/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/link/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/link-arrow-left/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/link-arrow-right/</loc></url>
@@ -3199,6 +3224,7 @@
   <url><loc>https://designmonks.github.io/icon-monks/icon/link-minus/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/link-plus/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/linkedin-logo/</loc></url>
+  <url><loc>https://designmonks.github.io/icon-monks/icon/linux-logo/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/lips/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/lipstick/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/list/</loc></url>
@@ -3306,6 +3332,7 @@
   <url><loc>https://designmonks.github.io/icon-monks/icon/magnifying-glass-x/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/mailbox/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/mailbox-slash/</loc></url>
+  <url><loc>https://designmonks.github.io/icon-monks/icon/mailchimp-logo/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/makeup-brush/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/man/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/map-area/</loc></url>
@@ -3440,8 +3467,13 @@
   <url><loc>https://designmonks.github.io/icon-monks/icon/microphone-warning/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/microscope/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/microscope-slash/</loc></url>
+  <url><loc>https://designmonks.github.io/icon-monks/icon/microsoft-edge-logo/</loc></url>
+  <url><loc>https://designmonks.github.io/icon-monks/icon/microsoft-excel-logo/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/microsoft-logo/</loc></url>
+  <url><loc>https://designmonks.github.io/icon-monks/icon/microsoft-outlook-logo/</loc></url>
+  <url><loc>https://designmonks.github.io/icon-monks/icon/microsoft-powerpoint-logo/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/microsoft-teams-logo/</loc></url>
+  <url><loc>https://designmonks.github.io/icon-monks/icon/microsoft-word-logo/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/microwave/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/microwave-slash/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/middleware/</loc></url>
@@ -3457,6 +3489,7 @@
   <url><loc>https://designmonks.github.io/icon-monks/icon/minus-circle-dashed/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/minus-square/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/minus-square-dashed/</loc></url>
+  <url><loc>https://designmonks.github.io/icon-monks/icon/miro-logo/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/mirror/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/mist/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/mist-slash/</loc></url>
@@ -3601,6 +3634,7 @@
   <url><loc>https://designmonks.github.io/icon-monks/icon/music-staff/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/music-video/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/mustache/</loc></url>
+  <url><loc>https://designmonks.github.io/icon-monks/icon/mysql-logo/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/nail-polish/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/name-tag/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/navigation-arrow/</loc></url>
@@ -3629,6 +3663,7 @@
   <url><loc>https://designmonks.github.io/icon-monks/icon/needle/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/needle-thread/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/netflix-logo/</loc></url>
+  <url><loc>https://designmonks.github.io/icon-monks/icon/netlify-logo/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/network/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/network-slash/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/network-x/</loc></url>
@@ -3720,6 +3755,7 @@
   <url><loc>https://designmonks.github.io/icon-monks/icon/object-group/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/object-scan/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/object-ungroup/</loc></url>
+  <url><loc>https://designmonks.github.io/icon-monks/icon/obsidian-logo/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/octagon/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/octagon-minus/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/octagon-plus/</loc></url>
@@ -3733,6 +3769,7 @@
   <url><loc>https://designmonks.github.io/icon-monks/icon/ollama-logo/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/om/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/omega/</loc></url>
+  <url><loc>https://designmonks.github.io/icon-monks/icon/onedrive-logo/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/onesie/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/onigiri/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/opera-logo/</loc></url>
@@ -3949,6 +3986,7 @@
   <url><loc>https://designmonks.github.io/icon-monks/icon/phone-video/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/phone-x/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/photo-album/</loc></url>
+  <url><loc>https://designmonks.github.io/icon-monks/icon/php-logo/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/physiotherapy/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/pi/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/pi-minus/</loc></url>
@@ -4010,6 +4048,7 @@
   <url><loc>https://designmonks.github.io/icon-monks/icon/playlist-plus/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/playlist-slash/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/playlist-x/</loc></url>
+  <url><loc>https://designmonks.github.io/icon-monks/icon/playstation-logo/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/pliers/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/plug/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/plug-charging/</loc></url>
@@ -4054,6 +4093,7 @@
   <url><loc>https://designmonks.github.io/icon-monks/icon/postage-stamp/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/postage-stamp-heart/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/postcard/</loc></url>
+  <url><loc>https://designmonks.github.io/icon-monks/icon/postgresql-logo/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/potion/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/potted-plant/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/power/</loc></url>
@@ -4076,6 +4116,7 @@
   <url><loc>https://designmonks.github.io/icon-monks/icon/presentation-x/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/presenter/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/pressure-cooker/</loc></url>
+  <url><loc>https://designmonks.github.io/icon-monks/icon/prime-video-logo/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/printer/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/printer-3d/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/printer-check/</loc></url>
@@ -4118,6 +4159,7 @@
   <url><loc>https://designmonks.github.io/icon-monks/icon/pyramid-3d/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/pyramid-3d-slash/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/pyramid-stepped/</loc></url>
+  <url><loc>https://designmonks.github.io/icon-monks/icon/python-logo/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/qr-code/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/qr-code-scan/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/qr-code-slash/</loc></url>
@@ -4185,6 +4227,7 @@
   <url><loc>https://designmonks.github.io/icon-monks/icon/recycle-slash/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/red-envelope/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/reddit-logo/</loc></url>
+  <url><loc>https://designmonks.github.io/icon-monks/icon/redis-logo/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/reduce-motion/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/refund/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/regex/</loc></url>
@@ -4275,12 +4318,14 @@
   <url><loc>https://designmonks.github.io/icon-monks/icon/ruler/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/ruler-measure/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/ruler-slash/</loc></url>
+  <url><loc>https://designmonks.github.io/icon-monks/icon/rust-logo/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/saddle/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/safari-logo/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/safety-pin/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/sailboat/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/sailboat-slash/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/salad/</loc></url>
+  <url><loc>https://designmonks.github.io/icon-monks/icon/salesforce-logo/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/salt/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/sandals/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/sandbox/</loc></url>
@@ -4379,6 +4424,7 @@
   <url><loc>https://designmonks.github.io/icon-monks/icon/selection-union/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/send-backward/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/send-to-back/</loc></url>
+  <url><loc>https://designmonks.github.io/icon-monks/icon/sentry-logo/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/separator/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/separator-horizontal/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/separator-vertical/</loc></url>
@@ -4794,6 +4840,7 @@
   <url><loc>https://designmonks.github.io/icon-monks/icon/stars-slash/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/status-change/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/steak/</loc></url>
+  <url><loc>https://designmonks.github.io/icon-monks/icon/steam-logo/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/steering-wheel/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/steering-wheel-slash/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/step-into/</loc></url>
@@ -5237,6 +5284,7 @@
   <url><loc>https://designmonks.github.io/icon-monks/icon/two-factor-auth/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/typeface/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/typeface-slash/</loc></url>
+  <url><loc>https://designmonks.github.io/icon-monks/icon/typescript-logo/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/u-turn/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/uber-logo/</loc></url>
   <url><loc>https://designmonks.github.io/icon-monks/icon/ubuntu-logo/</loc></url>

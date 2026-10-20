@@ -1641,6 +1641,18 @@
   ]
  },
  {
+  "name": "apple-logo",
+  "category": "Brands",
+  "tags": [
+   "apple",
+   "mac",
+   "iphone",
+   "technology",
+   "logo",
+   "brand"
+  ]
+ },
+ {
   "name": "apple-music-logo",
   "category": "Brands",
   "tags": [
@@ -1663,6 +1675,19 @@
    "news",
    "newspaper",
    "headlines",
+   "logo",
+   "brand"
+  ]
+ },
+ {
+  "name": "apple-pay-logo",
+  "category": "Brands",
+  "tags": [
+   "apple pay",
+   "apple",
+   "payment",
+   "wallet",
+   "contactless",
    "logo",
    "brand"
   ]
@@ -4369,6 +4394,18 @@
    "lambda",
    "serverless",
    "cloud",
+   "logo",
+   "brand"
+  ]
+ },
+ {
+  "name": "aws-logo",
+  "category": "Brands",
+  "tags": [
+   "aws",
+   "amazon web services",
+   "cloud",
+   "amazon",
    "logo",
    "brand"
   ]
@@ -10061,6 +10098,18 @@
   ]
  },
  {
+  "name": "canva-logo",
+  "category": "Brands",
+  "tags": [
+   "canva",
+   "design",
+   "graphic design",
+   "templates",
+   "logo",
+   "brand"
+  ]
+ },
+ {
   "name": "caps-lock",
   "category": "Interface",
   "tags": [
@@ -15387,6 +15436,19 @@
   ]
  },
  {
+  "name": "confluence-logo",
+  "category": "Brands",
+  "tags": [
+   "confluence",
+   "atlassian",
+   "wiki",
+   "documentation",
+   "collaboration",
+   "logo",
+   "brand"
+  ]
+ },
+ {
   "name": "confucius",
   "category": "Symbols",
   "tags": [
@@ -19681,6 +19743,19 @@
   ]
  },
  {
+  "name": "disney-plus-logo",
+  "category": "Brands",
+  "tags": [
+   "disney plus",
+   "disney+",
+   "disney",
+   "streaming",
+   "movies",
+   "logo",
+   "brand"
+  ]
+ },
+ {
   "name": "displayport",
   "category": "Devices",
   "tags": [
@@ -19854,6 +19929,18 @@
    "helix",
    "dna",
    "sparkle"
+  ]
+ },
+ {
+  "name": "docker-logo",
+  "category": "Brands",
+  "tags": [
+   "docker",
+   "containers",
+   "devops",
+   "whale",
+   "logo",
+   "brand"
   ]
  },
  {
@@ -21748,6 +21835,19 @@
    "ethernet",
    "offline",
    "network"
+  ]
+ },
+ {
+  "name": "etsy-logo",
+  "category": "Brands",
+  "tags": [
+   "etsy",
+   "handmade",
+   "marketplace",
+   "shopping",
+   "e",
+   "logo",
+   "brand"
   ]
  },
  {
@@ -24387,6 +24487,19 @@
    "backend",
    "database",
    "flame",
+   "logo",
+   "brand"
+  ]
+ },
+ {
+  "name": "firefox-logo",
+  "category": "Brands",
+  "tags": [
+   "firefox",
+   "mozilla",
+   "browser",
+   "web browser",
+   "fox",
    "logo",
    "brand"
   ]
@@ -27067,6 +27180,18 @@
   ]
  },
  {
+  "name": "git-logo",
+  "category": "Brands",
+  "tags": [
+   "git",
+   "version control",
+   "source control",
+   "branch",
+   "logo",
+   "brand"
+  ]
+ },
+ {
   "name": "git-merge",
   "category": "Development",
   "tags": [
@@ -27602,6 +27727,19 @@
   ]
  },
  {
+  "name": "gmail-logo",
+  "category": "Brands",
+  "tags": [
+   "gmail",
+   "google",
+   "email",
+   "mail",
+   "inbox",
+   "logo",
+   "brand"
+  ]
+ },
+ {
   "name": "go-game",
   "category": "Sports",
   "tags": [
@@ -27609,6 +27747,18 @@
    "board game",
    "stones",
    "weiqi"
+  ]
+ },
+ {
+  "name": "go-logo",
+  "category": "Brands",
+  "tags": [
+   "go",
+   "golang",
+   "programming language",
+   "google",
+   "logo",
+   "brand"
   ]
  },
  {
@@ -27707,6 +27857,20 @@
    "reading",
    "reviews",
    "g",
+   "logo",
+   "brand"
+  ]
+ },
+ {
+  "name": "google-calendar-logo",
+  "category": "Brands",
+  "tags": [
+   "google calendar",
+   "google",
+   "calendar",
+   "schedule",
+   "events",
+   "31",
    "logo",
    "brand"
   ]
@@ -27844,6 +28008,19 @@
   ]
  },
  {
+  "name": "google-pay-logo",
+  "category": "Brands",
+  "tags": [
+   "google pay",
+   "gpay",
+   "google",
+   "payment",
+   "wallet",
+   "logo",
+   "brand"
+  ]
+ },
+ {
   "name": "google-photos-logo",
   "category": "Brands",
   "tags": [
@@ -27865,6 +28042,19 @@
    "android",
    "app store",
    "apps",
+   "logo",
+   "brand"
+  ]
+ },
+ {
+  "name": "google-sheets-logo",
+  "category": "Brands",
+  "tags": [
+   "google sheets",
+   "google",
+   "spreadsheet",
+   "table",
+   "productivity",
    "logo",
    "brand"
   ]
@@ -27947,6 +28137,19 @@
    "course",
    "learning",
    "swap"
+  ]
+ },
+ {
+  "name": "grafana-logo",
+  "category": "Brands",
+  "tags": [
+   "grafana",
+   "monitoring",
+   "dashboards",
+   "observability",
+   "metrics",
+   "logo",
+   "brand"
   ]
  },
  {
@@ -28066,6 +28269,18 @@
    "pci",
    "hardware",
    "video card"
+  ]
+ },
+ {
+  "name": "graphql-logo",
+  "category": "Brands",
+  "tags": [
+   "graphql",
+   "api",
+   "query language",
+   "schema",
+   "logo",
+   "brand"
   ]
  },
  {
@@ -30409,6 +30624,44 @@
   ]
  },
  {
+  "name": "html5-logo",
+  "category": "Brands",
+  "tags": [
+   "html5",
+   "html",
+   "markup",
+   "web development",
+   "logo",
+   "brand"
+  ]
+ },
+ {
+  "name": "hubspot-logo",
+  "category": "Brands",
+  "tags": [
+   "hubspot",
+   "crm",
+   "marketing",
+   "sprocket",
+   "logo",
+   "brand"
+  ]
+ },
+ {
+  "name": "hugging-face-logo",
+  "category": "Brands",
+  "tags": [
+   "hugging face",
+   "huggingface",
+   "ai",
+   "machine learning",
+   "models",
+   "emoji",
+   "logo",
+   "brand"
+  ]
+ },
+ {
   "name": "hula-hoop",
   "category": "Sports",
   "tags": [
@@ -30492,6 +30745,19 @@
    "christian fish",
    "religion",
    "faith"
+  ]
+ },
+ {
+  "name": "icloud-logo",
+  "category": "Brands",
+  "tags": [
+   "icloud",
+   "apple",
+   "cloud storage",
+   "backup",
+   "sync",
+   "logo",
+   "brand"
   ]
  },
  {
@@ -31361,6 +31627,19 @@
   ]
  },
  {
+  "name": "javascript-logo",
+  "category": "Brands",
+  "tags": [
+   "javascript",
+   "js",
+   "programming language",
+   "web",
+   "code",
+   "logo",
+   "brand"
+  ]
+ },
+ {
   "name": "jellyfish",
   "category": "Animals",
   "tags": [
@@ -31398,6 +31677,19 @@
    "fly",
    "rocket pack",
    "future"
+  ]
+ },
+ {
+  "name": "jira-logo",
+  "category": "Brands",
+  "tags": [
+   "jira",
+   "atlassian",
+   "project management",
+   "issue tracker",
+   "agile",
+   "logo",
+   "brand"
   ]
  },
  {
@@ -31854,6 +32146,18 @@
    "australia",
    "animal",
    "marsupial"
+  ]
+ },
+ {
+  "name": "kotlin-logo",
+  "category": "Brands",
+  "tags": [
+   "kotlin",
+   "programming language",
+   "jetbrains",
+   "android",
+   "logo",
+   "brand"
   ]
  },
  {
@@ -33760,6 +34064,18 @@
   ]
  },
  {
+  "name": "linear-logo",
+  "category": "Brands",
+  "tags": [
+   "linear",
+   "issue tracker",
+   "project management",
+   "productivity",
+   "logo",
+   "brand"
+  ]
+ },
+ {
   "name": "link",
   "category": "Development",
   "tags": [
@@ -33844,6 +34160,19 @@
    "network",
    "career",
    "job",
+   "logo",
+   "brand"
+  ]
+ },
+ {
+  "name": "linux-logo",
+  "category": "Brands",
+  "tags": [
+   "linux",
+   "tux",
+   "penguin",
+   "operating system",
+   "open source",
    "logo",
    "brand"
   ]
@@ -34961,6 +35290,19 @@
    "off",
    "disabled",
    "hidden"
+  ]
+ },
+ {
+  "name": "mailchimp-logo",
+  "category": "Brands",
+  "tags": [
+   "mailchimp",
+   "email marketing",
+   "newsletter",
+   "freddie",
+   "chimp",
+   "logo",
+   "brand"
   ]
  },
  {
@@ -36399,6 +36741,32 @@
   ]
  },
  {
+  "name": "microsoft-edge-logo",
+  "category": "Brands",
+  "tags": [
+   "microsoft edge",
+   "edge",
+   "microsoft",
+   "browser",
+   "web browser",
+   "logo",
+   "brand"
+  ]
+ },
+ {
+  "name": "microsoft-excel-logo",
+  "category": "Brands",
+  "tags": [
+   "microsoft excel",
+   "excel",
+   "microsoft",
+   "spreadsheet",
+   "office",
+   "logo",
+   "brand"
+  ]
+ },
+ {
   "name": "microsoft-logo",
   "category": "Brands",
   "tags": [
@@ -36412,6 +36780,33 @@
   ]
  },
  {
+  "name": "microsoft-outlook-logo",
+  "category": "Brands",
+  "tags": [
+   "microsoft outlook",
+   "outlook",
+   "microsoft",
+   "email",
+   "calendar",
+   "logo",
+   "brand"
+  ]
+ },
+ {
+  "name": "microsoft-powerpoint-logo",
+  "category": "Brands",
+  "tags": [
+   "microsoft powerpoint",
+   "powerpoint",
+   "microsoft",
+   "presentation",
+   "slides",
+   "office",
+   "logo",
+   "brand"
+  ]
+ },
+ {
   "name": "microsoft-teams-logo",
   "category": "Brands",
   "tags": [
@@ -36419,6 +36814,20 @@
    "microsoft",
    "meetings",
    "team chat",
+   "logo",
+   "brand"
+  ]
+ },
+ {
+  "name": "microsoft-word-logo",
+  "category": "Brands",
+  "tags": [
+   "microsoft word",
+   "word",
+   "microsoft",
+   "document",
+   "word processor",
+   "office",
    "logo",
    "brand"
   ]
@@ -36577,6 +36986,18 @@
    "minus",
    "dashed",
    "square"
+  ]
+ },
+ {
+  "name": "miro-logo",
+  "category": "Brands",
+  "tags": [
+   "miro",
+   "whiteboard",
+   "collaboration",
+   "brainstorming",
+   "logo",
+   "brand"
   ]
  },
  {
@@ -38154,6 +38575,19 @@
   ]
  },
  {
+  "name": "mysql-logo",
+  "category": "Brands",
+  "tags": [
+   "mysql",
+   "database",
+   "sql",
+   "dolphin",
+   "oracle",
+   "logo",
+   "brand"
+  ]
+ },
+ {
   "name": "nail-polish",
   "category": "Objects",
   "tags": [
@@ -38453,6 +38887,19 @@
    "movies",
    "tv",
    "n",
+   "logo",
+   "brand"
+  ]
+ },
+ {
+  "name": "netlify-logo",
+  "category": "Brands",
+  "tags": [
+   "netlify",
+   "hosting",
+   "deployment",
+   "jamstack",
+   "web",
    "logo",
    "brand"
   ]
@@ -39439,6 +39886,19 @@
   ]
  },
  {
+  "name": "obsidian-logo",
+  "category": "Brands",
+  "tags": [
+   "obsidian",
+   "notes",
+   "markdown",
+   "knowledge base",
+   "note-taking",
+   "logo",
+   "brand"
+  ]
+ },
+ {
   "name": "octagon",
   "category": "Interface",
   "tags": [
@@ -39569,6 +40029,19 @@
    "greek",
    "ohm",
    "symbol"
+  ]
+ },
+ {
+  "name": "onedrive-logo",
+  "category": "Brands",
+  "tags": [
+   "onedrive",
+   "microsoft",
+   "cloud storage",
+   "files",
+   "sync",
+   "logo",
+   "brand"
   ]
  },
  {
@@ -41865,6 +42338,18 @@
   ]
  },
  {
+  "name": "php-logo",
+  "category": "Brands",
+  "tags": [
+   "php",
+   "programming language",
+   "web development",
+   "server",
+   "logo",
+   "brand"
+  ]
+ },
+ {
   "name": "physiotherapy",
   "category": "Health",
   "tags": [
@@ -42518,6 +43003,20 @@
   ]
  },
  {
+  "name": "playstation-logo",
+  "category": "Brands",
+  "tags": [
+   "playstation",
+   "sony",
+   "gaming",
+   "console",
+   "games",
+   "ps",
+   "logo",
+   "brand"
+  ]
+ },
+ {
   "name": "pliers",
   "category": "Objects",
   "tags": [
@@ -42970,6 +43469,19 @@
   ]
  },
  {
+  "name": "postgresql-logo",
+  "category": "Brands",
+  "tags": [
+   "postgresql",
+   "postgres",
+   "database",
+   "sql",
+   "elephant",
+   "logo",
+   "brand"
+  ]
+ },
+ {
   "name": "potion",
   "category": "Science",
   "tags": [
@@ -43197,6 +43709,20 @@
    "slow cooker",
    "rice cooker",
    "kitchen"
+  ]
+ },
+ {
+  "name": "prime-video-logo",
+  "category": "Brands",
+  "tags": [
+   "prime video",
+   "amazon",
+   "prime",
+   "streaming",
+   "video",
+   "movies",
+   "logo",
+   "brand"
   ]
  },
  {
@@ -43642,6 +44168,18 @@
    "ancient",
    "landmark",
    "temple"
+  ]
+ },
+ {
+  "name": "python-logo",
+  "category": "Brands",
+  "tags": [
+   "python",
+   "programming language",
+   "code",
+   "snake",
+   "logo",
+   "brand"
   ]
  },
  {
@@ -44358,6 +44896,19 @@
    "forum",
    "community",
    "mascot",
+   "logo",
+   "brand"
+  ]
+ },
+ {
+  "name": "redis-logo",
+  "category": "Brands",
+  "tags": [
+   "redis",
+   "database",
+   "cache",
+   "key value",
+   "in memory",
    "logo",
    "brand"
   ]
@@ -45324,6 +45875,18 @@
   ]
  },
  {
+  "name": "rust-logo",
+  "category": "Brands",
+  "tags": [
+   "rust",
+   "programming language",
+   "rustlang",
+   "gear",
+   "logo",
+   "brand"
+  ]
+ },
+ {
   "name": "saddle",
   "category": "Sports",
   "tags": [
@@ -45389,6 +45952,18 @@
    "bowl",
    "healthy",
    "vegetables"
+  ]
+ },
+ {
+  "name": "salesforce-logo",
+  "category": "Brands",
+  "tags": [
+   "salesforce",
+   "crm",
+   "cloud",
+   "sales",
+   "logo",
+   "brand"
   ]
  },
  {
@@ -46437,6 +47012,18 @@
    "back",
    "order",
    "send backward"
+  ]
+ },
+ {
+  "name": "sentry-logo",
+  "category": "Brands",
+  "tags": [
+   "sentry",
+   "error tracking",
+   "monitoring",
+   "debugging",
+   "logo",
+   "brand"
   ]
  },
  {
@@ -50827,6 +51414,19 @@
    "protein",
    "butcher",
    "bbq"
+  ]
+ },
+ {
+  "name": "steam-logo",
+  "category": "Brands",
+  "tags": [
+   "steam",
+   "valve",
+   "gaming",
+   "games",
+   "store",
+   "logo",
+   "brand"
   ]
  },
  {
@@ -55561,6 +56161,19 @@
    "off",
    "disabled",
    "hidden"
+  ]
+ },
+ {
+  "name": "typescript-logo",
+  "category": "Brands",
+  "tags": [
+   "typescript",
+   "ts",
+   "programming language",
+   "javascript",
+   "code",
+   "logo",
+   "brand"
   ]
  },
  {
