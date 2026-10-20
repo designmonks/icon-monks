@@ -22,7 +22,7 @@ Icons are grouped into 31 categories: animals, arrows, brands, business, charts,
 | Android (Compose + VectorDrawable) | `com.github.designmonks:icon-monks` (JitPack) | [packages/android](packages/android) |
 | iOS / macOS / tvOS / watchOS (SwiftUI + UIKit) | Swift Package `IconMonks` | [packages/swift](packages/swift) |
 
-Browse, search and copy icons at **https://designmonks.github.io/icon-monks/** (built from `docs/template.html` into `index.html`).
+Browse, search and copy icons at **https://www.iconmonks.co/** (built from `docs/template.html` into `index.html`).
 
 ```jsx
 import { House, Heart } from '@icon-monks/react';
